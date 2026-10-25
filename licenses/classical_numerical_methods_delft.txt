@@ -1,0 +1,31 @@
+C.03 — Classical Numerical Methods in Scientific Computing
+Author(s): Jos van Kan, Guus Segal, Fred Vermolen and Hans Kraaijevanger
+Edition: TU Delft OPEN, 2023; reviewed 153-page download
+License: CC BY 4.0
+Source: https://books.open.tudelft.nl/home/catalog/book/168
+
+Faithful vector source excerpts and navigation metadata; no mathematical rewriting, translation, generated answers, or changes to the selected source content. TU Delft OPEN 2023 original. All 150 named embedded exercises are also available as unchanged vector excerpts; complete theory context remains in the articles. Actual contents cover finite differences and finite volumes; no finite-element coverage is claimed.
+
+Source documents and permission evidence:
+https://books.open.tudelft.nl/home/catalog/download/168/293/542
+https://books.open.tudelft.nl/home/catalog/book/168
+
+Original source copyright notices:
+Source master page 5:
+© J. van Kan e.a. / Delft Academic Press 
+First Print by Delft Academic Press, 2019 
+Previously published under the title “Numerical methods for partial differential 
+equations” with Delft Academic Press, 2019 
+ISBN: 97890-6562-4383 
+© 2023 TU Delft OPEN Publishing 
+ISBN 978-94-6366-731-9 (paperback) 
+ISBN 978-94-6366-732-6 (Ebook) 
+DOI: https://doi.org/10.59490/t.2023.007 
+This work is licensed under a Creative Commons Attribution 4.0 
+International license 
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 79 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

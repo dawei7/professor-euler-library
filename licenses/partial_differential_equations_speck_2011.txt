@@ -1,0 +1,49 @@
+21 — Introduction to Partial Differential Equations
+Author(s): Jared Speck
+License: CC BY-NC-SA 4.0
+Source: https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/
+
+Source mathematical text retained; arranged into chapter/section vector study slices by Math(n), 2026. No author answers are invented.
+
+Source documents and contributor attribution:
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/15e3e62a513bb3bdc5de09374f03517d_MIT18_152F11_lec_01.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/8547cf4208529f2a7f3ce6d881f1f3c2_MIT18_152F11_lec_02.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/72acb1d573d168e731bdaae43de5f568_MIT18_152F11_lec_03.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/da093b7265d1fc4fe9c6edf3e7825661_MIT18_152F11_lec_04.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/9acdeff6449529106ac254f7ada967da_MIT18_152F11_lec_05.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/4336b9d0607ac33f430908fdf4cb78ba_MIT18_152F11_lec_06.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/1b2023e54a5d0c4023418a27274787ef_MIT18_152F11_lec_07.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/b4b519bd697528af7e9c83d130bb945b_MIT18_152F11_lec_08.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/419f485442c5fb28d976ffa48ab91e3f_MIT18_152F11_lec_09.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/ccd4ae63858e855c18c96ce96a797b9b_MIT18_152F11_lec_10.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/94902f737763bc223403c06fb603a947_MIT18_152F11_lec_11.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/940561a138578640826f762b5a57bcad_MIT18_152F11_lec_12.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/ad3a71c522df2396b6248cf9b35aedea_MIT18_152F11_lec_13_14.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/99308a127797b9626b2d9216af24b52e_MIT18_152F11_lec_15.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/a2a21bfac16172f75f1448eeb973660c_MIT18_152F11_lec_16_18.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/69f8388a46fa29298f82735ddad8c08c_MIT18_152F11_lec_19_20.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/7ccea8a23acf9ae7130456f5da63b2ba_MIT18_152F11_lec_21_23.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/29c6f7ee914a1d804899781f9f604f49_MIT18_152F11_lec_24.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/a8327ee78dd327721dfc22490d79db90_MIT18_152F11_BonusProblem.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/92c849e8993edde3cf3006b0556e685a_MIT18_152F11_Final.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/1664612b60858bed4529eccd5e46aac6_MIT18_152F11_ProblemSet_1.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/20f6a8b0a59ddb94af75955164406611_MIT18_152F11_ProblemSet_2.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/f76665b5eaba8aea4a56b0cd8c5eab37_MIT18_152F11_ProblemSet_3.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/aa9f011d80b8c34b8ba740e0871ba666_MIT18_152F11_ProblemSet_4.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/e35d62a106c0b4224beb78782f1cacea_MIT18_152F11_ProblemSet_5.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/a5ff1db77d4fb6dd1eceffc89ca86c5e_MIT18_152F11_ProblemSet_6.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/bcf623d8d976cf99a7c3d104bc0504f7_MIT18_152F11_ProblemSet_7.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/a4c232982c4fddfa477dc116cd3c3a72_MIT18_152F11_ProblemSet_8.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/da0c55aaa899f519eb12077aefe5e302_MIT18_152F11_ProblemSet_9.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/a1e6a9c15c353777049902e641116425_MIT18_152F11_ProblemSet_10.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/d2545983da76828411b8a11723abeedc_MIT18_152F11_ProblemSet_11.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/8614c248faa32c34d8f84daa9e125fd9_MIT18_152F11_MidtermExam.pdf
+https://ocw.mit.edu/courses/18-152-introduction-to-partial-differential-equations-fall-2011/5a1b6fdb91b923ae251216399ff94dd5_MIT18_152F11_MdtrmExm_Sol.pdf
+
+Original source copyright and image notices:
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 33 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

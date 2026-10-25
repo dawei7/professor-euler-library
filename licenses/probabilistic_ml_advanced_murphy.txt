@@ -1,0 +1,42 @@
+C.02 — Probabilistic Machine Learning: Advanced Topics
+Author(s): Kevin P. Murphy
+Edition: Author-hosted draft, 10 December 2025
+License: CC BY-NC-ND 4.0
+Source: https://mitpress.mit.edu/9780262048439/probabilistic-machine-learning/
+
+Faithful vector source excerpts and navigation metadata; no mathematical rewriting, translation, generated answers, or changes to the selected source content. Author-hosted Advanced Topics draft dated 10 December 2025. This is a research reference, with no exercise sets in this volume; external exercise resources are not silently treated as part of the PDF. Incorrect Index/Bibliography bookmarks are corrected in navigation only.
+
+Source documents and permission evidence:
+https://github.com/probml/pml2-book/releases/latest/download/book2.pdf
+https://probml.github.io/pml-book/book2.html
+
+Original source copyright notices:
+Source master page 4:
+© 2023 Kevin P. Murphy
+This work is subject to a Creative Commons CC-BY-NC-ND license.
+Subject to such license, all rights are reserved.
+The MIT Press would like to thank the anonymous peer reviewers who provided comments on drafts of this
+book. The generous work of academic experts is essential for establishing the authority and quality of our
+publications. We acknowledge with gratitude the contributions of these otherwise uncredited readers.
+Printed and bound in the United States of America.
+Library of Congress Cataloging-in-Publication Data
+Names: Murphy, Kevin P., author.
+Title: Probabilistic machine learning : advanced topics / Kevin P. Murphy.
+Description: Cambridge, Massachusetts : The MIT Press, [2023] | Series:
+Adaptive computation and machine learning series | Includes
+bibliographical references and index.
+Identifiers: LCCN 2022045222 (print) | LCCN 2022045223 (ebook) | ISBN
+9780262048439 (hardcover) | ISBN 9780262376006 (epub) | ISBN
+9780262375993 (pdf)
+Subjects: LCSH: Machine learning. | Probabilities.
+Classification: LCC Q325.5 .M873 2023 (print) | LCC Q325.5 (ebook) | DDC
+006.3/1015192–dc23/eng20230111
+LC record available at https://lccn.loc.gov/2022045222
+LC ebook record available at https://lccn.loc.gov/2022045223
+10 9 8 7 6 5 4 3 2 1
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 220 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

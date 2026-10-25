@@ -1,0 +1,30 @@
+14 — Tea Time Numerical Analysis
+Author(s): Leon Q. Brin
+License: CC BY-SA 4.0
+Source: https://raw.githubusercontent.com/lqbrin/tea-time-numerical/master/TeaTimeNumericalAnalysis.pdf
+
+Third edition, 2021. Text CC BY-SA 4.0. Published worked solutions and brief answers are matched separately, with worked solutions first. Its appendices are single-column. Companion executable code is not separately bundled; the author offers companion code under GPL-3.0-or-later.
+
+Source documents and contributor attribution:
+https://raw.githubusercontent.com/lqbrin/tea-time-numerical/master/TeaTimeNumericalAnalysis.pdf
+
+Original source copyright and image notices:
+Source master page 2:
+ii
+2020. Tea Time Numerical Analysis by Leon Q.
+Brin is licensed under a Creative Commons
+Attribution-ShareAlike 4.0 International License.
+The code printed within and accompanying Tea Time Numerical Analysis electronically is distributed under the
+GNU Public License (GPL).
+This code is free software: you can redistribute it and/or modify it under the terms of the GNU General Public
+License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later
+version.
+The code is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the
+implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+Public License for more details. For a copy of the GNU General Public License, see GPL.
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 84 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

@@ -1,0 +1,145 @@
+02 — Calculus, Volume 1
+Author(s): OpenStax
+License: CC BY-NC-SA 4.0
+Source: https://openstax.org/details/books/calculus-volume-1
+
+Original cover and promotional artwork and front-matter logos omitted in a separate distribution master. Original mathematical content is retained in vector excerpts; slice boundaries were re-audited and corrected with the user’s explicit authorization on 10 September 2026. Every reader view displays: Access for free at openstax.org. Original copyright 2016 Rice University. Math(n) study adaptation, 2026; not an OpenStax publication or endorsement.
+
+Source documents and contributor attribution:
+https://openstax.org/details/books/calculus-volume-1
+
+Original source copyright and image notices:
+Source master page 1:
+Math(n) study edition
+Calculus, Volume 1
+OpenStax
+The original cover artwork and promotional page are omitted.
+Text copyright 2016 Rice University.
+CC BY-NC-SA 4.0
+Access for free at openstax.org.
+Adaptation: Math(n), 2026. This is not an OpenStax publication or
+endorsement.
+Original pagination and mathematical content are preserved.
+
+
+Source master page 4:
+OpenStax 
+Rice University 
+6100 Main Street MS-375 
+Houston, Texas 77005 
+To learn more about OpenStax, visit https://openstax.org. 
+Individual print copies and bulk orders can be purchased through our website. 
+©2016 Rice University. Textbook content produced by OpenStax is licensed under a Creative Commons 
+Attribution Non-Commercial ShareAlike 4.0 International License (CC BY-NC-SA 4.0). Under this license, any 
+user of this textbook or the textbook contents herein can share, remix, and build upon the content for 
+noncommercial purposes only. Any adaptations must be shared under the same type of license. In any case of 
+sharing the original or adapted material, whether in whole or in part, the user must provide proper attribution 
+as follows: 
+- 
+If you noncommercially redistribute this textbook in a digital format (including but not limited to PDF and 
+HTML), then you must retain on every page the following attribution: 
+“Access for free at openstax.org.” 
+- 
+If you noncommercially redistribute this textbook in a print format, then you must include on every 
+physical page the following attribution: 
+“Access for free at openstax.org.” 
+- 
+If you noncommercially redistribute part of this textbook, then you must retain in every digital format 
+page view (including but not limited to PDF and HTML) and on every physical printed page the following 
+attribution: 
+“Access for free at openstax.org.” 
+- 
+If you use this textbook as a bibliographic reference, please include 
+https://openstax.org/details/books/calculus-volume-1 in your citation. 
+For questions regarding this licensing, please contact support@openstax.org. 
+Trademarks 
+The OpenStax name, OpenStax logo, OpenStax book covers, OpenStax CNX name, OpenStax CNX logo, 
+OpenStax Tutor name, Openstax Tutor logo, Connexions name, Connexions logo, Rice University name, and 
+Rice University logo are not subject to the license and may not be reproduced without the prior and express 
+written consent of Rice University. 
+Kendall Hunt and the Kendall Hunt Logo are trademarks of Kendall Hunt. The Kendall Hunt mark is registered 
+in the United States, Canada, and the European Union. These trademarks may not be used without the prior 
+and express written consent of Kendall Hunt. 
+COLOR PAPERBACK BOOK ISBN-13 
+978-1-938168-02-4 
+B&W PAPERBACK BOOK ISBN-13 
+978-1-50669-806-9 
+DIGITAL VERSION ISBN-13 
+978-1-947172-13-5 
+ORIGINAL PUBLICATION YEAR 
+2016 
+4 5 6 7 8 9 10 CJP 26 20 18 16 
+
+
+Source master page 6:
+Math(n) study edition
+Calculus, Volume 1
+OpenStax
+The original cover artwork and promotional page are omitted.
+Text copyright 2016 Rice University.
+CC BY-NC-SA 4.0
+Access for free at openstax.org.
+Adaptation: Math(n), 2026. This is not an OpenStax publication or
+endorsement.
+Original pagination and mathematical content are preserved.
+
+
+Source master page 9:
+Preface 
+Welcome to Calculus Volume 1, an OpenStax resource. This textbook was written to increase student access to high-
+quality learning materials, maintaining highest standards of academic rigor at little to no cost. 
+About OpenStax 
+OpenStax is a nonprofit based at Rice University, and it’s our mission to improve student access to education. Our first 
+openly licensed college textbook was published in 2012, and our library has since scaled to over 25 books for college and 
+AP® courses used by hundreds of thousands of students. OpenStax Tutor, our low-cost personalized learning tool, is 
+being used in college courses throughout the country. Through our partnerships with philanthropic foundations and our 
+alliance with other educational resource organizations, OpenStax is breaking down the most common barriers to 
+learning and empowering students and instructors to succeed. 
+About OpenStax's resources 
+Customization 
+Calculus Volume 1 is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC-
+BY-NC-SA) license, which means that you can distribute, remix, and build upon the content, as long as you provide 
+attribution to OpenStax and its content contributors, do not use the content for commercial purposes, and distribute the 
+content under the same CC-BY-NC-SA license. 
+Because our books are openly licensed, you are free to use the entire book or pick and choose the sections that are most 
+relevant to the needs of your course. Feel free to remix the content by assigning your students certain chapters and 
+sections in your syllabus, in the order that you prefer. You can even provide a direct link in your syllabus to the sections in 
+the web view of your book. 
+Instructors also have the option of creating a customized version of their OpenStax book. The custom version can be 
+made available to students in low-cost print or digital form through their campus bookstore. Visit your book page on 
+OpenStax.org for more information. 
+Errata 
+All OpenStax textbooks undergo a rigorous review process. However, like any professional-grade textbook, errors 
+sometimes occur. Since our books are web based, we can make updates periodically when deemed pedagogically 
+necessary. If you have a correction to suggest, submit it through the link on your book page on OpenStax.org. Subject 
+matter experts review all errata suggestions. OpenStax is committed to remaining transparent about all updates, so you 
+will also find a list of past errata changes on your book page on OpenStax.org. 
+Format 
+You can access this textbook for free in web view or PDF through OpenStax.org, and for a low cost in print. 
+About Calculus Volume 1 
+Calculus is designed for the typical two- or three-semester general calculus course, incorporating innovative features to 
+enhance student learning. The book guides students through the core concepts of calculus and helps them understand 
+how those concepts apply to their lives and the world around them. Due to the comprehensive nature of the material, 
+we are offering the book in three volumes for flexibility and efficiency. Volume 1 covers functions, limits, derivatives, and 
+integration. 
+Coverage and scope 
+Our Calculus Volume 1 textbook adheres to the scope and sequence of most general calculus courses nationwide. We 
+have worked to make calculus interesting and accessible to students while maintaining the mathematical rigor inherent 
+in the subject. With this objective in mind, the content of the three volumes of Calculus have been developed and 
+arranged to provide a logical progression from fundamental to more advanced concepts, building upon what students 
+have already learned and emphasizing connections between topics and between theory and applications. The goal of 
+each section is to enable students not just to recognize concepts, but work with them in ways that will be useful in later 
+courses and future careers. The organization and pedagogical features were developed and vetted with feedback from 
+mathematics educators dedicated to the project. 
+Volume 1 
+• Chapter 1: Functions and Graphs 
+• Chapter 2: Limits 
+• Chapter 3: Derivatives 
+• Chapter 4: Applications of Derivatives 
+Preface     1
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 135 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

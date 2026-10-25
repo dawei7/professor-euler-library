@@ -1,0 +1,17 @@
+16 — Introduction to Topology I: General Topology
+Author(s): Bernard Badzioch
+License: CC BY-NC-SA 4.0
+Source: https://raw.githubusercontent.com/bbadzioch/topology_lecture_notes/master/MTH_427_notes/mth427_notes_no_rubrics.pdf
+
+Source mathematical text retained; arranged into chapter/section vector study slices by Math(n), 2026. No author answers are invented.
+
+Source documents and contributor attribution:
+https://raw.githubusercontent.com/bbadzioch/topology_lecture_notes/master/MTH_427_notes/mth427_notes_no_rubrics.pdf
+
+Original source copyright and image notices:
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 44 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

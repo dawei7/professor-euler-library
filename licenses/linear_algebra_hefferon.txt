@@ -1,0 +1,18 @@
+03 — Linear Algebra
+Author(s): Jim Hefferon
+License: CC BY-SA 3.0 US
+Source: https://hefferon.net/linearalgebra/
+
+Author licenses textbook and public answer book under GFDL or CC BY-SA 3.0 United States, at the recipient’s choice: https://hefferon.net/source.html . This distribution uses the CC option. Earlier internal metadata was not the source of this decision.
+
+Source documents and contributor attribution:
+https://hefferon.net/linearalgebra/
+https://hefferon.net/source.html
+
+Original source copyright and image notices:
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 196 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

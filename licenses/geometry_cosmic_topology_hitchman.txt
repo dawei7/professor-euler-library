@@ -1,0 +1,35 @@
+17 — Geometry with an Introduction to Cosmic Topology
+Author(s): Michael P. Hitchman
+License: CC BY-SA 4.0
+Source: https://mphitchman.github.io/geometry/GCTscreen.pdf
+
+Source mathematical text retained; arranged into chapter/section vector study slices by Math(n), 2026. No author answers are invented.
+
+Source documents and contributor attribution:
+https://mphitchman.github.io/geometry/GCTscreen.pdf
+
+Original source copyright and image notices:
+Source master page 2:
+Michael P. Hitchman
+Department of Mathematics
+Linﬁeld College
+McMinnville, OR 97128
+http://mphitchman.com
+© 2017-2020 by Michael P. Hitchman
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+International License. To view a copy of this license, visit http://creativecommons.
+org/licenses/by-sa/4.0/.
+2018 Edition
+Compiled October, 2020
+ISBN-13: 978-1717134813
+ISBN-10: 1717134815
+A current version can always be found for free at
+http://mphitchman.com
+Cover image: Five geodesic paths between two points in a two-holed torus with
+constant curvature.
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 70 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

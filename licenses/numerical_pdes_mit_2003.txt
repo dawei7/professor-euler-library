@@ -1,0 +1,63 @@
+23 — Numerical Methods for Partial Differential Equations
+Author(s): Khoo, White, Peraire and Patera
+License: CC BY-NC-SA 4.0
+Source: https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/
+
+MIT OCW-authored lecture/assignment packet. The copyright MIT 2002 notice in problem-set 4 solution code is retained; it is MIT’s own material distributed in this OCW resource, not an explicitly excluded third-party asset. Werner Hemmert material marked “Used with permission” follows OCW’s permission policy.
+
+Source documents and contributor attribution:
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/1db1ffe33bea72c3a9a6f0d6ce487a92_lec1.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/7ebc9467e6f581add1c676e0ceb93b89_lec1_notes.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/0d25633ebfbbfed4c3110bc1c36c274e_lec2and3.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/699a968b859206e857a06ace8e13329d_lecs2and3_notes.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/3a7b760b5bb0bd0562591ae3f8403a3b_lec4.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/626a0142c7968dff081008f808bf18f7_lec4_notes.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/5350b98a660c073d845f9128a3851a8b_lec5.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/6f02243dbad2edddbca94cbe8bdce5f1_lec5_notes.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/d504d7f1f3010fba86e134b3b900d0f6_lec6.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/2351cb5ce7f15d89fa4cb3fa17eb6f64_lec6_notes.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/5b3591ef23cf6d08d14e678d0336a0cc_lec7.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/95427b55fae4d6b675869c192dc7c3f4_lec7_notes.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/25ca328dbe8e31be2426e4e313c8bf1e_lecs8_9_10.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/a1b0398626222c735a8bac5b261c43ad_lecs8_9_10_notes.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/703d30b65026ca77d1a924b973c877fe_lec11.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/b83f5998bf019571a250acd9acb7aa46_lec11_notes.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/030693b75261361937813dcdaae4923e_lec12.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/bafff8bb84c0ee8ac362cea89c5fea38_lec12_notes.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/b08aec3e6f8cd87891d84d05b6d7a5eb_lecs13_14_notes.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/381648dacaa520039b062edd073cef8d_lecs13and14.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/9473f324eccbfd50302e7e5f387883ca_lec15.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/c48a5c1138c7e5b91f79bfd522fecb07_lec15_notes.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/662ccb59eb918ec36fd9e444f6fac166_lecs16_17.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/7b88973f2138d55fafd8396e63a8051e_lecs16_17_notes.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/3e8fdb3bb3ce2f490f0b5017baef2721_lecs18_19.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/f33671df8e82180c17bb73e5f46adf11_lecs18_19_notes.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/902283b7f9a1816017d8121272d8ff96_lec20_notes.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/faa00bbfd8590c35dce6765e4dd9ab1d_lec20_toupload.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/a641ec01d85919b3f123e69df7f0fd69_lec21.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/03ca82e2d9b591d7ba53c8fd09e4e630_lec21_notes.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/f7314d3bbe2410c1f804b765156ef083_lec22.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/d6b97db9241c126ea4ba09f0d920dd1b_lec22_notes.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/884716526199fb9b5373cefc8a233997_lec24.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/87a0e231ae043df7b1e608337f3da646_lec24_notes.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/c975b474422683ae4986a8c08aa52e93_lec25.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/51b04d4860df27eecbf86dd9d223a4bb_lec26.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/e70c5dca7f5a8333c5cf818a8c063af2_ps1.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/7420def42c6003e855e31acb1b26d082_ps1sol.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/ff286dc616f4091415418a934e3626cf_ps2.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/4371a8ebafed5229131b1b6dee7974ba_ps2sol.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/d9b0ba7242994671fdec1a3a152ab3a2_ps3.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/2a3234fb959c37b2092ebc0e74c7e1b9_ps3sol.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/d46adcff88dfbf32dafd4f48f38ed8ce_ps4.pdf
+https://ocw.mit.edu/courses/16-920j-numerical-methods-for-partial-differential-equations-sma-5212-spring-2003/0dc35d8c187c18316f7c858757e40cda_ps4sol.pdf
+
+Original source copyright and image notices:
+Source master page 1025:
+Courtesy of Werner Hemmert.  
+Used with permission.
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 28 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

@@ -1,0 +1,41 @@
+29 — Learning Theory from First Principles
+Author(s): Francis Bach
+Edition: Author edition, 26 May 2025
+License: CC BY-NC-ND 4.0
+Source: https://www.di.ens.fr/~fbach/ltfp/
+
+Faithful vector source excerpts and navigation metadata; no mathematical rewriting, translation, generated answers, or changes to the selected source content. Author-hosted edition dated 26 May 2025, directly linked by MIT Press under its stated CC BY-NC-ND license. The older copyright line inside the author PDF is recorded alongside that publisher grant. All 208 named embedded exercises are also available as unchanged vector excerpts; surrounding theory is retained in the article. No generated answers.
+
+Source documents and permission evidence:
+https://www.di.ens.fr/~fbach/ltfp_book.pdf
+https://mitpress.mit.edu/9780262049443/learning-theory-from-first-principles/
+https://www.di.ens.fr/~fbach/ltfp/
+
+Original source copyright notices:
+Source master page 1:
+Learning Theory from First Principles
+May 26, 2025
+Francis Bach
+francis.bach@inria.fr
+Copyright
+in
+this
+Work
+has
+been
+licensed
+exclusively
+to
+The
+MIT
+Press,
+http://mitpress.mit.edu,
+which will be releasing the ﬁnal version to the public in
+2024. All inquiries regarding rights should be addressed to The MIT Press, Rights and
+Permissions Department.
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 144 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

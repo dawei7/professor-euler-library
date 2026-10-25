@@ -1,0 +1,277 @@
+C.01 — Dive into Deep Learning
+Author(s): Aston Zhang, Zachary C. Lipton, Mu Li and Alexander J. Smola
+License: CC BY-SA 4.0; code Apache 2.0
+Source: https://d2l.ai/d2l-en.pdf
+
+Official English PyTorch PDF. Text CC BY-SA 4.0; sample code Apache 2.0. Both complete licenses and the publisher’s license summary are bundled. Datasets, external software and remotely linked material are not redistributed by this textbook package. Marginal QR modules and their tiny margin indices on source pages 80, 81, 118, 825 and 1100 are omitted where they cross section cuts; body text, inline references, code and mathematical figures remain. 551 top-level tasks are counted without duplicating nested subquestions.
+
+Source documents and contributor attribution:
+https://d2l.ai/d2l-en.pdf
+
+Original source copyright and image notices:
+Source master page 275:
+235
+From Fully Connected Layers to Convolutions
+were one to appear at the top of the image. We can draw some inspiration here from the
+children’s game “Where’s Waldo” (which itself has inspired many real-life imitations, such
+as that depicted in Fig. 7.1.1). The game consists of a number of chaotic scenes bursting
+with activities. Waldo shows up somewhere in each, typically lurking in some unlikely
+location. The reader’s goal is to locate him. Despite his characteristic outfit, this can be
+surprisingly difficult, due to the large number of distractions. However, what Waldo looks
+like does not depend upon where Waldo is located. We could sweep the image with a Waldo
+detector that could assign a score to each patch, indicating the likelihood that the patch
+contains Waldo. In fact, many object detection and segmentation algorithms are based
+on this approach (Long et al., 2015). CNNs systematize this idea of spatial invariance,
+exploiting it to learn useful representations with fewer parameters.
+t
+Fig. 7.1.1
+Can you ﬁnd Waldo (image courtesy of William Murphy (Infomatique))?
+We can now make these intuitions more concrete by enumerating a few desiderata to guide
+our design of a neural network architecture suitable for computer vision:
+1. In the earliest layers, our network should respond similarly to the same patch, regardless
+of where it appears in the image. This principle is called translation invariance (or
+translation equivariance).
+2. The earliest layers of the network should focus on local regions, without regard for the
+contents of the image in distant regions. This is the locality principle. Eventually, these
+local representations can be aggregated to make predictions at the whole image level.
+3. As we proceed, deeper layers should be able to capture longer-range features of the
+image, in a way similar to higher level vision in nature.
+Let’s see how this translates into mathematics.
+7.1.2 Constraining the MLP
+To start off, we can consider an MLP with two-dimensional images X as inputs and their im-
+mediate hidden representations H similarly represented as matrices (they are two-dimensional
+
+
+Source master page 278:
+238
+Convolutional Neural Networks
+since we can always match the notation between (7.1.3) and (7.1.6). Our original definition
+in (7.1.3) more properly describes a cross-correlation. We will come back to this in the
+following section.
+7.1.4 Channels
+Returning to our Waldo detector, let’s see what this looks like. The convolutional layer picks
+windows of a given size and weighs intensities according to the filter V, as demonstrated
+in Fig. 7.1.2. We might aim to learn a model so that wherever the “waldoness” is highest,
+we should find a peak in the hidden layer representations.
+t
+Fig. 7.1.2
+Detect Waldo (image courtesy of William Murphy (Infomatique)).
+There is just one problem with this approach. So far, we blissfully ignored that images
+consist of three channels: red, green, and blue. In sum, images are not two-dimensional
+objects but rather third-order tensors, characterized by a height, width, and channel, e.g.,
+with shape 1024×1024×3 pixels. While the first two of these axes concern spatial relation-
+ships, the third can be regarded as assigning a multidimensional representation to each pixel
+location. We thus index X as [X]𝑖, 𝑗,𝑘. The convolutional filter has to adapt accordingly.
+Instead of [V]𝑎,𝑏, we now have [V]𝑎,𝑏,𝑐.
+Moreover, just as our input consists of a third-order tensor, it turns out to be a good idea
+to similarly formulate our hidden representations as third-order tensors H. In other words,
+rather than just having a single hidden representation corresponding to each spatial location,
+we want an entire vector of hidden representations corresponding to each spatial location.
+We could think of the hidden representations as comprising a number of two-dimensional
+grids stacked on top of each other. As in the inputs, these are sometimes called channels.
+They are also sometimes called feature maps, as each provides a spatialized set of learned
+features for the subsequent layer. Intuitively, you might imagine that at lower layers that are
+closer to inputs, some channels could become specialized to recognize edges while others
+could recognize textures.
+To support multiple channels in both inputs (X) and hidden representations (H), we can add
+
+
+Source master page 311:
+271
+Deep Convolutional Neural Networks (AlexNet)
+that features themselves ought to be learned. Moreover, they believed that to be reasonably
+complex, the features ought to be hierarchically composed with multiple jointly learned
+layers, each with learnable parameters. In the case of an image, the lowest layers might
+come to detect edges, colors, and textures, by analogy with how the visual system in ani-
+mals processes its input. In particular, the automatic design of visual features such as those
+obtained by sparse coding (Olshausen and Field, 1996) remained an open challenge until
+the advent of modern CNNs. It was not until Dean et al. (2012), Le (2013) that the idea of
+generating features from image data automatically gained significant traction.
+The first modern CNN (Krizhevsky et al., 2012), named AlexNet after one of its inventors,
+Alex Krizhevsky, is largely an evolutionary improvement over LeNet. It achieved excellent
+performance in the 2012 ImageNet challenge.
+t
+Fig. 8.1.1
+Image ﬁlters learned by the ﬁrst layer of AlexNet. Reproduction courtesy of Krizhevsky
+et al. (2012).
+Interestingly, in the lowest layers of the network, the model learned feature extractors that
+resembled some traditional filters. Fig. 8.1.1 shows lower-level image descriptors. Higher
+layers in the network might build upon these representations to represent larger structures,
+like eyes, noses, blades of grass, and so on. Even higher layers might represent whole
+objects like people, airplanes, dogs, or frisbees. Ultimately, the final hidden state learns a
+compact representation of the image that summarizes its contents such that data belonging
+to different categories can be easily separated.
+AlexNet (2012) and its precursor LeNet (1995) share many architectural elements. This
+begs the question: why did it take so long? A key difference was that, over the previous two
+decades, the amount of data and the computing power available had increased significantly.
+As such AlexNet was much larger: it was trained on much more data, and on much faster
+GPUs compared to the CPUs available in 1995.
+
+
+Source master page 361:
+321
+Designing Convolution Network Architectures
+their effect on the quality of the outcome somewhat independently. In other words, the
+optimization problem is moderately easy.
+These assumptions allow us to test many networks cheaply. In particular, we can sample
+uniformly from the space of configurations and evaluate their performance. Subsequently,
+we can evaluate the quality of the choice of parameters by reviewing the distribution of
+error/accuracy that can be achieved with said networks. Denote by 𝐹(𝑒) the cumulative
+distribution function (CDF) for errors committed by networks of a given design space,
+drawn using probability disribution 𝑝. That is,
+𝐹(𝑒, 𝑝)
+def= 𝑃net∼𝑝{𝑒(net) ≤𝑒}.
+(8.8.1)
+Our goal is now to find a distribution 𝑝over networks such that most networks have a very
+low error rate and where the support of 𝑝is concise. Of course, this is computationally
+infeasible to perform accurately. We resort to a sample of networks Z
+def= {net1, . . . net𝑛}
+(with errors 𝑒1, . . . , 𝑒𝑛, respectively) from 𝑝and use the empirical CDF ˆ𝐹(𝑒, Z) instead:
+ˆ𝐹(𝑒, Z) = 1
+𝑛
+𝑛
+Õ
+𝑖=1
+1(𝑒𝑖≤𝑒).
+(8.8.2)
+Whenever the CDF for one set of choices majorizes (or matches) another CDF it follows
+that its choice of parameters is superior (or indifferent). Accordingly Radosavovic et al.
+(2020) experimented with a shared network bottleneck ratio 𝑘𝑖= 𝑘for all stages 𝑖of the
+network. This gets rid of three of the four parameters governing the bottleneck ratio. To
+assess whether this (negatively) affects the performance one can draw networks from the
+constrained and from the unconstrained distribution and compare the corresonding CDFs.
+It turns out that this constraint does not affect the accuracy of the distribution of networks
+at all, as can be seen in the first panel of Fig. 8.8.2. Likewise, we could choose to pick
+the same group width 𝑔𝑖= 𝑔occurring at the various stages of the network. Again, this
+does not affect performance, as can be seen in the second panel of Fig. 8.8.2. Both steps
+combined reduce the number of free parameters by six.
+t
+Fig. 8.8.2
+Comparing error empirical distribution functions of design spaces. AnyNetA is the
+original design space; AnyNetB ties the bottleneck ratios, AnyNetC also ties group
+widths, AnyNetD increases the network depth across stages. From left to right: (i) tying
+bottleneck ratios has no effect on performance; (ii) tying group widths has no effect on
+performance; (iii) increasing network widths (channels) across stages improves
+performance; (iv) increasing network depths across stages improves performance. Figure
+courtesy of Radosavovic et al. (2020).
+Next we look for ways to reduce the multitude of potential choices for width and depth of the
+
+
+Source master page 606:
+566
+Computational Performance
+L1. Furthermore, to access something in L2 we first need to check to realize that the
+data is not in L1, which adds a small amount of extra latency.
+• L3 caches are shared among multiple cores and can be quite large. AMD’s Epyc 3 server
+CPUs have a whopping 256 MB of cache spread across multiple chiplets. More typical
+numbers are in the 4–8 MB range.
+Predicting which memory elements will be needed next is one of the key optimization pa-
+rameters in chip design. For instance, it is advisable to traverse memory in a forward direc-
+tion since most caching algorithms will try to read ahead rather than backwards. Likewise,
+keeping memory access patterns local is a good way of improving performance.
+Adding caches is a double-edge sword. On the one hand they ensure that the processor
+cores do not starve of data. At the same time they increase chip size, using up area that
+otherwise could have been spent on increasing processing power. Moreover, cache misses
+can be expensive. Consider the worst case scenario, false sharing, as depicted in Fig. 13.4.6.
+A memory location is cached on processor 0 when a thread on processor 1 requests the
+data. To obtain it, processor 0 needs to stop what it is doing, write the information back
+to main memory and then let processor 1 read it from memory. During this operation both
+processors wait. Quite potentially such code runs more slowly on multiple processors when
+compared with an efficient single-processor implementation. This is one more reason for
+why there is a practical limit to cache sizes (besides their physical size).
+t
+Fig. 13.4.6
+False sharing (image courtesy of Intel).
+13.4.5 GPUs and other Accelerators
+It is not an exaggeration to claim that deep learning would not have been successful without
+GPUs. By the same token, it is quite reasonable to argue that GPU manufacturers’ fortunes
+have increased significantly due to deep learning. This co-evolution of hardware and al-
+gorithms has led to a situation where for better or worse deep learning is the preferable
+statistical modeling paradigm. Hence it pays to understand the specific benefits that GPUs
+and related accelerators such as the TPU (Jouppi et al., 2017).
+Of note is a distinction that is often made in practice: accelerators are optimized either for
+training or inference. For the latter we only need to compute the forward propagation in
+a network. No storage of intermediate data is needed for backpropagation. Moreover, we
+may not need very precise computation (FP16 or INT8 typically suffice). On the other hand,
+
+
+Source master page 607:
+567
+Hardware
+197
+during training all intermediate results need storage to compute gradients. Moreover, ac-
+cumulating gradients requires higher precision to avoid numerical underflow (or overflow).
+This means that FP16 (or mixed precision with FP32) is the minimum requirement. All
+of this necessitates faster and larger memory (HBM2 vs. GDDR6) and more processing
+power. For instance, NVIDIA’s Turing 197 T4 GPUs are optimized for inference whereas
+the V100 GPUs are preferable for training.
+Recall vectorization as illustrated in Fig. 13.4.5. Adding vector units to a processor core
+allowed us to increase throughput significantly. For example, in the example in Fig. 13.4.5
+we were able to perform 16 operations simultaneously. First, what if we added operations
+that optimized not just operations between vectors but also between matrices? This strategy
+led to tensor cores (to be covered shortly). Second, what if we added many more cores?
+In a nutshell, these two strategies summarize the design decisions in GPUs. Fig. 13.4.7
+gives an overview of a basic processing block. It contains 16 integer and 16 floating point
+units. In addition to that, two tensor cores accelerate a narrow subset of additional op-
+erations relevant for deep learning. Each streaming multiprocessor consists of four such
+blocks.
+t
+Fig. 13.4.7
+NVIDIA Turing processing block (image courtesy of NVIDIA).
+Next, 12 streaming multiprocessors are grouped into graphics processing clusters which
+make up the high-end TU102 processors. Ample memory channels and an L2 cache com-
+plement the setup. Fig. 13.4.8 has the relevant details. One of the reasons for designing
+such a device is that individual blocks can be added or removed as needed to allow for more
+compact chips and to deal with yield issues (faulty modules might not be activated). Fortu-
+nately programming such devices is well hidden from the casual deep learning researcher
+beneath layers of CUDA and framework code. In particular, more than one of the programs
+might well be executed simultaneously on the GPU, provided that there are available re-
+sources. Nonetheless it pays to be aware of the limitations of the devices to avoid picking
+models that do not fit into device memory.
+A last aspect that is worth mentioning in more detail are tensor cores. They are an example
+of a recent trend of adding more optimized circuits that are specifically effective for deep
+learning. For instance, the TPU added a systolic array (Kung, 1988) for fast matrix multipli-
+
+
+Source master page 608:
+568
+Computational Performance
+t
+Fig. 13.4.8
+NVIDIA Turing architecture (image courtesy of NVIDIA)
+198
+cation. There the design was to support a very small number (one for the first generation of
+TPUs) of large operations. Tensor cores are at the other end. They are optimized for small
+operations involving between 4 × 4 and 16 × 16 matrices, depending on their numerical
+precision. Fig. 13.4.9 gives an overview of the optimizations.
+t
+Fig. 13.4.9
+NVIDIA tensor cores in Turing (image courtesy of NVIDIA).
+Obviously when optimizing for computation we end up making certain compromises. One
+of them is that GPUs are not very good at handling interrupts and sparse data. While there
+are notable exceptions, such as Gunrock198 (Wang et al., 2016), the access pattern of sparse
+matrices and vectors do not go well with the high bandwidth burst read operations where
+
+
+Source master page 627:
+587
+Parameter Servers
+t
+Fig. 13.7.4
+NVLink connectivity on 8 V100 GPU servers (image courtesy of NVIDIA).
+t
+Fig. 13.7.5
+Decomposition of the NVLink network into two rings.
+we can send gradients from the first to the second node. There it is added to the local
+gradient and sent on to the third node, and so on. After 𝑛−1 steps the aggregate gradient
+can be found in the last-visited node. That is, the time to aggregate gradients grows linearly
+with the number of nodes. But if we do this the algorithm is quite inefficient. After all,
+at any time there is only one of the nodes communicating. What if we broke the gradients
+into 𝑛chunks and started synchronizing chunk 𝑖starting at node 𝑖? Since each chunk is of
+size 1/𝑛the total time is now (𝑛−1)/𝑛≈1. In other words, the time spent to aggregate
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 302 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

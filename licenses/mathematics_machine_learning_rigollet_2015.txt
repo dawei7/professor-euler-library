@@ -1,0 +1,216 @@
+C.04 — Mathematics of Machine Learning
+Author(s): Philippe Rigollet
+License: CC BY-NC-SA 4.0
+Source: https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/
+
+Publisher PDF lecture 17 pages 14 and 46–51 retain Google exclusion notices. Visual inspection found the corresponding excluded Google image locations already blank in the distributed source; mathematical graphs remain the author’s lecture content. This finding is recorded separately from permission for those absent assets.
+
+Source documents and contributor attribution:
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/7d229ed907a6d1410a3736c98a9d78d8_MIT18_657F15_L1.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/86f311c7073869c5e0c199008787d5c9_MIT18_657F15_L2.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/e1c43cdb5ad222e94adbdf639b12b395_MIT18_657F15_L3.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/f9bb2571a80299876669c67fd1aff897_MIT18_657F15_L4.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/c804dde9f0fcaac2abc68696147b3ee6_MIT18_657F15_L5.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/5ebb42429b252cbd2f711cd03e01b97f_MIT18_657F15_L6.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/af336bcec45f238d85d84cea1a04fd3b_MIT18_657F15_L7.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/a86e2ffbc8a505b53f9051b60587763c_MIT18_657F15_L8.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/c8805f7adeb6fe19382e8341878595c8_MIT18_657F15_L9.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/566289985bff05b214ccf11cbec4e94a_MIT18_657F15_L10.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/35139a38b88d438099e767f0b1a6dfe8_MIT18_657F15_L11.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/d3fe2b7a6b61edf9bd44ea8495e5c52a_MIT18_657F15_L12.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/c0633c5305ddcf87b0bd61f69b2cbdb5_MIT18_657F15_L13.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/41f810c4abefea4b511832aa26a437d0_MIT18_657F15_L14.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/2b91e5658877966194c2571ab9146fba_MIT18_657F15_L15.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/30d28d30e752970a9ddaed9a5332543f_MIT18_657F15_L16.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/20907a506d03148f37ce90f1af2659b1_MIT18_657F15_L17.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/7b9dd3e7208aa3a217bfa9d8ffa48447_MIT18_657F15_L18.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/f278788cce095391fa4deebf01fd1357_MIT18_657F15_L19.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/6570ac6d662ccb30b130baa4cf97f7bf_MIT18_657F15_L20.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/c70563158c4cc2ddbed4987d8f458d4e_MIT18_657F15_L21.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/b21de17384706de8db8078cd767d459e_MIT18_657F15_L22.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/007788a35f2e22aecf29dd1db77a6d42_MIT18_657F15_L23.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/83e771a9b96fa08a6bac7bc783411491_MIT18_657F15_PS1.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/d61d6c8e64ed20efff3e6ca4fc88742b_MIT18_657F15_PS1_Sol.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/8235bec2d7664a3481322938bcff0225_MIT18_657F15_PS2.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/091a852cd0d398a3ca4a41446ab2d30f_MIT18_657F15_PS2_Sol.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/b7fec9284ff39b01661e87e0153b1cdc_MIT18_657F15_PS3.pdf
+https://ocw.mit.edu/courses/18-657-mathematics-of-machine-learning-fall-2015/285d7726dad0e91cf447da611b84e6d6_MIT18_657F15_PS3_Sol.pdf
+
+Original source copyright and image notices:
+Source master page 123:
+combinatorial experts
+Often the class of experts is very large but has some combinatorial
+structure. Can the structure be exploited?
+path planning. At each time
+instance, the forecaster chooses a
+path in a graph between two
+ﬁxed nodes. Each edge has an
+associated loss. Loss of a path is
+the sum of the losses over the
+edges in the path.
+N is huge!!!
+32
+© Google. All rights reserved. This content is excluded from our
+Creative Commons license. For more information, see
+http://ocw.mit.edu/fairuse.
+
+
+Source master page 124:
+assignments: learning permutations
+Given a complete
+bipartite graph
+Km,m, the
+forecaster chooses a
+perfect matching.
+The loss is the sum
+of the losses over
+the edges.
+Helmbold and Warmuth (2007): full information case.
+33
+This image has been removed due to copyright restrictions.
+Please see the image at
+http://38.media.tumblr.com/tumblr_m0ol5tggjZ1qir7tc.gif
+
+
+Source master page 134:
+multi-armed bandits
+The forecaster only observes `t(It) but not `t(i) for i 6= It.
+Herbert Robbins (1952).
+46
+This image has been removed due to copyright restrictions. Please see the image at
+https://en.wikipedia.org/wiki/Herbert_Robbins#/media/File:1966-HerbertRobbins.jpg
+
+
+Source master page 155:
+combinatorial prediction game
+Adversary
+Player
+79
+© Google. All rights reserved. This content is excluded from our
+Creative Commons license. For more information, see
+http://ocw.mit.edu/fairuse.
+
+
+Source master page 156:
+combinatorial prediction game
+Adversary
+Player
+80
+© Google. All rights reserved. This content is excluded from our
+Creative Commons license. For more information, see
+http://ocw.mit.edu/fairuse.
+
+
+Source master page 157:
+combinatorial prediction game
+Adversary
+Player
+`2
+`6
+`d−1
+`1
+`4
+`5
+`9
+`d−2
+`d
+`3
+`8
+`7
+81
+© Google. All rights reserved. This content is excluded from our
+Creative Commons license. For more information, see
+http://ocw.mit.edu/fairuse.
+
+
+Source master page 158:
+combinatorial prediction game
+Adversary
+Player
+`2
+`6
+`d−1
+`1
+`4
+`5
+`9
+`d−2
+`d
+`3
+`8
+`7
+loss su↵ered: `2 + `7 + . . . + `d
+82
+© Google. All rights reserved. This content is excluded from our
+Creative Commons license. For more information, see
+http://ocw.mit.edu/fairuse.
+
+
+Source master page 159:
+combinatorial prediction game
+Adversary
+Player
+`2
+`6
+`d−1
+`1
+`4
+`5
+`9
+`d−2
+`d
+`3
+`8
+`7
+<
+8
+Full Info:
+`1, `2, . . . , `d
+Feedback: :
+loss su↵ered: `2 + `7 + . . . + `d
+83
+© Google. All rights reserved. This content is excluded from our
+Creative Commons license. For more information, see
+http://ocw.mit.edu/fairuse.
+
+
+Source master page 160:
+combinatorial prediction game
+Adversary
+Player
+`2
+`6
+`d−1
+`1
+4
+`5
+`9
+`d−2
+`d
+`3
+`8
+`7
+`
+<
+n
+d
+b ck:
+8
+Full I fo:
+`1, `2, . . . , `
+Feed a
+: Semi-Bandit:
+`2, `7, . . . , `d
+Bandit:
+`2 + `7 + . . . + `d
+loss su↵ered: `2 + `7 + . . . + `d
+85
+© Google. All rights reserved. This content is excluded from our
+Creative Commons license. For more information, see
+http://ocw.mit.edu/fairuse.
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 29 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

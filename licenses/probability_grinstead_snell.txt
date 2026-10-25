@@ -1,0 +1,25 @@
+08 — Introduction to Probability
+Author(s): Charles Grinstead and J. Laurie Snell
+License: GFDL
+Source: https://math.dartmouth.edu/~prob/prob/prob.pdf
+
+Doyle/CHANCE version dated 4 July 2006, copyright 2006 Peter G. Doyle, based on copyright 2003 Charles M. Grinstead and J. Laurie Snell. Original notice specifies GFDL without a version. This distribution includes GFDL 1.3, full source notices and the author-hosted editable TeX archive. No invariant sections or cover texts are specified.
+
+Source documents and contributor attribution:
+https://math.dartmouth.edu/~prob/prob/prob.pdf
+
+Original source copyright and image notices:
+Source master page 1:
+Grinstead and Snell’s Introduction to Probability
+The CHANCE Project1
+Version dated 4 July 2006
+1Copyright (C) 2006 Peter G. Doyle. This work is a version of Grinstead and Snell’s
+‘Introduction to Probability, 2nd edition’, published by the American Mathematical So-
+ciety, Copyright (C) 2003 Charles M. Grinstead and J. Laurie Snell. This work is freely
+redistributable under the terms of the GNU Free Documentation License.
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 97 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

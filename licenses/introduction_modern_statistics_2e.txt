@@ -1,0 +1,38 @@
+09 — Introduction to Modern Statistics
+Author(s): Mine Çetinkaya-Rundel and Johanna Hardin
+License: CC BY-SA 3.0
+Source: https://openintro-ims.netlify.app/
+
+Official Second Edition HTML text printed into vector PDF. Cover artwork omitted; attribution to Mine Çetinkaya-Rundel and Johanna Hardin retained. Math(n) adaptation, 2026; not an OpenIntro publication or endorsement. Selected publisher answers are included; restricted instructor materials are not included. https://www.openintro.org/license/
+
+Source documents and contributor attribution:
+https://openintro-ims.netlify.app/
+
+Original source copyright and image notices:
+Source master page 2:
+The book will always be available for free here. It is also available in PDF (for free or for the amount
+you choose to contribute) on Leanpub and in black&white paperback for purchase for $25.
+ Download PDF
+ Purchase paperback
+Copyright © 2024.
+Second Edition.
+Version date: March 31, 2026.
+This textbook and its supplements, including slides, labs, and interactive tutorials, may be
+downloaded for free at
+openintro.org/book/ims.
+This textbook is a derivative of OpenIntro Statistics 4th Edition and Introduction to Statistics with
+Randomization and Simulation 1st Edition by Diez, Barr, and Çetinkaya-Rundel, and it’s available
+under a Creative Commons Attribution-ShareAlike 3.0 Unported United States License. License
+details are available at the Creative Commons website:
+creativecommons.org.
+Source files for this book can be found on GitHub at
+github.com/openintrostat/ims.
+This is IMS2e!
+ 
+This book was built with Quarto.
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 163 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

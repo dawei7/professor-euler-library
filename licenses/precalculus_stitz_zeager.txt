@@ -1,0 +1,653 @@
+S.04 — Precalculus
+Author(s): Carl Stitz and Jeff Zeager
+License: CC BY-NC-SA 3.0
+Source: https://www.stitz-zeager.com/
+
+The retained 2013 Corrected Third Edition uses CC BY-NC-SA 3.0. Edition-specific corroboration: https://collection.bccampus.ca/textbook/4yBgYBU4/ . Author site and author source archive identify this edition.
+
+Source documents and contributor attribution:
+https://www.stitz-zeager.com/
+
+Original source copyright and image notices:
+Source master page 10:
+x
+Preface
+semester of 2009 and actually began writing the textbook on December 16, 2008. Using an open-
+source text editor called TexNicCenter and an open-source distribution of LaTeX called MikTex
+2.7, Carl and I wrote and edited all of the text, exercises and answers and created all of the graphs
+(using Metapost within LaTeX) for Version 0.9 in about eight months. (We choose to create a
+text in only black and white to keep printing costs to a minimum for those students who prefer
+a printed edition. This somewhat Spartan page layout stands in sharp relief to the explosion of
+colors found in most other College Algebra texts, but neither Carl nor I believe the four-color
+print adds anything of value.)
+I used the book in three sections of College Algebra at Lorain
+County Community College in the Fall of 2009 and Carl’s colleague, Dr. Bill Previts, taught a
+section of College Algebra at Lakeland with the book that semester as well. Students had the
+option of downloading the book as a .pdf ﬁle from our website www.stitz-zeager.com or buying a
+low-cost printed version from our colleges’ respective bookstores. (By giving this book away for
+free electronically, we end the cycle of new editions appearing every 18 months to curtail the used
+book market.) During Thanksgiving break in November 2009, many additional exercises written
+by Dr. Previts were added and the typographical errors found by our students and others were
+corrected. On December 10, 2009, Version
+√
+2 was released. The book remains free for download at
+our website and by using Lulu.com as an on-demand printing service, our bookstores are now able
+to provide a printed edition for just under $19. Neither Carl nor I have, or will ever, receive any
+royalties from the printed editions. As a contribution back to the open-source community, all of
+the LaTeX ﬁles used to compile the book are available for free under a Creative Commons License
+on our website as well. That way, anyone who would like to rearrange or edit the content for their
+classes can do so as long as it remains free.
+The only disadvantage to not working for a publisher is that we don’t have a paid editorial staﬀ.
+What we have instead, beyond ourselves, is friends, colleagues and unknown people in the open-
+source community who alert us to errors they ﬁnd as they read the textbook. What we gain in not
+having to report to a publisher so dramatically outweighs the lack of the paid staﬀthat we have
+turned down every oﬀer to publish our book. (As of the writing of this Preface, we’ve had three
+oﬀers.) By maintaining this book by ourselves, Carl and I retain all creative control and keep the
+book our own. We control the organization, depth and rigor of the content which means we can resist
+the pressure to diminish the rigor and homogenize the content so as to appeal to a mass market.
+A casual glance through the Table of Contents of most of the major publishers’ College Algebra
+books reveals nearly isomorphic content in both order and depth. Our Table of Contents shows a
+diﬀerent approach, one that might be labeled “Functions First.” To truly use The Rule of Four,
+that is, in order to discuss each new concept algebraically, graphically, numerically and verbally, it
+seems completely obvious to us that one would need to introduce functions ﬁrst. (Take a moment
+and compare our ordering to the classic “equations ﬁrst, then the Cartesian Plane and THEN
+functions” approach seen in most of the major players.) We then introduce a class of functions
+and discuss the equations, inequalities (with a heavy emphasis on sign diagrams) and applications
+which involve functions in that class. The material is presented at a level that deﬁnitely prepares a
+student for Calculus while giving them relevant Mathematics which can be used in other classes as
+well. Graphing calculators are used sparingly and only as a tool to enhance the Mathematics, not
+to replace it. The answers to nearly all of the computational homework exercises are given in the
+
+
+Source master page 73:
+0.5 Polynomial Arithmetic
+61
+There are four basic operations we can perform with polynomials: addition, subtraction, multi-
+plication and division. The ﬁrst three of these operations follow directly from properties of real
+number arithmetic and will be discussed together ﬁrst. Division, on the other hand, is a bit more
+complicated and will be discussed separately.
+0.5.1
+Polynomial Addition, Subtraction and Multiplication.
+Adding and subtracting polynomials comes down to identifying like terms and then adding or sub-
+tracting the coefﬁcients of those like terms. Multiplying polynomials comes to us courtesy of the
+Generalized Distributive Property.
+Theorem 0.5. Generalized Distributive Property: To multiply a quantity of n terms by a quan-
+tity of m terms, multiply each of the n terms of the ﬁrst quantity by each of the m terms in the
+second quantity and add the resulting n · m terms together.
+In particular, Theorem 0.5 says that, before combining like terms, a product of an n-term poly-
+nomial and an m-term polynomial will generate (n · m)-terms. For example, a binomial times a
+trinomial will produce six terms some of which may be like terms. Thus the simpliﬁed end result
+may have fewer than six terms but you will start with six terms.
+A special case of Theorem 0.5 is the famous F.O.I.L., listed here:1
+Theorem 0.6. F.O.I.L: The terms generated from the product of two binomials: (a + b)(c + d)
+can be verbalized as follows “Take the sum of:
+• the product of the First terms a and c, ac
+• the product of the Outer terms a and d, ad
+• the product of the Inner terms b and c, bc
+• the product of the Last terms b and d, bd.”
+That is, (a + b)(c + d) = ac + ad + bc + bd.
+Theorem 0.5 is best proved using the technique known as Mathematical Induction which is covered
+in Section 9.3. The result is really nothing more than repeated applications of the Distributive
+Property so it seems reasonable and we’ll use it without proof for now. The other major piece of
+polynomial multiplication is one of the Power Rules of Exponents from page 26 in Section 0.2,
+namely anam = an+m. The Commutative and Associative Properties of addition and multiplication
+are also used extensively. We put all of these properties to good use in the next example.
+1We caved to peer pressure on this one. Apparently all of the cool Precalculus books have FOIL in them even though
+it’s redundant once you know how to distribute multiplication across addition. In general, we don’t like mechanical short-
+cuts that interfere with a student’s understanding of the material and FOIL is one of the worst.
+
+
+Source master page 423:
+3.3 Real Zeros of Polynomials
+275
+f(b) < 0 if all of the numbers in the ﬁnal line of the synthetic division tableau are non-positive. To
+prove the lower bound part of the theorem, we note that a lower bound for the negative real zeros
+of f(x) is an upper bound for the positive real zeros of f(−x). Applying the upper bound portion
+to f(−x) gives the result. (Do you see where the alternating signs come in?) With the additional
+mathematical machinery of Descartes’ Rule of Signs and the Upper and Lower Bounds Theorem,
+we can ﬁnd the real zeros of f(x) = 2x4 +4x3 −x2 −6x−3 without the use of a graphing calculator.
+Example 3.3.6. Let f(x) = 2x4 + 4x3 −x2 −6x −3.
+1. Find all of the real zeros of f and their multiplicities.
+2. Sketch the graph of y = f(x).
+Solution.
+1. We know from Cauchy’s Bound that all of the real zeros lie in the interval [−4, 4] and that
+our possible rational zeros are ± 1
+2, ± 1, ± 3
+2 and ± 3. Descartes’ Rule of Signs guarantees us
+at least one negative real zero and exactly one positive real zero, counting multiplicity. We
+try our positive rational zeros, starting with the smallest, 1
+2. Since the remainder isn’t zero,
+we know 1
+2 isn’t a zero. Sadly, the ﬁnal line in the division tableau has both positive and
+negative numbers, so 1
+2 is not an upper bound. The only information we get from this division
+is courtesy of the Remainder Theorem which tells us f
+  1
+2
+
+= −45
+8 so the point
+  1
+2, −45
+8
+
+is
+on the graph of f. We continue to our next possible zero, 1. As before, the only information
+we can glean from this is that (1, −4) is on the graph of f. When we try our next possible
+zero, 3
+2, we get that it is not a zero, and we also see that it is an upper bound on the zeros of
+f, since all of the numbers in the ﬁnal line of the division tableau are positive. This means
+there is no point trying our last possible rational zero, 3. Descartes’ Rule of Signs guaranteed
+us a positive real zero, and at this point we have shown this zero is irrational. Furthermore,
+the Intermediate Value Theorem, Theorem 3.1, tells us the zero lies between 1 and 3
+2, since
+f(1) < 0 and f
+  3
+2
+
+> 0.
+1
+2
+2
+4
+−1
+−6
+−3
+↓
+1
+5
+2
+3
+4
+−21
+8
+2
+5
+3
+2
+−21
+4
+−45
+8
+1
+2
+4
+−1
+−6
+−3
+↓
+2
+6
+5
+−1
+2
+6
+5
+−1
+−4
+3
+2
+2
+4
+−1
+−6
+−3
+↓
+3
+21
+2
+57
+4
+99
+8
+2
+7
+19
+2
+33
+4
+75
+8
+We now turn our attention to negative real zeros.
+We try the largest possible zero, −1
+2.
+Synthetic division shows us it is not a zero, nor is it a lower bound (since the numbers in
+the ﬁnal line of the division tableau do not alternate), so we proceed to −1. This division
+shows −1 is a zero. Descartes’ Rule of Signs told us that we may have up to three negative
+real zeros, counting multiplicity, so we try −1 again, and it works once more. At this point,
+we have taken f, a fourth degree polynomial, and performed two successful divisions. Our
+quotient polynomial is quadratic, so we look at it to ﬁnd the remaining zeros.
+
+
+Source master page 460:
+312
+Rational Functions
+Our next task is to determine the conditions under which the graph of a rational function has
+a slant asymptote, and if it does, how to ﬁnd it. In the case of g(x) = x2−4
+x+1 , the degree of the
+numerator x2 −4 is 2, which is exactly one more than the degree if its denominator x + 1 which
+is 1. This results in a linear quotient polynomial, and it is this quotient polynomial which is the
+slant asymptote. Generalizing this situation gives us the following theorem.14
+Theorem 4.3. Determination of Slant Asymptotes: Suppose r is a rational function and
+r(x) = p(x)
+q(x), where the degree of p is exactly one more than the degree of q. Then the graph of
+y = r(x) has the slant asymptote y = L(x) where L(x) is the quotient obtained by dividing
+p(x) by q(x).
+In the same way that Theorem 4.2 gives us an easy way to see if the graph of a rational function
+r(x) = p(x)
+q(x) has a horizontal asymptote by comparing the degrees of the numerator and denominator,
+Theorem 4.3 gives us an easy way to check for slant asymptotes. Unlike Theorem 4.2, which gives
+us a quick way to ﬁnd the horizontal asymptotes (if any exist), Theorem 4.3 gives us no such
+‘short-cut’. If a slant asymptote exists, we have no recourse but to use long division to ﬁnd it.15
+Example 4.1.6. Find the slant asymptotes of the graphs of the following functions if they exist.
+Verify your answers using a graphing calculator and describe the behavior of the graph near them
+using proper notation.
+1. f(x) = x2 −4x + 2
+1 −x
+2. g(x) = x2 −4
+x −2
+3. h(x) = x3 + 1
+x2 −4
+Solution.
+1. The degree of the numerator is 2 and the degree of the denominator is 1, so Theorem 4.3
+guarantees us a slant asymptote. To ﬁnd it, we divide 1 −x = −x + 1 into x2 −4x + 2 and
+get a quotient of −x + 3, so our slant asymptote is y = −x + 3. We conﬁrm this graphically,
+and we see that as x →−∞, the graph of y = f(x) approaches the asymptote from below,
+and as x →∞, the graph of y = f(x) approaches the asymptote from above.16
+2. As with the previous example, the degree of the numerator g(x) = x2−4
+x−2 is 2 and the degree
+of the denominator is 1, so Theorem 4.3 applies. In this case,
+g(x) = x2 −4
+x −2 = (x + 2)(x −2)
+(x −2)
+= (x + 2)
+(x −2)
+
+: 1
+(x −2)
+= x + 2,
+x̸ = 2
+14Once again, this theorem is brought to you courtesy of Theorem 3.4 and Calculus.
+15That’s OK, though. In the next section, we’ll use long division to analyze end behavior and it’s worth the eﬀort!
+16Note that we are purposefully avoiding notation like ‘as x →∞, f(x) →(−x + 3)+. While it is possible to deﬁne
+these notions formally with Calculus, it is not standard to do so. Besides, with the introduction of the symbol ‘’ in
+the next section, the authors feel we are in enough trouble already.
+
+
+Source master page 898:
+750
+Foundations of Trigonometry
+2. Starting with the right hand side of tan(θ) = sin(θ) sec(θ), we use sec(θ) =
+1
+cos(θ) and ﬁnd:
+sin(θ) sec(θ) = sin(θ)
+1
+cos(θ) = sin(θ)
+cos(θ) = tan(θ),
+where the last equality is courtesy of Theorem 10.6.
+3. Expanding the left hand side of the equation gives: (sec(θ) −tan(θ))(sec(θ) + tan(θ)) =
+sec2(θ) −tan2(θ). According to Theorem 10.8, sec2(θ) −tan2(θ) = 1. Putting it all together,
+(sec(θ) −tan(θ))(sec(θ) + tan(θ)) = sec2(θ) −tan2(θ) = 1.
+4. While both sides of our last identity contain fractions, the left side aﬀords us more opportu-
+nities to use our identities.5 Substituting sec(θ) =
+1
+cos(θ) and tan(θ) = sin(θ)
+cos(θ), we get:
+sec(θ)
+1 −tan(θ)
+=
+1
+cos(θ)
+1 −sin(θ)
+cos(θ)
+=
+1
+cos(θ)
+1 −sin(θ)
+cos(θ)
+· cos(θ)
+cos(θ)
+=
+
+1
+cos(θ)
+
+(cos(θ))
+
+1 −sin(θ)
+cos(θ)
+
+(cos(θ))
+=
+1
+(1)(cos(θ)) −
+ sin(θ)
+cos(θ)
+
+(cos(θ))
+=
+1
+cos(θ) −sin(θ),
+which is exactly what we had set out to show.
+5. The right hand side of the equation seems to hold more promise. We get common denomina-
+tors and add:
+3
+1 −sin(θ) −
+3
+1 + sin(θ)
+=
+3(1 + sin(θ))
+(1 −sin(θ))(1 + sin(θ)) −
+3(1 −sin(θ))
+(1 + sin(θ))(1 −sin(θ))
+=
+3 + 3 sin(θ)
+1 −sin2(θ) −3 −3 sin(θ)
+1 −sin2(θ)
+=
+(3 + 3 sin(θ)) −(3 −3 sin(θ))
+1 −sin2(θ)
+=
+6 sin(θ)
+1 −sin2(θ)
+5Or, to put to another way, earn more partial credit if this were an exam question!
+
+
+Source master page 925:
+10.4 Trigonometric Identities
+777
+2. If your ﬁrst reaction to ‘sin(θ) = x’ is ‘No it’s not, cos(θ) = x!’ then you have indeed learned
+something, and we take comfort in that. However, context is everything. Here, ‘x’ is just a
+variable - it does not necessarily represent the x-coordinate of the point on The Unit Circle
+which lies on the terminal side of θ, assuming θ is drawn in standard position.
+Here, x
+represents the quantity sin(θ), and what we wish to know is how to express sin(2θ) in terms
+of x. We will see more of this kind of thing in Section 10.6, and, as usual, this is something we
+need for Calculus. Since sin(2θ) = 2 sin(θ) cos(θ), we need to write cos(θ) in terms of x to ﬁnish
+the problem. We substitute x = sin(θ) into the Pythagorean Identity, cos2(θ) + sin2(θ) = 1,
+to get cos2(θ) + x2 = 1, or cos(θ) = ±
+√
+1 −x2. Since −π
+2 ≤θ ≤π
+2 , cos(θ) ≥0, and thus
+cos(θ) =
+√
+1 −x2. Our ﬁnal answer is sin(2θ) = 2 sin(θ) cos(θ) = 2x
+√
+1 −x2.
+3. We start with the right hand side of the identity and note that 1 + tan2(θ) = sec2(θ). From
+this point, we use the Reciprocal and Quotient Identities to rewrite tan(θ) and sec(θ) in terms
+of cos(θ) and sin(θ):
+2 tan(θ)
+1 + tan2(θ)
+=
+2 tan(θ)
+sec2(θ) =
+2
+ sin(θ)
+cos(θ)
+
+1
+cos2(θ)
+= 2
+ sin(θ)
+cos(θ)
+
+cos2(θ)
+=
+2
+ sin(θ)
+
+cos(θ)
+
+
+cos(θ) cos(θ) = 2 sin(θ) cos(θ) = sin(2θ)
+4. In Theorem 10.17, one of the formulas for cos(2θ), namely cos(2θ) = 2 cos2(θ) −1, expresses
+cos(2θ) as a polynomial in terms of cos(θ). We are now asked to ﬁnd such an identity for
+cos(3θ). Using the sum formula for cosine, we begin with
+cos(3θ)
+=
+cos(2θ + θ)
+=
+cos(2θ) cos(θ) −sin(2θ) sin(θ)
+Our ultimate goal is to express the right hand side in terms of cos(θ) only. We substitute
+cos(2θ) = 2 cos2(θ) −1 and sin(2θ) = 2 sin(θ) cos(θ) which yields
+cos(3θ)
+=
+cos(2θ) cos(θ) −sin(2θ) sin(θ)
+=
+ 2 cos2(θ) −1
+
+cos(θ) −(2 sin(θ) cos(θ)) sin(θ)
+=
+2 cos3(θ) −cos(θ) −2 sin2(θ) cos(θ)
+Finally, we exchange sin2(θ) for 1 −cos2(θ) courtesy of the Pythagorean Identity, and get
+cos(3θ)
+=
+2 cos3(θ) −cos(θ) −2 sin2(θ) cos(θ)
+=
+2 cos3(θ) −cos(θ) −2
+ 1 −cos2(θ)
+
+cos(θ)
+=
+2 cos3(θ) −cos(θ) −2 cos(θ) + 2 cos3(θ)
+=
+4 cos3(θ) −3 cos(θ)
+and we are done.
+
+
+Source master page 929:
+10.4 Trigonometric Identities
+781
+Related to the Product to Sum Formulas are the Sum to Product Formulas, which we will have
+need of in Section 10.7. These are easily veriﬁed using the Product to Sum Formulas, and as such,
+their proofs are left as exercises.
+Theorem 10.21. Sum to Product Formulas: For all angles α and β,
+ cos(α) + cos(β) = 2 cos
+α + β
+2
+
+cos
+α −β
+2
+
+ cos(α) −cos(β) = −2 sin
+α + β
+2
+
+sin
+α −β
+2
+
+ sin(α) ± sin(β) = 2 sin
+α ± β
+2
+
+cos
+α ∓β
+2
+
+Example 10.4.6.
+1. Write cos(2θ) cos(6θ) as a sum.
+2. Write sin(θ) −sin(3θ) as a product.
+Solution.
+1. Identifying α = 2θ and β = 6θ, we ﬁnd
+cos(2θ) cos(6θ)
+=
+1
+2 [cos(2θ −6θ) + cos(2θ + 6θ)]
+=
+1
+2 cos(−4θ) + 1
+2 cos(8θ)
+=
+1
+2 cos(4θ) + 1
+2 cos(8θ),
+where the last equality is courtesy of the even identity for cosine, cos(−4θ) = cos(4θ).
+2. Identifying α = θ and β = 3θ yields
+sin(θ) −sin(3θ)
+=
+2 sin
+θ −3θ
+2
+
+cos
+θ + 3θ
+2
+
+=
+2 sin (−θ) cos (2θ)
+=
+−2 sin (θ) cos (2θ) ,
+where the last equality is courtesy of the odd identity for sine, sin(−θ) = −sin(θ).
+The reader is reminded that all of the identities presented in this section which regard the circular
+functions as functions of angles (in radian measure) apply equally well to the circular (trigonometric)
+functions regarded as functions of real numbers. In Exercises 38 - 43 in Section 10.5, we see how some
+of these identities manifest themselves geometrically as we study the graphs of the these functions.
+In the upcoming Exercises, however, you need to do all of your work analytically without graphs.
+
+
+Source master page 1183:
+11.9 The Dot Product and Projection
+1035
+For the last property, we note that if⃗v = ⟨v1, v2⟩, then⃗v ·⃗v = ⟨v1, v2⟩· ⟨v1, v2⟩= v2
+1 + v2
+2 = ∥⃗v∥2,
+where the last equality comes courtesy of Deﬁnition 11.8.
+The following example puts Theorem 11.22 to good use. As in Example 11.8.3, we work out the
+problem in great detail and encourage the reader to supply the justiﬁcation for each step.
+Example 11.9.1. Prove the identity: ∥⃗v −⃗w∥2 = ∥⃗v∥2 −2(⃗v ·⃗w) + ∥⃗w∥2.
+Solution. We begin by rewriting ∥⃗v −⃗w∥2 in terms of the dot product using Theorem 11.22.
+∥⃗v −⃗w∥2
+=
+(⃗v −⃗w) · (⃗v −⃗w)
+=
+(⃗v + [−⃗w]) · (⃗v + [−⃗w])
+=
+(⃗v + [−⃗w]) ·⃗v + (⃗v + [−⃗w]) · [−⃗w]
+=⃗
+v · (⃗v + [−⃗w]) + [−⃗w] · (⃗v + [−⃗w])
+=⃗
+v ·⃗v +⃗v · [−⃗w] + [−⃗w] ·⃗v + [−⃗w] · [−⃗w]
+=⃗
+v ·⃗v +⃗v · [(−1)⃗w] + [(−1)⃗w] ·⃗v + [(−1)⃗w] · [(−1)⃗w]
+=⃗
+v ·⃗v + (−1)(⃗v ·⃗w) + (−1)(⃗w ·⃗v) + [(−1)(−1)](⃗w ·⃗w)
+=⃗
+v ·⃗v + (−1)(⃗v ·⃗w) + (−1)(⃗v ·⃗w) +⃗w ·⃗w
+=⃗
+v ·⃗v −2(⃗v ·⃗w) +⃗w ·⃗w
+=
+∥⃗v∥2 −2(⃗v ·⃗w) + ∥⃗w∥2
+Hence, ∥⃗v −⃗w∥2 = ∥⃗v∥2 −2(⃗v ·⃗w) + ∥⃗w∥2 as required.
+If we take a step back from the pedantry in Example 11.9.1, we see that the bulk of the work is
+needed to show that (⃗v−⃗w)·(⃗v−⃗w) =⃗v·⃗v−2(⃗v·⃗w)+⃗w·⃗w. If this looks familiar, it should. Since the
+dot product enjoys many of the same properties enjoyed by real numbers, the machinations required
+to expand (⃗v −⃗w) · (⃗v −⃗w) for vectors⃗v and⃗w match those required to expand (v −w)(v −w) for
+real numbers v and w, and hence we get similar looking results. The identity veriﬁed in Example
+11.9.1 plays a large role in the development of the geometric properties of the dot product, which
+we now explore.
+Suppose⃗v and⃗w are two nonzero vectors. If we draw⃗v and⃗w with the same initial point, we deﬁne
+the angle between⃗v and⃗w to be the angle θ determined by the rays containing the vectors⃗v and⃗
+w, as illustrated below. We require 0 ≤θ ≤π. (Think about why this is needed in the deﬁnition.)⃗
+v⃗
+w
+θ⃗
+v⃗
+w⃗
+v⃗
+w
+θ = 0
+0 < θ < π
+θ = π
+The following theorem gives us some insight into the geometric role the dot product plays.
+Theorem 11.23. Geometric Interpretation of Dot Product: If⃗v and⃗w are nonzero
+vectors then⃗v ·⃗w = ∥⃗v∥∥⃗w∥cos(θ), where θ is the angle between⃗v and⃗w.
+
+
+Source master page 1204:
+1056
+Applications of Trigonometry
+2. When parameterizing line segments, we think: ‘starting point + (displacement)t’. For the
+ﬁrst part of the path, we get {x = 3t, y = 4t for 0 ≤t ≤1, and for the second part
+we get {x = 3 + 2t, y = 4 −4t for 0 ≤t ≤1.
+Since the ﬁrst parametrization leaves oﬀ
+at t = 1, we shift the parameter in the second part so it starts at t = 1.
+Our current
+description of the second part starts at t = 0, so we introduce a ‘time delay’ of 1 unit
+to the second set of parametric equations.
+Replacing t with (t −1) in the second set of
+parametric equations gives {x = 3 + 2(t −1), y = 4 −4(t −1) for 0 ≤t −1 ≤1. Simplify-
+ing yields {x = 1 + 2t, y = 8 −4t for 1 ≤t ≤2. Hence, we may parametrize the path as
+{x = f(t), y = g(t) for 0 ≤t ≤2 where
+f(t) =
+
+3t,
+for 0 ≤t ≤1
+1 + 2t,
+for 1 ≤t ≤2
+and
+g(t) =
+
+4t,
+for 0 ≤t ≤1
+8 −4t,
+for 1 ≤t ≤2
+3. We know that {x = cos(t), y = sin(t) for 0 ≤t < 2π gives a counter-clockwise parametrization
+of the Unit Circle with t = 0 corresponding to (1, 0), so the ﬁrst order of business is to reverse
+the orientation.
+Replacing t with −t gives {x = cos(−t), y = sin(−t) for 0 ≤−t < 2π,
+which simpliﬁes9 to {x = cos(t), y = −sin(t) for −2π < t ≤0. This parametrization gives
+a clockwise orientation, but t = 0 still corresponds to the point (1, 0); the point (0, −1) is
+reached when t = −3π
+2 . Our strategy is to ﬁrst get the parametrization to ‘start’ at the
+point (0, −1) and then shift the parameter accordingly so the ‘start’ coincides with t = 0.
+We know that any interval of length 2π will parametrize the entire circle, so we keep the
+equations {x = cos(t), y = −sin(t), but start the parameter t at −3π
+2 , and ﬁnd the upper
+bound by adding 2π so −3π
+2 ≤t < π
+2 . The reader can verify that {x = cos(t), y = −sin(t)
+for −3π
+2 ≤t < π
+2 traces out the Unit Circle clockwise starting at the point (0, −1). We now
+shift the parameter by introducing a ‘time delay’ of 3π
+2 units by replacing every occurrence
+of t with
+ t −3π
+2
+
+. We get
+
+x = cos
+ t −3π
+2
+
+, y = −sin
+ t −3π
+2
+
+for −3π
+2 ≤t −3π
+2 < π
+2 . This
+simpliﬁes10 to {x = −sin(t), y = −cos(t) for 0 ≤t < 2π, as required.
+We put our answer to Example 11.10.4 number 3 to good use to derive the equation of a cycloid.
+Suppose a circle of radius r rolls along the positive x-axis at a constant velocity v as pictured below.
+Let θ be the angle in radians which measures the amount of clockwise rotation experienced by the
+radius highlighted in the ﬁgure.
+x
+y
+P(x, y)
+θ
+r
+9courtesy of the Even/Odd Identities
+10courtesy of the Sum/Diﬀerence Formulas
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 208 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

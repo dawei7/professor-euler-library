@@ -1,0 +1,22 @@
+01 — Book of Proof, third edition, corrected edition 3.4 (5 February 2025)
+Author and publisher: Richard Hammack, Richmond, Virginia
+Copyright 2018 Richard Hammack
+License: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+Source: https://richardhammack.github.io/BookOfProof/
+PDF: https://richardhammack.github.io/BookOfProof/Main.pdf
+License: https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Math(n) provides unchanged vector excerpts from the author's book, including its
+selected-solutions appendix, for an entirely free, ad-free noncommercial app.
+The author expressly permits sharing the PDF in full or in part with attribution.
+Original mathematical content, numbering and diagrams are unchanged. App navigation
+and source-page boundaries are supplied separately by Math(n). No endorsement is implied.
+This restoration preserves the previously user-verified study files byte for byte;
+it does not grant new verification. Selected solutions are not answers to every exercise.
+The license's disclaimer of warranties applies; the complete license is provided offline.
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 192 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

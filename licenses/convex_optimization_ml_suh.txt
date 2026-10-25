@@ -1,0 +1,51 @@
+24 — Convex Optimization for Machine Learning
+Author(s): Changho Suh
+Edition: 2022; ISBN 9781638280538
+License: CC BY-NC 4.0
+Source: https://www.emerald.com/books/oa-edited-volume/20740/Convex-Optimization-for-Machine-Learning
+
+Faithful vector source excerpts and navigation metadata; no mathematical rewriting, translation, generated answers, or changes to the selected source content. 379-page 2022 original; 11 problem sets. No instructor-only solutions are included. OAPEN original download matched the repository MD5 checksum.
+
+Source documents and permission evidence:
+https://library.oapen.org/rest/bitstreams/fe493990-e892-4ae1-b614-3e6ae1586568/retrieve
+https://www.emerald.com/books/oa-edited-volume/20740/chapter/109290687/
+
+Original source copyright notices:
+Source master page 2:
+Published, sold and distributed by:
+now Publishers Inc.
+PO Box 1024
+Hanover, MA 02339
+United States
+Tel. +1-781-985-4510
+www.nowpublishers.com
+sales@nowpublishers.com
+Outside North America:
+now Publishers Inc.
+PO Box 179
+2600 AD Delft
+The Netherlands
+Tel. +31-6-51115274
+ISBN:
+978-1-63828-052-1
+E-ISBN: 978-1-63828-053-8
+DOI: 10.1561/9781638280538
+Copyright © 2022 Changho Suh
+Suggested citation: Changho Suh. (2022). Convex Optimization for Machine Learning. Boston–Delft:
+Now Publishers
+The work will be available online open access and governed by the Creative Commons
+“Attribution-Non Commercial” License (CC BY-NC), according to https://creativecommons.or
+g/licenses/by-nc/4.0/
+We would like to express our sincere gratitude to Hyun Seung Suh, who has provided a ﬂurry of
+constructive comments and feedback on the structure of the book, writing, and readability from a
+beginner’s viewpoint.
+This work was supported by the 2019 Google Education Grant; and Institute of Information &
+Communications Technology Planning & Evaluation (IITP) grant funded by the Korea government
+(MSIT) (2020-0-00626, Ensuring high AI learning performance with only a small amount of training
+data).
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 56 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

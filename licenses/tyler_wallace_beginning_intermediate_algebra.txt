@@ -1,0 +1,57 @@
+S.01 — Beginning and Intermediate Algebra
+Author(s): Tyler Wallace
+License: CC BY 3.0
+Source: https://wallace.ccfaculty.org/book/book.html
+
+Source mathematical text retained; arranged into chapter/section vector study slices by Math(n), 2026. No author answers are invented.
+
+Source documents and contributor attribution:
+https://wallace.ccfaculty.org/book/book.html
+
+Original source copyright and image notices:
+Source master page 2:
+ISBN #978-1-4583-7768-5
+Copyright 2010, Some Rights Reserved CC-BY.
+Beginning and Intermediate Algebra by Tyler Wallace is licensed under a Creative Commons
+Attribution 3.0 Unported License. (http://creativecommons.org/licenses/by/3.0/)
+Based on a work at http://wallace.ccfaculty.org/book/book.html.
+You are free:
+•
+to Share: to copy, distribute and transmit the work
+•
+to Remix: to adapt the work
+Under the following conditions:
+•
+Attribution: You must attribute the work in the manner speciﬁed by the author or
+licensor (but not in any way that suggests that they endorse you or your use of the
+work).
+With the understanding that:
+•
+Waiver: Any of the above conditions can be waived if you get permission from the copy-
+right holder.
+•
+Public Domain: Where the work or any of its elements is in the public domain under
+applicable law, that status is in no way aﬀected by the license.
+•
+Other Rights: In no way are any of the following rights aﬀected by the license:
+−
+Your fair dealing or fair use rights, or other applicable copyright exceptions and
+limitations;
+−
+The author’s moral rights;
+−
+Rights other persons may have either in the work itself or in how the work is used
+such as publicity or privacy rights
+•
+Notice: For any reuse or distribution, you must make clear to others the license term of
+this work. The best way to do this is with a link to the following web page:
+http://creativecommons.org/licenses/by/3.0/
+This is a human readable summary of the full legal code which can be read at the following
+URL: http://creativecommons.org/licenses/by/3.0/legalcode
+2
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 231 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

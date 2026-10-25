@@ -1,0 +1,72 @@
+25 — Fundamentals of Probability
+Author(s): Yury Polyanskiy; retain John Tsitsiklis and other contributor credits on individual notes
+Edition: MIT 6.436J, Fall 2018; official written-note collection
+License: CC BY-NC-SA 4.0
+Source: https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/
+
+Faithful vector source excerpts and navigation metadata; no mathematical rewriting, translation, generated answers, or changes to the selected source content. 26 lecture notes, 12 recitations, 12 problem sets and two exams from one Fall 2018 offering. No public matching answer files are supplied by this source collection. Recitation worked material remains in its original context.
+
+Source documents and permission evidence:
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/c37dc8b61cdf6bde689a627bfa5b4942_MIT6_436JF18_lec01.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/03cb805c752a7e89e52878e8e6270e34_MIT6_436JF18_lec02.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/5ba99e3803701c145f1d06c26dcf61b8_MIT6_436JF18_lec03.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/9797310bed4c7f5b5d40d007783eec8d_MIT6_436JF18_lec04.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/491fa11552c94413806e5a09a9d6c237_MIT6_436JF18_lec05.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/f6a391ad22d454dea0903bb72eb58728_MIT6_436JF18_lec06.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/9042f3ddd88971c6ce116e0a1d7faec4_MIT6_436JF18_lec07.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/a8b70283ce951b43d64f419b0857e0a3_MIT6_436JF18_lec08.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/6fe5ce4d56945ce7241679998922fb3a_MIT6_436JF18_lec09.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/12b27e5630be533e1385ac142df8a70a_MIT6_436JF18_lec10.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/67826d2ee5082d4a4b732b4dd73c0895_MIT6_436JF18_lec11.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/fffea6a21fa73ed546d9edfcb4384bef_MIT6_436JF18_lec12.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/1a592ed184fb4c444547f67c9bcdd8ec_MIT6_436JF18_lec13.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/ceb423b6a703abd60429367b733f45bf_MIT6_436JF18_lec14.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/87422049e8f05459ee857eb475f3a667_MIT6_436JF18_lec15.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/b4ebf022b1060fcce920227d934dd6f0_MIT6_436JF18_lec16.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/f44fa78f05ac31a4ba2bd82f599dcf60_MIT6_436JF18_lec17.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/10625dc0942f47c4ddc004b3dbba11d5_MIT6_436JF18_lec18.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/3858b970eb2d877440a485b8ff9cff8a_MIT6_436JF18_lec19.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/b9342e718ec4c58d98ec97dcfcb0d56e_MIT6_436JF18_lec20.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/141423989a49375f14f0a44940d81e67_MIT6_436JF18_lec21.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/f7bbbb40126e2e9e505cbbf64dc36ff1_MIT6_436JF18_lec22.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/857446d2b16bbc12f0499a61c93833c2_MIT6_436JF18_lec23.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/087af3cedbc9def5b156c5e1665ac79c_MIT6_436JF18_lec24.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/d734a5f3c245eef581b2937b53d8e6dd_MIT6_436JF18_lec25.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/f8ffbc1a27d17d83aaca980fc499d477_MIT6_436JF18_lec26.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/00e3cc4243407472f084a52b77d3e5bc_MIT6_436JF18_rec1.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/a45e0f05a18266bdbb591a3af1fe3d5d_MIT6_436JF18_rec2.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/c1ab69cb198badcebee42d5880784439_MIT6_436JF18_rec3.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/ff211126a1e24e7901a7fb96a85803b9_MIT6_436JF18_rec4.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/3a3075f5ffe2156e0bf43fbeea9852dd_MIT6_436JF18_rec5.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/65dfa4c8e91a607f9ae67e66f0e8a5e4_MIT6_436JF18_rec6.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/851e3de84ad897ed7dc0cc8605bbd3e2_MIT6_436JF18_rec7.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/aaed7fd941c57958a12b8f57c366ac3d_MIT6_436JF18_rec8.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/854e0b5952766e93cada7ce9092580b6_MIT6_436JF18_rec9.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/043fd9b251bb23e14f64b05d37248c09_MIT6_436JF18_rec10.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/7ffee01f13b2484021c1c48991d75be3_MIT6_436JF18_rec11.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/620b2557f8df17b4e345054cb9a85e55_MIT6_436JF18_rec12.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/ac9277b3f3103444298b4d4e57fb716e_MIT6_436JF18_hw1.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/7cf1676d71c1514bd09851129f8c0588_MIT6_436JF18_hw2.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/b5c4f33ce953e0bbf385d6f22fa446a2_MIT6_436JF18_hw3.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/bed545ec8c93b33268f18c0ff0f08fea_MIT6_436JF18_hw4.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/70ed7bfa2b8eb5c8f0984610b2908668_MIT6_436JF18_hw5.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/7fd5742771272d797d0458b7052df1a2_MIT6_436JF18_hw6.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/654fdf6f13f287cd2e3cc35d5d821a5f_MIT6_436JF18_hw7.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/1f4db156f28026ac837808fd186f9f24_MIT6_436JF18_hw8.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/7a4c3d35f3e6d41772bf9a0ac7dd35a8_MIT6_436JF18_hw9.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/4103de222c00cba8c1d38c6c0f0ae89b_MIT6_436JF18_hw10.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/408d63867d2adc6e12810853ecd98e19_MIT6_436JF18_hw11.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/34d1d0d3a97fe76380206c4f07f5cfcb_MIT6_436JF18_hw12.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/47a79db3da2d529f52d891870fa047e3_MIT6_436JF18_midterm.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/9e99d0703449d65f8e6d9fe2648e6e0e_MIT6_436JF18_final.pdf
+https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/
+https://ocw.mit.edu/pages/privacy-and-terms-of-use/
+
+Original source copyright notices:
+
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 52 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

@@ -1,0 +1,32 @@
+05 — Discrete Mathematics: An Open Introduction
+Author(s): Oscar Levin
+License: CC BY-NC-SA 4.0
+Source: https://discrete.openmathbooks.org/
+
+Source mathematical text retained; arranged into chapter/section vector study slices by Math(n), 2026. No author answers are invented.
+
+Source documents and contributor attribution:
+https://discrete.openmathbooks.org/
+
+Original source copyright and image notices:
+Source master page 3:
+Oscar Levin
+Mathematical Science
+University of Northern Colorado
+Greeley, Co 80639
+oscar.levin@unco.edu
+http://math.oscarlevin.com/
+© 2013-2025 by Oscar Levin
+This work is licensed under Creative Commons Attribution-NonCommercial-
+ShareAlike 4.0 International. To view a copy of this license, visit
+https://creativecommons.org/licenses/by-nc-sa/4.0/.
+4th Edition
+A current version can always be found for free at
+http://discrete.openmathbooks.org/
+Cover image: Tiling with Fibonacci and Pascal.
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 101 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

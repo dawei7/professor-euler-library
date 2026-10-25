@@ -1,0 +1,81 @@
+07 — Linear Algebra Done Right
+Author(s): Sheldon Axler
+License: CC BY-NC 4.0
+Source: https://linear.axler.net/
+
+Only the author’s fourth-edition textbook, including its exercises, is included. The previously appended solutions manual is excluded. Original protected package is preserved privately. Copyright 2024 Sheldon Axler; author PDF dated 16 August 2026.
+
+Source documents and contributor attribution:
+https://linear.axler.net/
+
+Original source copyright and image notices:
+Source master page 1:
+Linear Algebra Done Right
+fourth edition
+16 August 2026
+© 2024 Sheldon Axler
+Sheldon Axler
+Comments, corrections, and suggestions
+about this book are most welcome.
+Please send them to linear@axler.net.
+The print version of this book is published by Springer.
+Open Access This book is licensed under the terms of the Creative Commons Attribution-NonCommercial 4.0
+International License (https://creativecommons.org/licenses/by-nc/4.0), which permits any noncommercial use,
+sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit
+to original author and source, provide a link to the Creative Commons license, and indicate if changes were made.
+The images or other third party material in this book are included in the book’s Creative
+Commons license, unless indicated otherwise in a credit line to the material. If material
+is not included in the book’s Creative Commons license and your intended use is not
+permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the
+copyright holder.
+𝐹𝑛= 1
+√5
+[(1 + √5
+2
+)
+𝑛
+−(1 −√5
+2
+)
+𝑛
+]
+
+
+Source master page 397:
+Photo Credits
+• page v: Photos by Carrie Heeter and Bishnu Sarangi. Public domain image.
+• page 1: Original painting by Pierre Louis Dumesnil; 1884 copy by Nils
+Forsberg. Public domain image downloaded on 29 March 2022 from
+https://commons.wikimedia.org/wiki/File:René_Descartes_i_samtal_med_Sveriges_drottning,_Kristina.jpg.
+• page 27: Public domain image downloaded on 4 February 2022 from
+https://commons.wikimedia.org/wiki/File:IAS_Princeton.jpg.
+• page 51: Photo by Stefan Schäfer; Creative Commons Attribution Share Alike
+license. Downloaded on 28 March 2022 from
+https://commons.wikimedia.org/wiki/File:BurgDankwarderode2016.jpg.
+• page 119: Photo by Alireza Javaheri. Creative Commons Attribution license.
+Downloaded on 12 March 2023 from
+https://commons.wikimedia.org/wiki/File:Hakim_Omar_Khayam_-_panoramio.jpg.
+• page 132: Statue completed by Giovanni Paganucci in 1863. Photo by
+Hans-Peter Postel; Creative Commons Attribution license. Downloaded on 14
+March 2022 from
+https://commons.wikimedia.org/wiki/File:Leonardo_da_Pisa.jpg.
+• page 181: Photo by Matthew Petroff; Creative Commons Attribution Share
+Alike license. Downloaded on 31 March 2022 from
+https://commons.wikimedia.org/wiki/File:George-peabody-library.jpg.
+• page 227: Photo by Petar Milošević; Creative Commons Attribution Share
+Alike license. Downloaded on 30 March 2022 from
+https://en.wikipedia.org/wiki/Lviv.
+• page 297: Photo by David Iliff; Creative Commons Attribution Share Alike
+license. Downloaded on 30 March 2022 from
+https://en.wikipedia.org/wiki/File:Long_Room_Interior,_Trinity_College_Dublin,_Ireland_-_Diliff.jpg.
+• page 332: Photo by Daniel Schwen; Creative Commons Attribution Share
+Alike license. Downloaded on 9 July 2019 from
+https://commons.wikimedia.org/wiki/File:Mathematik_Göttingen.jpg.
+Linear Algebra Done Right, fourth edition, by Sheldon Axler
+383
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 70 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

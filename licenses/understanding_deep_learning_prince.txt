@@ -1,0 +1,647 @@
+28 — Understanding Deep Learning
+Author(s): Simon J. D. Prince
+Edition: MIT Press 2023; official release v5.0.3, website dated 9 February 2026, PDF title dated 8 February 2026
+License: CC BY-NC-ND 4.0
+Source: https://udlbook.github.io/udlbook/
+
+Faithful vector source excerpts and navigation metadata; no mathematical rewriting, translation, generated answers, or changes to the selected source content. Official v5.0.3, February 2026, with the repository student answer booklet downloaded in the same review. Repository CC BY-NC-ND 4.0 grant covers the student booklet; instructor-only material is excluded. Nineteen substantive chapter keys match the book. The booklet’s Chapter 14 contains only its title and blank verso, so its solution slice is None.
+
+Source documents and permission evidence:
+https://github.com/udlbook/udlbook/releases/download/v5.0.3/UnderstandingDeepLearning_02_09_26_C.pdf
+https://raw.githubusercontent.com/udlbook/udlbook/main/UDL_Answer_Booklet_Students.pdf
+https://mitpress.mit.edu/9780262048644/understanding-deep-learning/
+https://raw.githubusercontent.com/udlbook/udlbook/main/LICENSE
+
+Original source copyright notices:
+Source master page 1:
+Understanding Deep Learning
+Simon J.D. Prince
+February 8, 2026
+The most recent version of this document can be found at http://udlbook.com.
+Copyright in this work has been licensed exclusively to The MIT Press,
+https://mitpress.mit.edu, which released the final version to the public in December 2023.
+Inquiries regarding rights should be addressed to the MIT Press, Rights & Permissions
+Department.
+This work is subject to a Creative Commons CC-BY-NC-ND license.
+I would really appreciate help improving this document. No detail too small! Please contact
+me with suggestions, factual inaccuracies, ambiguities, questions, and errata via github or by
+e-mail at udlbookmail@gmail.com.
+
+Source master page 6:
+iv
+Contents
+5
+Loss functions
+56
+5.1
+Maximum likelihood
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+56
+5.2
+Recipe for constructing loss functions . . . . . . . . . . . . . . . . . . . .
+60
+5.3
+Example 1: univariate regression
+. . . . . . . . . . . . . . . . . . . . . .
+61
+5.4
+Example 2: binary classification . . . . . . . . . . . . . . . . . . . . . . .
+64
+5.5
+Example 3: multiclass classification . . . . . . . . . . . . . . . . . . . . .
+67
+5.6
+Multiple outputs
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+69
+5.7
+Cross-entropy loss . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+71
+5.8
+Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+72
+6
+Fitting models
+77
+6.1
+Gradient descent
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+77
+6.2
+Stochastic gradient descent . . . . . . . . . . . . . . . . . . . . . . . . . .
+83
+6.3
+Momentum
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+86
+6.4
+Adam . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+88
+6.5
+Training algorithm hyperparameters
+. . . . . . . . . . . . . . . . . . . .
+91
+6.6
+Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+91
+7
+Gradients and initialization
+96
+7.1
+Problem definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+96
+7.2
+Computing derivatives
+. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+97
+7.3
+Toy example . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 100
+7.4
+Backpropagation algorithm . . . . . . . . . . . . . . . . . . . . . . . . . . 103
+7.5
+Parameter initialization . . . . . . . . . . . . . . . . . . . . . . . . . . . . 107
+7.6
+Example training code . . . . . . . . . . . . . . . . . . . . . . . . . . . . 111
+7.7
+Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 111
+8
+Measuring performance
+118
+8.1
+Training a simple model
+. . . . . . . . . . . . . . . . . . . . . . . . . . . 118
+8.2
+Sources of error . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 120
+8.3
+Reducing error . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 124
+8.4
+Double descent
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 127
+8.5
+Choosing hyperparameters . . . . . . . . . . . . . . . . . . . . . . . . . . 132
+8.6
+Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 133
+9
+Regularization
+138
+9.1
+Explicit regularization
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . 138
+9.2
+Implicit regularization
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . 141
+9.3
+Heuristics to improve performance . . . . . . . . . . . . . . . . . . . . . . 143
+9.4
+Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 154
+10 Convolutional networks
+161
+10.1
+Invariance and equivariance
+. . . . . . . . . . . . . . . . . . . . . . . . . 161
+10.2
+Convolutional networks for 1D inputs . . . . . . . . . . . . . . . . . . . . 163
+10.3
+Convolutional networks for 2D inputs . . . . . . . . . . . . . . . . . . . . 170
+This work is subject to a Creative Commons CC-BY-NC-ND license. (C) MIT Press.
+
+Source master page 8:
+vi
+Contents
+15.1
+Discrimination as a signal
+. . . . . . . . . . . . . . . . . . . . . . . . . . 276
+15.2
+Improving stability . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 281
+15.3
+Progressive growing, minibatch discrimination, and truncation . . . . . . 287
+15.4
+Conditional generation . . . . . . . . . . . . . . . . . . . . . . . . . . . . 289
+15.5
+Image translation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 291
+15.6
+StyleGAN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 296
+15.7
+Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 298
+16 Normalizing flows
+304
+16.1
+1D example
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 304
+16.2
+General case . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 307
+16.3
+Invertible network layers . . . . . . . . . . . . . . . . . . . . . . . . . . . 309
+16.4
+Multi-scale flows . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 317
+16.5
+Applications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 318
+16.6
+Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 321
+17 Variational autoencoders
+327
+17.1
+Latent variable models . . . . . . . . . . . . . . . . . . . . . . . . . . . . 327
+17.2
+Nonlinear latent variable model . . . . . . . . . . . . . . . . . . . . . . . 328
+17.3
+Training . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 331
+17.4
+ELBO properties
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 334
+17.5
+Variational approximation . . . . . . . . . . . . . . . . . . . . . . . . . . 336
+17.6
+The variational autoencoder . . . . . . . . . . . . . . . . . . . . . . . . . 336
+17.7
+The reparameterization trick . . . . . . . . . . . . . . . . . . . . . . . . . 339
+17.8
+Applications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 340
+17.9
+Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 343
+18 Diffusion models
+349
+18.1
+Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 349
+18.2
+Encoder (forward process) . . . . . . . . . . . . . . . . . . . . . . . . . . 350
+18.3
+Decoder model (reverse process) . . . . . . . . . . . . . . . . . . . . . . . 356
+18.4
+Training . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 357
+18.5
+Reparameterization of loss function . . . . . . . . . . . . . . . . . . . . . 361
+18.6
+Implementation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 363
+18.7
+Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 368
+19 Reinforcement learning
+374
+19.1
+Markov decision processes, returns, and policies . . . . . . . . . . . . . . 374
+19.2
+Expected return . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 378
+19.3
+Tabular reinforcement learning . . . . . . . . . . . . . . . . . . . . . . . . 382
+19.4
+Fitted Q-learning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 386
+19.5
+Policy gradient methods
+. . . . . . . . . . . . . . . . . . . . . . . . . . . 389
+19.6
+Actor-critic methods
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 394
+19.7
+Offline reinforcement learning . . . . . . . . . . . . . . . . . . . . . . . . 395
+19.8
+Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 396
+This work is subject to a Creative Commons CC-BY-NC-ND license. (C) MIT Press.
+
+Source master page 14:
+xii
+Contents
+Tom Jacobs, Lei Fang, Fabian Henning, Umesh Rajashekar, Jay Park, Kai Liu, Pablo Renard
+Guiral, Federico Barbero, Rongjiang Pan, Betin Bilkan Karaman, Leonidas Varveropoulos,
+William Locke IV, Filip Jasionek, Yuanhang Wang, Stefan Bach, Ivan Yevtushenko, David
+Gwyer, Bohan Cui, Ali Darijani, Rouhollah Farhang, Li Tang, Aleksandrs Koselevs, Mason
+Wang, Pablo Fernandez, Angelo Coluccia, Vladyslav Moroshan, Rami Luisto, Peter Zaki, Lu-
+case Curtin, Victor Liu, Giacomo Cirò, Louis Neltner, Ahmet Çeşmeci, Yanzhe Bekkemoen,
+Judith Katzy, Jannes Bruns, Ondra Jelínek, Yancan Yi, Tamás Szép, Diego Ortega Hernan-
+dez, Yancan Yi, Felix Winterhalter, Renato Assunção, Jixin Liu, Benjamin Sambale, Jeremy
+Mikkelsen, Volodymyr Ivanchenkok, Coco Bögel, Betty Qi, and Joy Kuri.
+I’m particularly grateful to Daniyar Turmukhambetov, Amedeo Buonanno, Andrea Panizza,
+Mark Hudson, Bernhard Pfahringer, Alexander Nordin, and Nicholas Lord who provided de-
+tailed comments on multiple chapters of the book. I’d like to especially thank Andrew Fitzgib-
+bon, Konstantinos Derpanis, Toshiaki Kurokawa, and Tyler Mills, who read the whole book
+and whose enthusiasm helped me complete this project. I’d also like to thank Neill Campbell
+and Özgür Şimşek, who hosted me at the University of Bath, where I taught a course based on
+this material for the first time. Finally, I’m extremely grateful to my editor Elizabeth Swayze
+for her frank advice throughout this process.
+Chapter 12 (transformers) and chapter 17 (variational autoencoders) were first published
+as blogs for Borealis AI, and adapted versions are reproduced with permission of Royal Bank
+of Canada along with Borealis AI. I am grateful for their support in this endeavor. Chapter 16
+(normalizing flows) is loosely based on the review article by Kobyzev et al. (2020), on which
+I was a co-author. I was very fortunate to be able to collaborate on Chapter 21 with Travis
+LaCroix from Dalhousie University, who was both easy and fun to work with, and who did the
+lion’s share of the work.
+Attribution
+•
+Chessboard image in figure 1.13 adapted from http://tinyurl.com/yc2d54d4.
+•
+Cogs image in figures 1.2, 1.4, 1.10 adapted from http://tinyurl.com/2c7tttr8.
+•
+Penguin image in figures 19.1–19.5 and 19.6–19.9 adapted from http://tinyurl.com/ycx9je56.
+•
+Fish image in figures 19.2–19.5, 19.7, 19.10–19.12 adapted from http://tinyurl.com/4ueyhtsu.
+This work is subject to a Creative Commons CC-BY-NC-ND license. (C) MIT Press.
+
+Source master page 16:
+2
+1
+Introduction
+Figure 1.1 Machine learning is an area
+of artificial intelligence that fits math-
+ematical models to observed data.
+It
+can coarsely be divided into supervised
+learning, unsupervised learning, and re-
+inforcement learning. Deep neural net-
+works contribute to each of these areas.
+1.1.1
+Regression and classification problems
+Figure 1.2 depicts several regression and classification problems. In each case, there is a
+meaningful real-world input (a sentence, a sound file, an image, etc.), and this is encoded
+as a vector of numbers. This vector forms the model input. The model maps the input to
+an output vector which is then “translated” back to a meaningful real-world prediction.
+For now, we focus on the inputs and outputs and treat the model as a black box that
+ingests a vector of numbers and returns another vector of numbers.
+The model in figure 1.2a predicts the price of a house based on input characteristics
+such as the square footage and the number of bedrooms. This is a regression problem
+because the model returns a continuous number (rather than a category assignment).
+In contrast, the model in figure 1.2b takes the chemical structure of a molecule as an
+input and predicts both the freezing and boiling points. This is a multivariate regression
+problem since it predicts more than one number.
+The model in figure 1.2c receives a text string containing a restaurant review as input
+and predicts whether the review is positive or negative. This is a binary classification
+problem because the model attempts to assign the input to one of two categories. The
+output vector contains the probabilities that the input belongs to each category. Fig-
+ures 1.2d and 1.2e depict multiclass classification problems. Here, the model assigns the
+input to one of N > 2 categories. In the first case, the input is an audio file, and the
+model predicts which genre of music it contains. In the second case, the input is an
+image, and the model predicts which object it contains. In each case, the model returns
+a vector of size N that contains the probabilities of the N categories.
+1.1.2
+Inputs
+The input data in figure 1.2 varies widely. In the house pricing example, the input is a
+fixed-length vector containing values that characterize the property. This is an example
+of tabular data because it has no internal structure; if we change the order of the inputs
+and build a new model, then we expect the model prediction to remain the same.
+Conversely, the input in the restaurant review example is a body of text. This may
+be of variable length depending on the number of words in the review, and here input
+This work is subject to a Creative Commons CC-BY-NC-ND license. (C) MIT Press.
+
+Source master page 18:
+4
+1
+Introduction
+Figure 1.3 Machine learning model. The model represents a family of relationships
+that relate the input (age of child) to the output (height of child). The particular
+relationship is chosen using training data, which consists of input/output pairs
+(orange points). When we train the model, we search through the possible re-
+lationships for one that describes the data well. Here, the trained model is the
+cyan curve and can be used to compute the height for any age.
+order is important; my wife ate the chicken is not the same as the chicken ate my wife.
+The text must be encoded into numerical form before passing it to the model. Here, we
+use a fixed vocabulary of size 10,000 and simply concatenate the word indices.
+For the music classification example, the input vector might be of fixed size (perhaps
+a 10-second clip) but is very high-dimensional (i.e., contains many entries). Digital audio
+is usually sampled at 44.1 kHz and represented by 16-bit integers, so a ten-second clip
+consists of 441,000 integers. Clearly, supervised learning models will have to be able to
+process sizeable inputs. The input in the image classification example (which consists
+of the concatenated RGB values at every pixel) is also enormous. Moreover, it contains
+spatial structure; two pixels above and below one another are closely related, even if
+they are not adjacent in the input vector.
+Finally, consider the input for the model that predicts the freezing and boiling points
+of the molecule. A molecule may contain varying numbers of atoms that can be connected
+in different ways. In this case, the model must ingest both the geometric structure of
+the molecule and the constituent atoms to the model.
+1.1.3
+Machine learning models
+Until now, we have treated the machine learning model as a black box that takes an input
+vector and returns an output vector. But what exactly is in this black box? Consider a
+model to predict the height of a child from their age (figure 1.3). The machine learning
+This work is subject to a Creative Commons CC-BY-NC-ND license. (C) MIT Press.
+
+Source master page 20:
+6
+1
+Introduction
+Figure 1.4 Supervised learning tasks with structured outputs. a) This semantic
+segmentation model maps an RGB image to a binary image indicating whether
+each pixel belongs to the background or a cow (adapted from Noh et al., 2015).
+b) This monocular depth estimation model maps an RGB image to an output
+image where each pixel represents the depth (adapted from Cordts et al., 2016).
+c) This audio transcription model maps an audio sample to a transcription of
+the spoken words in the audio. d) This translation model maps an English text
+string to its French translation. e) This image synthesis model maps a caption to
+an image (example from https://openai.com/dall-e-2/). In each case, the output
+has a complex internal structure or grammar. In some cases, many outputs are
+compatible with the input.
+This work is subject to a Creative Commons CC-BY-NC-ND license. (C) MIT Press.
+
+Source master page 22:
+8
+1
+Introduction
+Figure 1.5 Generative models for images. Left: two images were generated from
+a model trained on pictures of cats. These are not real cats, but samples from a
+probability model. Right: two images generated from a model trained on images
+of buildings. Adapted from Karras et al. (2020b).
+The moon had risen by the time I reached the edge of the forest, and the light that filtered through the
+trees was silver and cold. I shivered, though I was not cold, and quickened my pace. I had never been
+so far from the village before, and I was not sure what to expect. I had been walking for hours, and I
+was tired and hungry. I had left in such a hurry that I had not thought to pack any food, and I had
+not thought to bring a weapon. I was unarmed and alone in a strange place, and I did not know what
+I was doing.
+I had been walking for so long that I had lost all sense of time, and I had no idea how far I had come.
+I only knew that I had to keep going. I had to find her. I was getting close. I could feel it. She was
+nearby, and she was in trouble. I had to find her and help her, before it was too late.
+Figure 1.6 Short story synthesized from a generative model of text data. The
+model describes a probability distribution that assigns a probability to every
+output string. Sampling from the model creates strings that follow the statistics
+of the training data (here, short stories) but have never been seen before.
+Figure 1.7 Inpainting. In the original image (left), the boy is obscured by metal
+cables. These undesirable regions (center) are removed and the generative model
+synthesizes a new image (right) under the constraint that the remaining pixels
+must stay the same. Adapted from Saharia et al. (2022a).
+This work is subject to a Creative Commons CC-BY-NC-ND license. (C) MIT Press.
+
+Source master page 24:
+10
+1
+Introduction
+Figure 1.10 Latent variables. Many generative models use a deep learning model
+to describe the relationship between a low-dimensional “latent” variable and the
+observed high-dimensional data. The latent variables have a simple probability
+distribution by design. Hence, new examples can be generated by sampling from
+the simple distribution over the latent variables and then using the deep learning
+model to map the sample to the observed data space.
+Figure 1.11 Image interpolation. In each row the left and right images are real
+and the three images in between represent a sequence of interpolations created
+by a generative model. The generative models that underpin these interpolations
+have learned that all images can be created by a set of underlying latent variables.
+By finding these variables for the two real images, interpolating their values, and
+then using these intermediate variables to create new images, we can generate
+intermediate results that are both visually plausible and mix the characteristics
+of the two original images. Top row adapted from Sauer et al. (2022). Bottom
+row adapted from Ramesh et al. (2022).
+This work is subject to a Creative Commons CC-BY-NC-ND license. (C) MIT Press.
+
+Source master page 26:
+12
+1
+Introduction
+is for the agent to learn to choose actions that lead to high rewards on average.
+One complication is that the reward may occur some time after the action is taken,
+so associating a reward with an action is not straightforward. This is known as the
+temporal credit assignment problem. As the agent learns, it must trade off exploration
+and exploitation of what it already knows; perhaps the agent has already learned how to
+receive modest rewards; should it follow this strategy (exploit what it knows), or should
+it try different actions to see if it can improve (explore other opportunities)?
+1.3.1
+Two examples
+Consider teaching a humanoid robot to locomote.
+The robot can perform a limited
+number of actions at a given time (moving various joints), and these change the state of
+the world (its pose). We might reward the robot for reaching checkpoints in an obstacle
+course. To reach each checkpoint, it must perform many actions, and it’s unclear which
+ones contributed to the reward when it is received and which were irrelevant. This is an
+example of the temporal credit assignment problem.
+A second example is learning to play chess. Again, the agent has a set of valid actions
+(chess moves) at any given time. However, these actions change the state of the system
+in a non-deterministic way; for any choice of action, the opposing player might respond
+with many different moves. Here, we might set up a reward structure based on capturing
+pieces or just have a single reward at the end of the game for winning. In the latter case,
+the temporal credit assignment problem is extreme; the system must learn which of the
+many moves it made were instrumental to success or failure.
+The exploration-exploitation trade-off is also apparent in these two examples. The
+robot may have discovered that it can make progress by lying on its side and pushing
+with one leg. This strategy will move the robot and yields rewards, but much more slowly
+than the optimal solution: to balance on its legs and walk. So, it faces a choice between
+exploiting what it already knows (how to slide along the floor awkwardly) and exploring
+the space of actions (which might result in much faster locomotion). Similarly, in the
+chess example, the agent may learn a reasonable sequence of opening moves. Should it
+exploit this knowledge or explore different opening sequences?
+It is perhaps not obvious how deep learning fits into the reinforcement learning frame-
+work. There are several possible approaches, but one technique is to use deep networks
+to build a mapping from the observed world state to an action. This is known as a
+policy network. In the robot example, the policy network would learn a mapping from
+its sensor measurements to joint movements. In the chess example, the network would
+learn a mapping from the current state of the board to the choice of move (figure 1.13).
+1.4
+Ethics
+It would be irresponsible to write this book without discussing the ethical implications
+of artificial intelligence. This potent technology will change the world to at least the
+This work is subject to a Creative Commons CC-BY-NC-ND license. (C) MIT Press.
+
+Source master page 28:
+14
+1
+Introduction
+Concentrating power:
+It is not from a benevolent interest in improving the lot of the
+human race that the world’s most powerful companies are investing heavily in artifi-
+cial intelligence. They know that these technologies will allow them to reap enormous
+profits. Like any advanced technology, deep learning is likely to concentrate power in
+the hands of the few organizations that control it. Automating jobs that are currently
+done by humans will change the economic environment and disproportionately affect the
+livelihoods of lower-paid workers with fewer skills. Optimists argue similar disruptions
+happened during the industrial revolution and resulted in shorter working hours. The
+truth is that we simply do not know what effects the large-scale adoption of AI will have
+on society (see David, 2015).
+Existential risk:
+The major existential risks to the human race all result from tech-
+nology. Climate change has been driven by industrialization. Nuclear weapons derive
+from the study of physics. Pandemics are more probable and spread faster because in-
+novations in transport, agriculture, and construction have allowed a larger, denser, and
+more interconnected population. Artificial intelligence brings new existential risks. We
+should be very cautious about building systems that are more capable and extensible
+than human beings. In the most optimistic case, it will put vast power in the hands
+of the owners.
+In the most pessimistic case, we will be unable to control it or even
+understand its motives (see Tegmark, 2018).
+This list is far from exhaustive. AI could also enable surveillance, disinformation,
+violations of privacy, fraud, and manipulation of financial markets, and the energy re-
+quired to train AI systems contributes to climate change. Moreover, these concerns are
+not speculative; there are already many examples of ethically dubious applications of
+AI (consult Dao, 2021, for a partial list). In addition, the recent history of the inter-
+net has shown how new technology can cause harm in unexpected ways. The online
+community of the eighties and early nineties could hardly have predicted the prolifera-
+tion of fake news, spam, online harassment, fraud, cyberbullying, incel culture, political
+manipulation, doxxing, online radicalization, and revenge porn.
+Everyone studying or researching (or writing books about) AI should contemplate
+to what degree scientists are accountable for the uses of their technology. We should
+consider that capitalism primarily drives the development of AI and that legal advances
+and deployment for social good are likely to lag significantly behind. We should reflect
+on whether it’s possible, as scientists and engineers, to control progress in this field and
+to reduce the potential for harm. We should consider what kind of organizations we
+are prepared to work for. How serious are they in their commitment to reducing the
+potential harms of AI? Are they simply “ethics-washing” to reduce reputational risk, or
+do they actually implement mechanisms to halt ethically suspect projects?
+All readers are encouraged to investigate these issues further.
+The online course
+at https://ethics-of-ai.mooc.fi/ is a useful introductory resource. If you are a professor
+teaching from this book, you are encouraged to raise these issues with your students. If
+you are a student taking a course where this is not done, then lobby your professor to
+make this happen. If you are deploying or researching AI in a corporate environment,
+you are encouraged to scrutinize your employer’s values and to help change them (or
+leave) if they are wanting.
+This work is subject to a Creative Commons CC-BY-NC-ND license. (C) MIT Press.
+
+Source master page 30:
+16
+1
+Introduction
+is Reinforcement Learning: An Introduction (Sutton & Barto, 2018).
+A good initial
+resource is Foundations of Deep Reinforcement Learning (Graesser & Keng, 2019).
+1.7
+How to read this book
+Most remaining chapters in this book contain a main body of text, a notes section, and
+a set of problems. The main body of the text is intended to be self-contained and can be
+read without recourse to the other parts of the chapter. As much as possible, background
+mathematics is incorporated into the main body of the text. However, for larger topics
+that would be a distraction to the main thread of the argument, the background material
+is appendicized, and a reference is provided in the margin. Most notation in this book is
+Appendix A
+Notation
+standard. However, some conventions are less widely used, and the reader is encouraged
+to consult appendix A before proceeding.
+The main body of text includes many novel illustrations and visualizations of deep
+learning models and results. I’ve worked hard to provide new explanations of existing
+ideas rather than merely curate the work of others. Deep learning is a new field, and
+sometimes phenomena are poorly understood. I try to make it clear where this is the
+case and when my explanations should be treated with caution.
+References are included in the main body of the chapter only where results are de-
+picted. Instead, they can be found in the notes section at the end of the chapter. I do
+not generally respect historical precedent in the main text; if an ancestor of a current
+technique is no longer useful, then I will not mention it. However, the historical develop-
+ment of the field is described in the notes section, and hopefully, credit is fairly assigned.
+The notes are organized into paragraphs and provide pointers for further reading. They
+should help the reader orient themselves within the sub-area and understand how it re-
+lates to other parts of machine learning. The notes are less self-contained than the main
+text. Depending on your level of background knowledge and interest, you may find these
+sections more or less useful.
+Each chapter has a number of associated problems. They are referenced in the margin
+of the main text at the point that they should be attempted. As George Pólya noted,
+“Mathematics, you see, is not a spectator sport.” He was correct, and I highly recommend
+that you attempt the problems as you go. In some cases, they provide insights that will
+help you understand the main text. Problems for which the answers are provided on the
+associated website (http://udlbook.com) are indicated with an asterisk. Additionally,
+Python notebooks that will help you understand the ideas in this book are also available
+via the website, and these are also referenced in the margins of the text. Indeed, if
+Notebook 1.1
+Background
+mathematics
+you are feeling rusty, it might be worth working through the notebook on background
+mathematics right now.
+Unfortunately, the pace of research in AI makes it inevitable that this book will be a
+constant work in progress. If there are parts you find hard to understand, notable omis-
+sions, or sections that seem extraneous, please get in touch via the associated website.
+Together, we can make the next edition better.
+This work is subject to a Creative Commons CC-BY-NC-ND license. (C) MIT Press.
+
+Source master page 32:
+18
+2
+Supervised learning
+When we compute the prediction y from the input x, we call this inference.
+The model is just a mathematical equation with a fixed form. It represents a family
+of different relations between the input and the output. The model also contains param-
+eters ϕ. The choice of parameters determines the particular relation between input and
+output, so we should really write:
+y = f[x, ϕ].
+(2.2)
+When we talk about learning or training a model, we mean that we attempt to find
+parameters ϕ that make sensible output predictions from the input. We learn these
+parameters using a training dataset of I pairs of input and output examples {xi, yi}. We
+aim to select parameters that map each training input to its associated output as closely
+as possible. We quantify the degree of mismatch in this mapping with the loss L. This
+is a scalar value that summarizes how poorly the model predicts the training outputs
+from their corresponding inputs for parameters ϕ.
+We can treat the loss as a function L[ϕ] of these parameters. When we train the
+model, we are seeking parameters ˆϕ that minimize this loss function:1
+Appendix A
+Argmin function
+ˆϕ = argmin
+ϕ
+h
+L [ϕ]
+i
+.
+(2.3)
+If the loss is small after this minimization, we have found model parameters that accu-
+rately predict the training outputs yi from the training inputs xi.
+After training a model, we must now assess its performance; we run the model on
+separate test data to see how well it generalizes to examples that it didn’t observe during
+training. If the performance is adequate, then we are ready to deploy the model.
+2.2
+Linear regression example
+Let’s now make these ideas concrete with a simple example. We consider a model y =
+f[x, ϕ] that predicts a single output y from a single input x. Then we develop a loss
+function, and finally, we discuss model training.
+2.2.1
+1D linear regression model
+A 1D linear regression model describes the relationship between input x and output y
+as a straight line:
+y
+=
+f[x, ϕ]
+=
+ϕ0 + ϕ1x.
+(2.4)
+1More properly, the loss function also depends on the training data {xi, yi}, so we should
+write L [{xi, yi}, ϕ], but this is rather cumbersome.
+This work is subject to a Creative Commons CC-BY-NC-ND license. (C) MIT Press.
+
+Source master page 34:
+20
+2
+Supervised learning
+Figure 2.2 Linear regression training data, model, and loss. a) The training data
+(orange points) consist of I = 12 input/output pairs {xi, yi}. b–d) Each panel
+shows the linear regression model with different parameters. Depending on the
+choice of y-intercept and slope parameters ϕ = [ϕ0, ϕ1], the model errors (orange
+dashed lines) may be larger or smaller. The loss L is the sum of the squares
+of these errors. The parameters that define the lines in panels (b) and (c) have
+large losses L = 7.07 and L = 10.28, respectively because the models fit badly.
+The loss L=0.20 in panel (d) is smaller because the model fits well; in fact, this
+has the smallest loss of all possible lines, so these are the optimal parameters.
+(Interactive figure)
+This work is subject to a Creative Commons CC-BY-NC-ND license. (C) MIT Press.
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 197 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

@@ -1,0 +1,51 @@
+20 — Introduction to Functional Analysis
+Author(s): Casey Rodriguez
+License: CC BY-NC-SA 4.0
+Source: https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/
+
+Source mathematical text retained; arranged into chapter/section vector study slices by Math(n), 2026. No author answers are invented.
+
+Source documents and contributor attribution:
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/4ae9a5af8622dba3aa37461b71d08407_MIT18_102s21_lec1.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/22bf2f774fb161776032491568148707_MIT18_102s21_lec2.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/f168e97ce4839083e546555a6a994697_MIT18_102s21_lec3.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/038fc32ab9c1bb63a4f29bd9d7c97961_MIT18_102s21_lec4.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/06f9cf855f9f5eaa1898f3e684e05cec_MIT18_102s21_lec5.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/806234baa2feadee4b54cdf679382257_MIT18_102s21_lec6.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/822b1a9ec1fbf16192b5564621d3b387_MIT18_102s21_lec7.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/1bf275c0667d3e903e4de22b9fb4481b_MIT18_102s21_lec8.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/ede0e9d0812d4b602efafe3ca879b19f_MIT18_102s21_lec9.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/ebbbc59aa40252dff3d4ec766c057451_MIT18_102s21_lec10.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/615c26170233747c081d6dab928f7d91_MIT18_102s21_lec11.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/e407e57ea631a29148ee94afecef7d33_MIT18_102s21_lec12.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/aad5fcf3b0f85788519a0324258dd296_MIT18_102s21_lec13.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/721d74b7fa9b3b5427779b6905df95ec_MIT18_102s21_lec14.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/859833f65ee4aec6b0fea35a300d10cd_MIT18_102s21_lec15.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/eb44436072623f60f8f416875d4b2c11_MIT18_102s21_lec16.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/c97549663746d6bc4a379077e067c55b_MIT18_102s21_lec17.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/7f23bfc43ee2e1efd238a5384e5b9d51_MIT18_102s21_lec18.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/39ac233d5d7cbfffcdce8086143688f6_MIT18_102s21_lec19.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/9eaaf363541d01d53c330ee7931fc715_MIT18_102s21_lec20.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/345c4a5141559a4069aeb3105acd8ef3_MIT18_102s21_lec21.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/57596554e180e442c9487f580303147b_MIT18_102s21_lec22.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/9f0f59147c3235d57eacca9157faf834_MIT18_102s21_lec23.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/d867311d281de60eef71bd632aa7e3dc_MIT18_102s21_final.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/fd13f22eba77a389ec9741dde4b83b51_MIT18_102s21_hw1.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/559e30930c799e87f63e8f5ba3e6c142_MIT18_102s21_hw2.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/72a99c35e73f65626f200882645c4e31_MIT18_102s21_hw3.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/302c1b51d97f1dbfc58c1dc780c70010_MIT18_102s21_hw4.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/698963c1075df5d4dac505ced3078fa1_MIT18_102s21_hw5.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/c81c23cfc563fc8a38aa6281527822d5_MIT18_102s21_hw6.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/7948d3acefd999f58c2a029e956d25e0_MIT18_102s21_hw7.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/89278fd0e05842b342c81d1e93d0ee46_MIT18_102s21_hw8.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/0f6a93291053589047c1a3311d3fc05a_MIT18_102s21_hw9.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/097d9451a5d2ab483628a9f9d81550df_MIT18_102s21_hw10.pdf
+https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/7720fe590b773188648d100c22969cd0_MIT18_102s21_midterm.pdf
+
+Original source copyright and image notices:
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 35 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

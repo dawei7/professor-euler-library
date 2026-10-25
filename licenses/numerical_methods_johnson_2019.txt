@@ -1,0 +1,319 @@
+22 — Introduction to Numerical Methods
+Author(s): Steven G. Johnson
+License: CC BY-NC-SA 4.0
+Source: https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/
+
+MIT OCW-authored notes and course resources. Explicitly excluded Project Jupyter artwork in Julia-intro.pdf page 16 and Springer illustration in lecture 25 page 13 are omitted from this adaptation. Mathematical text is retained. Third-party courtesy material marked “Used with permission” follows OCW’s stated CC permission policy; original credits retained. External textbook problem references are identified separately from included questions.
+
+Source documents and contributor attribution:
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/pages/week-1/
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/pages/week-2/
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/pages/week-3/
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/pages/week-4/
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/pages/week-5/
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/pages/week-6/
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/pages/week-7/
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/pages/week-8/
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/pages/week-9/
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/pages/week-10/
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/pages/week-11/
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/pages/week-12/
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/pages/week-13/
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/pages/week-14/
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/0a734ecc94b60a26213488e68588bc8d_MIT18_335JS19_lec1.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/2f313023ae3404bc217a81a31b227170_MIT18_335JS19_lec2.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/881299033165275f3b15ae8b172e6de8_MIT18_335JS19_lec2_supp.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/906cd44ea38d0bb54e13138efd67f3a1_MIT18_335JS19_lec3-1.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/ac7d12a336af115e9f4a57740021c8f0_MIT18_335JS19_lec3-2.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/bcea047068e46ab87f398bdd4209c7f5_MIT18_335JS19_lec4.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/469d460f74800c8a1135946a64dee01f_MIT18_335JS19_lec6.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/be0cdadd9de56ff8d20d9a0c6d6d9206_MIT18_335JS19_lec9_reading.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/24dd28c58f71fa98f333597707ff8684_MIT18_335JS19_lec10.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/90a515a9caf1cbbe706548d90e659d5a_MIT18_335JS19_lec11.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/94f02a073e2e6c1527e24c71ba8741f4_MIT18_335JS19_lec12.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/fc0209dbe68002972f36f172077fb976_MIT18_335JS19_lec15.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/f1ce20d2c382d61127d8948b42dd0c86_MIT18_335JS19_lec16_reading.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/26ed98a9d8ea1b69ae3bd2817a0bb1c1_MIT18_335JS19_lec16_reading2.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/fa98fed43acb3e2311f6d9328ca31d04_MIT18_335JS19_lec19.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/bcd746dca8cbf0d5a890f01a72d8ef64_MIT18_335JS19_lec24.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/b9aa5a3948b1d993b8e62cff9fd1bdf2_MIT18_335JS19_lec25.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/35b30d8c4896f95264ee1b135fe031f2_MIT18_335JS19_lec26.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/c34c9784410f2cef610f73af72883427_MIT18_335JS19_lec27.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/1b52b607c223977b35ba1d826e4d8df1_MIT18_335JS19_lec30.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/4fc9cea286982357dc8f1a64a1b035cf_MIT18_335JS19_lec33_1.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/173a70c0f9676f9166c0baa9c2099750_MIT18_335JS19_lec33_2.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/edf5b798bef2f1cfe687a6bfcd32a03a_MIT18_335JS19_lec38.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/f4e0fe09545fcf1a9fa8928385fcf412_MIT18_335JS19_lec39.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/36335ea8264fbf78790a08b710fdf280_ideal-cache.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/fb66800c466efd524aa5d76ddf928bf5_Julia-cheatsheet.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/ff680e9dd9857804f64e6f3bf523f80e_Julia-intro.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/6e6730885b20bd046cbde805d15a4835_MIT18_335JS19_pset1.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/e03746c651f0a76f651d918a0aa0dd10_MIT18_335JS19_pset1sol.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/d858a0ae21eba3abafcfef7f1b9843a8_MIT18_335JS19_pset2.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/15cb5aa598e55798893ef4839a6e8309_MIT18_335JS19_pset2sol.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/d7797a575cf39e9bbe5f68b3595190a4_MIT18_335JS19_pset3.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/2340346a23cfb53527949b2b8c15f2f2_MIT18_335JS19_pset3sol.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/6bef264d4a50ec593caf8b6a2acadcde_MIT18_335JS19_pset4.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/dde57038ba3a6408f0cc90d23c511b4f_MIT18_335JS19_pset4sol.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/76c7450ee3bd88ec160f00b4f1998990_MIT18_335JS19_exam08.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/a3ff57be1aa30fddeed5830282ca74ca_MIT18_335JS19_exam08sol.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/20a56c0bfff540e7b417874251bcf327_MIT18_335JS19_exam09.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/e016fea2d146129ca018f310660130c5_MIT18_335JS19_exam10.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/fcfa3b06e876cbfb798b5774aa6e870f_MIT18_335JS19_exam10sol.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/bb00dd1db805cb68678da9c0d452f273_MIT18_335JS19_exam11.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/0b133489e35262fd38a4bb24a196ee0b_MIT18_335JS19_exam11sol.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/b47966fd23ef6c1dc7a2032cbc9e6644_MIT18_335JS19_exam12.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/57ae7fa17a583481f70f6f15bd527b2c_MIT18_335JS19_exam12sol.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/00d62118648e41e91201664d982d4aed_MIT18_335JS19_exam13.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/0395a77ed3f7402c2c0a1028f5419710_MIT18_335JS19_exam13sol.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/12e3a26f44864ef01baf4839119a2994_MIT18_335JS19_exam15.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/701f1458203d924d48f9029d909ecbda_MIT18_335JS19_exam15sol.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/cd4c4e8f10d01c218132e5175cc246cb_MIT18_335JS19_exam19.pdf
+https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-2019/c5965be416374a0e73af6191dc0ee5e7_MIT18_335JS19_exam19sol.pdf
+
+Original source copyright and image notices:
+Source master page 6:
+Week 3
+Lecture 6: Numerical Methods for Ordinary Differential Equations
+Summary
+This lecture is given by MIT Applied Math Instructor, Dr. Christopher Rackauckas. In this lecture we will
+discuss the current state of software in differential equations and see how the continued advances in
+computer science and numerical methods are likely to impact our software in the near future. Issues
+such as efficiency improvements for stiff and non-stiff differential equations will be addressed from a
+numerical analysis standpoint but backed with recent benchmarking results. Newer mathematical topics
+like random ordinary differential equations, jump diffusion equations, and adaptivity for stochastic
+differential equations will be introduced and the successes and limitations in current automatic software
+solutions will be discussed. We will close with a discussion on how recent computational advancements
+have been influencing the software implementations, specifically showing the effects of generic typing
+over abstract algorithms and implicit parallelism.
+Lecture 6 handout: Modern Differential Equations Solver Software: Where We Are and Where
+We’re Headed (PDF - 2.4MB) (Courtesy of Christopher Rackauckas. Used with permission.)
+Further Reading
+A Comparison Between Differential Equation Solver Suites In MATLAB, R, Julia, Python, C,
+Mathematica, Maple, and Fortran by Christopher Rackauckas.
+Differential Equations package for Julia by Christopher Rackauckas.
+Video of Intro to Solving Differential Equations in Julia by Christopher Rackauckas.
+Lecture 7: The SVD, its Applications, and Condition Numbers
+Summary
+This lecture is given by guest lecturer, Prof. Alan Edelman. In this lecture we discussed SVD, relationship
+to L2 norms and condition numbers, as well as applications (e.g. principal components analysis).
+Further Reading
+Read “Lectures 4 and 5” in the textbook Numerical Linear Algebra.
+Lecture 8: Linear Regression and the Generalized SVD
+Summary
+This lecture is given by guest lecturer, Prof. Alan Edelman. In this lecture we discussed generalized SVD
+(GSVD), least-square problems (via QR or SVD) and different viewpoints on linear regression: linear
+algebra, optimization, statistics, and machine learning.
+Lecture 8 notebook: Many Viewpoints on Linear Regression
+
+
+Source master page 8:
+Week 4
+Lecture 9: Solving the Normal Equations by QR and Gram-Schmidt
+Summary
+Discussed solution of normal equations. Discussed condition number of solving normal equations
+directly, and noted that it squares the condition number—not a good idea if we can avoid it.
+Introduced the alternative of QR factorization (finding an orthonormal basis for the column space of the
+matrix). Explained why, if we can do it accurately, this will give a good way to solve least-squares
+problems.
+Gave the simple, but unstable, construction of the Gram-Schmidt algorithm, to find a QR factorization.
+Analyzed its O(mn2) complexity (specifically, 2mn2 flops), and commented that the “same” projection
+qqᵀa requires O(m2) operations if you perform it as (qqT)a but O(m) operations if you perform it as q(qTa)
+— matrix operations are associative (but not commutative), but where you put the parentheses can
+make a big difference in performance!
+Discussed loss of orthogonality in classical Gram-Schmidt, using a simple example, especially in the
+case where the matrix has nearly dependent columns to begin with.
+Further Reading
+Read “Lectures 7, 8, 18, and 19” in the textbook Numerical Linear Algebra.
+Gram-Schmidt Orthogonalization (PDF) (Courtesy of Per-Olof Persson. Used with permission.)
+Gram-Schmidt process on Wikipedia.
+Lecture 10: Modified Gram-Schmidt and Householder QR
+Summary
+Discussed loss of orthogonality in classical Gram-Schmidt, using a simple example, especially in the
+case where the matrix has nearly dependent columns to begin with. Showed modified Gram-Schmidt
+and argued how it (mostly) fixes the problem. Numerical examples (see notebook below).
+Re-interpreted Gram-Schmidt in matrix form as Q = AR1R2…, i.e. as multiplying A on the right by a
+sequence of upper-triangular matrices to get Q. The problem is that these matrices R may be very badly
+conditioned, leading to an inaccurate Q and loss of orthogonality.
+Instead of multiplying A on the right by R’s to get Q, however, we can instead multiply A on the left by Q’s
+to get R. This leads us to the Householder QR algorithm. Introduced Householder QR, emphasized the
+inherent stability properties of multiplying by a sequence of unitary matrices (as shown in Problem set 2).
+Showed how we can convert a matrix to upper-triangular form (superficially similar to Gaussian
+elimination) via unitary Householder reflectors.
+Lecture 10 handout: Householder Reflectors and Givens Rotations (PDF) (Courtesy of Per-Olof
+Persson. Used with permission.)
+
+
+Source master page 14:
+Lecture 16: The Power Method and the QR Algorithm
+Summary
+Reviewed power method for biggest-|λ| eigenvector/eigenvalue and its convergence rate.
+Discussed how to use the power method to get multiple eigenvalues/vectors of Hermitian matrices by
+“deflation” (using orthogonality of eigenvectors). Discussed how, in principle, QR factorization of An for
+large n will give the eigenvectors and eigenvalues in descending order of magnitude, but how this is
+killed by roundoff errors.
+Unshifted QR method: proved that repeatedly forming A=QR, then replacing A with RQ (as in Problem
+set 3) is equivalent to QR factorizing An. But since we do this while only multiplying repeatedly by unitary
+matrices, it is well conditioned and we get the eigenvalues accurately.
+To make the QR method faster, we first reduce to Hessenberg form; you will show in Problem set 3 that
+this is especially fast when A is Hermitian and the Hessenberg form is tridiagonal. Second, we use shifts.
+In particular, the worst case for the QR method, just as for the power method, is when eigenvalues are
+nearly equal. We can fix this by shifting.
+Discussed inverse iteration and shifted-inverse iteration. Discussed Rayleigh-quotient iteration (shifted-
+inverse iteration with the Rayleigh-quotient eigenvalue estimate as the shift) and its convergence rate in
+the Hermitian case. How, for Hermitian matrix the eigenvalue estimate has a much smaller error than the
+eigenvector (the error is squared) due to the fact that the eigenvalue is an extremum.
+Further Reading
+Read “Lectures 27–30” in the textbook Numerical Linear Algebra.
+The QR Algorithm I (PDF) (Courtesy of Per-Olof Persson. Used with permission.)
+The QR Algorithm II (PDF) (Courtesy of Per-Olof Persson. Used with permission.)
+Lecture 17: Shifted QR and Rayleigh Quotients
+Summary
+Brief discussion of shifted QR method.
+There are a number of additional tricks to further improve things, the most important of which is probably
+the Wilkinson shift: estimating μ from a little 2×2 problem from the last two columns to avoid problems in
+cases e.g. where there are two equal and opposite eigenvalues. Some of these tricks (e.g. the Wilkinson
+shift) are described in the book, and some are only in specialized publications. If you want the
+eigenvectors as well as eigenvalues, it turns out to be more efficient to use a more recent “divide and
+conquer” algorithm, summarized in the book, but where the details are especially tricky and important.
+However, at this point I don’t want to cover more gory details in this course. Although it is good to know
+the general structure of modern algorithms, especially the fact that they look nothing like the
+characteristic-polynomial algorithm you learn as an undergraduate, as a practical matter you are always
+just going to call LAPACK if the problem is small enough to solve directly. Matters are different for much
+larger problems, where the algorithms are not so bulletproof and one might need to get into the guts of
+the algorithms; this will lead us into the next topic of the course, iterative algorithms for large systems, in
+subsequent lectures.
+
+
+Source master page 15:
+Briefly discussed Golub-Kahn bidiagonalization method for SVD, just to get the general flavor. At this
+point, however, we are mostly through with details of dense linear-algebra techniques: the important
+thing is to grasp the fundamental ideas rather than zillions of little details, since in practice you’re just
+going to use LAPACK anyway.
+Start discussing (at a very general level) a new topic: iterative algorithms, usually for sparse matrices,
+and in general for matrices where you have a fast way to compute Ax matrix-vector products but cannot
+(practically) mess around with the specific entries of A.
+Emphasized that there are many iterative methods, and that there is no clear “winner” or single
+bulletproof library that you can use without much thought (unlike LAPACK for dense direct solvers). It is
+problem-dependent and often requires some trial and error. Then there is the whole topic of
+preconditioning, which we will discuss more later, which is even more problem-dependent. Briefly listed
+several common techniques for linear systems (Ax=b) and eigenproblems (Ax=λx or Ax=λBx).
+Further Reading
+Read “Lectures 27–30” in the textbook Numerical Linear Algebra.
+The QR Algorithm I (PDF) (Courtesy of Per-Olof Persson. Used with permission.)
+The QR Algorithm II (PDF) (Courtesy of Per-Olof Persson. Used with permission.)
+Source: https://ocw.mit.edu/courses/18-335j-introduction-to-numerical-methods-spring-
+2019/pages/week-6/
+
+
+Source master page 21:
+Week 9
+Lecture 24: Sparse-Direct Solvers
+Summary
+Sparse-direct solvers: For many problems, there is an intermediate between the dense Θ(m3) solvers
+of LAPACK and iterative algorithms: for a sparse matrix A, we can sometimes perform an LU or Cholesky
+factorization while maintaining sparsity, storing and computing only nonzero entries for vast savings in
+storage and work. In particular, did a MATLAB demo, a few experiments with a simple test case: the
+“discrete Laplacian” center-difference matrix on uniform grids that we’ve played with previously in this
+course. In 1d, this matrix is tridiagonal and LU/Cholesky factorization produces a bidiagonal matrix: Θ(m)
+storage and work! For a 2d grid, there are 4 off-diagonal elements, and showed how elimination
+introduces Θ(√m) nonzero entries in each column, or Θ(m3/2) nonzero entries in total. This is still not too
+bad, but we can do better. First, showed that this “fill-in” of the sparsity depends strongly on the ordering
+of the degrees of freedom: as an experiment, tried a random reordering, and found that we obtain Θ(m2)
+nonzero entries (~10% nonzero). Alternatively, one can find re-orderings that greatly reduce the fill-in.
+One key observation is that the fill-in only depends on the pattern of the matrix, which can be interpreted
+as a graph: m vertices, and edges for the nonzero entries of A (an adjacency matrix of the graph), and
+sparse-direct algorithms are closely related to graph-theory problems. For our simple 2d Laplacian, the
+graph is just the picture of the grid connecting the points. One simple algorithm is the nested dissection
+algorithm: recursively find a separator of the graph, then re-order the vertices to put the separator last.
+This reorders the matrix into a mostly block-diagonal form, with large blocks of zeros that are preserved
+by elimination, and if we do this recursively we greatly reduce the fill-in. Did a crude analysis of the fill-in
+structure, resulting in the time/space complexity on the last page of the handout, for our 2d grid where
+separators are obvious; for more general matrices finding separators is a hard and important problem in
+graph theory.
+Lecture 24 handout: Sparse Matrix Algorithms (PDF) (Courtesy of Per-Olof Persson. Used with
+permission.)
+Lecture 24 notebook: Sparse-Direct Solvers in Julia
+Further Reading
+Nested Dissection: A Survey and Comparison of Various Nested Dissection Algorithms by
+Manpreet S. Khaira.
+Direct Solvers for Sparse Matrices by Jack Dongarra.
+Davis, Timothy. Direct Methods for Sparse Linear Systems. SIAM: Society for Industrial and
+Applied Mathematics, 2006. ISBN: 9780898716139.
+Take-Home Midterm Exam
+The exam is open notes and open book (including any material posted for the class: pset solutions and
+handouts). No other materials may be used (closed Internet).
+It will cover everything in this course up to and including Lecture 20 and Pset 4.
+
+
+Source master page 167:
+Example: Topology Optimization 
+design a structure to do something, made of material A or B… 
+let every pixel of discretized structure vary continuously from A to B 
+[ + tricks to impose minimum feature size and mostly “binary” A/B ] 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+density of each pixel
+varies continuously from 0 (air) to max 
+ex: design a cantilever
+to support maximum weight
+with a fixed amount of material 
+13
+force 
+optimized structure,
+deformed under load 
+© Springer Nature Switzerland AG. All rights reserved. 
+This content is excluded from our Creative Commons 
+license. For more information, see https://ocw.mit.edu/ 
+help/faq-fair-use. 
+[ Buhl et al, Struct. Multidisc. Optim. 19, 93–104 (2000) ] 
+Springer Nature illustration omitted: excluded from the source license.
+
+
+Source master page 279:
+ 
+ 
+ 
+ 
+Lots of choices for interactive math… 
+Image courtesy of Viral Shah. Used with permission. 
+3
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 64 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

@@ -1,0 +1,63 @@
+27 — Discrete Stochastic Processes
+Author(s): Robert G. Gallager
+Edition: MIT 6.262, Spring 2011; consistent official chapter-PDF edition
+License: CC BY-NC-SA 4.0
+Source: https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/
+
+Faithful vector source excerpts and navigation metadata; no mathematical rewriting, translation, generated answers, or changes to the selected source content. Consistent Spring 2011 edition: seven textbook chapters, front/back matter, 12 assignments with their 12 keys, and five exams with their five keys. All 63 printed textbook sections are mapped. Assignments that refer to this same licensed textbook include the actual referenced question excerpts after the original assignment sheet. No unrelated edition or external textbook answers added.
+
+Source documents and permission evidence:
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/b965db489a93767139337e0a41d2c419_MIT6_262S11_front.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/6d0c6fbaf3afa16cbc76fc1f27d1d34e_MIT6_262S11_chap01.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/3a19ce0e02d0008877351bfa24f3716a_MIT6_262S11_chap02.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/3558b08622765d26c2b0a7d2eeeac885_MIT6_262S11_chap03.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/931ffa0940899c27f34b71ad64fd2bb0_MIT6_262S11_chap04.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/01d0892549619cb25d928f15ec7230ed_MIT6_262S11_chap05.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/39a87732501aeba518cb3cc47e7e3541_MIT6_262S11_chap06.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/29c7ef43b81d499d950c8fe3167a9dd5_MIT6_262S11_chap07.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/cbd79478f59587d6c144c54a848a86ff_MIT6_262S11_back.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/0902956aa08f67a954b28efdcbaaa472_MIT6_262S11_assn01.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/c12643e48449ee92da0cba905e0ba5ca_MIT6_262S11_assn01_sol.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/0c561f1e4128ac98a65bc42e289a266b_MIT6_262S11_assn02.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/3e1405bd1754b64a27ec0689e7804930_MIT6_262S11_assn02_sol.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/ef4b4a04da62606c54dfe1600b5ef74a_MIT6_262S11_assn03.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/5a1f468c5e2da7aa0201a8d8e41dce51_MIT6_262S11_assn03_sol.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/20d33d56935e00f746a40bca6442f81b_MIT6_262S11_assn04.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/0e44be4e3d2d66eb8a9991606b996793_MIT6_262S11_assn04_sol.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/53eae5402936a3f9c6251493ce35dfa5_MIT6_262S11_assn05.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/99a367788475e6d8ff0251b81d484661_MIT6_262S11_assn05_sol.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/fd5dafd71de53dd56a51d9fac4e71f75_MIT6_262S11_assn06.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/5ac94bbbf158ac3b6829d0a1ac7d8e28_MIT6_262S11_assn06_sol.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/5fa1a2f7e494ff01df67e48e97042c57_MIT6_262S11_assn07.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/8c50f40e1dbf6f198bd98a3b87158bc6_MIT6_262S11_assn07_sol.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/f11101eaa72a3b7b4ee7636215d363b0_MIT6_262S11_assn08.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/b2e0806148dad19dc8e6d9f9627dfbb1_MIT6_262S11_assn08_sol.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/58bf52271ded6aab691d1d4732064d8f_MIT6_262S11_assn09.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/89783a68df74118697ba4c21f03632f0_MIT6_262S11_assn09_sol.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/b3d1124a522d208dfad2accb8e44ae19_MIT6_262S11_assn10.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/a256d3b584e71f207587481ab0ee328a_MIT6_262S11_assn10_sol.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/ee3a0ddf80bb3af54b73895625fb7375_MIT6_262S11_assn11.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/ddb3c7af4b7030d44634cc763dcb39ac_MIT6_262S11_assn11_sol.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/1d1071239a9ca4c77e453bc477e58037_MIT6_262S11_assn12.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/62715a03a3efc0d8464d4af217565752_MIT6_262S11_assn12_sol.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/a928f71ce37b6f8b49c01ca2a7733f8d_MIT6_262S11_mid11.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/67555a6b35aa5d16b5a7afa29272042c_MIT6_262S11_mid11_sol.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/14dd76cd3f55fd11d64d62609f1c3b0b_MIT6_262S11_mid10.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/bba902f5f2c850d5e7f6f52c073de4d7_MIT6_262S11_mid10_sol.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/e3c9678ecce4e5c9f9baad15933f81c1_MIT6_262S11_mid09.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/563c48683edbaf83df89e5f49e045755_MIT6_262S11_mid09_sol.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/ddc1f2745a4d2f4883054bb434894eac_MIT6_262S11_final11.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/a757b5212b81308570a3c9bdff7cbb13_MIT6_262S11_final11_sol.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/cf4e51e7d56c6eeedfe1f72a2e90ecde_MIT6_262S11_final09.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/35df0c6d934c1c567401d19afa5c668e_MIT6_262S11_final09_sol.pdf
+https://ocw.mit.edu/courses/6-262-discrete-stochastic-processes-spring-2011/
+https://ocw.mit.edu/pages/privacy-and-terms-of-use/
+
+Original source copyright notices:
+
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 99 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

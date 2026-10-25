@@ -1,0 +1,55 @@
+30 — Modern Statistical Methods and Theory: An Introduction to Nonparametric and High-Dimensional Statistics
+Author(s): Richard J. Samworth and Rajen D. Shah
+Edition: Cambridge open-access edition, July 2026
+License: CC BY-NC-ND 4.0
+Source: https://www.cambridge.org/core/books/modern-statistical-methods-and-theory/C172B2647EFDE563204D208B939D6E39
+
+Faithful vector source excerpts and navigation metadata; no mathematical rewriting, translation, generated answers, or changes to the selected source content. Cambridge open-access July 2026 edition. All 265 bold source exercise labels, including 121 appendix exercises, are mapped. The missing A.1 bookmark is supplemented from its authentic printed heading. No separate solutions manual is bundled because its redistribution grant has not been established.
+
+Source documents and permission evidence:
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C172B2647EFDE563204D208B939D6E39/9781009160438AR.pdf/Modern_Statistical_Methods_and_Theory.pdf?event-type=FTLA
+https://www.cambridge.org/core/books/modern-statistical-methods-and-theory/C172B2647EFDE563204D208B939D6E39
+
+Original source copyright notices:
+Source master page 8:
+Shaftesbury Road, Cambridge CB2 8EA, United Kingdom 
+One Liberty Plaza, 20th Floor, New York, NY 10006, USA 
+477 Williamstown Road, Port Melbourne, VIC 3207, Australia 
+314–321, 3rd Floor, Plot 3, Splendor Forum, Jasola District Centre, 
+New Delhi – 110025, India 
+Cambridge University Press is part of Cambridge University Press & Assessment, 
+a department of the University of Cambridge. 
+We share the University’s mission to contribute to society through the pursuit of 
+education, learning and research at the highest international levels of excellence. 
+www.cambridge.org 
+Information on this title: www.cambridge.org/9781009160438 
+DOI: 10.1017/9781009160421 
+○c Richard J. Samworth and Rajen D. Shah 2026 
+This publication is in copyright. Subject to statutory exception and to the provisions 
+of relevant collective licensing agreements, with the exception of the Creative Commons 
+version the link for which is provided below, no reproduction of any part may take place 
+without the written permission of Cambridge University Press & Assessment. 
+An online version of this work is published at doi.org/10.1017/9781009160421 under a 
+Creative Commons Open Access license CC-BY-NC-ND 4.0 which permits re-use, distribution 
+and reproduction in any medium for non-commercial purposes providing appropriate credit 
+to the original work is given. You may not distribute derivative works without permission. 
+To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/4.0 
+When citing this work, please include a reference to the DOI 10.1017/9781009160421 
+First published 2026 
+A catalogue record for this publication is available from the British Library 
+A Cataloging-in-Publication data record for this book is available from the Library of Congress 
+ISBN 978-1-009-16043-8 Hardback 
+Additional resources for this publication at www.cambridge.org/9781009160438 
+Cambridge University Press & Assessment has no responsibility for the persistence 
+or accuracy of URLs for external or third-party internet websites referred to in this 
+publication and does not guarantee that any content on such websites is, or will 
+remain, accurate or appropriate. 
+For EU product safety concerns, contact us at Calle de Jose´ Abascal, 
+56, 1◦, 28003 Madrid, Spain, or email eugpsr@cambridge.org. 
+https://www.cambridge.org/core/terms. https://www.cambridge.org/core/product/C172B2647EFDE563204D208B939D6E39
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 105 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

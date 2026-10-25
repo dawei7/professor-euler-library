@@ -1,0 +1,107 @@
+19 — Measure, Integration & Real Analysis
+Author(s): Sheldon Axler
+License: CC BY-NC 4.0
+Source: https://measure.axler.net/
+
+Source mathematical text retained; arranged into chapter/section vector study slices by Math(n), 2026. No author answers are invented.
+
+Source documents and contributor attribution:
+https://measure.axler.net/
+
+Original source copyright and image notices:
+Source master page 1:
+Measure, Integration
+& Real Analysis
+12 June 2026
+Sheldon Axler
+Z
+| f g| dµ ≤
+Z
+| f |p dµ
+1/pZ
+|g|p′ dµ
+1/p′
+© Sheldon Axler 2020. This book is an open access publication.
+This book is licensed under the terms of the Creative Commons Attribution-NonCommercial 4.0
+International License (https://creativecommons.org/licenses/by-nc/4.0), which permits any noncommercial
+use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author and the source, provide a link to the Creative Commons license,
+and indicate if changes were made.
+The images or other third party material in this book are included in the book’s Creative Commons
+license, unless indicated otherwise in a credit line to the material. If material is not included in the book’s
+Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the
+permitted use, you will need to obtain permission directly from the copyright holder.
+The print version of this book appears in
+Springer’s Graduate Texts in Mathematics series.
+Measure, Integration & Real Analysis, by Sheldon Axler
+
+
+Source master page 415:
+Photo Credits
+• page vi: photos by Carrie Heeter and Sheldon Axler
+• page 1: digital sculpture created by Doris Fiebig; all rights reserved
+• page 13: photo by Petar Miloševi´c; Creative Commons Attribution-Share Alike
+4.0 International license; verified on 9 July 2019 at https://
+commons.wikimedia.org/wiki/File:Mausoleum_of_Galla_Placidia_ceiling_mosaics.jpg
+• page 19: photo by Fagairolles 34; Creative Commons Attribution-Share Alike
+4.0 International license; verified on 9 July 2019 at https://
+commons.wikimedia.org/wiki/File:Saint-Affrique_pont.JPG
+• page 44: photo by Sheldon Axler
+• page 51: photo by James Mitchell; Creative Commons Attribution-Share Alike
+2.0 Generic license; verified on 9 July 2019 at https://
+commons.wikimedia.org/wiki/File:Beauvais_Cathedral_SE_exterior.jpg
+• page 68: photo by A. Savin; Creative Commons Attribution-Share Alike 3.0
+Unported license; verified on 9 July 2019 at https://
+commons.wikimedia.org/wiki/File:Moscow_05-2012_Mokhovaya_05.jpg
+• page 73: photo by Giovanni Dall’Orto; permission to use verified on 11 July
+2019 at https://en.wikipedia.org/wiki/Maria_Gaetana_Agnesi
+• page 101: photo by Rafa Esteve; Creative Commons Attribution-Share Alike 4.0
+International license; verified on 9 July 2019 at https://
+commons.wikimedia.org/wiki/File:Trinity_College_-_Great_Court_02.jpg
+• page 102: photo by A. Savin; Creative Commons Attribution-Share Alike 3.0
+Unported license; verified on 9 July 2019 at https://
+commons.wikimedia.org/wiki/File:Spb_06-2012_University_Embankment_01.jpg
+• page 116: photo by Lucarelli; Creative Commons Attribution-Share Alike 3.0
+Unported license; verified on 9 July 2019 at https://
+commons.wikimedia.org/wiki/File:Palazzo_Carovana_Pisa.jpg
+• page 146: photo by Petar Miloševi´c; Creative Commons Attribution-Share Alike
+3.0 Unported license; verified on 9 July 2019 at https://
+en.wikipedia.org/wiki/Lviv
+• page 152: photo by NonOmnisMoriar; Creative Commons Attribution-Share
+Alike 3.0 Unported license; verified on 9 July 2019 at https://
+commons.wikimedia.org/wiki/File:Ecole_polytechnique_former_building_entrance.jpg
+Measure, Integration & Real Analysis, by Sheldon Axler
+400
+
+
+Source master page 416:
+Photo Credits
+401
+• page 193: photo by Roland zh; Creative Commons Attribution-Share Alike 3.0
+Unported license; verified on 9 July 2019 at https://
+commons.wikimedia.org/wiki/File:ETH_Zürich_-_Polyterasse_2011-04-11_19-03-06_ShiftN.jpg
+• page 211: photo by Daniel Schwen; Creative Commons Attribution-Share Alike
+2.5 Generic license; verified on 9 July 2019 at https://
+commons.wikimedia.org/wiki/File:Mathematik_Göttingen.jpg
+• page 255: photo by Hubertl; Creative Commons Attribution-Share Alike 4.0
+International license; verified on 11 July 2019 at https://
+en.wikipedia.org/wiki/University_of_Vienna
+• page 280: copyright Per Enström; Creative Commons Attribution-Share Alike
+4.0 International license; verified on 9 July 2019 at https://
+commons.wikimedia.org/wiki/File:Botaniska_trädgården,_Uppsala_II.jpg
+• page 339: photo by Ricardo Liberato, Creative Commons Attribution-Share
+Alike 2.0 Generic license; verified on 9 July 2019 at https://
+commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg
+• page 380: photo by Alexander Dreyer, Creative Commons Attribution-Share
+Alike 3.0 Unported license; verified on 9 July 2019 at https://
+commons.wikimedia.org/wiki/File:Dices6-5.png
+• page 391: photo by Simon Harriyott, Creative Commons Attribution 2.0
+Generic license; verified on 9 July 2019 at https://
+commons.wikimedia.org/wiki/File:Bayes_tab.jpg
+Measure, Integration & Real Analysis, by Sheldon Axler
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 68 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

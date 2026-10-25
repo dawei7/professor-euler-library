@@ -1,0 +1,70 @@
+26 — Statistical Inference
+Author(s): Eduardo García-Portugués and Isabel Molina
+Edition: Version 3.0.1, 7 September 2026
+License: CC BY-NC-ND 4.0
+Source: https://egarpor.github.io/SI-UC3M/
+
+Faithful vector source excerpts and navigation metadata; no mathematical rewriting, translation, generated answers, or changes to the selected source content. Official version 3.0.1, 7 September 2026. Eight distinct source pages (welcome, six chapters, references) printed to vector PDF with the mathematical content intact; no invented answer key. Original HTML source URLs and print hashes are recorded.
+
+Source documents and permission evidence:
+https://egarpor.github.io/SI-UC3M/
+https://egarpor.github.io/SI-UC3M/
+https://egarpor.github.io/SI-UC3M/prelim.html
+https://egarpor.github.io/SI-UC3M/intro.html
+https://egarpor.github.io/SI-UC3M/point.html
+https://egarpor.github.io/SI-UC3M/estmeth.html
+https://egarpor.github.io/SI-UC3M/confint.html
+https://egarpor.github.io/SI-UC3M/hyptest.html
+https://egarpor.github.io/SI-UC3M/references.html
+https://egarpor.github.io/SI-UC3M/
+
+Original source copyright notices:
+Source master page 3:
+You may also want to use the following template:
+García-Portugués, E. and Molina, I. (2026). Statistical Inference. Version 3.0.1. ISBN 978-84-09-29680-4. Available at
+https://egarpor.github.io/SI-UC3M/.
+A previous version of the book at the now-discontinued bookdown.org hosting service was known as A First Course on Statistical Inference.
+License
+All the material in this book is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License
+(CC BY-NC-ND 4.0). You may not use this material except in compliance with the aforementioned license. The human-readable summary of the
+license states that:
+You are free to:
+Share – Copy and redistribute the material in any medium or format.
+Under the following terms:
+Attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any
+reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+NonCommercial – You may not use the material for commercial purposes.
+NoDerivatives – If you remix, transform, or build upon the material, you may not distribute the modified material.
+Contributions
+Contributions, reporting of typos, and feedback on the book are very welcome. Send an email to edgarcia@est-econ.uc3m.es and I will gladly add
+your name to the list of contributors.
+Credits
+More general and complete monographs on statistical inference include the books by Casella and Berger (2002), Silvey (1975), Lehmann and
+Casella (1998), Lehmann and Romano (2005), and Shao (2003).
+This book was made possible thanks to the excellent open-source software Xie (2016), Xie (2020), Allaire et al. (2020), Xie and Allaire (2020), and R
+Core Team (2020). In addition, some layout improvements build on the outstanding work of Úcar (2018).
+Last but not least, the book has benefited from contributions from the following people (in alphabetical order):
+Arconada Manteca, Lúa (fixed one typo).
+Askey, Jonathan (fixed one typo).
+Blanco Blanco, Germán (fixed one typo).
+Díaz Pérez, Álvaro (fixed one typo).
+Diego Velarde, Alba (fixed one typo).
+Fernández de Marcos Giménez de los Galanes, Alberto (fixed three typos).
+Fernández Martín, Manuel (fixed one typo).
+Fernández Morín, María (fixed two typos).
+Gianelli Nan, Sofía (fixed three typos).
+Goñi Artieda, Javier (fixed one typo).
+Hackett, Nicole (fixed one typo).
+@book{StatisticalInference2026,
+    title        = {Statistical Inference},
+    author       = {Garc\'ia-Portugu\'es, E. and Molina, I.},
+    year         = {2026},
+    note         = {Version 3.0.1. ISBN 978-84-09-29680-4},
+    url          = {https://egarpor.github.io/SI-UC3M/}
+}
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 43 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

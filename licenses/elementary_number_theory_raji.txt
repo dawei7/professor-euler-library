@@ -1,0 +1,1416 @@
+12 — Elementary Number Theory
+Author(s): Wissam Raji
+License: CC BY 3.0
+Source: https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Number_Theory_(Raji)/00%3A_Front_Matter/01%3A_TitlePage
+
+Official LibreTexts English edition by Wissam Raji, American University of Beirut, released through Saylor’s Open Textbook Challenge. In-content CC BY links explicitly point to https://creativecommons.org/licenses/by/3.0/ . Publisher HTML printed as vector PDF; mathematical content, attribution and source URLs retained. Redundant generated front matter is separate from exercise slices.
+
+Source documents and contributor attribution:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Number_Theory_(Raji)/00%3A_Front_Matter/01%3A_TitlePage
+
+Original source copyright and image notices:
+Source master page 6:
+1.1: Algebraic Operations With Integers
+The set  of all integers, which this book is all about, consists of all positive and negative integers as well
+as 0. Thus  is the set given by
+While the set of all positive integers, denoted by , is defined by
+On 
+, there are two basic binary operations, namely addition (denoted by 
+) and multiplication
+(denoted by ), that satisfy some basic properties from which every other property for  emerges.
+1. The Commutativity property for addition and multiplication
+2. Associativity property for addition and multiplication
+3. The distributivity property of multiplication over addition
+In the set  there are "identity elements" for the two operations  and , and these are the elements  and
+ respectively, that satisfy the basic properties
+for every 
+.
+The set  allows additive inverses for its elements, in the sense that for every 
+ there exists another
+integer in , denoted by 
+, such that
+While for multiplication, only the integer 1 has a multiplicative inverse in the sense that 1 is the only
+integer  such that there exists another integer, denoted by 
+ or by 
+, (namely 1 itself in this case)
+such that
+From the operations of addition and multiplication one can define two other operations on , namely
+subtraction (denoted by 
+) and division (denoted by ). Subtraction is a binary operation on , i.e.
+defined for any two integers in , while division is not a binary operation and thus is defined only for
+some specific couple of integers in . Subtraction and division are defined as follows:
+1. 
+ is defined by 
+, i.e. 
+ for every 
+2. 
+ is defined by the integer  if and only if 
+.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+
+
+Source master page 10:
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 1.2: The Well Ordering Principle and Mathematical Induction was last modified on Tue, 01 Sep 2026
+03:34:47 GMT and is shared under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/01%3A_Introduction/1.02%3A_The_Well_Ordering_Principle_and_Mathematical_In
+duction
+
+
+Source master page 12:
+As a result we have
+Thus we get that
+And since 
+, and 
+, then 
+ must be , i.e. 
+. And
+since 
+, we also get that 
+. This proves uniqueness.
+If 
+ and 
+, then 
+. Here 
+ and 
+.
+Exercises
+1. Show that 
+ and 
+.
+2. Use the division algorithm to find the quotient and the remainder when 76 is divided by 13.
+3. Use the division algorithm to find the quotient and the remainder when -100 is divided by 13.
+4. Show that if 
+ and  are integers with  and  nonzero, such that 
+ and 
+, then 
+.
+5. Show that if  and  are positive integers and 
+, then 
+.
+6. Prove that the sum of two even integers is even, the sum of two odd integers is even and the sum
+of an even integer and an odd integer is odd.
+7. Show that the product of two even integers is even, the product of two odd integers is odd and the
+product of an even integer and an odd integer is even.
+8. Show that if  is an integer then  divides 
+.
+9. Show that the square of every odd integer is of the form 
+.
+10. Show that the square of any integer is of the form 
+ or 
+ but not of the form 
+.
+11. Show that if 
+, then 
+.
+12. Show that if 
+ and 
+ then 
+.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 1.3: Divisibility and the Division Algorithm was last modified on Tue, 01 Sep 2026 03:34:47 GMT
+and is shared under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/01%3A_Introduction/1.03%3A_Divisibility_and_the_Division_Algorithm
+
+
+Source master page 14:
+and since 
+, we get
+We now get
+and as a result, 
+. Since 
+ and 
+, we get that 
+. This is a contradiction and
+hence the expansion is unique.
+Note that base 2 representation of integers is called binary representation. Binary representation plays a
+crucial role in computers. Arithmetic operations can be carried out on integers with any positive integer
+base but it will not be addressed in this book. We now present examples of how to convert from decimal
+integer representation to any other base representation and vise versa.
+To find the expansion of 214 base 3:
+we do the following
+As a result, to obtain a base 3 expansion of 214, we take the remainders of divisions and we get that
+.
+To find the base 10 expansion, i.e. the decimal expansion, of 
+:
+We do the following: 
+.
+In some cases where base 
+ expansion is needed, we add some characters to represent numbers
+greater than 9. It is known to use the alphabetic letters to denote integers greater than 9 in base b
+expansion for 
+. For example 
+ where 
+.
+To convert from one base to the other, the simplest way is to go through base 10 and then convert to the
+other base. There are methods that simplify conversion from one base to the other but it will not be
+addressed in this book.
+Exercises
+1. Convert 
+ to base 6 notation.
+2. Convert 
+ to base 8 notation.
+3. Convert 
+ to decimal notation.
+4. Convert 
+ to decimal notation.
+5. Convert 
+ to binary notation.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 1.4: Representations of Integers in Different Bases was last modified on Tue, 01 Sep 2026 03:34:47
+GMT and is shared under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+
+
+Source master page 18:
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 1.5: The Greatest Common Divisor was last modified on Tue, 01 Sep 2026 03:34:47 GMT and is
+shared under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/01%3A_Introduction/1.05%3A_The_Greatest_Common_Divisor
+
+
+Source master page 20:
+As a result, we see that 
+.
+Exercises
+1. Use the Euclidean algorithm to find the greatest common divisor of 412 and 32 and express it in
+terms of the two integers.
+2. Use the Euclidean algorithm to find the greatest common divisor of 780 and 150 and express it in
+terms of the two integers.
+3. Find the greatest common divisor of 
+.
+4. Let  and  be two positive even integers. Prove that 
+5. Show that if  and  are positive integers where  is even and  is odd, then 
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 1.6: The Euclidean Algorithm was last modified on Tue, 01 Sep 2026 03:34:47 GMT and is shared
+under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/01%3A_Introduction/1.06%3A_The_Euclidean_Algorithm
+
+
+Source master page 22:
+Thus notice that 
+. By Lemma [lem2], we have 
+ for 
+. As a result, we have 
+.
+Now notice since
+we see that
+Thus we have
+Now let  has  decimal digits. As a result, we have 
+ and thus 
+. Hence we conclude that 
+. Since  is an integer, we conclude that 
+.
+Exercises
+1. Find an upper bound for the number of steps in the Euclidean algorithm that is used to find the
+greatest common divisor of 38472 and 957748838.
+2. Find an upper bound for the number of steps in the Euclidean algorithm that is used to find the
+greatest common divisor of 15 and 75. Verify your result by using the Euclidean algorithm to find
+the greatest common divisor of the two integers.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 1.7: Lame's Theorem was last modified on Tue, 01 Sep 2026 03:34:47 GMT and is shared under a CC
+BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/01%3A_Introduction/1.07%3A_Lame's_Theorem
+
+
+Source master page 27:
+4. Show that if 
+ is prime, then  is prime.
+Hint: Use the identity 
+.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 2.1: The Sieve of Eratosthenes was last modified on Tue, 01 Sep 2026 03:34:48 GMT and is shared
+under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/02%3A_Prime_Numbers/2.01%3A_The_Sieve_of_Eratosthenes
+
+
+Source master page 28:
+2.2: The Infinitude of Primes
+We now show that there are infinitely many primes. There are several ways to prove this result. An
+alternative proof to the one presented here is given as an exercise. The proof we will provide was
+presented by Euclid in his book the Elements.
+There are infinitely many primes.
+We present the proof by contradiction. Suppose there are finitely many primes 
+, where  is a
+positive integer. Consider the integer  such that
+By Lemma 3,  has at least a prime divisor, say . If we prove that  is not one of the primes listed then
+we obtain a contradiction. Suppose now that 
+ for 
+. Thus  divides 
+ and as a result 
+divides 
+. Therefore  divides 1. But this is impossible since there is no prime that divides 1
+and as a result  is not one of the primes listed.
+The following theorem discusses the large gaps between primes. It simply states that there are arbitrary
+large gaps in the series of primes and that the primes are spaced irregularly.
+Given any positive integer , there exists  consecutive composite integers.
+Consider the sequence of integers
+Notice that every integer in the above sequence is composite because  divides 
+ if 
+by [thm4].
+Exercises
+1. Show that the integer 
+, where  is a positive integer, has a prime divisor greater than .
+Conclude that there are infinitely many primes. Notice that this exercise is another proof of the
+infinitude of primes.
+2. Find the smallest five consecutive composite integers.
+3. Find one million consecutive composite integers.
+4. Show that there are no prime triplets other than 3,5,7.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 2.2: The Infinitude of Primes was last modified on Tue, 01 Sep 2026 03:34:48 GMT and is shared
+under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/02%3A_Prime_Numbers/2.02%3A_The_Infinitude_of_Primes
+
+
+Source master page 32:
+3. Show that all the powers of in the prime factorization of an integer  are even if and only if a is a
+perfect square.
+4. Show that there are infinitely many primes of the form 
+.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 2.3: The Fundamental Theorem of Arithmetic was last modified on Tue, 01 Sep 2026 03:34:48 GMT
+and is shared under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/02%3A_Prime_Numbers/2.03%3A_The_Fundamental_Theorem_of_Arithmetic
+
+
+Source master page 34:
+Note also that we used Lemma 8 in the above equations. For part 3, it would be a nice exercise to
+show that 
+ (Exercise 6). Thus 
+.
+Exercises
+1. Find the least common multiple of 14 and 15.
+2. Find the least common multiple of 240 and 610.
+3. Find the least common multiple and the greatest common divisor of 
+ and 
+.
+4. Show that every common multiple of two positive integers  and  is divisible by the least
+common multiple of  and .
+5. Show that if  and  are positive integers then the greatest common divisor of  and  divides their
+least common multiple. When are the least common multiple and the greatest common divisor
+equal to each other.
+6. Show that 
+ where 
+.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 2.4: Least Common Multiple was last modified on Tue, 01 Sep 2026 03:34:48 GMT and is shared
+under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/02%3A_Prime_Numbers/2.04%3A_Least_Common_Multiple
+
+
+Source master page 36:
+Dividing both sides by , we get
+Notice that 
+ and thus we get by Lemma 4 that 
+. As a result, there exists an integer 
+such that 
+. Now substituting 
+ in the equation
+We get
+The equation 
+ has no integer solution because 
+ does not divide .
+There are infinitely many integer solutions for the equation 
+ because 
+. We use the
+Euclidean algorithm to determine  and  where 
+. It turns out that 
+. And also 
+. Thus 
+ and 
+ is a particular solution. The solutions are given by
+for all integers .
+Exercises
+1. Either find all solutions or prove that there are no solutions for the diophantine equation 
+2. Either find all solutions or prove that there are no solutions for the diophantine equation 
+3. Either find all solutions or prove that there are no solutions for the diophantine equation 
+4. A grocer orders apples and bananas at a total cost of $8.4. If the apples cost 25 cents each and the
+bananas 5 cents each, how many of each type of fruit did he order.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 2.5: Linear Diophantine Equations was last modified on Tue, 01 Sep 2026 03:34:48 GMT and is
+shared under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/02%3A_Prime_Numbers/2.05%3A_Linear_Diophantine_Equations
+
+
+Source master page 38:
+ at 
+, and 
+ also at 
+ for every constant .
+The notation that 
+ is asymptotically equal to 
+ is denoted by . Formally speaking, we say that 
+ if
+.
+The purpose of introducing these symbols is to make complicated mathematical expressions simpler.
+Some expressions can be represented as the principal part that you need plus a remainder term. The
+remainder term can be expressed using the above notations. So when you need to combine several
+expressions, the remainder parts involving these symbols can be easily combined. We will state now
+some properties of the above symbols without proof. These properties are easy to prove using the
+definitions of the symbols.
+1. 
+,
+2. 
+.
+3. 
+,
+4. 
+,
+5. 
+,
+There are some other properties that we did not mention here, properties that are rarely used in number
+theoretic proofs.
+Exercises
+1. Prove the five properties of the 
+2. Prove the five properties of the  and  notations in Example 24.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 2.6: The function [x]. the symbols "O", "o" and "∼" was last modified on Tue, 01 Sep 2026 03:34:48
+GMT and is shared under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/02%3A_Prime_Numbers/2.06%3A_The_function_x._the_symbols_O_o_and
+
+
+Source master page 40:
+For every even number 
+ are there infinitely many pairs of consecutive primes which differ by 
+.
+Is there always a prime between 
+ and 
+?
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 2.7: Theorems and Conjectures involving prime numbers was last modified on Tue, 01 Sep 2026
+03:34:48 GMT and is shared under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/02%3A_Prime_Numbers/2.07%3A_Theorems_and_Conjectures_involving_prime_nu
+mbers
+  Polignac Conjecture
+  Opperman Conjecture
+
+
+Source master page 46:
+congruences, it is not necessarily true. In other words, dividing both sides of the congruence by the same
+integer doesn’t preserve the congruence.
+1. If 
+ and  are integers such that 
+, 
+ and 
+, then 
+.
+2. If 
+ then 
+ if 
+.
+Part 2 follows immediately from Part 1. For Part 1, if 
+, then
+Hence there exists  such that 
+. Dividing both sides by , we get 
+. Since
+, it follows that 
+. Hence 
+.
+. Since 
+ then 
+The following theorem combines several congruences of two numbers with different moduli.
+If
+where 
+ are integers and 
+ are positive, then
+Since 
+ for all 
+. Thus 
+. As a result,
+(prove this as an exercise). Thus
+Exercises
+1. Determine whether 3 and 99 are congruent modulo 7 or not.
+2. Show that if  is an odd integer, then 
+3. Show that if 
+ and  are integers such that  and  are positive, 
+ and 
+, then 
+4. Show that if 
+ for 
+, where  is a positive integer and 
+ are integers for 
+, then 
+5. For which  does the expression 
+ holds.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 3.1: Introduction to Congruences was last modified on Tue, 01 Sep 2026 03:34:49 GMT and is shared
+under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/03%3A_Congruences/3.01%3A_Introduction_to_Congruences
+
+
+Source master page 48:
+Euler’s -Function
+We now present a function that counts the number of positive integers less than a given integer that are
+relatively prime to that given integer. This function is called Euler -function. We will discuss the
+properties of Euler -function in details in chapter 5. It will be sufficient for our purposes in this chapter
+to the notation.
+The Euler -function of a positive integer n, denoted by 
+ counts the number of positive integers less
+than  that are relatively prime to n.
+Since 1 and 3 are the only two integers that are relatively prime to 4 and less than 4, then 
+. Also,
+1,2,...,6 are the integers that are relatively prime to 7 that are less than 7, thus 
+.
+Now we can say that the number of elements in a reduced residue system modulo  is 
+.
+If 
+ is a reduced residue system modulo  and 
+, then 
+ is a reduced
+residue system modulo .
+The proof proceeds exactly in the same way as that of Theorem 24.
+Exercises
+1. Give a reduced residue system modulo 12.
+2. Give a complete residue system modulo 13 consisting only of odd integers.
+3. Find 
+ and 
+.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 3.2: Residue Systems and Euler’s φ-Function was last modified on Tue, 01 Sep 2026 03:34:49 GMT
+and is shared under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/03%3A_Congruences/3.02%3A_Residue_Systems_and_Eulers_-Function
+
+
+Source master page 50:
+3. Find an inverse modulo 13 of 2 and of 11.
+4. Show that if  is the inverse of  modulo  and  is the inverse of  modulo , then 
+ is the inverse
+of 
+ modulo .
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 3.3: Linear Congruences was last modified on Tue, 01 Sep 2026 03:34:49 GMT and is shared under a
+CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/03%3A_Congruences/3.03%3A_Linear_Congruences
+
+
+Source master page 52:
+In the same way, we find that
+As a result, we get
+Exercises
+1. Find an integer that leaves a remainder of 2 when divided by either 3 or 5, but that is divisible by
+4.
+2. Find all integers that leave a remainder of 4 when divided by 11 and leaves a remainder of 3 when
+divided by 17.
+3. Find all integers that leave a remainder of 1 when divided by 2, a remainder of 2 when divided by
+3 and a remainder of 3 when divided by 5.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 3.4: The Chinese Remainder Theorem was last modified on Tue, 01 Sep 2026 03:34:49 GMT and is
+shared under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/03%3A_Congruences/3.04%3A_The_Chinese_Remainder_Theorem
+
+
+Source master page 55:
+remainder of  when divided by . The other theorem determines the inverse of an integer  modulo 
+where 
+.
+If  is a prime number and  is a positive integer, then 
+.
+If 
+, by Fermat’s theorem we know that
+Thus, we get
+Now if 
+, we have
+If  is a prime number and  is an integer such that 
+, then 
+ is the inverse of a modulo .
+If 
+, then Fermat’s theorem says that
+Hence
+As a result, 
+ is the inverse of  modulo .
+Exercises
+1. Show that 10!+1 is divisible by 11.
+2. What is the remainder when 5!25! is divided by 31?
+3. What is the remainder when 
+ is divided by 7?
+4. Show that if  is an odd prime, then 
+.
+5. Find a reduced residue system modulo 
+, where  is a positive integer.
+6. Show that if 
+ is a reduced residue system modulo , where  is a positive integer
+with 
+, then 
+.
+7. Show that if  is an integer such that  is not divisible by 3 or such that  is divisible by 9, then 
+.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 3.5: Theorems of Fermat, Euler, and Wilson was last modified on Tue, 01 Sep 2026 03:34:49 GMT and
+is shared under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/03%3A_Congruences/3.05%3A_Theorems_of_Fermat_Euler_and_Wilson
+
+
+Source master page 60:
+From the above theorem, we can see that to evaluate a multiplicative function at an integer, it will be
+enough to know the value of the function at the primes that are in the prime factorization of the number.
+We now define summatory functions which represents the sum of the values of a given function at the
+divisors of a given number.
+Let  be an arithmetic function. Define
+Then  is called the summatory function of .
+This function determines the sum of the values of the arithmetic function at the divisors of a given
+integer.
+If 
+ is an arithmetic function, then
+If  is a multiplicative function, then the summatory function of  denoted by 
+ is also
+multiplicative.
+We have to prove that 
+ whenever 
+. We have
+Notice that by Lemma 6, each divisor of 
+ can be written uniquely as a product of relatively prime
+divisors 
+ of  and 
+ of , moreover the product of any two divisors of  and  is a divisor of 
+. Thus
+we get
+Notice that since  is multiplicative, we have
+Exercises
+1. Determine whether the arithmetic functions 
+ and 
+ are completely multiplicative
+or not.
+2. Define the arithmetic function 
+ by the following. g(n)=1 if 
+ and 0 for 
+. Prove that 
+is multiplicative.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 4.1: Definitions and Properties was last modified on Tue, 01 Sep 2026 03:34:49 GMT and is shared
+under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+
+
+Source master page 65:
+.
+Exercises
+1. Find 
+ and 
+.
+2. Show that 
+.
+3. Find all positive integers  such that 
+.
+4. Show that if  is a positive integer, then 
+ if  is odd.
+5. Show that if  is a positive integer, then 
+ if  is even.
+6. Show that if  is an odd integer, then 
+.
+7. Find the sum of positive integer divisors and the number of positive integer divisors of 35
+8. Find the sum of positive integer divisors and the number of positive integer divisors of 
+.
+9. Which positive integers have an odd number of positive divisors.
+10. Which positive integers have exactly two positive divisors.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 4.2: Multiplicative Number Theoretic Functions was last modified on Tue, 01 Sep 2026 03:34:49 GMT
+and is shared under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/04%3A_Multiplicative_Number_Theoretic_Functions/4.02%3A_Multiplicative_Num
+ber_Theoretic_Functions
+
+
+Source master page 67:
+We now define the Mobius inversion formula. The Mobius inversion formula expresses the values of  in
+terms of its summatory function of .
+Suppose that  is an arithmetic function and suppose that 
+ is its summatory function, then for all
+positive integers  we have
+We have
+Notice that 
+ unless 
+ and thus 
+. Consequently we get
+A good example of a Mobius inversion formula would be the inversion of 
+ and 
+. These two
+functions are the summatory functions of 
+ and 
+ respectively. Thus we get
+and
+Exercises
+1. Find 
+, 
+ and 
+.
+2. Find the value of 
+ for each integer  with 
+.
+3. Use the Mobius inversion formula and the identity 
+ to show that 
+where  is a prime and  is a positive integer.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 4.3: The Mobius Function and the Mobius Inversion Formula was last modified on Tue, 01 Sep 2026
+03:34:50 GMT and is shared under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/04%3A_Multiplicative_Number_Theoretic_Functions/4.03%3A_The_Mobius_Functi
+on_and_the_Mobius_Inversion_Formula
+
+
+Source master page 70:
+Using Theorem 53, we prove that Fermat numbers are relatively prime.
+Let 
+ be nonnegative integers. Then 
+.
+Assume without loss of generality that 
+. Thus by Theorem 52, we have
+Assume now that there is a common divisor  of 
+ and 
+. thus we see that  divides
+Thus 
+ or 
+. But since 
+ is odd for all . We have 
+. Thus 
+ and 
+ are relatively prime.
+Exercises
+1. Find the six smallest even perfect numbers.
+2. Find the eighth perfect number.
+3. Find a factor of 
+.
+4. We say  is abundant if 
+. Prove that if 
+ where  is a positive integer such
+that 
+ is composite, then  is abundant.
+5. Show that there are infinitely many even abundant numbers.
+6. Show that there are infinitely many odd abundant numbers.
+7. Determine whether 
+ is prime.
+8. Determine whether 
+ is prime.
+9. Find all primes of the form 
+ where  is a nonnegative integer.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 4.4: Perfect, Mersenne, and Fermat Numbers was last modified on Tue, 01 Sep 2026 03:34:50 GMT
+and is shared under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/04%3A_Multiplicative_Number_Theoretic_Functions/4.04%3A_Perfect_Mersenne_a
+nd_Fermat_Numbers
+
+
+Source master page 73:
+1. Determine 
+.
+2. Determine 
+3. Show that 5 is a primitive root of 6.
+4. Show that if  is an inverse of  modulo , then 
+.
+5. Show that if  is a positive integer, and  and  are integers relatively prime to  such that
+, then 
+.
+6. Show that if  is an integer relatively prime to the positive integer  and 
+, then 
+.
+7. Show that if  and  are relatively prime with 
+, then 
+.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 5.1: The order of Integers and Primitive Roots was last modified on Tue, 01 Sep 2026 03:34:50 GMT
+and is shared under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/05%3A_Primitive_Roots_and_Quadratic_Residues/5.01%3A_The_order_of_Integers
+_and_Primitive_Roots
+
+
+Source master page 76:
+2. Find the incongruent roots modulo 11 of 
+.
+3. Find the incongruent roots modulo 13 of 
+.
+4. Find the number of primitive roots of 13 and of 47.
+5. Find a complete set of incongruent primitive roots of 13.
+6. Find a complete set of incongruent primitive roots of 17.
+7. Find a complete set of incongruent primitive roots of 19.
+8. Let  be a primitive root of  with 
+. Show that 
+ is also a primitive root.
+9. Show that if  is a prime and 
+, then there is an integer  such that 
+.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 5.2: Primitive Roots for Primes was last modified on Tue, 01 Sep 2026 03:34:50 GMT and is shared
+under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/05%3A_Primitive_Roots_and_Quadratic_Residues/5.02%3A_Primitive_Roots_for_Pr
+imes
+
+
+Source master page 80:
+Consider a prime 
+ and let  is a positive integer, then 
+ has a primitive root. In fact, if  is an odd
+primitive root modulo 
+, then it is also a primitive root modulo 
+ but if  is even, 
+ is a primitive
+root modulo 
+.
+If  is a primitive root modulo 
+, then
+and no positive exponent smaller than 
+ has this property. Note also that
+so that
+If  is odd, then
+Thus by Theorem 56, we get
+It is important to note that no smaller power of  is congruent to 1 modulo 
+. This power as well would
+also be congruent to 1 modulo 
+ contradicting that  is a primitive root of 
+. It follows that  is a
+primitive root modulo 
+.
+While, if  is even, then 
+ is odd. Hence
+Because 
+, we see that
+As a result, we see that 
+ and since for no smaller power of 
+ is congruent to 1
+modulo 
+, we see that 
+ is a primitive root modulo 
+.
+As a result, by Theorem 63, Theorem 65 and Theorem 66, we see that
+The positive integer  has a primitive root if and only if 
+ or 
+for prime 
+ and  is a positive integer.
+Exercises
+1. Which of the following integers 4, 12, 28, 36, 125 have a primitive root.
+2. Find a primitive root of 4, 25, 18.
+3. Find all primitive roots modulo 22.
+4. Show that there are the same number of primitive roots modulo 
+ as there are modulo 
+, where
+ is an odd prime and  is a positive integer.
+5. Find all primitive roots modulo 25.
+6. Show that the integer  has a primitive root if and only if the only solutions of the congruence 
+ are 
+.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+
+
+Source master page 82:
+5.4: Introduction to Quadratic Residues and Nonresidues
+The question that we need to answer in this section is the following. If  is an odd prime and  is an
+integer relatively prime to . Is  a perfect square modulo .
+Let 
+ be a positive integer. An integer  is a quadratic residue of 
+ if 
+ and the congruence 
+ is solvable. If the congruence 
+ has no solution, then  is a quadratic nonresidue
+of .
+Notice that 
+, 
+ and 
+. Thus 
+ are quadratic residues
+modulo 7 while 
+ are quadratic nonresidues modulo 7.
+Let 
+ be a prime number and  is an integer such that 
+. Then either a is quadratic nonresidue
+modulo  or
+has exactly two incongruent solutions modulo .
+If 
+ has a solution, say 
+, then 
+ is a solution as well. Notice that 
+because then 
+ and hence 
+.
+We now show that there are no more than two incongruent solutions. Assume that 
+ and 
+ are
+both solutions of 
+. Then we have
+Hence
+The following theorem determines the number of integers that are quadratic residues modulo an odd
+prime.
+If 
+ is a prime, then there are exactly 
+ quadratic residues modulo  and 
+ quadratic
+nonresidues modulo  in the set of integers 
+.
+To find all the quadratic residues of  among all the integers 
+, we determine the least positive
+residue modulo  of 
+. Considering the 
+ congruences and because each congruence
+has either no solution or two incongruent solutions, there must be exactly 
+ quadratic residues of
+ among 
+. Thus the remaining are 
+ quadratic nonresidues of .
+Exercises
+1. Find all the quadratic residues of 3.
+2. Find all the quadratic residues of 13.
+3. find all the quadratic residues of 18.
+4. Show that if  is prime and 
+, then there are always two consecutive quadratic residues of .
+Hint: Show that at least one of 
+ or 10 is a quadratic residue of .
+5. Show that if  is prime and 
+, then there are always two quadratic residues of  that differ by 3.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 5.4: Introduction to Quadratic Residues and Nonresidues was last modified on Tue, 01 Sep 2026
+03:34:50 GMT and is shared under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+
+
+Source master page 87:
+Thus we get
+Using Euler’s criterion, the result follows.
+To find 
+ using Gauss’s lemma, we calculate
+Thus we get 
+.
+Exercises
+1. Find all quadratic residues of 3
+2. Find all quadratic residues of 19.
+3. Find the value of Legendre symbol 
+ for 
+.
+4. Evaluate the Legendre symbol 
+by using Euler’s criterion.
+5. Let  and  be integers not divisible by . Show that either one or all three of the integers 
+ and 
+are quadratic residues of .
+6. Let  be a prime and  be a quadratic residue of . Show that if 
+, then 
+ is also a
+quadratic residue of , whereas if 
+, then 
+ is a quadratic nonresidue of .
+7. Show that if  is an odd prime and a is an integer not divisible by  then 
+.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 5.5: Legendre Symbol was last modified on Tue, 01 Sep 2026 03:34:50 GMT and is shared under a CC
+BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/05%3A_Primitive_Roots_and_Quadratic_Residues/5.05%3A_Legendre_Symbol
+
+
+Source master page 90:
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 5.6: The Law of Quadratic Reciprocity was last modified on Tue, 01 Sep 2026 03:34:50 GMT and is
+shared under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/05%3A_Primitive_Roots_and_Quadratic_Residues/5.06%3A_The_Law_of_Quadratic
+_Reciprocity
+
+
+Source master page 93:
+We now show that the reciprocity law holds for Jacobi symbol.
+Let 
+ be odd positive integers. Then
+Notice that since 
+ and 
+ we get
+By the law of quadratic reciprocity, we get
+As in the proof of part 1 of Theorem 75, we see that
+and
+Thus we conclude that
+Exercises
+1. Evaluate 
+.
+2. Evaluate 
+.
+3. For which positive integers  that are relatively prime to 15 does the Jacobi symbol 
+ equal 1?
+4. Let  be an odd square free positive integer. Show that there is an integer  such that 
+ and
+.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 5.7: Jacobi Symbol was last modified on Tue, 01 Sep 2026 03:34:50 GMT and is shared under a CC BY
+license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/05%3A_Primitive_Roots_and_Quadratic_Residues/5.07%3A_Jacobi_Symbol
+
+
+Source master page 96:
+and
+ real numbers.
+Note that the algorithm we developed above can be applied to any real number and provides the
+corresponding continued fraction.
+Theorem [realrep] has certain theoretical significance. L.Kronecker (1823-1891) said, "God created the
+integers; the rest is work of man". Several ways to represent real numbers out of integers are well-
+known. Theorem [realrep] provides yet another way to fulfill this task. This way is constructive and at
+the same time is not tied to any particular base (say to decimal or binary decomposition).
+We will discuss some examples later.
+Exercises
+1. Prove that under the assumption 
+ the continued fraction representation given in Proposition
+[ratrep] is unique. In other words, the correspondence between
+ finite continued fractions 
+ with an integer 
+, positive integers 
+ for 
+ and 
+and
+ rational numbers
+is one-to-one.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 6.1: Basic Notations was last modified on Tue, 01 Sep 2026 03:34:50 GMT and is shared under a CC
+BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/06%3A_Introduction_to_Continued_Fractions/6.01%3A_Basic_Notations
+
+
+Source master page 99:
+The second (right) inequality in Theorem [inequ] is now proved. This finishes the proof of Theorem
+[inequ].
+Exercises
+1. Check the assertion of Theorem [MAIN] for 
+.
+2. Check that for 
+Hint. Introduce formally 
+ and 
+, check that then formulas [main] are true also for 
+.
+3. Combine the previous exercises with ([l5]) to obtain
+for 
+. Derive from this that 
+ and 
+ are relatively prime.
+4. Prove Proposition [propord]
+5. Combine ([dif1]) with Proposition [propord] to prove the inequality
+6. Prove Lemma [medi]
+7. Use ([main]) to show that the sign of the difference between two consecutive fractions in ([seq])
+depends only on the parity of .
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 6.2: Main Technical Tool was last modified on Tue, 01 Sep 2026 03:34:51 GMT and is shared under a
+CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/06%3A_Introduction_to_Continued_Fractions/6.02%3A_Main_Technical_Tool
+
+
+Source master page 101:
+It follows that
+and the latter inequality together with ([l7]) show that 
+ is not a "good" approximation of  in this case.
+This finishes the proof of Theorem [good].
+Exercises
+1. Prove that if 
+ is a "good" approximation then 
+.
+2. Show that if 
+ then 
+ is not a "good" approximation to .
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 6.3: Very Good Approximation was last modified on Tue, 01 Sep 2026 03:34:51 GMT and is shared
+under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/06%3A_Introduction_to_Continued_Fractions/6.03%3A_Very_Good_Approximation
+
+
+Source master page 102:
+6.4: An Application
+Consider the following problem which may be of certain practical interest. Assume that we calculate
+certain quantity using a computer. Also assume that we know in advance that the quantity in question is
+a rational number. The computer returns a decimal which has high accuracy and is pretty close to our
+desired answer. How to guess the exact answer?
+To be more specific consider an example.
+Assume that the desired answer is
+and the result of computer calculation with a modest error of 
+ is
+with some two hundred digits of accuracy which, of course come short to help in guessing the period
+and the exact denominator of 
+.
+Solution. Since 
+ is a good (just in a naive sense) approximation to , it should be among its
+convergents. This is not an exact statement, but it offers a hope! We have
+We are not going to check all convergents, because we notice the irregularity: one element, 
+ is far
+more than the others. In order to explain this we use the left inequality from Theorem [inequ] together
+with the formula ([main]). Indeed, we have an approximation of  which is unexpectedly good: 
+ is very small (it is around 
+) and with a modest 
+ too. We have
+and
+It follows that 
+ is small (smaller than 
+) and therefore, 
+ should be big. This is
+exactly what we see. Of course, our guess is correct:
+In this way we conclude that in general an unexpectedly big element allows to cut the continued fraction
+(right before this element) and to guess the exact rational quantity. There is probably no need (although
+this is, of course, possible) to quantify this procedure. I prefer to use it just for guessing the correct
+quantities on the spot from the first glance.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+
+
+Source master page 105:
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 6.5: A Formula of Gauss, a Theorem of Kuzmin and Levi and a Problem of Arnold was last modified
+on Tue, 01 Sep 2026 03:34:51 GMT and is shared under a CC BY license and was authored, remixed, and/or curated
+by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/06%3A_Introduction_to_Continued_Fractions/6.05%3A_A_Formula_of_Gauss_a_Th
+eorem_of_Kuzmin_and_Levi_and_a_Problem_of_Arnold
+
+
+Source master page 111:
+where 
+ for 
+. Assume also that  has a continuous derivative on the interval 
+, where 
+. Then we have
+The proof of this theorem can be found in .
+Exercises
+1. Show that one gets every 
+ where each prime factor of  is less than or equal to  in the
+proof of Theorem 1.
+2. Write down the proof of Abel’s summation formula in details.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 7.1: Introduct to Analytic Number Theory was last modified on Tue, 01 Sep 2026 03:34:51 GMT and
+is shared under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/07%3A_Introduction_to_Analytic_Number_Theory/7.01%3A_Introduct_to_Analytic
+_Number_Theory
+
+
+Source master page 113:
+From Remark 4, it is easy to see that
+where 
+. Moreover, we have that 
+. The result will follow after proving the inequality
+in Exercise 2.
+Exercises
+1. Show that
+where 
+.
+2. Show that 
+ and thus the result of Theorem 86 follows.
+3. Show that the following two relations are equivalent
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 7.2: Chebyshev's Functions was last modified on Tue, 01 Sep 2026 03:34:51 GMT and is shared under
+a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/07%3A_Introduction_to_Analytic_Number_Theory/7.02%3A_Chebyshev's_Function
+s
+
+
+Source master page 117:
+Notice as well that
+Hence we get
+Using the fact that 
+, we can see that
+Let 
+ and put 
+. Thus 
+ and we get 
+. So we get
+As a result, we get
+Exercises
+1. Show that 
+ in Theorem 88.
+2. Show that
+3. Show that
+4. Show that
+5. Show that 
+.
+Hint: For one side of the inequality, write
+then show that
+The other side of the inequality will follow with similar arithmetic techniques as the first
+inequality.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 7.3: Getting Closer to the Proof of the Prime Number Theorem was last modified on Tue, 01 Sep
+2026 03:34:51 GMT and is shared under a CC BY license and was authored, remixed, and/or curated by Wissam
+
+
+Source master page 120:
+2. Choose a couple 
+ and 
+ of very large prime numbers, each (for example) of the order of a
+hundred digit integer, and these should be strictly kept known only to the sender and receiver.
+Then form the product 
+, which is itself a very large number to the point that the chances of
+someone revealing the prime number factorization 
+ of  is incredibly small, even if they know
+this integer . Now one has, by standard results concerning the -function, that 
+ and
+, and that, since 
+ and 
+ are relatively prime, 
+. Thus
+ is a very large number, of the order of  itself, and hence  has a reduced residue system
+that contains a very large number of integers of the order of  itself. Hence almost every integer
+smaller than , with a probability of the order 
+ (almost 1), is in a reduced residue system
+ of . Thus almost every positive integer smaller than  is relatively prime with ,
+with probability of the order 
+.
+3. Now given that almost every positive integer smaller than  is relatively prime with , the integer
+ itself is almost certainly relatively prime with , and hence is in a reduced residue system for .
+Hence, by lemma 17 above, if  is a (large) integer such that 
+, then 
+ belongs to a
+reduced residue system for , and there exists a unique positive  smaller than  with 
+.
+4. Send  to the destination where 
+ and  are known. The destination can determine a  such that
+, and then finds the unique  such that 
+. Now since, almost certainly,
+, then almost certainly 
+ since 
+, and which
+by lemma 16, is given by 
+ almost certainly since 
+ almost certainly. Now the
+destination translates  back to letters and spaces to reveal the sentence . Note that if any third
+party intercepts , they almost certainly cannot reveal the integer  since the chance of them
+knowing 
+ is almost zero, even if they know  and . In this case they practically won’t
+be able to determine a  with 
+, to retrieve  and transform it to .
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 8.1: Cryptography was last modified on Tue, 01 Sep 2026 03:34:51 GMT and is shared under a CC
+BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/08%3A_Other_Topics_in_Number_Theory/8.01%3A_Cryptography
+
+
+Source master page 124:
+birationally equivalent to an elliptic curve defined by a polynomial 
+ as above. Birational equivalence
+between curves is defined here as being a rational transformation, together with its inverse
+transformation, that takes the points on one curve to another, and vice-versa.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 8.2: Elliptic Curves was last modified on Tue, 01 Sep 2026 03:34:52 GMT and is shared under a CC
+BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/08%3A_Other_Topics_in_Number_Theory/8.02%3A_Elliptic_Curves
+
+
+Source master page 126:
+Given this continuation of 
+, and also given the functional equation that is satisfied by this continued
+function, and which is
+(see a proof in ), where  is the complex gamma function, one can deduce that the continued 
+ has
+zeros at the points 
+ on the negative real axis. This follows as such: The complex gamma
+function 
+ has poles at the points 
+ on the negative real line, and thus 
+ must
+have poles at 
+ on the positive real axis. And since 
+ is analytic at these points, then it must be
+that either 
+ or 
+ must have zeros at the points 
+ to cancel out the poles of 
+,
+and thus make 
+ analytic at these points. And since 
+ has zeros at 
+, but not at 
+,
+then it must be that 
+ has zeros at 
+. This gives that 
+ has zeros at 
+.
+It also follows from the above functional equation, and from the above mentioned fact that 
+ has no
+zeros in the domain where 
+, that these zeros at 
+ of 
+ are the only zeros that
+have real parts either less that 0, or greater than 1. It was conjectured by Riemann, The Riemann
+Hypothesis, that every other zero of 
+ in the remaining strip 
+, all exist on the vertical line
+. This hypothesis was checked for zeros in this strip with very large modulus, but remains
+without a general proof. It is thought that the consequence of the Riemann hypothesis on number
+theory, provided it turns out to be true, is immense.
+Contributors and Attributions
+Dr. Wissam Raji, Ph.D., of the American University in Beirut. His work was selected by the Saylor
+Foundation’s  Open Textbook Challenge  for public release under a Creative Commons
+Attribution (CC BY) license.
+This page titled 8.3: The Riemann Zeta Function was last modified on Tue, 01 Sep 2026 03:34:52 GMT and is shared
+under a CC BY license and was authored, remixed, and/or curated by Wissam Raji.
+Source:
+https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Elementary_Num
+ber_Theory_(Raji)/08%3A_Other_Topics_in_Number_Theory/8.03%3A_The_Riemann_Zeta_Function
+
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 90 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.
