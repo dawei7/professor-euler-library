@@ -7,6 +7,11 @@ downloads them from this repository's release "books" into My books. Every book 
 `licenses/` and each book page; the editable sources the licenses ask for are the release asset `editable-sources-*.zip`.
 Nothing here is sold, and no endorsement by the authors is implied.
 
+## Community
+
+Questions about a book, or a success to celebrate? Join the learners of Professor Euler on [Discord](https://discord.gg/Vpp8vscev5):
+every book has its own post in #book-talk.
+
 ## Study paths
 
 - [Algebra, Geometry & Precalculus](docs/paths/prerequisites.md): Build the algebra, geometry and function skills that make university mathematics feel approachable.
