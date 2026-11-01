@@ -1,7 +1,7 @@
 {
   "format": "professor-euler-library",
   "version": 1,
-  "revision": 2,
+  "revision": 3,
   "repository": "dawei7/professor-euler-library",
   "levels": [
     {
@@ -1105,5 +1105,12 @@
         }
       ]
     }
-  ]
+  ],
+  "recognizer": {
+    "id": "m6",
+    "asset": "math-reader-m6-634359fd.zip",
+    "url": "https://github.com/dawei7/professor-euler-library/releases/download/books/math-reader-m6-634359fd.zip",
+    "bytes": 7710675,
+    "sha256": "634359fd937b491678f0dd78f6589c4a6ff5bc388c86bcbb8c911fcd67e92b41"
+  }
 }

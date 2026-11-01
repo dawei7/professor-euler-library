@@ -77,3 +77,11 @@ every book has its own post in #book-talk.
 - C.02 [Probabilistic Machine Learning: Advanced Topics](docs/books/probabilistic_ml_advanced_murphy.md), Kevin P. Murphy · CC BY-NC-ND 4.0 · 145.8 MB
 - C.03 [Classical Numerical Methods in Scientific Computing](docs/books/classical_numerical_methods_delft.md), Jos van Kan, Guus Segal, Fred Vermolen and Hans Kraaijevanger · CC BY 4.0 · 12.5 MB
 - C.04 [Mathematics of Machine Learning](docs/books/mathematics_machine_learning_rigollet_2015.md), Philippe Rigollet · CC BY-NC-SA 4.0 · 3.4 MB
+
+## Handwriting model
+
+`math-reader-m6-634359fd.zip` is the model Calculate in canvas notes reads handwritten formulas with, on the learner's
+device; the app downloads it when Calculate is turned on, and it sends nothing anywhere. Its weights are licensed
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), as the MathWriting data (Google LLC) it
+was trained on; its code and its results are in
+[professor-euler-math-recognition](https://github.com/dawei7/professor-euler-math-recognition).
