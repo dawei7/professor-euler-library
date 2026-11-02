@@ -1,0 +1,55 @@
+CS.06 — Foundation Models for Natural Language Processing: Pre-trained Language Models Integrating Media
+Author(s): Gerhard Paaß and Sven Giesselbach
+Edition: Springer 2023, Open Access (Artificial Intelligence: Foundations, Theory, and Algorithms)
+License: CC BY 4.0
+Source: https://doi.org/10.1007/978-3-031-23190-2
+
+The PDF is distributed unchanged, byte for byte, inside the bundle. The bundle adds navigation only: the sections from the work's own contents. Nothing in the text is rewritten, translated or added, and no answers are invented. The distributed PDF is the copy acquired from the publisher's open-access page (SHA-256 7d3004065c2c52579314de022932b2303c2405e1ca033f24b284f22dd27cd298); that page answers scripts with a browser check, so it was not compared byte for byte. The work prints no exercises, so the bundle marks none.
+
+Source documents and permission evidence:
+https://doi.org/10.1007/978-3-031-23190-2
+https://creativecommons.org/licenses/by/4.0/
+
+Original source copyright notices:
+Source master page 5:
+Gerhard Paaß 
+Knowledge Discovery Department, 
+Team NLU 
+Fraunhofer Institute for Intelligent Analysis 
+and Information Systems (IAIS) 
+Sankt Augustin, Nordrhein-Westfalen 
+Germany 
+Sven Giesselbach 
+Knowledge Discovery Department, 
+Team NLU 
+Fraunhofer Institute for Intelligent Analysis 
+and Information Systems (IAIS) 
+Sankt Augustin, Nordrhein-Westfalen 
+Germany 
+This work was supported by Bundesministerium für Bildung und Forschung (ML2R (01IS18038B)) 
+ISSN 2365-3051
+ISSN 2365-306X (electronic) 
+Artiﬁcial Intelligence: Foundations, Theory, and Algorithms 
+ISBN 978-3-031-23189-6
+ISBN 978-3-031-23190-2 (eBook) 
+https://doi.org/10.1007/978-3-031-23190-2 
+© The Editor(s) (if applicable) and The Author(s) 2023. This book is an open access publication. 
+Open Access This book is licensed under the terms of the Creative Commons Attribution 4.0 Inter-
+national License (http://creativecommons.org/licenses/by/4.0/), which permits use, sharing, adaptation, 
+distribution and reproduction in any medium or format, as long as you give appropriate credit to the 
+original author(s) and the source, provide a link to the Creative Commons license and indicate if changes 
+were made. 
+The images or other third party material in this book are included in the book’s Creative Commons 
+license, unless indicated otherwise in a credit line to the material. If material is not included in the book’s 
+Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the 
+permitted use, you will need to obtain permission directly from the copyright holder. 
+The use of general descriptive names, registered names, trademarks, service marks, etc. in this publication 
+does not imply, even in the absence of a speciﬁc statement, that such names are exempt from the relevant 
+protective laws and regulations and therefore free for general use. 
+The publisher, the authors, and the editors are safe to assume that the advice and information in this book 
+are believed to be true and accurate at the date of publication. Neither the publisher nor the authors or 
+the editors give a warranty, expressed or implied, with respect to the material contained herein or for any 
+errors or omissions that may have been made. The publisher remains neutral with regard to jurisdictional 
+claims in published maps and institutional afﬁliations. 
+This Springer imprint is published by the registered company Springer Nature Switzerland AG 
+The registered company address is: Gewerbestrasse 11, 6330 Cham, Switzerland

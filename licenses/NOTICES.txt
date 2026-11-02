@@ -13548,3 +13548,413 @@ Current review state (10 September 2026): all study slices are unverified for th
 
 
 User verification update (10 September 2026): all 29 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.
+
+
+CS.01 — Mathematics for Computer Science
+Author(s): Eric Lehman, F. Thomson Leighton and Albert R. Meyer
+Edition: MIT 6.042J, revised 6 June 2018
+License: CC BY-SA 3.0
+Source: https://courses.csail.mit.edu/6.042/spring18/mcs.pdf
+
+The PDF is distributed unchanged, byte for byte, inside the bundle. The bundle adds navigation only: the sections from the work's own contents, and a frame around each exercise the book prints, with its printed number. Nothing in the text is rewritten, translated or added, and no answers are invented. The distributed PDF is byte-identical to https://courses.csail.mit.edu/6.042/spring18/mcs.pdf (SHA-256 ea4ced500d4a4bae7beb7a72ae9784abb96ed656ad905976f54c828cf6337dc1, compared on 2 November 2026).
+
+Source documents and permission evidence:
+https://courses.csail.mit.edu/6.042/spring18/mcs.pdf
+https://courses.csail.mit.edu/6.042/spring18/
+https://creativecommons.org/licenses/by-sa/3.0/
+
+Original source copyright notices:
+Source master page 1:
+“mcs” — 2018/6/6 — 13:43 — page i — #1
+Mathematics for Computer Science
+revised Wednesday 6th June, 2018, 13:43
+Eric Lehman
+Google Inc.
+F Thomson Leighton
+Department of Mathematics
+and the Computer Science and AI Laboratory,
+Massachussetts Institute of Technology;
+Akamai Technologies
+Albert R Meyer
+Department of Electrical Engineering and Computer Science
+and the Computer Science and AI Laboratory,
+Massachussetts Institute of Technology
+2018, Eric Lehman, F Tom Leighton, Albert R Meyer. This work is available under the
+terms of the Creative Commons Attribution-ShareAlike 3.0 license.
+
+
+CS.02 — Eingebettete Systeme: Grundlagen Eingebetteter Systeme in Cyber-Physikalischen Systemen
+Author(s): Peter Marwedel
+Edition: 2. Auflage, Springer Vieweg 2021, Open Access
+License: CC BY 4.0
+Source: https://doi.org/10.1007/978-3-658-33437-6
+
+The PDF is distributed unchanged, byte for byte, inside the bundle. The bundle adds navigation only: the sections from the work's own contents, and a frame around each exercise the book prints, with its printed number. Nothing in the text is rewritten, translated or added, and no answers are invented. The distributed PDF is the copy acquired from the publisher's open-access page (SHA-256 45fffaaf4315bcd0e8b0a997355253975780eaa9b55d2959c8bca5d874a3ee41); that page answers scripts with a browser check, so it was not compared byte for byte.
+
+Source documents and permission evidence:
+https://doi.org/10.1007/978-3-658-33437-6
+https://creativecommons.org/licenses/by/4.0/deed.de
+https://creativecommons.org/licenses/by/4.0/
+
+Original source copyright notices:
+Source master page 4:
+ISBN 978-3-658-33436-9  
+ISBN 978-3-658-33437-6 (eBook)
+https://doi.org/10.1007/978-3-658-33437-6
+Die Deutsche Nationalbibliothek verzeichnet diese Publikation in der Deutschen Nationalbibliografie; 
+detaillierte bibliografische Daten sind im Internet über http://dnb.d-nb.de abrufbar.
+© Der/die Herausgeber bzw. der/die Autor(en) 2007, 2021
+Dieses Buch ist eine Open-Access-Publikation.
+Open Access Dieses Buch wird unter der Creative Commons Namensnennung 4.0 International 
+Lizenz (http://creativecommons.org/licenses/by/4.0/deed.de) veröffentlicht, welche die Nutzung, 
+Vervielfältigung, Bearbeitung, Verbreitung und Wiedergabe in jeglichem Medium und Format erlaubt, 
+sofern Sie den/die ursprünglichen Autor(en) und die Quelle ordnungsgemäß nennen, einen Link zur 
+Creative Commons Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden.
+Die in diesem Buch enthaltenen Bilder und sonstiges Drittmaterial unterliegen ebenfalls der 
+genannten Creative Commons Lizenz, sofern sich aus der Abbildungslegende nichts anderes ergibt. 
+Sofern das betreffende Material nicht unter der genannten Creative Commons Lizenz steht und die 
+betreffende Handlung nicht nach gesetzlichen Vorschriften erlaubt ist, ist für die oben aufgeführten 
+Weiterverwendungen des Materials die Einwilligung des jeweiligen Rechteinhabers einzuholen.
+Die Wiedergabe von allgemein beschreibenden Bezeichnungen, Marken, Unternehmensnamen etc. in 
+diesem Werk bedeutet nicht, dass diese frei durch jedermann benutzt werden dürfen. Die Berechtigung 
+zur Benutzung unterliegt, auch ohne gesonderten Hinweis hierzu, den Regeln des Markenrechts. Die 
+Rechte des jeweiligen Zeicheninhabers sind zu beachten.
+Der Verlag, die Autoren und die Herausgeber gehen davon aus, dass die Angaben und Informationen in 
+diesem Werk zum Zeitpunkt der Veröffentlichung vollständig und korrekt sind. Weder der Verlag, noch 
+die Autoren oder die Herausgeber übernehmen, ausdrücklich oder implizit, Gewähr für den Inhalt des 
+Werkes, etwaige Fehler oder Äußerungen. Der Verlag bleibt im Hinblick auf geografische Zuordnungen 
+und Gebietsbezeichnungen in veröffentlichten Karten und Institutionsadressen neutral.
+Planung: 
+Springer Vieweg ist ein Imprint der eingetragenen Gesellschaft Springer Fachmedien Wiesbaden GmbH
+Die Anschrift der Gesellschaft ist: Abraham-Lincoln-Str. 46, 65189 Wiesbaden, Germany
+Peter Marwedel
+Dortmund, Deutschland
+Sybille Thelen
+TU Dortmund, Lehrstuhl für Eingebettete Systeme
+Springer Vieweg
+und ist ein Teil von Springer Nature.
+
+
+CS.03 — Elements of Robotics
+Author(s): Mordechai Ben-Ari and Francesco Mondada
+Edition: Springer 2018, Open Access
+License: CC BY 4.0
+Source: https://doi.org/10.1007/978-3-319-62533-1
+
+The PDF is distributed unchanged, byte for byte, inside the bundle. The bundle adds navigation only: the sections from the work's own contents, and a frame around each exercise the book prints, with its printed number. Nothing in the text is rewritten, translated or added, and no answers are invented. The distributed PDF is the copy acquired from the publisher's open-access page (SHA-256 52482e56a194aa958c6fac4503491f91b5624a8d8c387b3d833cdc7ad228d0c6); that page answers scripts with a browser check, so it was not compared byte for byte.
+
+Source documents and permission evidence:
+https://doi.org/10.1007/978-3-319-62533-1
+https://creativecommons.org/licenses/by/4.0/
+
+Original source copyright notices:
+Source master page 4:
+Mordechai Ben-Ari
+Department of Science Teaching
+Weizmann Institute of Science
+Rehovot
+Israel
+Francesco Mondada
+Laboratoire de Systèmes Robotiques
+Ecole Polytechnique Fédérale de Lausanne
+Lausanne
+Switzerland
+ISBN 978-3-319-62532-4
+ISBN 978-3-319-62533-1
+(eBook)
+https://doi.org/10.1007/978-3-319-62533-1
+Library of Congress Control Number: 2017950255
+© The Editor(s) (if applicable) and The Author(s) 2018. This book is an open access publication.
+Open Access This book is licensed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits use, sharing, adap-
+tation, distribution and reproduction in any medium or format, as long as you give appropriate credit to
+the original author(s) and the source, provide a link to the Creative Commons license and indicate if
+changes were made.
+The images or other third party material in this book are included in the book’s Creative Commons
+license, unless indicated otherwise in a credit line to the material. If material is not included in the book’s
+Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the
+permitted use, you will need to obtain permission directly from the copyright holder.
+The use of general descriptive names, registered names, trademarks, service marks, etc. in this publi-
+cation does not imply, even in the absence of a speciﬁc statement, that such names are exempt from the
+relevant protective laws and regulations and therefore free for general use.
+The publisher, the authors and the editors are safe to assume that the advice and information in this
+book are believed to be true and accurate at the date of publication. Neither the publisher nor the
+authors or the editors give a warranty, express or implied, with respect to the material contained herein or
+for any errors or omissions that may have been made. The publisher remains neutral with regard to
+jurisdictional claims in published maps and institutional afﬁliations.
+Printed on acid-free paper
+This Springer imprint is published by Springer Nature
+The registered company is Springer International Publishing AG
+The registered company address is: Gewerbestrasse 11, 6330 Cham, Switzerland
+
+
+CS.04 — Maschinelles Lernen
+Author(s): Matthias Thimm
+Edition: 1. Auflage 2026, Hagen University Press (FernUniversität in Hagen), hagen text books Band 2
+License: CC BY-NC-ND 4.0
+Source: https://doi.org/10.57813/20260220-092408-0
+
+The PDF is distributed unchanged, byte for byte, inside the bundle. The bundle adds navigation only: the sections from the work's own contents. Nothing in the text is rewritten, translated or added, and no answers are invented. The distributed PDF is the copy acquired from the publisher's open-access page (SHA-256 9a05a3a2ad1f0909233be8f26c2a5922df33c55cea018e418175ff81181ead35); that page answers scripts with a browser check, so it was not compared byte for byte. The work prints no exercises, so the bundle marks none.
+
+Source documents and permission evidence:
+https://doi.org/10.57813/20260220-092408-0
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Original source copyright notices:
+Source master page 5:
+Impressum 
+ 
+Bibliografische Information der Deutschen Nationalbibliothek  
+Die Deutsche Nationalbibliothek verzeichnet diese Publikation in der Deutschen 
+Nationalbibliografie; detaillierte bibliografische Daten sind im Internet über 
+http://dnb.d-nb.de abrufbar. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Druck: CPI Druckdienstleistungen GmbH, Ferdinand-Jühlke-Straße 7, 99095 Erfurt 
+ 
+1. Auflage 2026 
+ 
+ISSN 3051-9993 (Print) 
+ISSN 3052-0002 (Online) 
+ISBN 978-3-98767-509-6 (Print) 
+ISBN 978-3-98767-038-1 (E-PDF) 
+DOI 10.57813/20260220-092408-0 
+ 
+Der Text dieser Publikation wird unter der Lizenz Creative Commons 
+Namensnennung – Nicht kommerziell – Keine Bearbeitungen 4.0 
+International (CC BY-NC-ND 4.0) veröffentlicht. 
+ 
+Hagen UP (Hagen University Press) 
+FernUniversität in Hagen 
+Feithstraße 152 
+58097 Hagen
+
+
+CS.05 — Reinforcement Learning: An Introduction
+Author(s): Richard S. Sutton and Andrew G. Barto
+Edition: Second edition, MIT Press 2018; the authors' PDF (RLbook2020)
+License: CC BY-NC-ND 2.0
+Source: http://incompleteideas.net/book/the-book-2nd.html
+
+The PDF is distributed unchanged, byte for byte, inside the bundle. The bundle adds navigation only: the sections from the work's own contents, and a frame around each exercise the book prints, with its printed number. Nothing in the text is rewritten, translated or added, and no answers are invented. The distributed PDF is byte-identical to http://incompleteideas.net/book/RLbook2020.pdf (SHA-256 2dd0d71d9ee883fbeb99f9b888c65ac3255fae2512203d11b18e838befffe9a6, compared on 2 November 2026).
+
+Source documents and permission evidence:
+http://incompleteideas.net/book/RLbook2020.pdf
+http://incompleteideas.net/book/the-book-2nd.html
+https://creativecommons.org/licenses/by-nc-nd/2.0/
+
+Original source copyright notices:
+Source master page 4:
+© 2018, 2020 Richard S. Sutton and Andrew G. Barto
+All rights reserved. No part of this book may be reproduced in any form by any electronic
+or mechanical means (including photocopying, recording, or information storage and retrieval)
+without permission in writing from the copyright holder.
+This work is licensed under the
+Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic License. To view a copy
+of this license, visit http://creativecommons.org/licenses/by-nc-nd/2.0/ or send a letter
+to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+This book was set in 10/12, CMR by Westchester Publishing Services. Printed and bound in
+the United States of America.
+Library of Congress Cataloging-in-Publication Data
+Names: Sutton, Richard S., author. | Barto, Andrew G., author.
+Title: Reinforcement learning : an introduction / Richard S. Sutton and Andrew G. Barto.
+Description: Second edition. | Cambridge, MA : The MIT Press, [2018] | Series: Adaptive
+computation and machine learning series | Includes bibliographical references and index.
+Identiﬁers: LCCN 2018023826 | ISBN 9780262039246 (hardcover : alk. paper)
+Subjects: LCSH: Reinforcement learning.
+Classiﬁcation: LCC Q325.6 .R45 2018 | DDC 006.3/1--dc23 LC record available
+at https://lccn.loc.gov/2018023826
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+
+CS.06 — Foundation Models for Natural Language Processing: Pre-trained Language Models Integrating Media
+Author(s): Gerhard Paaß and Sven Giesselbach
+Edition: Springer 2023, Open Access (Artificial Intelligence: Foundations, Theory, and Algorithms)
+License: CC BY 4.0
+Source: https://doi.org/10.1007/978-3-031-23190-2
+
+The PDF is distributed unchanged, byte for byte, inside the bundle. The bundle adds navigation only: the sections from the work's own contents. Nothing in the text is rewritten, translated or added, and no answers are invented. The distributed PDF is the copy acquired from the publisher's open-access page (SHA-256 7d3004065c2c52579314de022932b2303c2405e1ca033f24b284f22dd27cd298); that page answers scripts with a browser check, so it was not compared byte for byte. The work prints no exercises, so the bundle marks none.
+
+Source documents and permission evidence:
+https://doi.org/10.1007/978-3-031-23190-2
+https://creativecommons.org/licenses/by/4.0/
+
+Original source copyright notices:
+Source master page 5:
+Gerhard Paaß 
+Knowledge Discovery Department, 
+Team NLU 
+Fraunhofer Institute for Intelligent Analysis 
+and Information Systems (IAIS) 
+Sankt Augustin, Nordrhein-Westfalen 
+Germany 
+Sven Giesselbach 
+Knowledge Discovery Department, 
+Team NLU 
+Fraunhofer Institute for Intelligent Analysis 
+and Information Systems (IAIS) 
+Sankt Augustin, Nordrhein-Westfalen 
+Germany 
+This work was supported by Bundesministerium für Bildung und Forschung (ML2R (01IS18038B)) 
+ISSN 2365-3051
+ISSN 2365-306X (electronic) 
+Artiﬁcial Intelligence: Foundations, Theory, and Algorithms 
+ISBN 978-3-031-23189-6
+ISBN 978-3-031-23190-2 (eBook) 
+https://doi.org/10.1007/978-3-031-23190-2 
+© The Editor(s) (if applicable) and The Author(s) 2023. This book is an open access publication. 
+Open Access This book is licensed under the terms of the Creative Commons Attribution 4.0 Inter-
+national License (http://creativecommons.org/licenses/by/4.0/), which permits use, sharing, adaptation, 
+distribution and reproduction in any medium or format, as long as you give appropriate credit to the 
+original author(s) and the source, provide a link to the Creative Commons license and indicate if changes 
+were made. 
+The images or other third party material in this book are included in the book’s Creative Commons 
+license, unless indicated otherwise in a credit line to the material. If material is not included in the book’s 
+Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the 
+permitted use, you will need to obtain permission directly from the copyright holder. 
+The use of general descriptive names, registered names, trademarks, service marks, etc. in this publication 
+does not imply, even in the absence of a speciﬁc statement, that such names are exempt from the relevant 
+protective laws and regulations and therefore free for general use. 
+The publisher, the authors, and the editors are safe to assume that the advice and information in this book 
+are believed to be true and accurate at the date of publication. Neither the publisher nor the authors or 
+the editors give a warranty, expressed or implied, with respect to the material contained herein or for any 
+errors or omissions that may have been made. The publisher remains neutral with regard to jurisdictional 
+claims in published maps and institutional afﬁliations. 
+This Springer imprint is published by the registered company Springer Nature Switzerland AG 
+The registered company address is: Gewerbestrasse 11, 6330 Cham, Switzerland
+
+
+CS.07 — Constitutional AI: Harmlessness from AI Feedback
+Author(s): Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell and others (Anthropic)
+Edition: arXiv:2212.08073v1, December 2022
+License: CC BY 4.0
+Source: https://arxiv.org/abs/2212.08073
+
+The PDF is distributed unchanged, byte for byte, inside the bundle. The bundle adds navigation only: the sections from the work's own contents. Nothing in the text is rewritten, translated or added, and no answers are invented. The distributed PDF is byte-identical to https://arxiv.org/pdf/2212.08073v1 (SHA-256 9a456a07ad346e3372f9867d346f69f5b0f68b4c65f060aca0b8a13fa9d98e83, compared on 2 November 2026). The work prints no exercises, so the bundle marks none. arXiv's record of the paper names the license http://creativecommons.org/licenses/by/4.0/; the PDF itself prints none.
+
+Source documents and permission evidence:
+https://arxiv.org/pdf/2212.08073v1
+https://arxiv.org/abs/2212.08073
+https://export.arxiv.org/oai2?verb=GetRecord&identifier=oai:arXiv.org:2212.08073&metadataPrefix=arXiv
+https://creativecommons.org/licenses/by/4.0/
+
+Original source copyright notices:
+Source master page 1:
+Constitutional AI: Harmlessness from AI Feedback
+Yuntao Bai∗, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion,
+Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon,
+Carol Chen, Catherine Olsson, Christopher Olah, Danny Hernandez, Dawn Drain,
+Deep Ganguli, Dustin Li, Eli Tran-Johnson, Ethan Perez, Jamie Kerr, Jared Mueller,
+Jeffrey Ladish, Joshua Landau, Kamal Ndousse, Kamile Lukosuite, Liane Lovitt,
+Michael Sellitto, Nelson Elhage, Nicholas Schiefer, Noemi Mercado, Nova DasSarma,
+Robert Lasenby, Robin Larson, Sam Ringer, Scott Johnston, Shauna Kravec,
+Sheer El Showk, Stanislav Fort, Tamera Lanham, Timothy Telleen-Lawton, Tom Conerly,
+Tom Henighan, Tristan Hume, Samuel R. Bowman, Zac Hatﬁeld-Dodds, Ben Mann,
+Dario Amodei, Nicholas Joseph, Sam McCandlish, Tom Brown, Jared Kaplan∗
+Anthropic
+Abstract
+As AI systems become more capable, we would like to enlist their help to supervise
+other AIs. We experiment with methods for training a harmless AI assistant through self-
+improvement, without any human labels identifying harmful outputs. The only human
+oversight is provided through a list of rules or principles, and so we refer to the method as
+‘Constitutional AI’. The process involves both a supervised learning and a reinforcement
+learning phase. In the supervised phase we sample from an initial model, then generate
+self-critiques and revisions, and then ﬁnetune the original model on revised responses. In
+the RL phase, we sample from the ﬁnetuned model, use a model to evaluate which of the
+two samples is better, and then train a preference model from this dataset of AI prefer-
+ences. We then train with RL using the preference model as the reward signal, i.e. we
+use ‘RL from AI Feedback’ (RLAIF). As a result we are able to train a harmless but non-
+evasive AI assistant that engages with harmful queries by explaining its objections to them.
+Both the SL and RL methods can leverage chain-of-thought style reasoning to improve the
+human-judged performance and transparency of AI decision making. These methods make
+it possible to control AI behavior more precisely and with far fewer human labels.
+∗Correspondence to: {yuntao,jared}@anthropic.com
+Author contributions are detailed in 7.
+arXiv:2212.08073v1  [cs.CL]  15 Dec 2022
+
+
+CS.08 — Direct Preference Optimization: Your Language Model is Secretly a Reward Model
+Author(s): Rafael Rafailov, Archit Sharma, Eric Mitchell, Stefano Ermon, Christopher D. Manning and Chelsea Finn
+Edition: arXiv:2305.18290v3 (NeurIPS 2023)
+License: CC BY 4.0
+Source: https://arxiv.org/abs/2305.18290
+
+The PDF is distributed unchanged, byte for byte, inside the bundle. The bundle adds navigation only: the sections from the work's own contents. Nothing in the text is rewritten, translated or added, and no answers are invented. The distributed PDF is byte-identical to https://arxiv.org/pdf/2305.18290v3 (SHA-256 92cb3a2b71362acda98a789b03d88688fd33cf5fcf13f81d2b1de30ee7d3b67a, compared on 2 November 2026). The work prints no exercises, so the bundle marks none. arXiv's record of the paper names the license http://creativecommons.org/licenses/by/4.0/; the PDF itself prints none.
+
+Source documents and permission evidence:
+https://arxiv.org/pdf/2305.18290v3
+https://arxiv.org/abs/2305.18290
+https://export.arxiv.org/oai2?verb=GetRecord&identifier=oai:arXiv.org:2305.18290&metadataPrefix=arXiv
+https://creativecommons.org/licenses/by/4.0/
+
+Original source copyright notices:
+Source master page 1:
+Direct Preference Optimization:
+Your Language Model is Secretly a Reward Model
+Rafael Rafailov∗†
+Archit Sharma∗†
+Eric Mitchell∗†
+Stefano Ermon†‡
+Christopher D. Manning†
+Chelsea Finn†
+†Stanford University ‡CZ Biohub
+{rafailov,architsh,eric.mitchell}@cs.stanford.edu
+Abstract
+While large-scale unsupervised language models (LMs) learn broad world knowl-
+edge and some reasoning skills, achieving precise control of their behavior is
+difficult due to the completely unsupervised nature of their training. Existing
+methods for gaining such steerability collect human labels of the relative quality of
+model generations and fine-tune the unsupervised LM to align with these prefer-
+ences, often with reinforcement learning from human feedback (RLHF). However,
+RLHF is a complex and often unstable procedure, first fitting a reward model that
+reflects the human preferences, and then fine-tuning the large unsupervised LM
+using reinforcement learning to maximize this estimated reward without drifting
+too far from the original model. In this paper we introduce a new parameterization
+of the reward model in RLHF that enables extraction of the corresponding optimal
+policy in closed form, allowing us to solve the standard RLHF problem with only a
+simple classification loss. The resulting algorithm, which we call Direct Prefer-
+ence Optimization (DPO), is stable, performant, and computationally lightweight,
+eliminating the need for sampling from the LM during fine-tuning or performing
+significant hyperparameter tuning. Our experiments show that DPO can fine-tune
+LMs to align with human preferences as well as or better than existing methods.
+Notably, fine-tuning with DPO exceeds PPO-based RLHF in ability to control sen-
+timent of generations, and matches or improves response quality in summarization
+and single-turn dialogue while being substantially simpler to implement and train.
+1
+Introduction
+Large unsupervised language models (LMs) trained on very large datasets acquire surprising capabili-
+ties [11, 7, 42, 8]. However, these models are trained on data generated by humans with a wide variety
+of goals, priorities, and skillsets. Some of these goals and skillsets may not be desirable to imitate; for
+example, while we may want our AI coding assistant to understand common programming mistakes
+in order to correct them, nevertheless, when generating code, we would like to bias our model toward
+the (potentially rare) high-quality coding ability present in its training data. Similarly, we might want
+our language model to be aware of a common misconception believed by 50% of people, but we
+certainly do not want the model to claim this misconception to be true in 50% of queries about it!
+In other words, selecting the model’s desired responses and behavior from its very wide knowledge
+and abilities is crucial to building AI systems that are safe, performant, and controllable [28]. While
+existing methods typically steer LMs to match human preferences using reinforcement learning (RL),
+∗Equal contribution; more junior authors listed earlier.
+37th Conference on Neural Information Processing Systems (NeurIPS 2023).
+arXiv:2305.18290v3  [cs.LG]  29 Jul 2024

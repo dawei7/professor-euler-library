@@ -1,7 +1,8 @@
 # Professor Euler Library
 
-Open-licensed mathematics textbooks prepared for [Professor Euler](https://play.google.com/store/apps/details?id=com.mathn.tablet),
-a free study app for Android tablets and Windows:
+Open-licensed mathematics and computer-science textbooks, and a few research papers, prepared for
+[Professor Euler](https://play.google.com/store/apps/details?id=com.mathn.tablet), a free study app for Android tablets,
+phones and Windows:
 each book is a `.mcbundle`, the original PDF with its printed exercises, solutions and contents marked. The app
 downloads them from this repository's release "books" into My books. Every book keeps its own license; see
 `licenses/` and each book page; the editable sources the licenses ask for are the release asset `editable-sources-*.zip`.
@@ -20,6 +21,7 @@ every book has its own post in #book-talk.
 - [AI Research — Probability, Statistics & Machine Learning](docs/paths/ai_research.md): Understand how learning systems are built, why they can generalize, and how to investigate when they fail.
 - [Complete Mathematics](docs/paths/complete.md): Build a broad mathematical education that connects proof, computation, uncertainty and learning.
 - [German University Mathematics](docs/paths/german_university.md): Lerne mathematische Begriffe und Beweise auf Deutsch und wende sie in passenden Probeklausuren an.
+- [Computer Science & AI](docs/paths/computer_science_ai.md): Learn the mathematics computer science runs on, then follow it into machines that sense and act, systems that learn from data, and the language models of today.
 
 ## Books
 
@@ -93,6 +95,17 @@ every book has its own post in #book-talk.
 - DE.P.03 [Analysis II: Probeklausuren und Lösungen](docs/books/de_p_03_analysis_2_probeklausuren.md), Holger Brenner · CC BY-SA 4.0 (adaptation) · 1.5 MB
 - DE.P.04 [Lineare Algebra II: Probeklausuren und Lösungen](docs/books/de_p_04_lineare_algebra_2_probeklausuren.md), Holger Brenner · CC BY-SA 4.0 (adaptation) · 1.5 MB
 - DE.P.05 [Analysis III: Probeklausuren und Lösungen](docs/books/de_p_05_analysis_3_probeklausuren.md), Holger Brenner · CC BY-SA 4.0 (adaptation) · 2.0 MB
+
+### Computer science & AI
+
+- CS.01 [Mathematics for Computer Science](docs/books/mathematics_for_computer_science_lehman_2018.md), Eric Lehman, F. Thomson Leighton and Albert R. Meyer · CC BY-SA 3.0 · 13.7 MB
+- CS.02 [Eingebettete Systeme: Grundlagen Eingebetteter Systeme in Cyber-Physikalischen Systemen](docs/books/eingebettete_systeme_marwedel_2021.md), Peter Marwedel · CC BY 4.0 · 10.3 MB
+- CS.03 [Elements of Robotics](docs/books/elements_of_robotics_ben_ari_mondada.md), Mordechai Ben-Ari and Francesco Mondada · CC BY 4.0 · 9.7 MB
+- CS.04 [Maschinelles Lernen](docs/books/maschinelles_lernen_thimm_2026.md), Matthias Thimm · CC BY-NC-ND 4.0 · 4.8 MB
+- CS.05 [Reinforcement Learning: An Introduction](docs/books/reinforcement_learning_sutton_barto.md), Richard S. Sutton and Andrew G. Barto · CC BY-NC-ND 2.0 · 73.2 MB
+- CS.06 [Foundation Models for Natural Language Processing: Pre-trained Language Models Integrating Media](docs/books/foundation_models_nlp_paass_giesselbach.md), Gerhard Paaß and Sven Giesselbach · CC BY 4.0 · 25.1 MB
+- CS.07 [Constitutional AI: Harmlessness from AI Feedback](docs/books/constitutional_ai_bai_2022.md), Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell and others (Anthropic) · CC BY 4.0 · 2.1 MB
+- CS.08 [Direct Preference Optimization: Your Language Model is Secretly a Reward Model](docs/books/direct_preference_optimization_rafailov_2023.md), Rafael Rafailov, Archit Sharma, Eric Mitchell, Stefano Ermon, Christopher D. Manning and Chelsea Finn · CC BY 4.0 · 1.3 MB
 
 ## Handwriting model
 

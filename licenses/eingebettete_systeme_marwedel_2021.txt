@@ -1,0 +1,50 @@
+CS.02 — Eingebettete Systeme: Grundlagen Eingebetteter Systeme in Cyber-Physikalischen Systemen
+Author(s): Peter Marwedel
+Edition: 2. Auflage, Springer Vieweg 2021, Open Access
+License: CC BY 4.0
+Source: https://doi.org/10.1007/978-3-658-33437-6
+
+The PDF is distributed unchanged, byte for byte, inside the bundle. The bundle adds navigation only: the sections from the work's own contents, and a frame around each exercise the book prints, with its printed number. Nothing in the text is rewritten, translated or added, and no answers are invented. The distributed PDF is the copy acquired from the publisher's open-access page (SHA-256 45fffaaf4315bcd0e8b0a997355253975780eaa9b55d2959c8bca5d874a3ee41); that page answers scripts with a browser check, so it was not compared byte for byte.
+
+Source documents and permission evidence:
+https://doi.org/10.1007/978-3-658-33437-6
+https://creativecommons.org/licenses/by/4.0/deed.de
+https://creativecommons.org/licenses/by/4.0/
+
+Original source copyright notices:
+Source master page 4:
+ISBN 978-3-658-33436-9  
+ISBN 978-3-658-33437-6 (eBook)
+https://doi.org/10.1007/978-3-658-33437-6
+Die Deutsche Nationalbibliothek verzeichnet diese Publikation in der Deutschen Nationalbibliografie; 
+detaillierte bibliografische Daten sind im Internet über http://dnb.d-nb.de abrufbar.
+© Der/die Herausgeber bzw. der/die Autor(en) 2007, 2021
+Dieses Buch ist eine Open-Access-Publikation.
+Open Access Dieses Buch wird unter der Creative Commons Namensnennung 4.0 International 
+Lizenz (http://creativecommons.org/licenses/by/4.0/deed.de) veröffentlicht, welche die Nutzung, 
+Vervielfältigung, Bearbeitung, Verbreitung und Wiedergabe in jeglichem Medium und Format erlaubt, 
+sofern Sie den/die ursprünglichen Autor(en) und die Quelle ordnungsgemäß nennen, einen Link zur 
+Creative Commons Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden.
+Die in diesem Buch enthaltenen Bilder und sonstiges Drittmaterial unterliegen ebenfalls der 
+genannten Creative Commons Lizenz, sofern sich aus der Abbildungslegende nichts anderes ergibt. 
+Sofern das betreffende Material nicht unter der genannten Creative Commons Lizenz steht und die 
+betreffende Handlung nicht nach gesetzlichen Vorschriften erlaubt ist, ist für die oben aufgeführten 
+Weiterverwendungen des Materials die Einwilligung des jeweiligen Rechteinhabers einzuholen.
+Die Wiedergabe von allgemein beschreibenden Bezeichnungen, Marken, Unternehmensnamen etc. in 
+diesem Werk bedeutet nicht, dass diese frei durch jedermann benutzt werden dürfen. Die Berechtigung 
+zur Benutzung unterliegt, auch ohne gesonderten Hinweis hierzu, den Regeln des Markenrechts. Die 
+Rechte des jeweiligen Zeicheninhabers sind zu beachten.
+Der Verlag, die Autoren und die Herausgeber gehen davon aus, dass die Angaben und Informationen in 
+diesem Werk zum Zeitpunkt der Veröffentlichung vollständig und korrekt sind. Weder der Verlag, noch 
+die Autoren oder die Herausgeber übernehmen, ausdrücklich oder implizit, Gewähr für den Inhalt des 
+Werkes, etwaige Fehler oder Äußerungen. Der Verlag bleibt im Hinblick auf geografische Zuordnungen 
+und Gebietsbezeichnungen in veröffentlichten Karten und Institutionsadressen neutral.
+Planung: 
+Springer Vieweg ist ein Imprint der eingetragenen Gesellschaft Springer Fachmedien Wiesbaden GmbH
+Die Anschrift der Gesellschaft ist: Abraham-Lincoln-Str. 46, 65189 Wiesbaden, Germany
+Peter Marwedel
+Dortmund, Deutschland
+Sybille Thelen
+TU Dortmund, Lehrstuhl für Eingebettete Systeme
+Springer Vieweg
+und ist ein Teil von Springer Nature.

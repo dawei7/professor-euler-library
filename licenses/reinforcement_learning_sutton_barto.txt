@@ -1,0 +1,44 @@
+CS.05 — Reinforcement Learning: An Introduction
+Author(s): Richard S. Sutton and Andrew G. Barto
+Edition: Second edition, MIT Press 2018; the authors' PDF (RLbook2020)
+License: CC BY-NC-ND 2.0
+Source: http://incompleteideas.net/book/the-book-2nd.html
+
+The PDF is distributed unchanged, byte for byte, inside the bundle. The bundle adds navigation only: the sections from the work's own contents, and a frame around each exercise the book prints, with its printed number. Nothing in the text is rewritten, translated or added, and no answers are invented. The distributed PDF is byte-identical to http://incompleteideas.net/book/RLbook2020.pdf (SHA-256 2dd0d71d9ee883fbeb99f9b888c65ac3255fae2512203d11b18e838befffe9a6, compared on 2 November 2026).
+
+Source documents and permission evidence:
+http://incompleteideas.net/book/RLbook2020.pdf
+http://incompleteideas.net/book/the-book-2nd.html
+https://creativecommons.org/licenses/by-nc-nd/2.0/
+
+Original source copyright notices:
+Source master page 4:
+© 2018, 2020 Richard S. Sutton and Andrew G. Barto
+All rights reserved. No part of this book may be reproduced in any form by any electronic
+or mechanical means (including photocopying, recording, or information storage and retrieval)
+without permission in writing from the copyright holder.
+This work is licensed under the
+Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Generic License. To view a copy
+of this license, visit http://creativecommons.org/licenses/by-nc-nd/2.0/ or send a letter
+to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+This book was set in 10/12, CMR by Westchester Publishing Services. Printed and bound in
+the United States of America.
+Library of Congress Cataloging-in-Publication Data
+Names: Sutton, Richard S., author. | Barto, Andrew G., author.
+Title: Reinforcement learning : an introduction / Richard S. Sutton and Andrew G. Barto.
+Description: Second edition. | Cambridge, MA : The MIT Press, [2018] | Series: Adaptive
+computation and machine learning series | Includes bibliographical references and index.
+Identiﬁers: LCCN 2018023826 | ISBN 9780262039246 (hardcover : alk. paper)
+Subjects: LCSH: Reinforcement learning.
+Classiﬁcation: LCC Q325.6 .R45 2018 | DDC 006.3/1--dc23 LC record available
+at https://lccn.loc.gov/2018023826
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1

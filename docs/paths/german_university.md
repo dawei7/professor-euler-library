@@ -56,14 +56,3 @@ Bearbeite zunächst die Aufgaben des Skripts. Schreibe danach eine Probeklausur 
 **Companions**
 
 Die englischen Bücher können als zweite Erklärung dienen, besonders Hammack für Beweise, Hefferon/Axler für lineare Algebra und Lebl/Axler für Analysis. Sie sind keine zusätzlichen Pflichtbücher dieses Pfades. Englische Bücher zum maschinellen Lernen, die man sich selbst herunterlädt, stehen im Pfad AI Research. Sie ersetzen keines der Skripte dieses Pfades.
-
-## Optional companions
-
-These enrich the main paths; they are not extra compulsory stages.
-
-- **C.01 — Dive into Deep Learning** — Aston Zhang, Zachary C. Lipton, Mu Li and Alexander J. Smola. Read alongside **28**.
-- **C.02 — Probabilistic Machine Learning: Advanced Topics** — Kevin P. Murphy. Read alongside **26, 28, 29, 30**.
-- **C.03 — Classical Numerical Methods in Scientific Computing** — Jos van Kan, Guus Segal, Fred Vermolen and Hans Kraaijevanger. Read alongside **23**.
-- **C.04 — Mathematics of Machine Learning** — Philippe Rigollet. Read alongside **29**.
-
-Path order comes from [catalog.json](catalog.json). This file is the path guide and is kept in step with the study-direction text in the app. The chapter-by-chapter essays for all 50 books are in the app under Curriculum Info, Choose a book.

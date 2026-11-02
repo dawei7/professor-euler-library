@@ -1,7 +1,7 @@
 {
   "format": "professor-euler-library",
   "version": 1,
-  "revision": 4,
+  "revision": 5,
   "repository": "dawei7/professor-euler-library",
   "levels": [
     {
@@ -31,6 +31,10 @@
     {
       "id": "german",
       "title": "German university mathematics"
+    },
+    {
+      "id": "computer-science",
+      "title": "Computer science & AI"
     }
   ],
   "books": [
@@ -1183,6 +1187,190 @@
       "asset": "de_p_05_analysis_3_probeklausuren-1c4a3a94.mcbundle",
       "url": "https://github.com/dawei7/professor-euler-library/releases/download/books/de_p_05_analysis_3_probeklausuren-1c4a3a94.mcbundle",
       "doc": "docs/books/de_p_05_analysis_3_probeklausuren.md"
+    },
+    {
+      "id": "mathematics_for_computer_science_lehman_2018",
+      "number": "CS.01",
+      "title": "Mathematics for Computer Science",
+      "author": "Eric Lehman, F. Thomson Leighton and Albert R. Meyer",
+      "level": "computer-science",
+      "folder": "Professor Euler Library",
+      "license": "CC BY-SA 3.0",
+      "source": "https://courses.csail.mit.edu/6.042/spring18/mcs.pdf",
+      "notice": "CS.01 — Mathematics for Computer Science\nAuthor(s): Eric Lehman, F. Thomson Leighton and Albert R. Meyer\nEdition: MIT 6.042J, revised 6 June 2018\nLicense: CC BY-SA 3.0\nSource: https://courses.csail.mit.edu/6.042/spring18/mcs.pdf",
+      "noticeDoc": "licenses/mathematics_for_computer_science_lehman_2018.txt",
+      "bytes": 13703864,
+      "sha256": "dca88af1ea9bad0da5feeee8e7a0e7542423bee0c717ebd352d4153a5507f472",
+      "pdfSha256": "ea4ced500d4a4bae7beb7a72ae9784abb96ed656ad905976f54c828cf6337dc1",
+      "previousPdfSha256": [],
+      "pages": 1048,
+      "exercises": 819,
+      "sections": 283,
+      "included": false,
+      "asset": "mathematics_for_computer_science_lehman_2018-dca88af1.mcbundle",
+      "url": "https://github.com/dawei7/professor-euler-library/releases/download/books/mathematics_for_computer_science_lehman_2018-dca88af1.mcbundle",
+      "doc": "docs/books/mathematics_for_computer_science_lehman_2018.md"
+    },
+    {
+      "id": "eingebettete_systeme_marwedel_2021",
+      "number": "CS.02",
+      "title": "Eingebettete Systeme: Grundlagen Eingebetteter Systeme in Cyber-Physikalischen Systemen",
+      "author": "Peter Marwedel",
+      "level": "computer-science",
+      "folder": "Professor Euler Library",
+      "license": "CC BY 4.0",
+      "source": "https://doi.org/10.1007/978-3-658-33437-6",
+      "notice": "CS.02 — Eingebettete Systeme: Grundlagen Eingebetteter Systeme in Cyber-Physikalischen Systemen\nAuthor(s): Peter Marwedel\nEdition: 2. Auflage, Springer Vieweg 2021, Open Access\nLicense: CC BY 4.0\nSource: https://doi.org/10.1007/978-3-658-33437-6",
+      "noticeDoc": "licenses/eingebettete_systeme_marwedel_2021.txt",
+      "bytes": 10343847,
+      "sha256": "4090e5f352fac260edc89e793c69b1fbe6db9fad7833718e08ad1c7ff5f6d681",
+      "pdfSha256": "45fffaaf4315bcd0e8b0a997355253975780eaa9b55d2959c8bca5d874a3ee41",
+      "previousPdfSha256": [],
+      "pages": 486,
+      "exercises": 108,
+      "sections": 75,
+      "included": false,
+      "asset": "eingebettete_systeme_marwedel_2021-4090e5f3.mcbundle",
+      "url": "https://github.com/dawei7/professor-euler-library/releases/download/books/eingebettete_systeme_marwedel_2021-4090e5f3.mcbundle",
+      "doc": "docs/books/eingebettete_systeme_marwedel_2021.md"
+    },
+    {
+      "id": "elements_of_robotics_ben_ari_mondada",
+      "number": "CS.03",
+      "title": "Elements of Robotics",
+      "author": "Mordechai Ben-Ari and Francesco Mondada",
+      "level": "computer-science",
+      "folder": "Professor Euler Library",
+      "license": "CC BY 4.0",
+      "source": "https://doi.org/10.1007/978-3-319-62533-1",
+      "notice": "CS.03 — Elements of Robotics\nAuthor(s): Mordechai Ben-Ari and Francesco Mondada\nEdition: Springer 2018, Open Access\nLicense: CC BY 4.0\nSource: https://doi.org/10.1007/978-3-319-62533-1",
+      "noticeDoc": "licenses/elements_of_robotics_ben_ari_mondada.txt",
+      "bytes": 9736676,
+      "sha256": "59041d6b85188779af74b4deb5f097dff3eb0c41c3340cbca4b200381c3e1b04",
+      "pdfSha256": "52482e56a194aa958c6fac4503491f91b5624a8d8c387b3d833cdc7ad228d0c6",
+      "previousPdfSha256": [],
+      "pages": 311,
+      "exercises": 104,
+      "sections": 234,
+      "included": false,
+      "asset": "elements_of_robotics_ben_ari_mondada-59041d6b.mcbundle",
+      "url": "https://github.com/dawei7/professor-euler-library/releases/download/books/elements_of_robotics_ben_ari_mondada-59041d6b.mcbundle",
+      "doc": "docs/books/elements_of_robotics_ben_ari_mondada.md"
+    },
+    {
+      "id": "maschinelles_lernen_thimm_2026",
+      "number": "CS.04",
+      "title": "Maschinelles Lernen",
+      "author": "Matthias Thimm",
+      "level": "computer-science",
+      "folder": "Professor Euler Library",
+      "license": "CC BY-NC-ND 4.0",
+      "source": "https://doi.org/10.57813/20260220-092408-0",
+      "notice": "CS.04 — Maschinelles Lernen\nAuthor(s): Matthias Thimm\nEdition: 1. Auflage 2026, Hagen University Press (FernUniversität in Hagen), hagen text books Band 2\nLicense: CC BY-NC-ND 4.0\nSource: https://doi.org/10.57813/20260220-092408-0",
+      "noticeDoc": "licenses/maschinelles_lernen_thimm_2026.txt",
+      "bytes": 4782202,
+      "sha256": "3a5223a5c516fa61c5512904c8cd02ebdcbefefcc1f0a837a556f559bdc7dbd0",
+      "pdfSha256": "9a05a3a2ad1f0909233be8f26c2a5922df33c55cea018e418175ff81181ead35",
+      "previousPdfSha256": [],
+      "pages": 382,
+      "exercises": 0,
+      "sections": 95,
+      "included": false,
+      "asset": "maschinelles_lernen_thimm_2026-3a5223a5.mcbundle",
+      "url": "https://github.com/dawei7/professor-euler-library/releases/download/books/maschinelles_lernen_thimm_2026-3a5223a5.mcbundle",
+      "doc": "docs/books/maschinelles_lernen_thimm_2026.md"
+    },
+    {
+      "id": "reinforcement_learning_sutton_barto",
+      "number": "CS.05",
+      "title": "Reinforcement Learning: An Introduction",
+      "author": "Richard S. Sutton and Andrew G. Barto",
+      "level": "computer-science",
+      "folder": "Professor Euler Library",
+      "license": "CC BY-NC-ND 2.0",
+      "source": "http://incompleteideas.net/book/the-book-2nd.html",
+      "notice": "CS.05 — Reinforcement Learning: An Introduction\nAuthor(s): Richard S. Sutton and Andrew G. Barto\nEdition: Second edition, MIT Press 2018; the authors' PDF (RLbook2020)\nLicense: CC BY-NC-ND 2.0\nSource: http://incompleteideas.net/book/the-book-2nd.html",
+      "noticeDoc": "licenses/reinforcement_learning_sutton_barto.txt",
+      "bytes": 73215457,
+      "sha256": "d5eb5fda3260476185304a6e2cf3c1be8cece584114ef8700c5792474ee39e05",
+      "pdfSha256": "2dd0d71d9ee883fbeb99f9b888c65ac3255fae2512203d11b18e838befffe9a6",
+      "previousPdfSha256": [],
+      "pages": 548,
+      "exercises": 144,
+      "sections": 177,
+      "included": false,
+      "asset": "reinforcement_learning_sutton_barto-d5eb5fda.mcbundle",
+      "url": "https://github.com/dawei7/professor-euler-library/releases/download/books/reinforcement_learning_sutton_barto-d5eb5fda.mcbundle",
+      "doc": "docs/books/reinforcement_learning_sutton_barto.md"
+    },
+    {
+      "id": "foundation_models_nlp_paass_giesselbach",
+      "number": "CS.06",
+      "title": "Foundation Models for Natural Language Processing: Pre-trained Language Models Integrating Media",
+      "author": "Gerhard Paaß and Sven Giesselbach",
+      "level": "computer-science",
+      "folder": "Professor Euler Library",
+      "license": "CC BY 4.0",
+      "source": "https://doi.org/10.1007/978-3-031-23190-2",
+      "notice": "CS.06 — Foundation Models for Natural Language Processing: Pre-trained Language Models Integrating Media\nAuthor(s): Gerhard Paaß and Sven Giesselbach\nEdition: Springer 2023, Open Access (Artificial Intelligence: Foundations, Theory, and Algorithms)\nLicense: CC BY 4.0\nSource: https://doi.org/10.1007/978-3-031-23190-2",
+      "noticeDoc": "licenses/foundation_models_nlp_paass_giesselbach.txt",
+      "bytes": 25082293,
+      "sha256": "1ead9041ab36b87afe938fe91083214b9ef0d85dc8523af5f893e3dc5979f957",
+      "pdfSha256": "7d3004065c2c52579314de022932b2303c2405e1ca033f24b284f22dd27cd298",
+      "previousPdfSha256": [],
+      "pages": 448,
+      "exercises": 0,
+      "sections": 293,
+      "included": false,
+      "asset": "foundation_models_nlp_paass_giesselbach-1ead9041.mcbundle",
+      "url": "https://github.com/dawei7/professor-euler-library/releases/download/books/foundation_models_nlp_paass_giesselbach-1ead9041.mcbundle",
+      "doc": "docs/books/foundation_models_nlp_paass_giesselbach.md"
+    },
+    {
+      "id": "constitutional_ai_bai_2022",
+      "number": "CS.07",
+      "title": "Constitutional AI: Harmlessness from AI Feedback",
+      "author": "Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell and others (Anthropic)",
+      "level": "computer-science",
+      "folder": "Professor Euler Library",
+      "license": "CC BY 4.0",
+      "source": "https://arxiv.org/abs/2212.08073",
+      "notice": "CS.07 — Constitutional AI: Harmlessness from AI Feedback\nAuthor(s): Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell and others (Anthropic)\nEdition: arXiv:2212.08073v1, December 2022\nLicense: CC BY 4.0\nSource: https://arxiv.org/abs/2212.08073",
+      "noticeDoc": "licenses/constitutional_ai_bai_2022.txt",
+      "bytes": 2093297,
+      "sha256": "b2cbb79f6a3d7ede038f0aa7047bcca29a72786c27f8558f06a1978d17aaa2a2",
+      "pdfSha256": "9a456a07ad346e3372f9867d346f69f5b0f68b4c65f060aca0b8a13fa9d98e83",
+      "previousPdfSha256": [],
+      "pages": 34,
+      "exercises": 0,
+      "sections": 35,
+      "included": false,
+      "asset": "constitutional_ai_bai_2022-b2cbb79f.mcbundle",
+      "url": "https://github.com/dawei7/professor-euler-library/releases/download/books/constitutional_ai_bai_2022-b2cbb79f.mcbundle",
+      "doc": "docs/books/constitutional_ai_bai_2022.md"
+    },
+    {
+      "id": "direct_preference_optimization_rafailov_2023",
+      "number": "CS.08",
+      "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+      "author": "Rafael Rafailov, Archit Sharma, Eric Mitchell, Stefano Ermon, Christopher D. Manning and Chelsea Finn",
+      "level": "computer-science",
+      "folder": "Professor Euler Library",
+      "license": "CC BY 4.0",
+      "source": "https://arxiv.org/abs/2305.18290",
+      "notice": "CS.08 — Direct Preference Optimization: Your Language Model is Secretly a Reward Model\nAuthor(s): Rafael Rafailov, Archit Sharma, Eric Mitchell, Stefano Ermon, Christopher D. Manning and Chelsea Finn\nEdition: arXiv:2305.18290v3 (NeurIPS 2023)\nLicense: CC BY 4.0\nSource: https://arxiv.org/abs/2305.18290",
+      "noticeDoc": "licenses/direct_preference_optimization_rafailov_2023.txt",
+      "bytes": 1304706,
+      "sha256": "e10c3759f98fdb6860559078a93829121641eacb3c86705c740a11c784d1c9d6",
+      "pdfSha256": "92cb3a2b71362acda98a789b03d88688fd33cf5fcf13f81d2b1de30ee7d3b67a",
+      "previousPdfSha256": [],
+      "pages": 27,
+      "exercises": 0,
+      "sections": 29,
+      "included": false,
+      "asset": "direct_preference_optimization_rafailov_2023-e10c3759.mcbundle",
+      "url": "https://github.com/dawei7/professor-euler-library/releases/download/books/direct_preference_optimization_rafailov_2023-e10c3759.mcbundle",
+      "doc": "docs/books/direct_preference_optimization_rafailov_2023.md"
     }
   ],
   "paths": [
@@ -1406,6 +1594,47 @@
             "de_07_algebra_brenner_2009",
             "de_05_analysis_3",
             "de_p_05_analysis_3_probeklausuren"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "computer_science_ai",
+      "title": "Computer Science & AI",
+      "summary": "Learn the mathematics computer science runs on, then follow it into machines that sense and act, systems that learn from data, and the language models of today.",
+      "doc": "docs/paths/computer_science_ai.md",
+      "stages": [
+        {
+          "title": "Foundations",
+          "books": [
+            "mathematics_for_computer_science_lehman_2018",
+            "calculus_volume_1_strang_herman",
+            "linear_algebra_hefferon",
+            "calculus_volume_2_strang_herman",
+            "calculus_volume_3_strang_herman"
+          ]
+        },
+        {
+          "title": "Systems and robotics",
+          "books": [
+            "eingebettete_systeme_marwedel_2021",
+            "elements_of_robotics_ben_ari_mondada"
+          ]
+        },
+        {
+          "title": "Machine learning",
+          "books": [
+            "maschinelles_lernen_thimm_2026",
+            "understanding_deep_learning_prince",
+            "reinforcement_learning_sutton_barto"
+          ]
+        },
+        {
+          "title": "Language models and alignment",
+          "books": [
+            "foundation_models_nlp_paass_giesselbach",
+            "constitutional_ai_bai_2022",
+            "direct_preference_optimization_rafailov_2023"
           ]
         }
       ]

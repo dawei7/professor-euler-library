@@ -1,0 +1,51 @@
+CS.03 — Elements of Robotics
+Author(s): Mordechai Ben-Ari and Francesco Mondada
+Edition: Springer 2018, Open Access
+License: CC BY 4.0
+Source: https://doi.org/10.1007/978-3-319-62533-1
+
+The PDF is distributed unchanged, byte for byte, inside the bundle. The bundle adds navigation only: the sections from the work's own contents, and a frame around each exercise the book prints, with its printed number. Nothing in the text is rewritten, translated or added, and no answers are invented. The distributed PDF is the copy acquired from the publisher's open-access page (SHA-256 52482e56a194aa958c6fac4503491f91b5624a8d8c387b3d833cdc7ad228d0c6); that page answers scripts with a browser check, so it was not compared byte for byte.
+
+Source documents and permission evidence:
+https://doi.org/10.1007/978-3-319-62533-1
+https://creativecommons.org/licenses/by/4.0/
+
+Original source copyright notices:
+Source master page 4:
+Mordechai Ben-Ari
+Department of Science Teaching
+Weizmann Institute of Science
+Rehovot
+Israel
+Francesco Mondada
+Laboratoire de Systèmes Robotiques
+Ecole Polytechnique Fédérale de Lausanne
+Lausanne
+Switzerland
+ISBN 978-3-319-62532-4
+ISBN 978-3-319-62533-1
+(eBook)
+https://doi.org/10.1007/978-3-319-62533-1
+Library of Congress Control Number: 2017950255
+© The Editor(s) (if applicable) and The Author(s) 2018. This book is an open access publication.
+Open Access This book is licensed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits use, sharing, adap-
+tation, distribution and reproduction in any medium or format, as long as you give appropriate credit to
+the original author(s) and the source, provide a link to the Creative Commons license and indicate if
+changes were made.
+The images or other third party material in this book are included in the book’s Creative Commons
+license, unless indicated otherwise in a credit line to the material. If material is not included in the book’s
+Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the
+permitted use, you will need to obtain permission directly from the copyright holder.
+The use of general descriptive names, registered names, trademarks, service marks, etc. in this publi-
+cation does not imply, even in the absence of a speciﬁc statement, that such names are exempt from the
+relevant protective laws and regulations and therefore free for general use.
+The publisher, the authors and the editors are safe to assume that the advice and information in this
+book are believed to be true and accurate at the date of publication. Neither the publisher nor the
+authors or the editors give a warranty, express or implied, with respect to the material contained herein or
+for any errors or omissions that may have been made. The publisher remains neutral with regard to
+jurisdictional claims in published maps and institutional afﬁliations.
+Printed on acid-free paper
+This Springer imprint is published by Springer Nature
+The registered company is Springer International Publishing AG
+The registered company address is: Gewerbestrasse 11, 6330 Cham, Switzerland

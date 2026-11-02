@@ -1,0 +1,53 @@
+CS.04 — Maschinelles Lernen
+Author(s): Matthias Thimm
+Edition: 1. Auflage 2026, Hagen University Press (FernUniversität in Hagen), hagen text books Band 2
+License: CC BY-NC-ND 4.0
+Source: https://doi.org/10.57813/20260220-092408-0
+
+The PDF is distributed unchanged, byte for byte, inside the bundle. The bundle adds navigation only: the sections from the work's own contents. Nothing in the text is rewritten, translated or added, and no answers are invented. The distributed PDF is the copy acquired from the publisher's open-access page (SHA-256 9a05a3a2ad1f0909233be8f26c2a5922df33c55cea018e418175ff81181ead35); that page answers scripts with a browser check, so it was not compared byte for byte. The work prints no exercises, so the bundle marks none.
+
+Source documents and permission evidence:
+https://doi.org/10.57813/20260220-092408-0
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+Original source copyright notices:
+Source master page 5:
+Impressum 
+ 
+Bibliografische Information der Deutschen Nationalbibliothek  
+Die Deutsche Nationalbibliothek verzeichnet diese Publikation in der Deutschen 
+Nationalbibliografie; detaillierte bibliografische Daten sind im Internet über 
+http://dnb.d-nb.de abrufbar. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Druck: CPI Druckdienstleistungen GmbH, Ferdinand-Jühlke-Straße 7, 99095 Erfurt 
+ 
+1. Auflage 2026 
+ 
+ISSN 3051-9993 (Print) 
+ISSN 3052-0002 (Online) 
+ISBN 978-3-98767-509-6 (Print) 
+ISBN 978-3-98767-038-1 (E-PDF) 
+DOI 10.57813/20260220-092408-0 
+ 
+Der Text dieser Publikation wird unter der Lizenz Creative Commons 
+Namensnennung – Nicht kommerziell – Keine Bearbeitungen 4.0 
+International (CC BY-NC-ND 4.0) veröffentlicht. 
+ 
+Hagen UP (Hagen University Press) 
+FernUniversität in Hagen 
+Feithstraße 152 
+58097 Hagen

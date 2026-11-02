@@ -1,0 +1,31 @@
+CS.01 — Mathematics for Computer Science
+Author(s): Eric Lehman, F. Thomson Leighton and Albert R. Meyer
+Edition: MIT 6.042J, revised 6 June 2018
+License: CC BY-SA 3.0
+Source: https://courses.csail.mit.edu/6.042/spring18/mcs.pdf
+
+The PDF is distributed unchanged, byte for byte, inside the bundle. The bundle adds navigation only: the sections from the work's own contents, and a frame around each exercise the book prints, with its printed number. Nothing in the text is rewritten, translated or added, and no answers are invented. The distributed PDF is byte-identical to https://courses.csail.mit.edu/6.042/spring18/mcs.pdf (SHA-256 ea4ced500d4a4bae7beb7a72ae9784abb96ed656ad905976f54c828cf6337dc1, compared on 2 November 2026).
+
+Source documents and permission evidence:
+https://courses.csail.mit.edu/6.042/spring18/mcs.pdf
+https://courses.csail.mit.edu/6.042/spring18/
+https://creativecommons.org/licenses/by-sa/3.0/
+
+Original source copyright notices:
+Source master page 1:
+“mcs” — 2018/6/6 — 13:43 — page i — #1
+Mathematics for Computer Science
+revised Wednesday 6th June, 2018, 13:43
+Eric Lehman
+Google Inc.
+F Thomson Leighton
+Department of Mathematics
+and the Computer Science and AI Laboratory,
+Massachussetts Institute of Technology;
+Akamai Technologies
+Albert R Meyer
+Department of Electrical Engineering and Computer Science
+and the Computer Science and AI Laboratory,
+Massachussetts Institute of Technology
+2018, Eric Lehman, F Tom Leighton, Albert R Meyer. This work is available under the
+terms of the Creative Commons Attribution-ShareAlike 3.0 license.
