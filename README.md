@@ -19,6 +19,7 @@ every book has its own post in #book-talk.
 - [Applied Mathematics](docs/paths/applied_math.md): Turn a mathematical model into a calculation you can implement, test and explain.
 - [AI Research — Probability, Statistics & Machine Learning](docs/paths/ai_research.md): Understand how learning systems are built, why they can generalize, and how to investigate when they fail.
 - [Complete Mathematics](docs/paths/complete.md): Build a broad mathematical education that connects proof, computation, uncertainty and learning.
+- [German University Mathematics](docs/paths/german_university.md): Lerne mathematische Begriffe und Beweise auf Deutsch und wende sie in passenden Probeklausuren an.
 
 ## Books
 
@@ -77,6 +78,21 @@ every book has its own post in #book-talk.
 - C.02 [Probabilistic Machine Learning: Advanced Topics](docs/books/probabilistic_ml_advanced_murphy.md), Kevin P. Murphy · CC BY-NC-ND 4.0 · 145.8 MB
 - C.03 [Classical Numerical Methods in Scientific Computing](docs/books/classical_numerical_methods_delft.md), Jos van Kan, Guus Segal, Fred Vermolen and Hans Kraaijevanger · CC BY 4.0 · 12.5 MB
 - C.04 [Mathematics of Machine Learning](docs/books/mathematics_machine_learning_rigollet_2015.md), Philippe Rigollet · CC BY-NC-SA 4.0 · 3.4 MB
+
+### German university mathematics
+
+- DE.01 [Grundlagen der Mathematik: Logik und Mengen](docs/books/de_00_grundlagen_der_mathematik.md), Serlo / Mathe für Nicht-Freaks · CC BY-SA 3.0; component licenses · 28.1 MB
+- DE.02 [Analysis I](docs/books/de_01_analysis_1.md), Holger Brenner · CC BY-SA 3.0; component licenses · 4.4 MB
+- DE.03 [Lineare Algebra I](docs/books/de_02_lineare_algebra_1.md), Holger Brenner · CC BY-SA 3.0; component licenses · 11.2 MB
+- DE.04 [Analysis II](docs/books/de_03_analysis_2.md), Holger Brenner · CC BY-SA 3.0; component licenses · 3.8 MB
+- DE.05 [Lineare Algebra II](docs/books/de_04_lineare_algebra_2.md), Holger Brenner · CC BY-SA 3.0; component licenses · 8.3 MB
+- DE.06 [Analysis III: Maß- und Integrationstheorie](docs/books/de_05_analysis_3.md), Holger Brenner · CC BY-SA 3.0; component licenses · 2.5 MB
+- DE.07 [Einführung in die Algebra, Osnabrück 2009](docs/books/de_07_algebra_brenner_2009.md), Holger Brenner · CC BY-SA 3.0; component licenses · 4.4 MB
+- DE.P.01 [Analysis I: Probeklausuren und Lösungen](docs/books/de_p_01_analysis_1_probeklausuren.md), Holger Brenner · CC BY-SA 4.0 (adaptation) · 1.7 MB
+- DE.P.02 [Lineare Algebra I: Probeklausuren und Lösungen](docs/books/de_p_02_lineare_algebra_1_probeklausuren.md), Holger Brenner · CC BY-SA 4.0 (adaptation) · 1.8 MB
+- DE.P.03 [Analysis II: Probeklausuren und Lösungen](docs/books/de_p_03_analysis_2_probeklausuren.md), Holger Brenner · CC BY-SA 4.0 (adaptation) · 1.5 MB
+- DE.P.04 [Lineare Algebra II: Probeklausuren und Lösungen](docs/books/de_p_04_lineare_algebra_2_probeklausuren.md), Holger Brenner · CC BY-SA 4.0 (adaptation) · 1.5 MB
+- DE.P.05 [Analysis III: Probeklausuren und Lösungen](docs/books/de_p_05_analysis_3_probeklausuren.md), Holger Brenner · CC BY-SA 4.0 (adaptation) · 2.0 MB
 
 ## Handwriting model
 

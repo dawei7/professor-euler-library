@@ -1,0 +1,2771 @@
+DE.01 — Grundlagen der Mathematik: Logik und Mengen
+Author(s): Serlo / Mathe für Nicht-Freaks
+License: CC BY-SA 3.0; component licenses
+Source: https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks
+
+Source mathematical text retained; arranged into chapter/section vector study slices by Math(n), 2026. No author answers are invented. Original source mathematics is preserved, including source formatting. Component images retain their individual author credits and licenses. The compiled adaptation uses CC BY-SA 4.0 where an adaptation license is required; underlying text grants and component licenses remain as stated. Source/history links below identify Wikiversity/Wikibooks contributors.
+
+Source documents and contributor attribution:
+https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks
+http://de.wikibooks.org/wiki/Benutzer:Dirk_Huenniger/wb2pdf
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:4g&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Aetsch&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:AzettImpa&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Berno.bahro&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Capuch%25C3%25A3o_Vermelho&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Cgqyyflz&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Claudia4&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Daniel5Ko&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Dirk_Bindmann&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Enomine&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Fabiangabel&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Fr4gde4l0r&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Griever~dewikibooks&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:KHD&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Kaiserpm&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Mathpro01&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Michael.Metzler&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:MjStallinger&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Moritz_Rettinger&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Morrison69&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:MrScoville&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Nevsor&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Nornenfreund&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Paede96&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Pcm~dewikibooks&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Pseudo-nym~dewikibooks&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:SanjoX&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Schabimperle&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Schnark&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Stefan_Nagy&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Stefanhuglfing&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Stefanie_Fenkl&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Stekoperfan&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Stygeros&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Talonnn&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Thibaud&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Tippofant&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Tobiasinator&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Tray&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Uerdue&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Ulf.panten&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:W.e.r.n&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Weekclear&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php%3ftitle=Benutzer:Yoursmile&action=edit&redlink=1
+https://de.wikibooks.org/w/index.php?title=Benutzer_Diskussion:Stephan_Kulla&oldid=712748#Kontravalenz_Bindungsstaerke
+https://de.wikibooks.org/wiki/%3AMathe%20f%C3%BCr%20Nicht-Freaks%3A%20M%C3%A4chtigkeit%20von%20Mengen%23Vertiefung%20zum%20Thema%20M%C3%A4chtigkeit
+https://de.wikibooks.org/wiki/%3AMathe%20f%C3%BCr%20Nicht-Freaks%3A%20Relation
+https://de.wikibooks.org/wiki/%3Aw%3A%20Cantors%20erstes%20Diagonalargument
+https://de.wikibooks.org/wiki/%3Aw%3AAleph
+https://de.wikibooks.org/wiki/%3Aw%3ABeweis%20%28Mathematik%29%23Vollst%C3%A4ndige%20Fallunterscheidung
+https://de.wikibooks.org/wiki/%3Aw%3ABinomialkoeffizient%23Verallgemeinerung
+https://de.wikibooks.org/wiki/%3Aw%3ABinomische%20Formel
+https://de.wikibooks.org/wiki/%3Aw%3ABlitz%23Wirkung_auf_Menschen
+https://de.wikibooks.org/wiki/%3Aw%3ACantors%20zweites%20Diagonalargument
+https://de.wikibooks.org/wiki/%3Aw%3ACarl%20Friedrich%20Gau%C3%9F
+https://de.wikibooks.org/wiki/%3Aw%3AEpsilon
+https://de.wikibooks.org/wiki/%3Aw%3AEx%20falso%20quodlibet
+https://de.wikibooks.org/wiki/%3Aw%3AExtensionalit%C3%A4tsaxiom
+https://de.wikibooks.org/wiki/%3Aw%3AGalileo%20Galilei
+https://de.wikibooks.org/wiki/%3Aw%3AGau%C3%9Fsche%20Summenformel%23Herkunft%20der%20Bezeichnung
+https://de.wikibooks.org/wiki/%3Aw%3AGeorg%20Cantor
+https://de.wikibooks.org/wiki/%3Aw%3AGiuseppe%20Peano
+https://de.wikibooks.org/wiki/%3Aw%3AIdentit%C3%A4t_%28Mathematik%29
+https://de.wikibooks.org/wiki/%3Aw%3AKonjunktion%20%28Wortart%29
+https://de.wikibooks.org/wiki/%3Aw%3AKonstruktive%20Mathematik
+https://de.wikibooks.org/wiki/%3Aw%3AKontinuumshypothese
+https://de.wikibooks.org/wiki/%3Aw%3AKontraposition
+https://de.wikibooks.org/wiki/%3Aw%3AMathematische%20Annalen
+https://de.wikibooks.org/wiki/%3Aw%3AMehrwertige%20Logik
+https://de.wikibooks.org/wiki/%3Aw%3ANichtklassische%20Logik
+https://de.wikibooks.org/wiki/%3Aw%3APi%20%28Buchstabe%29
+https://de.wikibooks.org/wiki/%3Aw%3APlatonismus%23Moderne_Philosophie
+https://de.wikibooks.org/wiki/%3Aw%3APrimzahl
+https://de.wikibooks.org/wiki/%3Aw%3ASatz%20von%20Cantor
+https://de.wikibooks.org/wiki/%3Aw%3ASigma
+https://de.wikibooks.org/wiki/%3Aw%3AWiderspruchsbeweis
+https://de.wikibooks.org/wiki/Benutzer:4tilden
+https://de.wikibooks.org/wiki/Benutzer:Alepla
+https://de.wikibooks.org/wiki/Benutzer:Aschmidt
+https://de.wikibooks.org/wiki/Benutzer:Boehm
+https://de.wikibooks.org/wiki/Benutzer:Braun~dewikibooks
+https://de.wikibooks.org/wiki/Benutzer:Christian-bauer
+https://de.wikibooks.org/wiki/Benutzer:Christoph_Kehle
+https://de.wikibooks.org/wiki/Benutzer:CommonsDelinker
+https://de.wikibooks.org/wiki/Benutzer:David23x
+https://de.wikibooks.org/wiki/Benutzer:Digamma
+https://de.wikibooks.org/wiki/Benutzer:Dirk_H%25C3%25BCnniger
+https://de.wikibooks.org/wiki/Benutzer:Dirk_Huenniger
+https://de.wikibooks.org/wiki/Benutzer:Felix1411
+https://de.wikibooks.org/wiki/Benutzer:FranzR
+https://de.wikibooks.org/wiki/Benutzer:Golmman
+https://de.wikibooks.org/wiki/Benutzer:HirnSpuk
+https://de.wikibooks.org/wiki/Benutzer:IvanP
+https://de.wikibooks.org/wiki/Benutzer:Juetho
+https://de.wikibooks.org/wiki/Benutzer:Kai_Burghardt
+https://de.wikibooks.org/wiki/Benutzer:Klaus_Eifert
+https://de.wikibooks.org/wiki/Benutzer:Konrad_Rind
+https://de.wikibooks.org/wiki/Benutzer:Leuchtschnabelbeutelschabe
+https://de.wikibooks.org/wiki/Benutzer:Lukas%25C2%25B2%25C2%25B3
+https://de.wikibooks.org/wiki/Benutzer:Marcus_Cyron
+https://de.wikibooks.org/wiki/Benutzer:Mikyra
+https://de.wikibooks.org/wiki/Benutzer:Mr_N
+https://de.wikibooks.org/wiki/Benutzer:Mrvnfrtz
+https://de.wikibooks.org/wiki/Benutzer:Noxgandhi
+https://de.wikibooks.org/wiki/Benutzer:Paul_Stapor
+https://de.wikibooks.org/wiki/Benutzer:Sciuro_la_kolektanto_de_nuksoj
+https://de.wikibooks.org/wiki/Benutzer:Stephan_Kulla
+https://de.wikibooks.org/wiki/Benutzer:ThePacker
+https://de.wikibooks.org/wiki/Benutzer:Timwi
+https://de.wikibooks.org/wiki/Benutzer:Wieralee
+https://de.wikibooks.org/wiki/File:%20Aufbau%20eines%20Beweises.svg
+https://de.wikibooks.org/wiki/File:%20Vollst%c3%a4ndige%20Induktion%20-%20Dominoeffekt.jpg
+https://de.wikibooks.org/wiki/File:%c3%9cbersetzung%20Aussage%20formale%20Sprache%20in%20nat%c3%bcrliche%20Sprache%20(notwendiges%20Extremumskriterium).gif
+https://de.wikibooks.org/wiki/File:%c3%9cbersetzung%20Aussage%20nat%c3%bcrliche%20Sprache%20in%20formale%20Sprache%20(Existenz%20des%20Negativen).gif
+https://de.wikibooks.org/wiki/File:%c3%9cbersetzung%20Aussage%20nat%c3%bcrliche%20Sprache%20in%20formale%20Sprache%20(Transitivit%c3%a4t).gif
+https://de.wikibooks.org/wiki/File:Abbildung%20%22Rest%20bei%20Division%20von%20x%20mit%202%22%20mit%20Beschriftungen.svg
+https://de.wikibooks.org/wiki/File:Alternative%20Summenschreibweise%20mit%20Bezeichnungen.svg
+https://de.wikibooks.org/wiki/File:Animation%20for%20the%20powerset%20of%20x,%20y%20and%20z.gif
+https://de.wikibooks.org/wiki/File:Animation%20zur%20Produktschreibweise%20(animation%20of%20the%20product)%20k%5e2.gif
+https://de.wikibooks.org/wiki/File:Animation%20zur%20Summenschreibweise%20-%20k%5e2.gif
+https://de.wikibooks.org/wiki/File:Animation%20zur%20alternativen%20Produktschreibweise.gif
+https://de.wikibooks.org/wiki/File:Animation%20zur%20rekursiven%20Definition%20einer%20Summe%20k%5e3.gif
+https://de.wikibooks.org/wiki/File:Aplicaci%c3%b3n%202%20no%20inyectiva%20no%20sobreyectiva.svg
+https://de.wikibooks.org/wiki/File:Aplicaci%c3%b3n%202.svg
+https://de.wikibooks.org/wiki/File:Associativity%20of%20binary%20operations.svg
+https://de.wikibooks.org/wiki/File:Beispiel%20zum%20Aufbau%20eines%20Beweises.svg
+https://de.wikibooks.org/wiki/File:Bellerive%20oval%20hobart.jpg
+https://de.wikibooks.org/wiki/File:Berechnung%20von%20(x%2by)%5e3.gif
+https://de.wikibooks.org/wiki/File:Bijection.svg
+https://de.wikibooks.org/wiki/File:Bildung%20der%20Funktionskomposition%20an%20einem%20Beispiel.svg
+https://de.wikibooks.org/wiki/File:Bildung%20der%20Umkehrfunktion%20an%20einem%20Beispiel.svg
+https://de.wikibooks.org/wiki/File:Binary%20operations%20as%20black%20box.svg
+https://de.wikibooks.org/wiki/File:Box%20with%20polygons.svg
+https://de.wikibooks.org/wiki/File:Bundesarchiv%20Bild%20183-94123-0003,%20Chemnitz,%20Stra%c3%9fenreinigung.jpg
+https://de.wikibooks.org/wiki/File:Carl%20Friedrich%20Gauss.jpg
+https://de.wikibooks.org/wiki/File:Clouds%20aroun%20Mile%c5%a1ovka%20(008).JPG
+https://de.wikibooks.org/wiki/File:Commutativity%20of%20binary%20operations.svg
+https://de.wikibooks.org/wiki/File:Correspondencia%2002.svg
+https://de.wikibooks.org/wiki/File:Correspondencia%2004.svg
+https://de.wikibooks.org/wiki/File:Definition%20einer%20Menge.webm
+https://de.wikibooks.org/wiki/File:Development%20of%20%22Mathe%20f%c3%bcr%20Nicht-Freaks%22%20from%20Sep%202009%20to%20June%202016.webm
+https://de.wikibooks.org/wiki/File:Die%20Definition%20der%20Fakult%c3%a4t.webm
+https://de.wikibooks.org/wiki/File:Die%20Elementbeziehung%20bei%20Mengen.webm
+https://de.wikibooks.org/wiki/File:Die%20Extensionalit%c3%a4t%20von%20Mengen.webm
+https://de.wikibooks.org/wiki/File:Die%20Potenzmenge%20%e2%80%93%20Erkl%c3%a4rung%20und%20Beispiele.webm
+https://de.wikibooks.org/wiki/File:Die%20Transitivit%c3%a4t%20der%20Teilmengenbeziehung.webm
+https://de.wikibooks.org/wiki/File:Die%20echte%20Teilmenge.webm
+https://de.wikibooks.org/wiki/File:Die%20leere%20Menge.webm
+https://de.wikibooks.org/wiki/File:Die%20rekursive%20Definition%20der%20Fakult%c3%a4t.webm
+https://de.wikibooks.org/wiki/File:Die_Teilmenge.webm
+https://de.wikibooks.org/wiki/File:DisjointPolygonsSets.svg
+https://de.wikibooks.org/wiki/File:Disjuct-sets.svg
+https://de.wikibooks.org/wiki/File:Disjunkte%20Mengen%20-%20Erkl%c3%a4rung%20und%20Definition.webm
+https://de.wikibooks.org/wiki/File:Disjunkte%20Mengen.svg
+https://de.wikibooks.org/wiki/File:Domino%20Cascade.JPG
+https://de.wikibooks.org/wiki/File:DosConjuntos102.svg
+https://de.wikibooks.org/wiki/File:DosConjuntos212.svg
+https://de.wikibooks.org/wiki/File:Drehung%20um%2090%20Grad%20und%20um%20450%20Grad.svg
+https://de.wikibooks.org/wiki/File:Eigenschaften%20der%20leeren%20Menge.webm
+https://de.wikibooks.org/wiki/File:Entscheidungsbaum%20zum%20Nachweis%20von%20%c3%84quivalenzrelationen.svg
+https://de.wikibooks.org/wiki/File:Entscheidungsbaum%20zum%20Nachweis%20von%20Ordnungsrelationen.svg
+https://de.wikibooks.org/wiki/File:Example%20for%20addition%20and%20symmetric%20difference.svg
+https://de.wikibooks.org/wiki/File:Example%20of%20A%20is%20a%20proper%20subset%20of%20B.svg
+https://de.wikibooks.org/wiki/File:Example%20of%20C%20is%20no%20proper%20subset%20of%20B.svg
+https://de.wikibooks.org/wiki/File:Example%20of%20a%20non%20pairwise%20disjoint%20family%20of%20sets.svg
+https://de.wikibooks.org/wiki/File:Example%20of%20a%20pairwise%20disjoint%20family%20of%20sets.svg
+https://de.wikibooks.org/wiki/File:Example%20of%20a%20set.svg
+https://de.wikibooks.org/wiki/File:Exemplare%20von%20B%c3%bccher%20mit%20eingezeichneter%20%c3%84quivalenzrelation%20und%20%c3%84quivalenzklassen.svg
+https://de.wikibooks.org/wiki/File:Exemplare%20von%20B%c3%bcchern%20mit%20eingezeichneter%20%c3%84quivalenzrelation.svg
+https://de.wikibooks.org/wiki/File:Factorial%20from%200!%20to%204!.svg
+https://de.wikibooks.org/wiki/File:First%20usage%20of%20the%20symbol%20%e2%88%88.png
+https://de.wikibooks.org/wiki/File:Georg%20Cantor2.jpg
+https://de.wikibooks.org/wiki/File:Green%20check.svg
+https://de.wikibooks.org/wiki/File:Injection.svg
+https://de.wikibooks.org/wiki/File:Komplement%20einer%20Menge.svg
+https://de.wikibooks.org/wiki/File:Mengenverkn%c3%bcpfungen.webm
+https://de.wikibooks.org/wiki/File:Mplwp%20factorial%20gamma%20stirling.svg
+https://de.wikibooks.org/wiki/File:No-Symbol.svg
+https://de.wikibooks.org/wiki/File:OER%20Festival%202016%20-%20Badge%20-%20OER-Award.png
+https://de.wikibooks.org/wiki/File:OER%20Festival%202016%20-%20Badge%20-%20fOERder-Award%20Finalist.png
+https://de.wikibooks.org/wiki/File:Paarweise%20disjunkte%20Mengensysteme.webm
+https://de.wikibooks.org/wiki/File:Pascal%20Blaise.jpeg
+https://de.wikibooks.org/wiki/File:PascalTriangleAnimated2.gif
+https://de.wikibooks.org/wiki/File:PolygonsSet%20DE.svg
+https://de.wikibooks.org/wiki/File:Powerset%20of%20set%20with%203%20elements.svg
+https://de.wikibooks.org/wiki/File:Produktschreibweise%20mit%20Bezeichnungen.svg
+https://de.wikibooks.org/wiki/File:Rekursive%20Definition%20der%20Fakult%c3%a4t%20(Beispiel).gif
+https://de.wikibooks.org/wiki/File:Relacion%20transitiva.svg
+https://de.wikibooks.org/wiki/File:Relation%20%22Fluss%20x%20flie%c3%9ft%20im%20Land%20y%22.svg
+https://de.wikibooks.org/wiki/File:Relation%20%22x%20ergibt%20bei%20Division%20mit%202%20denselben%20Rest%20wie%20y%22.svg
+https://de.wikibooks.org/wiki/File:Relation%20%22x%20ist%20ein%20Teiler%20von%20y%22.svg
+https://de.wikibooks.org/wiki/File:Relation%20%22x%20ist%20eine%20Nachfolger%20von%20y%22.svg
+https://de.wikibooks.org/wiki/File:Relation%20%22x%20ist%20gr%c3%b6%c3%9fer%20als%20y%22.svg
+https://de.wikibooks.org/wiki/File:Relation%20%22x%20lernt%20y%20beim%20Lehrer%20z%22.svg
+https://de.wikibooks.org/wiki/File:Relation%20%22x%20liebt%20y%22.svg
+https://de.wikibooks.org/wiki/File:Relation%20%22x%20studiert%20y%22.svg
+https://de.wikibooks.org/wiki/File:Relation%20weiblich%20-%20m%c3%a4nnlich.svg
+https://de.wikibooks.org/wiki/File:Serlo%20Klausurtagung%202015%20-%20Gruppenfoto%20Pr%c3%a4sentation.jpg
+https://de.wikibooks.org/wiki/File:Set%20subsetAofB%20without%20border.svg
+https://de.wikibooks.org/wiki/File:Sigmaschreibweise%20f%c3%bcr%20Summen.svg
+https://de.wikibooks.org/wiki/File:Skizze%20zum%20mathematischen%20Geb%c3%a4ude.svg
+https://de.wikibooks.org/wiki/File:Subset%20with%20expansion.svg
+https://de.wikibooks.org/wiki/File:Surjection.svg
+https://de.wikibooks.org/wiki/File:Teilmengen%20und%20Obermengen.webm
+https://de.wikibooks.org/wiki/File:Textstelle%20mit%20der%20Mengendefinition%20von%20Georg%20Cantor.png
+https://de.wikibooks.org/wiki/File:Toppledominos.jpg
+https://de.wikibooks.org/wiki/File:Transparent%20box%20with%20polygons.svg
+https://de.wikibooks.org/wiki/File:TrianguloPascal.jpg
+https://de.wikibooks.org/wiki/File:Types%20of%20relation%20ti.svg
+https://de.wikibooks.org/wiki/File:Venn0001.svg
+https://de.wikibooks.org/wiki/File:Venn0100.svg
+https://de.wikibooks.org/wiki/File:Venn0110.svg
+https://de.wikibooks.org/wiki/File:Venn0111.svg
+https://de.wikibooks.org/wiki/File:Veranschaulichung%20der%20vollst%c3%a4ndigen%20Induktion.svg
+https://de.wikibooks.org/wiki/File:Veranschaulichung%20des%20Begriffs%20der%20Teilmenge.svg
+https://de.wikibooks.org/wiki/File:Veranschaulichung%20einer%20Menge%20(ohne%20Beschriftung).svg
+https://de.wikibooks.org/wiki/File:Veranschaulichung%20einer%20Menge.svg
+https://de.wikibooks.org/wiki/File:Veranschaulichung%20f%c3%bcr%20Bild%20und%20Urbild.svg
+https://de.wikibooks.org/wiki/File:Veranschaulichung%20von%20disjunkten%20Mengen.svg
+https://de.wikibooks.org/wiki/File:Vergleich%20der%20M%c3%a4chtigkeit%20von%20Mengen%20-%20Grundfrage.svg
+https://de.wikibooks.org/wiki/File:Vergleich%20der%20M%c3%a4chtigkeit%20von%20Mengen.svg
+https://de.wikibooks.org/wiki/File:Verkn%c3%bcpfungen%20zwischen%20Mengen%20-%20Grundmenge.svg
+https://de.wikibooks.org/wiki/File:Verkn%c3%bcpfungen%20zwischen%20Mengen%20-%20Grundsetting.svg
+https://de.wikibooks.org/wiki/File:Verkn%c3%bcpfungen%20zwischen%20Mengen%20-%20Komplement%20von%20A.svg
+https://de.wikibooks.org/wiki/File:Verkn%c3%bcpfungen%20zwischen%20Mengen%20-%20Menge%20A.svg
+https://de.wikibooks.org/wiki/File:Verkn%c3%bcpfungen%20zwischen%20Mengen%20-%20Menge%20B.svg
+https://de.wikibooks.org/wiki/File:Verkn%c3%bcpfungen%20zwischen%20Mengen%20-%20Symmetrische%20Differenz.svg
+https://de.wikibooks.org/wiki/Mathe%20f%C3%BCr%20Nicht-Freaks%3A%20Durchschnitt%20von%20Mengen
+https://de.wikibooks.org/wiki/Mathe%20f%C3%BCr%20Nicht-Freaks%3A%20Eigenschaften%20bin%C3%A4rer%20Relationen
+https://de.wikibooks.org/wiki/Mathe%20f%C3%BCr%20Nicht-Freaks%3A%20Vereinigung%20von%20Mengen
+https://de.wikibooks.org/wiki/Mathe%20f%C3%BCr%20Nicht-Freaks%3A%20W%C3%B6rterbuch%23Anker%3Aqed
+
+Original source copyright and image notices:
+Source master page 2:
+22. Februar 2017
+On the 28th of April 2012 the contents of the English as well as German Wikibooks and Wikipedia
+projects were licensed under Creative Commons Attribution-ShareAlike 3.0 Unported license. A URI
+to this license is given in the list of ﬁgures on page 273. If this document is a derived work from
+the contents of one of these projects and the content was still licensed by the project under this
+license at the time of derivation this document has to be licensed under the same, a similar or a
+compatible license, as stated in section 4b of the license. The list of contributors is included in chapter
+Contributors on page 269. The licenses GPL, LGPL and GFDL are included in chapter Licenses on
+page 297, since this book and/or parts of it may or may not be licensed under one or more of these
+licenses, and thus require inclusion of these licenses. The licenses of the ﬁgures are given in the list of
+ﬁgures on page 273. This PDF was generated by the LATEX typesetting software. The LATEX source
+code is included as an attachment (source.7z.txt) in this PDF ﬁle. To extract the source from
+the PDF ﬁle, you can use the pdfdetach tool including in the poppler suite, or the http://www.
+pdflabs.com/tools/pdftk-the-pdf-toolkit/ utility. Some PDF viewers may also let you save
+the attachment to a ﬁle. After extracting it from the PDF ﬁle you have to rename it to source.7z.
+To uncompress the resulting archive we recommend the use of http://www.7-zip.org/. The LATEX
+source itself was generated by a program written by Dirk Hünniger, which is freely available under
+an open source license from http://de.wikibooks.org/wiki/Benutzer:Dirk_Huenniger/wb2pdf.
+
+
+Source master page 7:
+Inhaltsverzeichnis
+35.2. Folgerungen aus dem binomischen Lehrsatz
+. . . . . . . . . . . . . . . . .
+261
+36. Rechenregeln für den Binomialkoeﬃzienten
+263
+36.1. Rechenregeln in der Übersicht . . . . . . . . . . . . . . . . . . . . . . . . .
+263
+36.2. Pascalsches Dreieck . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+264
+36.3. Beweise zu den Rechenregeln
+. . . . . . . . . . . . . . . . . . . . . . . . .
+267
+37. Autoren
+269
+Abbildungsverzeichnis
+273
+38. Licenses
+297
+38.1. GNU GENERAL PUBLIC LICENSE
+. . . . . . . . . . . . . . . . . . . .
+297
+38.2. GNU Free Documentation License
+. . . . . . . . . . . . . . . . . . . . . .
+298
+38.3. GNU Lesser General Public License . . . . . . . . . . . . . . . . . . . . . .
+299
+1
+
+
+Source master page 279:
+Abbildungsverzeichnis
+• GFDL: Gnu Free Documentation License. http://www.gnu.org/licenses/fdl.html
+• cc-by-sa-3.0: Creative Commons Attribution ShareAlike 3.0 License.
+http://
+creativecommons.org/licenses/by-sa/3.0/
+• cc-by-sa-2.5: Creative Commons Attribution ShareAlike 2.5 License.
+http://
+creativecommons.org/licenses/by-sa/2.5/
+• cc-by-sa-2.0: Creative Commons Attribution ShareAlike 2.0 License.
+http://
+creativecommons.org/licenses/by-sa/2.0/
+• cc-by-sa-1.0: Creative Commons Attribution ShareAlike 1.0 License.
+http://
+creativecommons.org/licenses/by-sa/1.0/
+• cc-by-2.0: Creative Commons Attribution 2.0 License. http://creativecommons.
+org/licenses/by/2.0/
+• cc-by-2.0: Creative Commons Attribution 2.0 License. http://creativecommons.
+org/licenses/by/2.0/deed.en
+• cc-by-2.5: Creative Commons Attribution 2.5 License. http://creativecommons.
+org/licenses/by/2.5/deed.en
+• cc-by-3.0: Creative Commons Attribution 3.0 License. http://creativecommons.
+org/licenses/by/3.0/deed.en
+• GPL: GNU General Public License. http://www.gnu.org/licenses/gpl-2.0.txt
+• LGPL: GNU Lesser General Public License. http://www.gnu.org/licenses/lgpl.
+html
+• PD: This image is in the public domain.
+• ATTR: The copyright holder of this ﬁle allows anyone to use it for any purpose,
+provided that the copyright holder is properly attributed. Redistribution, derivative
+work, commercial use, and all other use is permitted.
+• EURO: This is the common (reverse) face of a euro coin. The copyright on the design
+of the common face of the euro coins belongs to the European Commission. Authorised
+is reproduction in a format without relief (drawings, paintings, ﬁlms) provided they
+are not detrimental to the image of the euro.
+• LFK: Lizenz Freie Kunst. http://artlibre.org/licence/lal/de
+• CFR: Copyright free use.
+273
+
+
+Source master page 280:
+Abbildungsverzeichnis
+• EPL: Eclipse Public License. http://www.eclipse.org/org/documents/epl-v10.
+php
+Copies of the GPL, the LGPL as well as a GFDL are included in chapter Licenses79. Please
+note that images in the public domain do not require attribution. You may click on the
+image numbers in the following table to open the webpage of the images in your webbrower.
+79
+Kapitel 38 auf Seite 297
+274
+
+
+Source master page 281:
+Abbildungsverzeichnis
+1
+Helena Lyhme / serlo.org80
+CC-BY-3.0
+2
+• Logo File:Titelbild MFNF mit Serlo-Logo.jpg81: Olivier
+Vidal82 and Serlo Education e.V.83
+• Music: FREE The Passion HiFi - Me In Your Life - Soulful
+Beat / Instrumental84 by Free Hip Hop Beats!!!85
+• Visualization created by Stephan Kulla86 (User:Stephan
+Kulla87)
+,
+• Logo File:Titelbild MFNF mit Serlo-Logo.jpg88: Olivier
+Vidal89 and Serlo Education e.V.90
+• Music: FREE The Passion HiFi - Me In Your Life - Soulful
+Beat / Instrumental91 by Free Hip Hop Beats!!!92
+• Visualization created by Stephan Kulla93 (User:Stephan
+Kulla94)
+3
+OER-Festival 201695
+4
+OER-Festival 201696
+5
+Golmman97, Golmman98
+6
+Juan de Vojníkov99, Juan de Vojníkov100
+CC-BY-SA-3.0
+7
+Gahlbeck, Friedrich
+CC-BY-SA-3.0
+8
+Stephan Kulla101 (User:Stephan Kulla102), Stephan Kulla103
+(User:Stephan Kulla104)
+CC-BY-3.0
+80
+http://serlo.org/
+81
+http://commons.wikimedia.org/wiki/File:Titelbild_MFNF_mit_Serlo-Logo.jpg
+82
+http://commons.wikimedia.org/wiki/User:Olivier_Vidal
+83
+http://serlo.org
+84
+https://soundcloud.com/freehiphopbeatsforyou/free-the-passion-hifi-me-in-your-life-soulful-beat-instrumen
+85
+https://soundcloud.com/freehiphopbeatsforyou
+86
+http://kulla.me
+87
+http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+88
+https://commons.wikimedia.org/wiki/File:Titelbild_MFNF_mit_Serlo-Logo.jpg
+89
+https://commons.wikimedia.org/wiki/User:Olivier_Vidal
+90
+http://serlo.org
+91
+https://soundcloud.com/freehiphopbeatsforyou/free-the-passion-hifi-me-in-your-life-soulful-beat-instrumen
+92
+https://soundcloud.com/freehiphopbeatsforyou
+93
+http://kulla.me
+94
+https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+95
+http://open-educational-resources.de/16/
+96
+http://open-educational-resources.de/16/
+97
+http://commons.wikimedia.org/w/index.php?title=User:Golmman&action=edit&redlink=1
+98
+https://commons.wikimedia.org/w/index.php?title=User:Golmman&action=edit&redlink=1
+99
+http://commons.wikimedia.org/wiki/User:Juan_de_Vojn%C3%ADkov
+100 https://commons.wikimedia.org/wiki/User:Juan_de_Vojn%C3%ADkov
+101 http://kulla.me/
+102 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+103 http://kulla.me/
+104 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+275
+
+
+Source master page 282:
+Abbildungsverzeichnis
+9
+Stephan Kulla105 (User:Stephan Kulla106), Stephan Kulla107
+(User:Stephan Kulla108)
+CC-BY-3.0
+10
+Stephan Kulla109 (User:Stephan Kulla110), Stephan Kulla111
+(User:Stephan Kulla112)
+CC-BY-3.0
+11
+Fibonacci113, Fibonacci114
+12
+gmaxwell115, gmaxwell116
+PD
+13
+Stephan Kulla117 (User:Stephan Kulla118), Stephan Kulla119
+(User:Stephan Kulla120)
+CC-BY-3.0
+14
+Stephan Kulla121 (User:Stephan Kulla122), Stephan Kulla123
+(User:Stephan Kulla124)
+CC-BY-3.0
+15
+ALE!, Anne Bauval, Bcrowell commonswiki, Blösöf, Bot-
+Multichill, BotMultichillT, Conscious, Ecummenic, Emi-
+jrpbot, Gabor commonswiki, Hystrix, J.-H. Janßen, Joan-
+joc commonswiki, Kaganer, Kilom691, Luestling commons-
+wiki, Mattes, Mindmatrix, Pe-Jo, Pierpao, Rovnet, Schaen-
+gel89 commonswiki, SunOfErat, Túrelio, Ufudu commons-
+wiki, Un1c0s bot commonswiki, Wolfmann, YaCBot
+16
+Enoch Lai125 at English Wikipedia126, Enoch Lai127 in der
+Wikipedia auf Englisch128
+CC-BY-SA-3.0
+17
+aussiegall129
+18
+Stephan Kulla130 (User:Stephan Kulla131), Stephan Kulla132
+(User:Stephan Kulla133)
+CC-BY-3.0
+105 http://kulla.me/
+106 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+107 http://kulla.me/
+108 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+109 http://kulla.me/
+110 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+111 http://kulla.me/
+112 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+113 http://commons.wikimedia.org/wiki/User:Fibonacci
+114 https://commons.wikimedia.org/wiki/User:Fibonacci
+115 http://commons.wikimedia.org/wiki/User:Gmaxwell
+116 https://commons.wikimedia.org/wiki/User:Gmaxwell
+117 http://kulla.me/
+118 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+119 http://kulla.me/
+120 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+121 http://kulla.me/
+122 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+123 http://kulla.me/
+124 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+125 https://en.wikipedia.org/wiki/User:Enoch_Lai
+126 https://en.wikipedia.org/wiki/
+127 https://en.wikipedia.org/wiki/User:Enoch_Lai
+128 https://en.wikipedia.org/wiki/
+129 http://flickr.com/people/aussiegall/
+130 http://kulla.me/
+131 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+132 http://kulla.me/
+133 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+276
+
+
+Source master page 283:
+Abbildungsverzeichnis
+19
+Immi134, Immi135
+CC-BY-SA-3.0
+20
+The Wicked Mu136
+21
+Unbekannt137, Unknown138
+22
+AkBot, Stephan Kulla
+23
+• File:PolygonsSet.svg139: kismalac140
+• derivative work: Stephan Kulla141 (User:Stephan Kul-
+la142)
+,
+• File:PolygonsSet.svg143: kismalac144
+• derivative work: Stephan Kulla145 (User:Stephan Kul-
+la146)
+PD
+24
+• File:PolygonsSet.svg147: kismalac148
+• derivative work: Stephan Kulla149 (User:Stephan Kul-
+la150)
+,
+• File:PolygonsSet.svg151: kismalac152
+• derivative work: Stephan Kulla153 (User:Stephan Kul-
+la154)
+PD
+134 http://commons.wikimedia.org/w/index.php?title=User:Immi&action=edit&redlink=1
+135 https://commons.wikimedia.org/w/index.php?title=User:Immi&action=edit&redlink=1
+136 https://thewickedmu.physik.uni-muenchen.de/
+137 https://www.wikidata.org/wiki/Q4233718
+138 https://www.wikidata.org/wiki/Q4233718
+139 http://commons.wikimedia.org/wiki/File:PolygonsSet.svg
+140 http://commons.wikimedia.org/wiki/User:Kismalac
+141 http://kulla.me/
+142 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+143 https://commons.wikimedia.org/wiki/File:PolygonsSet.svg
+144 https://commons.wikimedia.org/wiki/User:Kismalac
+145 http://kulla.me/
+146 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+147 http://commons.wikimedia.org/wiki/File:PolygonsSet.svg
+148 http://commons.wikimedia.org/wiki/User:Kismalac
+149 http://kulla.me/
+150 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+151 https://commons.wikimedia.org/wiki/File:PolygonsSet.svg
+152 https://commons.wikimedia.org/wiki/User:Kismalac
+153 http://kulla.me/
+154 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+277
+
+
+Source master page 284:
+Abbildungsverzeichnis
+25
+• File:Package-x-generic.svg155: The people from the Tango!
+project156
+• File:Example
+of
+a
+set.svg157:
+Stephan
+Kulla158
+(User:Stephan Kulla159)
+• File:PolygonsSet.svg160: kismalac161
+• derivative work: Stephan Kulla162 (User:Stephan Kul-
+la163)
+,
+• File:Package-x-generic.svg164: The people from the Tango!
+project165
+• File:Example
+of
+a
+set.svg166:
+Stephan
+Kulla167
+(User:Stephan Kulla168)
+• File:PolygonsSet.svg169: kismalac170
+• derivative work: Stephan Kulla171 (User:Stephan Kul-
+la172)
+PD
+155 http://commons.wikimedia.org/wiki/File:Package-x-generic.svg
+156 http://tango.freedesktop.org/The_People
+157 http://commons.wikimedia.org/wiki/File:Example_of_a_set.svg
+158 http://kulla.me
+159 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+160 http://commons.wikimedia.org/wiki/File:PolygonsSet.svg
+161 http://commons.wikimedia.org/wiki/User:Kismalac
+162 http://kulla.me
+163 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+164 https://commons.wikimedia.org/wiki/File:Package-x-generic.svg
+165 http://tango.freedesktop.org/The_People
+166 https://commons.wikimedia.org/wiki/File:Example_of_a_set.svg
+167 http://kulla.me
+168 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+169 https://commons.wikimedia.org/wiki/File:PolygonsSet.svg
+170 https://commons.wikimedia.org/wiki/User:Kismalac
+171 http://kulla.me
+172 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+278
+
+
+Source master page 285:
+Abbildungsverzeichnis
+26
+• File:Package-x-generic.svg173: The people from the Tango!
+project174
+• File:Example
+of
+a
+set.svg175:
+Stephan
+Kulla176
+(User:Stephan Kulla177)
+• File:PolygonsSet.svg178: kismalac179
+• derivative work: Stephan Kulla180 (User:Stephan Kul-
+la181)
+,
+• File:Package-x-generic.svg182: The people from the Tango!
+project183
+• File:Example
+of
+a
+set.svg184:
+Stephan
+Kulla185
+(User:Stephan Kulla186)
+• File:PolygonsSet.svg187: kismalac188
+• derivative work: Stephan Kulla189 (User:Stephan Kul-
+la190)
+PD
+27
+JarektBot, Jgritz commonswiki, Madmedea, Malder, Res-
+ponsible?, YaCBot
+28
+The Wicked Mu191
+29
+AkBot, Stephan Kulla
+173 http://commons.wikimedia.org/wiki/File:Package-x-generic.svg
+174 http://tango.freedesktop.org/The_People
+175 http://commons.wikimedia.org/wiki/File:Example_of_a_set.svg
+176 http://kulla.me
+177 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+178 http://commons.wikimedia.org/wiki/File:PolygonsSet.svg
+179 http://commons.wikimedia.org/wiki/User:Kismalac
+180 http://kulla.me
+181 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+182 https://commons.wikimedia.org/wiki/File:Package-x-generic.svg
+183 http://tango.freedesktop.org/The_People
+184 https://commons.wikimedia.org/wiki/File:Example_of_a_set.svg
+185 http://kulla.me
+186 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+187 https://commons.wikimedia.org/wiki/File:PolygonsSet.svg
+188 https://commons.wikimedia.org/wiki/User:Kismalac
+189 http://kulla.me
+190 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+191 https://thewickedmu.physik.uni-muenchen.de/
+279
+
+
+Source master page 286:
+Abbildungsverzeichnis
+30
+• Veranschaulichung_einer_Menge.svg192:
+• Basketball.svg193: Stellaris @ Open Clip Art Library.194
+• Bordered_h_6.svg195: Nicu Buculei
+• Acoustic_guitar1.svg196: narrowhouse197
+• Bass_drum.svg198: ArtFavor199
+• Big_Book.svg200: Jimmiet201
+• Digital-camera_aj_ashton_01.svg202: AJ Ashton
+• derivative work: Stephan Kulla203 (User:Stephan Kul-
+la204)
+,
+• Veranschaulichung_einer_Menge.svg205:
+• Basketball.svg206: Stellaris @ Open Clip Art Library.207
+• Bordered_h_6.svg208: Nicu Buculei
+• Acoustic_guitar1.svg209: narrowhouse210
+• Bass_drum.svg211: ArtFavor212
+• Big_Book.svg213: Jimmiet214
+• Digital-camera_aj_ashton_01.svg215: AJ Ashton
+• derivative work: Stephan Kulla216 (User:Stephan Kul-
+la217)
+CC-BY-3.0
+192 http://commons.wikimedia.org/wiki/File:Veranschaulichung_einer_Menge.svg
+193 http://commons.wikimedia.org/wiki/File:Basketball.svg
+194 http://openclipart.org/media/people/Stellaris
+195 http://commons.wikimedia.org/wiki/File:Bordered_h_6.svg
+196 http://commons.wikimedia.org/wiki/File:Acoustic_guitar1.svg
+197 http://www.openclipart.org/user-detail/narrowhouse
+198 http://commons.wikimedia.org/wiki/File:Bass_drum.svg
+199 http://www.openclipart.org/user-detail/ArtFavor
+200 http://commons.wikimedia.org/wiki/File:Big_Book.svg
+201 http://openclipart.org/media/people/jimmiet
+202 http://commons.wikimedia.org/wiki/File:Digital-camera_aj_ashton_01.svg
+203 http://kulla.me/
+204 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+205 https://commons.wikimedia.org/wiki/File:Veranschaulichung_einer_Menge.svg
+206 https://commons.wikimedia.org/wiki/File:Basketball.svg
+207 http://openclipart.org/media/people/Stellaris
+208 https://commons.wikimedia.org/wiki/File:Bordered_h_6.svg
+209 https://commons.wikimedia.org/wiki/File:Acoustic_guitar1.svg
+210 http://www.openclipart.org/user-detail/narrowhouse
+211 https://commons.wikimedia.org/wiki/File:Bass_drum.svg
+212 http://www.openclipart.org/user-detail/ArtFavor
+213 https://commons.wikimedia.org/wiki/File:Big_Book.svg
+214 http://openclipart.org/media/people/jimmiet
+215 https://commons.wikimedia.org/wiki/File:Digital-camera_aj_ashton_01.svg
+216 http://kulla.me/
+217 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+280
+
+
+Source master page 287:
+Abbildungsverzeichnis
+31
+• Basketball.svg218: Stellaris @ Open Clip Art Library.219
+• Bordered_h_6.svg220: Nicu Buculei
+• Acoustic_guitar1.svg221: narrowhouse222
+• Bass_drum.svg223: ArtFavor224
+• Big_Book.svg225: Jimmiet226
+• Digital-camera_aj_ashton_01.svg227: AJ Ashton
+• derivative work: Stephan Kulla228 (User:Stephan Kul-
+la229)
+,
+• Basketball.svg230: Stellaris @ Open Clip Art Library.231
+• Bordered_h_6.svg232: Nicu Buculei
+• Acoustic_guitar1.svg233: narrowhouse234
+• Bass_drum.svg235: ArtFavor236
+• Big_Book.svg237: Jimmiet238
+• Digital-camera_aj_ashton_01.svg239: AJ Ashton
+• derivative work: Stephan Kulla240 (User:Stephan Kul-
+la241)
+CC-BY-3.0
+32
+The Wicked Mu242
+33
+Dnu72243, Dnu72244
+CC-BY-SA-3.0
+34
+Dnu72245, Dnu72246
+CC-BY-SA-3.0
+35
+The Wicked Mu247
+218 http://commons.wikimedia.org/wiki/File:Basketball.svg
+219 http://openclipart.org/media/people/Stellaris
+220 http://commons.wikimedia.org/wiki/File:Bordered_h_6.svg
+221 http://commons.wikimedia.org/wiki/File:Acoustic_guitar1.svg
+222 http://www.openclipart.org/user-detail/narrowhouse
+223 http://commons.wikimedia.org/wiki/File:Bass_drum.svg
+224 http://www.openclipart.org/user-detail/ArtFavor
+225 http://commons.wikimedia.org/wiki/File:Big_Book.svg
+226 http://openclipart.org/media/people/jimmiet
+227 http://commons.wikimedia.org/wiki/File:Digital-camera_aj_ashton_01.svg
+228 http://kulla.me/
+229 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+230 https://commons.wikimedia.org/wiki/File:Basketball.svg
+231 http://openclipart.org/media/people/Stellaris
+232 https://commons.wikimedia.org/wiki/File:Bordered_h_6.svg
+233 https://commons.wikimedia.org/wiki/File:Acoustic_guitar1.svg
+234 http://www.openclipart.org/user-detail/narrowhouse
+235 https://commons.wikimedia.org/wiki/File:Bass_drum.svg
+236 http://www.openclipart.org/user-detail/ArtFavor
+237 https://commons.wikimedia.org/wiki/File:Big_Book.svg
+238 http://openclipart.org/media/people/jimmiet
+239 https://commons.wikimedia.org/wiki/File:Digital-camera_aj_ashton_01.svg
+240 http://kulla.me/
+241 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+242 https://thewickedmu.physik.uni-muenchen.de/
+243 http://commons.wikimedia.org/wiki/User:Dnu72
+244 https://commons.wikimedia.org/wiki/User:Dnu72
+245 http://commons.wikimedia.org/wiki/User:Dnu72
+246 https://commons.wikimedia.org/wiki/User:Dnu72
+247 https://thewickedmu.physik.uni-muenchen.de/
+281
+
+
+Source master page 288:
+Abbildungsverzeichnis
+36
+• File:PolygonsSet.svg248: kismalac249
+• derivative work: Stephan Kulla250 (User:Stephan Kul-
+la251)
+,
+• File:PolygonsSet.svg252: kismalac253
+• derivative work: Stephan Kulla254 (User:Stephan Kul-
+la255)
+PD
+37
+• Set_subsetAofB.svg256: User:Ed g2s257
+• derivative work: Stephan Kulla258 (User:Stephan Kul-
+la259)
+,
+• Set_subsetAofB.svg260: User:Ed g2s261
+• derivative work: Stephan Kulla262 (User:Stephan Kul-
+la263)
+CC-BY-SA-3.0
+38
+Robert Burger / KhanAcademyDeutsch264
+CC-BY-3.0
+39
+The Wicked Mu265
+40
+User:J.Spudeman˜commonswiki266,
+User:J.Spudeman˜commonswiki267
+CC-BY-SA-3.0
+41
+The Wicked Mu268
+248 http://commons.wikimedia.org/wiki/File:PolygonsSet.svg
+249 http://commons.wikimedia.org/wiki/User:Kismalac
+250 http://kulla.me/
+251 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+252 https://commons.wikimedia.org/wiki/File:PolygonsSet.svg
+253 https://commons.wikimedia.org/wiki/User:Kismalac
+254 http://kulla.me/
+255 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+256 http://commons.wikimedia.org/wiki/File:Set_subsetAofB.svg
+257 http://commons.wikimedia.org/wiki/User:Ed_g2s
+258 http://kulla.me/
+259 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+260 https://commons.wikimedia.org/wiki/File:Set_subsetAofB.svg
+261 https://commons.wikimedia.org/wiki/User:Ed_g2s
+262 http://kulla.me/
+263 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+264 https://www.youtube.com/channel/UCdvXg_Dsks6nr036rA0jMuQ
+265 https://thewickedmu.physik.uni-muenchen.de/
+266 http://commons.wikimedia.org/w/index.php?title=User:J.Spudeman~commonswiki&action=
+edit&redlink=1
+267 https://commons.wikimedia.org/w/index.php?title=User:J.Spudeman~commonswiki&action=
+edit&redlink=1
+268 https://thewickedmu.physik.uni-muenchen.de/
+282
+
+
+Source master page 289:
+Abbildungsverzeichnis
+42
+• Veranschaulichung_einer_Menge.svg269:
+• Basketball.svg270: Stellaris @ Open Clip Art Library.271
+• Bordered_h_6.svg272: Nicu Buculei
+• Acoustic_guitar1.svg273: narrowhouse274
+• Bass_drum.svg275: ArtFavor276
+• Big_Book.svg277: Jimmiet278
+• Digital-camera_aj_ashton_01.svg279: AJ Ashton
+• derivative work: Stephan Kulla280 (User:Stephan Kul-
+la281)
+,
+• Veranschaulichung_einer_Menge.svg282:
+• Basketball.svg283: Stellaris @ Open Clip Art Library.284
+• Bordered_h_6.svg285: Nicu Buculei
+• Acoustic_guitar1.svg286: narrowhouse287
+• Bass_drum.svg288: ArtFavor289
+• Big_Book.svg290: Jimmiet291
+• Digital-camera_aj_ashton_01.svg292: AJ Ashton
+• derivative work: Stephan Kulla293 (User:Stephan Kul-
+la294)
+CC-BY-3.0
+43
+Stephan Kulla295 (User:Stephan Kulla296), Stephan Kulla297
+(User:Stephan Kulla298)
+PD
+269 http://commons.wikimedia.org/wiki/File:Veranschaulichung_einer_Menge.svg
+270 http://commons.wikimedia.org/wiki/File:Basketball.svg
+271 http://openclipart.org/media/people/Stellaris
+272 http://commons.wikimedia.org/wiki/File:Bordered_h_6.svg
+273 http://commons.wikimedia.org/wiki/File:Acoustic_guitar1.svg
+274 http://www.openclipart.org/user-detail/narrowhouse
+275 http://commons.wikimedia.org/wiki/File:Bass_drum.svg
+276 http://www.openclipart.org/user-detail/ArtFavor
+277 http://commons.wikimedia.org/wiki/File:Big_Book.svg
+278 http://openclipart.org/media/people/jimmiet
+279 http://commons.wikimedia.org/wiki/File:Digital-camera_aj_ashton_01.svg
+280 http://kulla.me/
+281 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+282 https://commons.wikimedia.org/wiki/File:Veranschaulichung_einer_Menge.svg
+283 https://commons.wikimedia.org/wiki/File:Basketball.svg
+284 http://openclipart.org/media/people/Stellaris
+285 https://commons.wikimedia.org/wiki/File:Bordered_h_6.svg
+286 https://commons.wikimedia.org/wiki/File:Acoustic_guitar1.svg
+287 http://www.openclipart.org/user-detail/narrowhouse
+288 https://commons.wikimedia.org/wiki/File:Bass_drum.svg
+289 http://www.openclipart.org/user-detail/ArtFavor
+290 https://commons.wikimedia.org/wiki/File:Big_Book.svg
+291 http://openclipart.org/media/people/jimmiet
+292 https://commons.wikimedia.org/wiki/File:Digital-camera_aj_ashton_01.svg
+293 http://kulla.me/
+294 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+295 http://kulla.me/
+296 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+297 http://kulla.me/
+298 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+283
+
+
+Source master page 290:
+Abbildungsverzeichnis
+44
+Stephan Kulla299 (User:Stephan Kulla300), Stephan Kulla301
+(User:Stephan Kulla302)
+PD
+45
+The Wicked Mu303
+46
+• Bordered_h_6.svg304: Nicu Buculei
+• Acoustic_guitar1.svg305: narrowhouse306
+• Bass_drum.svg307: ArtFavor308
+• Big_Book.svg309: Jimmiet310
+• derivative work: Stephan Kulla311 (User:Stephan Kul-
+la312)
+,
+• Bordered_h_6.svg313: Nicu Buculei
+• Acoustic_guitar1.svg314: narrowhouse315
+• Bass_drum.svg316: ArtFavor317
+• Big_Book.svg318: Jimmiet319
+• derivative work: Stephan Kulla320 (User:Stephan Kul-
+la321)
+47
+Kismalac322, Kismalac323
+PD
+48
+Stephan Kulla324 (User:Stephan Kulla325), Stephan Kulla326
+(User:Stephan Kulla327)
+CC-BY-3.0
+49
+The Wicked Mu328
+299 http://kulla.me/
+300 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+301 http://kulla.me/
+302 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+303 https://thewickedmu.physik.uni-muenchen.de/
+304 http://commons.wikimedia.org/wiki/File:Bordered_h_6.svg
+305 http://commons.wikimedia.org/wiki/File:Acoustic_guitar1.svg
+306 http://www.openclipart.org/user-detail/narrowhouse
+307 http://commons.wikimedia.org/wiki/File:Bass_drum.svg
+308 http://www.openclipart.org/user-detail/ArtFavor
+309 http://commons.wikimedia.org/wiki/File:Big_Book.svg
+310 http://openclipart.org/media/people/jimmiet
+311 http://kulla.me/
+312 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+313 https://commons.wikimedia.org/wiki/File:Bordered_h_6.svg
+314 https://commons.wikimedia.org/wiki/File:Acoustic_guitar1.svg
+315 http://www.openclipart.org/user-detail/narrowhouse
+316 https://commons.wikimedia.org/wiki/File:Bass_drum.svg
+317 http://www.openclipart.org/user-detail/ArtFavor
+318 https://commons.wikimedia.org/wiki/File:Big_Book.svg
+319 http://openclipart.org/media/people/jimmiet
+320 http://kulla.me/
+321 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+322 http://commons.wikimedia.org/wiki/User:Kismalac
+323 https://commons.wikimedia.org/wiki/User:Kismalac
+324 http://kulla.me/
+325 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+326 http://kulla.me/
+327 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+328 https://thewickedmu.physik.uni-muenchen.de/
+284
+
+
+Source master page 291:
+Abbildungsverzeichnis
+50
+Svjo329, Svjo330
+CC-BY-SA-3.0
+51
+Stephan Kulla331 (User:Stephan Kulla332), Stephan Kulla333
+(User:Stephan Kulla334)
+PD
+52
+Stephan Kulla335 (User:Stephan Kulla336), Stephan Kulla337
+(User:Stephan Kulla338)
+PD
+53
+The Wicked Mu339
+54
+Stephan Kulla340 (User:Stephan Kulla341), Stephan Kulla342
+(User:Stephan Kulla343)
+CC-BY-3.0
+55
+Stephan Kulla344 (User:Stephan Kulla345), Stephan Kulla346
+(User:Stephan Kulla347)
+CC-BY-3.0
+56
+The Wicked Mu348
+57
+The Wicked Mu349
+58
+The Wicked Mu350
+59
+Stephan Kulla351 (User:Stephan Kulla352), Stephan Kulla353
+(User:Stephan Kulla354)
+CC-BY-3.0
+60
+Stephan Kulla355 (User:Stephan Kulla356), Stephan Kulla357
+(User:Stephan Kulla358)
+CC-BY-3.0
+61
+Stephan Kulla359 (User:Stephan Kulla360), Stephan Kulla361
+(User:Stephan Kulla362)
+CC-BY-3.0
+329 http://commons.wikimedia.org/w/index.php?title=User:Svjo&action=edit&redlink=1
+330 https://commons.wikimedia.org/w/index.php?title=User:Svjo&action=edit&redlink=1
+331 http://kulla.me/
+332 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+333 http://kulla.me/
+334 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+335 http://kulla.me/
+336 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+337 http://kulla.me/
+338 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+339 https://thewickedmu.physik.uni-muenchen.de/
+340 http://kulla.me/
+341 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+342 http://kulla.me/
+343 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+344 http://kulla.me/
+345 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+346 http://kulla.me/
+347 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+348 https://thewickedmu.physik.uni-muenchen.de/
+349 https://thewickedmu.physik.uni-muenchen.de/
+350 https://thewickedmu.physik.uni-muenchen.de/
+351 http://kulla.me/
+352 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+353 http://kulla.me/
+354 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+355 http://kulla.me/
+356 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+357 http://kulla.me/
+358 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+359 http://kulla.me/
+360 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+361 http://kulla.me/
+362 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+285
+
+
+Source master page 292:
+Abbildungsverzeichnis
+62
+Stephan Kulla363 (User:Stephan Kulla364), Stephan Kulla365
+(User:Stephan Kulla366)
+CC-BY-3.0
+63
+Stephan Kulla367 (User:Stephan Kulla368), Stephan Kulla369
+(User:Stephan Kulla370)
+CC-BY-3.0
+64
+Stephan Kulla371 (User:Stephan Kulla372), Stephan Kulla373
+(User:Stephan Kulla374)
+65
+Stephan Kulla375 (User:Stephan Kulla376), Stephan Kulla377
+(User:Stephan Kulla378)
+CC-BY-3.0
+66
+CommonsDelinker, Filbot, JarektBot, SchlurcherBot, Tony
+Wills, Waldir, Watchduck
+67
+CommonsDelinker, JarektBot, JurgenNL, SchlurcherBot,
+Waldir, Watchduck
+68
+CommonsDelinker, JarektBot, SchlurcherBot, Stephan Kul-
+la, Waldir, Watchduck
+69
+CommonsDelinker,
+Herbythyme,
+Jarekt,
+JarektBot,
+SchlurcherBot, Stephan Kulla, Waldir, Watchduck
+70
+• Venn1010.svg379: Watchduck380
+• derivative work: Stephan Kulla381 (User:Stephan Kul-
+la382)
+,
+• Venn1010.svg383: Watchduck384
+• derivative work: Stephan Kulla385 (User:Stephan Kul-
+la386)
+363 http://kulla.me/
+364 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+365 http://kulla.me/
+366 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+367 http://kulla.me/
+368 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+369 http://kulla.me/
+370 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+371 http://kulla.me/
+372 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+373 http://kulla.me/
+374 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+375 http://kulla.me/
+376 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+377 http://kulla.me/
+378 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+379 http://commons.wikimedia.org/wiki/File:Venn1010.svg
+380 http://commons.wikimedia.org/wiki/User:Watchduck
+381 http://kulla.me/
+382 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+383 https://commons.wikimedia.org/wiki/File:Venn1010.svg
+384 https://commons.wikimedia.org/wiki/User:Watchduck
+385 http://kulla.me/
+386 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+286
+
+
+Source master page 293:
+Abbildungsverzeichnis
+71
+• Stick Figure.svg387: Jleedev388 and Ben Liblit389
+• derivative work: Stephan Kulla390 (User:Stephan Kul-
+la391)
+,
+• Stick Figure.svg392: Jleedev393 and Ben Liblit394
+• derivative work: Stephan Kulla395 (User:Stephan Kul-
+la396)
+CC-BY-SA-3.0
+72
+• Stick Figure.svg397: Jleedev398 and Ben Liblit399
+• Love Heart symbol.svg400: Nevit Dilmen401
+• derivative work: Stephan Kulla402 (User:Stephan Kul-
+la403)
+,
+• Stick Figure.svg404: Jleedev405 and Ben Liblit406
+• Love Heart symbol.svg407: Nevit Dilmen408
+• derivative work: Stephan Kulla409 (User:Stephan Kul-
+la410)
+CC-BY-SA-3.0
+387 http://commons.wikimedia.org/wiki/File:Stick_Figure.svg
+388 https://en.wikipedia.org/wiki/User:Jleedev
+389 https://en.wikipedia.org/wiki/User:Ben_Liblit
+390 http://kulla.me/
+391 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+392 https://commons.wikimedia.org/wiki/File:Stick_Figure.svg
+393 https://en.wikipedia.org/wiki/User:Jleedev
+394 https://en.wikipedia.org/wiki/User:Ben_Liblit
+395 http://kulla.me/
+396 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+397 http://commons.wikimedia.org/wiki/File:Stick_Figure.svg
+398 https://en.wikipedia.org/wiki/User:Jleedev
+399 https://en.wikipedia.org/wiki/User:Ben_Liblit
+400 http://commons.wikimedia.org/wiki/File:Love_Heart_symbol.svg
+401 http://commons.wikimedia.org/w/index.php?title=User:Nevit_Dilmen&action=edit&redlink=
+1
+402 http://kulla.me/
+403 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+404 https://commons.wikimedia.org/wiki/File:Stick_Figure.svg
+405 https://en.wikipedia.org/wiki/User:Jleedev
+406 https://en.wikipedia.org/wiki/User:Ben_Liblit
+407 https://commons.wikimedia.org/wiki/File:Love_Heart_symbol.svg
+408 https://commons.wikimedia.org/w/index.php?title=User:Nevit_Dilmen&action=edit&
+redlink=1
+409 http://kulla.me/
+410 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+287
+
+
+Source master page 294:
+Abbildungsverzeichnis
+73
+• Stick Figure.svg411: Jleedev412 and Ben Liblit413
+• Nuvola apps edu mathematics-p.svg414: David Vignoni415
+(original icon); Flamurai416 (SVG convertion)
+• Earth clip art.svg417: yeKcim on the Open Clip Art Li-
+brary418
+• Nuvola
+apps
+edu
+languages.svg419:
+Traced
+by
+User:Stannered420, original by David Vignoni421
+• derivative work: Stephan Kulla422 (User:Stephan Kul-
+la423)
+,
+• Stick Figure.svg424: Jleedev425 and Ben Liblit426
+• Nuvola apps edu mathematics-p.svg427: David Vignoni428
+(original icon); Flamurai429 (SVG convertion)
+• Earth clip art.svg430: yeKcim on the Open Clip Art Li-
+brary431
+• Nuvola
+apps
+edu
+languages.svg432:
+Traced
+by
+User:Stannered433, original by David Vignoni434
+• derivative work: Stephan Kulla435 (User:Stephan Kul-
+la436)
+CC-BY-SA-3.0
+411 http://commons.wikimedia.org/wiki/File:Stick_Figure.svg
+412 https://en.wikipedia.org/wiki/User:Jleedev
+413 https://en.wikipedia.org/wiki/User:Ben_Liblit
+414 http://commons.wikimedia.org/wiki/File:Nuvola_apps_edu_mathematics-p.svg
+415 https://en.wikipedia.org/wiki/David_Vignoni
+416 http://commons.wikimedia.org/wiki/User:Flamurai
+417 http://commons.wikimedia.org/wiki/File:Earth_clip_art.svg
+418 http://openclipart.org/media/people/yeKcim
+419 http://commons.wikimedia.org/wiki/File:Nuvola_apps_edu_languages.svg
+420 http://commons.wikimedia.org/wiki/User:Stannered
+421 https://en.wikipedia.org/wiki/David_Vignoni
+422 http://kulla.me/
+423 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+424 https://commons.wikimedia.org/wiki/File:Stick_Figure.svg
+425 https://en.wikipedia.org/wiki/User:Jleedev
+426 https://en.wikipedia.org/wiki/User:Ben_Liblit
+427 https://commons.wikimedia.org/wiki/File:Nuvola_apps_edu_mathematics-p.svg
+428 https://en.wikipedia.org/wiki/David_Vignoni
+429 https://commons.wikimedia.org/wiki/User:Flamurai
+430 https://commons.wikimedia.org/wiki/File:Earth_clip_art.svg
+431 http://openclipart.org/media/people/yeKcim
+432 https://commons.wikimedia.org/wiki/File:Nuvola_apps_edu_languages.svg
+433 https://commons.wikimedia.org/wiki/User:Stannered
+434 https://en.wikipedia.org/wiki/David_Vignoni
+435 http://kulla.me/
+436 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+288
+
+
+Source master page 295:
+Abbildungsverzeichnis
+74
+• Stick Figure.svg437: Jleedev438 and Ben Liblit439
+• Nuvola apps edu mathematics-p.svg440: David Vignoni441
+(original icon); Flamurai442 (SVG convertion)
+• Earth clip art.svg443: yeKcim on the Open Clip Art Li-
+brary444
+• Nuvola apps kcoloredit.svg445: David Vignoni446 (original
+icon); Actam447 (SVG convertion)
+• derivative work: Stephan Kulla448 (User:Stephan Kul-
+la449)
+,
+• Stick Figure.svg450: Jleedev451 and Ben Liblit452
+• Nuvola apps edu mathematics-p.svg453: David Vignoni454
+(original icon); Flamurai455 (SVG convertion)
+• Earth clip art.svg456: yeKcim on the Open Clip Art Li-
+brary457
+• Nuvola apps kcoloredit.svg458: David Vignoni459 (original
+icon); Actam460 (SVG convertion)
+• derivative work: Stephan Kulla461 (User:Stephan Kul-
+la462)
+CC-BY-SA-3.0
+437 http://commons.wikimedia.org/wiki/File:Stick_Figure.svg
+438 https://en.wikipedia.org/wiki/User:Jleedev
+439 https://en.wikipedia.org/wiki/User:Ben_Liblit
+440 http://commons.wikimedia.org/wiki/File:Nuvola_apps_edu_mathematics-p.svg
+441 https://en.wikipedia.org/wiki/David_Vignoni
+442 http://commons.wikimedia.org/wiki/User:Flamurai
+443 http://commons.wikimedia.org/wiki/File:Earth_clip_art.svg
+444 http://openclipart.org/media/people/yeKcim
+445 http://commons.wikimedia.org/wiki/File:Nuvola_apps_kcoloredit.svg
+446 https://en.wikipedia.org/wiki/David_Vignoni
+447 http://commons.wikimedia.org/wiki/User:Actam
+448 http://kulla.me/
+449 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+450 https://commons.wikimedia.org/wiki/File:Stick_Figure.svg
+451 https://en.wikipedia.org/wiki/User:Jleedev
+452 https://en.wikipedia.org/wiki/User:Ben_Liblit
+453 https://commons.wikimedia.org/wiki/File:Nuvola_apps_edu_mathematics-p.svg
+454 https://en.wikipedia.org/wiki/David_Vignoni
+455 https://commons.wikimedia.org/wiki/User:Flamurai
+456 https://commons.wikimedia.org/wiki/File:Earth_clip_art.svg
+457 http://openclipart.org/media/people/yeKcim
+458 https://commons.wikimedia.org/wiki/File:Nuvola_apps_kcoloredit.svg
+459 https://en.wikipedia.org/wiki/David_Vignoni
+460 https://commons.wikimedia.org/wiki/User:Actam
+461 http://kulla.me/
+462 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+289
+
+
+Source master page 296:
+Abbildungsverzeichnis
+75
+• Aqua.svg463: Ecelan464
+• Nuvola Dutch ﬂag.svg465: David Vignoni466 (original
+icon); Min’s467 (derivative work)
+• Nuvola Ukrainian ﬂag.svg468: David Vignoni469 (original
+icon); Min’s470 (derivative work)
+• Nuvola Irish ﬂag.svg471: Min’s472 and Arz473
+• Nuvola German ﬂag.svg474: David Vignoni475 (original
+icon); Matthias M.476 (derivative work)
+• derivative work: Stephan Kulla477 (User:Stephan Kul-
+la478)
+,
+• Aqua.svg479: Ecelan480
+• Nuvola Dutch ﬂag.svg481: David Vignoni482 (original
+icon); Min’s483 (derivative work)
+• Nuvola Ukrainian ﬂag.svg484: David Vignoni485 (original
+icon); Min’s486 (derivative work)
+• Nuvola Irish ﬂag.svg487: Min’s488 and Arz489
+• Nuvola German ﬂag.svg490: David Vignoni491 (original
+icon); Matthias M.492 (derivative work)
+• derivative work: Stephan Kulla493 (User:Stephan Kul-
+la494)
+CC-BY-SA-3.0
+463 http://commons.wikimedia.org/wiki/File:Agua.svg
+464 http://commons.wikimedia.org/wiki/User:Ecelan
+465 http://commons.wikimedia.org/wiki/File:Nuvola_Dutch_flag.svg
+466 https://en.wikipedia.org/wiki/David_Vignoni
+467 http://commons.wikimedia.org/wiki/User:Min%27s
+468 http://commons.wikimedia.org/wiki/File:Nuvola_Ukrainian_flag.svg
+469 https://en.wikipedia.org/wiki/David_Vignoni
+470 http://commons.wikimedia.org/wiki/User:Min%27s
+471 http://commons.wikimedia.org/wiki/File:Nuvola_Irish_flag.svg
+472 http://commons.wikimedia.org/wiki/User:Min%27s
+473 http://commons.wikimedia.org/wiki/User:Arz
+474 http://commons.wikimedia.org/wiki/File:Nuvola_German_flag.svg
+475 https://en.wikipedia.org/wiki/David_Vignoni
+476 http://commons.wikimedia.org/wiki/User:Matthias_M.
+477 http://kulla.me/
+478 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+479 https://commons.wikimedia.org/wiki/File:Agua.svg
+480 https://commons.wikimedia.org/wiki/User:Ecelan
+481 https://commons.wikimedia.org/wiki/File:Nuvola_Dutch_flag.svg
+482 https://en.wikipedia.org/wiki/David_Vignoni
+483 https://commons.wikimedia.org/wiki/User:Min%27s
+484 https://commons.wikimedia.org/wiki/File:Nuvola_Ukrainian_flag.svg
+485 https://en.wikipedia.org/wiki/David_Vignoni
+486 https://commons.wikimedia.org/wiki/User:Min%27s
+487 https://commons.wikimedia.org/wiki/File:Nuvola_Irish_flag.svg
+488 https://commons.wikimedia.org/wiki/User:Min%27s
+489 https://commons.wikimedia.org/wiki/User:Arz
+490 https://commons.wikimedia.org/wiki/File:Nuvola_German_flag.svg
+491 https://en.wikipedia.org/wiki/David_Vignoni
+492 https://commons.wikimedia.org/wiki/User:Matthias_M.
+493 http://kulla.me/
+494 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+290
+
+
+Source master page 297:
+Abbildungsverzeichnis
+76
+Stephan Kulla495 (User:Stephan Kulla496), Stephan Kulla497
+(User:Stephan Kulla498)
+CC-BY-3.0
+77
+Stephan Kulla499 (User:Stephan Kulla500), Stephan Kulla501
+(User:Stephan Kulla502)
+CC-BY-3.0
+78
+Stephan Kulla503 (User:Stephan Kulla504), Stephan Kulla505
+(User:Stephan Kulla506)
+CC-BY-3.0
+79
+Stephan Kulla507 (User:Stephan Kulla508), Stephan Kulla509
+(User:Stephan Kulla510)
+CC-BY-3.0
+495 http://kulla.me/
+496 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+497 http://kulla.me/
+498 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+499 http://kulla.me/
+500 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+501 http://kulla.me/
+502 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+503 http://kulla.me/
+504 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+505 http://kulla.me/
+506 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+507 http://kulla.me/
+508 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+509 http://kulla.me/
+510 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+291
+
+
+Source master page 298:
+Abbildungsverzeichnis
+80
+• Aqua.svg511: Ecelan512
+• Nuvola Dutch ﬂag.svg513: David Vignoni514 (original
+icon); Min’s515 (derivative work)
+• Nuvola Ukrainian ﬂag.svg516: David Vignoni517 (original
+icon); Min’s518 (derivative work)
+• Nuvola Irish ﬂag.svg519: Min’s520 and Arz521
+• Nuvola German ﬂag.svg522: David Vignoni523 (original
+icon); Matthias M.524 (derivative work)
+• derivative work: Stephan Kulla525 (User:Stephan Kul-
+la526)
+,
+• Aqua.svg527: Ecelan528
+• Nuvola Dutch ﬂag.svg529: David Vignoni530 (original
+icon); Min’s531 (derivative work)
+• Nuvola Ukrainian ﬂag.svg532: David Vignoni533 (original
+icon); Min’s534 (derivative work)
+• Nuvola Irish ﬂag.svg535: Min’s536 and Arz537
+• Nuvola German ﬂag.svg538: David Vignoni539 (original
+icon); Matthias M.540 (derivative work)
+• derivative work: Stephan Kulla541 (User:Stephan Kul-
+la542)
+CC-BY-SA-3.0
+511 http://commons.wikimedia.org/wiki/File:Agua.svg
+512 http://commons.wikimedia.org/wiki/User:Ecelan
+513 http://commons.wikimedia.org/wiki/File:Nuvola_Dutch_flag.svg
+514 https://en.wikipedia.org/wiki/David_Vignoni
+515 http://commons.wikimedia.org/wiki/User:Min%27s
+516 http://commons.wikimedia.org/wiki/File:Nuvola_Ukrainian_flag.svg
+517 https://en.wikipedia.org/wiki/David_Vignoni
+518 http://commons.wikimedia.org/wiki/User:Min%27s
+519 http://commons.wikimedia.org/wiki/File:Nuvola_Irish_flag.svg
+520 http://commons.wikimedia.org/wiki/User:Min%27s
+521 http://commons.wikimedia.org/wiki/User:Arz
+522 http://commons.wikimedia.org/wiki/File:Nuvola_German_flag.svg
+523 https://en.wikipedia.org/wiki/David_Vignoni
+524 http://commons.wikimedia.org/wiki/User:Matthias_M.
+525 http://kulla.me/
+526 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+527 https://commons.wikimedia.org/wiki/File:Agua.svg
+528 https://commons.wikimedia.org/wiki/User:Ecelan
+529 https://commons.wikimedia.org/wiki/File:Nuvola_Dutch_flag.svg
+530 https://en.wikipedia.org/wiki/David_Vignoni
+531 https://commons.wikimedia.org/wiki/User:Min%27s
+532 https://commons.wikimedia.org/wiki/File:Nuvola_Ukrainian_flag.svg
+533 https://en.wikipedia.org/wiki/David_Vignoni
+534 https://commons.wikimedia.org/wiki/User:Min%27s
+535 https://commons.wikimedia.org/wiki/File:Nuvola_Irish_flag.svg
+536 https://commons.wikimedia.org/wiki/User:Min%27s
+537 https://commons.wikimedia.org/wiki/User:Arz
+538 https://commons.wikimedia.org/wiki/File:Nuvola_German_flag.svg
+539 https://en.wikipedia.org/wiki/David_Vignoni
+540 https://commons.wikimedia.org/wiki/User:Matthias_M.
+541 http://kulla.me/
+542 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+292
+
+
+Source master page 299:
+Abbildungsverzeichnis
+81
+Stephan Kulla543 (User:Stephan Kulla544), Stephan Kulla545
+(User:Stephan Kulla546)
+CC-BY-3.0
+82
+• Nuvola apps bookcase.svg547: Peter Kemp
+• derivative work: Stephan Kulla548 (User:Stephan Kul-
+la549)
+,
+• Nuvola apps bookcase.svg550: Peter Kemp
+• derivative work: Stephan Kulla551 (User:Stephan Kul-
+la552)
+83
+• Nuvola apps bookcase.svg553: Peter Kemp
+• derivative work: Stephan Kulla554 (User:Stephan Kul-
+la555)
+,
+• Nuvola apps bookcase.svg556: Peter Kemp
+• derivative work: Stephan Kulla557 (User:Stephan Kul-
+la558)
+84
+Stephan Kulla559 (User:Stephan Kulla560), Stephan Kulla561
+(User:Stephan Kulla562)
+CC-BY-3.0
+85
+German563.
+Las
+manzanas
+fueron
+copiadas
+de
+Image:Commutative
+Addition.svg564,
+German565.
+Las
+manzanas fueron copiadas de Image:Commutative Additi-
+on.svg566
+86
+Me,
+myself
+and(?)
+http://de.wikipedia.org/wiki/
+Benutzer:KonradVoelkel
+543 http://kulla.me/
+544 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+545 http://kulla.me/
+546 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+547 http://commons.wikimedia.org/wiki/File:Nuvola_apps_bookcase.svg
+548 http://kulla.me/
+549 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+550 https://commons.wikimedia.org/wiki/File:Nuvola_apps_bookcase.svg
+551 http://kulla.me/
+552 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+553 http://commons.wikimedia.org/wiki/File:Nuvola_apps_bookcase.svg
+554 http://kulla.me/
+555 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+556 https://commons.wikimedia.org/wiki/File:Nuvola_apps_bookcase.svg
+557 http://kulla.me/
+558 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+559 http://kulla.me/
+560 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+561 http://kulla.me/
+562 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+563 http://commons.wikimedia.org/wiki/User:German
+564 http://commons.wikimedia.org/wiki/File:Commutative_Addition.svg
+565 https://commons.wikimedia.org/wiki/User:German
+566 https://commons.wikimedia.org/wiki/File:Commutative_Addition.svg
+293
+
+
+Source master page 300:
+Abbildungsverzeichnis
+87
+Stephan Kulla567 (User:Stephan Kulla568), Stephan Kulla569
+(User:Stephan Kulla570)
+CC-BY-3.0
+88
+Stephan Kulla571 (User:Stephan Kulla572), Stephan Kulla573
+(User:Stephan Kulla574)
+CC-BY-3.0
+89
+HiTe
+90
+HiTe
+91
+HiTe
+92
+HiTe
+93
+Stephan Kulla575 (User:Stephan Kulla576), Stephan Kulla577
+(User:Stephan Kulla578)
+CC-BY-3.0
+94
+Emijrpbot, Finavon, Hazard-Bot, JarektBot, Mxt5555, Sl,
+Watchduck
+95
+Darapti, Emijrpbot, Hazard-Bot, JarektBot, Sl, Watchduck
+96
+en:User:Schapel579
+97
+Stephan Kulla580 (User:Stephan Kulla581), Stephan Kulla582
+(User:Stephan Kulla583)
+CC-BY-3.0
+98
+Stephan Kulla584 (User:Stephan Kulla585), Stephan Kulla586
+(User:Stephan Kulla587)
+CC-BY-3.0
+99
+Talonnn588, Talonnn589
+PD
+100
+Talonnn590, Talonnn591
+PD
+101
+Talonnn592, Talonnn593
+PD
+102
+Talonnn594, Talonnn595
+PD
+567 http://kulla.me/
+568 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+569 http://kulla.me/
+570 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+571 http://kulla.me/
+572 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+573 http://kulla.me/
+574 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+575 http://kulla.me/
+576 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+577 http://kulla.me/
+578 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+579 https://en.wikipedia.org/wiki/User:Schapel
+580 http://kulla.me/
+581 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+582 http://kulla.me/
+583 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+584 http://kulla.me/
+585 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+586 http://kulla.me/
+587 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+588 http://commons.wikimedia.org/w/index.php?title=User:Talonnn&action=edit&redlink=1
+589 https://commons.wikimedia.org/w/index.php?title=User:Talonnn&action=edit&redlink=1
+590 http://commons.wikimedia.org/w/index.php?title=User:Talonnn&action=edit&redlink=1
+591 https://commons.wikimedia.org/w/index.php?title=User:Talonnn&action=edit&redlink=1
+592 http://commons.wikimedia.org/w/index.php?title=User:Talonnn&action=edit&redlink=1
+593 https://commons.wikimedia.org/w/index.php?title=User:Talonnn&action=edit&redlink=1
+594 http://commons.wikimedia.org/w/index.php?title=User:Talonnn&action=edit&redlink=1
+595 https://commons.wikimedia.org/w/index.php?title=User:Talonnn&action=edit&redlink=1
+294
+
+
+Source master page 301:
+Abbildungsverzeichnis
+103
+Stephan Kulla596 (User:Stephan Kulla597), Stephan Kulla598
+(User:Stephan Kulla599)
+CC-BY-3.0
+104
+Stephan Kulla600 (User:Stephan Kulla601), Stephan Kulla602
+(User:Stephan Kulla603)
+CC-BY-3.0
+105
+• Greek_uc_sigma.svg604: Andux605
+• derivative work: Stephan Kulla606 (User:Stephan Kul-
+la607)
+,
+• Greek_uc_sigma.svg608: Andux609
+• derivative work: Stephan Kulla610 (User:Stephan Kul-
+la611)
+CC-BY-SA-3.0
+106
+Stephan Kulla612 (User:Stephan Kulla613), Stephan Kulla614
+(User:Stephan Kulla615)
+CC-BY-3.0
+107
+Stephan Kulla616 (User:Stephan Kulla617), Stephan Kulla618
+(User:Stephan Kulla619)
+CC-BY-3.0
+108
+Stephan Kulla620 (User:Stephan Kulla621), Stephan Kulla622
+(User:Stephan Kulla623)
+CC-BY-3.0
+109
+Stephan Kulla624 (User:Stephan Kulla625), Stephan Kulla626
+(User:Stephan Kulla627)
+CC-BY-3.0
+596 http://kulla.me/
+597 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+598 http://kulla.me/
+599 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+600 http://kulla.me/
+601 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+602 http://kulla.me/
+603 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+604 http://commons.wikimedia.org/wiki/File:Greek_uc_sigma.svg
+605 http://commons.wikimedia.org/wiki/User:Andux
+606 http://kulla.me/
+607 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+608 https://commons.wikimedia.org/wiki/File:Greek_uc_sigma.svg
+609 https://commons.wikimedia.org/wiki/User:Andux
+610 http://kulla.me/
+611 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+612 http://kulla.me/
+613 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+614 http://kulla.me/
+615 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+616 http://kulla.me/
+617 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+618 http://kulla.me/
+619 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+620 http://kulla.me/
+621 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+622 http://kulla.me/
+623 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+624 http://kulla.me/
+625 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+626 http://kulla.me/
+627 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+295
+
+
+Source master page 302:
+Abbildungsverzeichnis
+110
+• Greek_uc_sigma.svg628: Andux629
+• derivative work: Stephan Kulla630 (User:Stephan Kul-
+la631)
+,
+• Greek_uc_sigma.svg632: Andux633
+• derivative work: Stephan Kulla634 (User:Stephan Kul-
+la635)
+CC-BY-SA-3.0
+111
+Stephan Kulla636 (User:Stephan Kulla637), Stephan Kulla638
+(User:Stephan Kulla639)
+CC-BY-3.0
+112
+The Wicked Mu640
+113
+641Stephan Kulla642, 643Stephan Kulla644
+PD
+114
+Geek3645, Geek3646
+CC-BY-3.0
+115
+The Wicked Mu647
+116
+Stephan Kulla648 (User:Stephan Kulla649), Stephan Kulla650
+(User:Stephan Kulla651)
+CC-BY-3.0
+117
+Stephan Kulla652 (User:Stephan Kulla653), Stephan Kulla654
+(User:Stephan Kulla655)
+CC-BY-3.0
+118
+Darapti, Emijrpbot, Hazard-Bot, JarektBot, Jochen Burg-
+hardt, Magister Mathematicae
+119
+English: unknown; a copy of the painture of François II
+Quesnel, which was made for Gérard Edelinck en 1691.
+120
+Hersfold656 on the English Wikipedia
+628 http://commons.wikimedia.org/wiki/File:Greek_uc_sigma.svg
+629 http://commons.wikimedia.org/wiki/User:Andux
+630 http://kulla.me/
+631 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+632 https://commons.wikimedia.org/wiki/File:Greek_uc_sigma.svg
+633 https://commons.wikimedia.org/wiki/User:Andux
+634 http://kulla.me/
+635 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+636 http://kulla.me/
+637 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+638 http://kulla.me/
+639 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+640 https://thewickedmu.physik.uni-muenchen.de/
+641 http://kulla.me
+642 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+643 http://kulla.me
+644 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+645 http://commons.wikimedia.org/wiki/User:Geek3
+646 https://commons.wikimedia.org/wiki/User:Geek3
+647 https://thewickedmu.physik.uni-muenchen.de/
+648 http://kulla.me/
+649 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+650 http://kulla.me/
+651 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+652 http://kulla.me/
+653 http://commons.wikimedia.org/wiki/User:Stephan_Kulla
+654 http://kulla.me/
+655 https://commons.wikimedia.org/wiki/User:Stephan_Kulla
+656 https://en.wikipedia.org/wiki/User:Hersfold
+296
+
+
+Source master page 303:
+38. Licenses
+38.1. GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+Copyright © 2007 Free Software Foundation, Inc. <http://fsf.org/>
+Everyone is permitted to copy and distribute verbatim copies of this
+license document, but changing it is not allowed. Preamble
+The GNU General Public License is a free, copyleft license for software
+and other kinds of works.
+The licenses for most software and other practical works are designed
+to take away your freedom to share and change the works. By con-
+trast, the GNU General Public License is intended to guarantee your
+freedom to share and change all versions of a program–to make sure
+it remains free software for all its users. We, the Free Software Foun-
+dation, use the GNU General Public License for most of our software;
+it applies also to any other work released this way by its authors. You
+can apply it to your programs, too.
+When we speak of free software, we are referring to freedom, not price.
+Our General Public Licenses are designed to make sure that you have
+the freedom to distribute copies of free software (and charge for them
+if you wish), that you receive source code or can get it if you want
+it, that you can change the software or use pieces of it in new free
+programs, and that you know you can do these things.
+To protect your rights, we need to prevent others from denying you
+these rights or asking you to surrender the rights. Therefore, you have
+certain responsibilities if you distribute copies of the software, or if you
+modify it: responsibilities to respect the freedom of others.
+For example, if you distribute copies of such a program, whether gratis
+or for a fee, you must pass on to the recipients the same freedoms that
+you received. You must make sure that they, too, receive or can get
+the source code. And you must show them these terms so they know
+their rights.
+Developers that use the GNU GPL protect your rights with two steps:
+(1) assert copyright on the software, and (2) oﬀer you this License
+giving you legal permission to copy, distribute and/or modify it.
+For the developers’ and authors’ protection, the GPL clearly explains
+that there is no warranty for this free software. For both users’ and
+authors’ sake, the GPL requires that modiﬁed versions be marked as
+changed, so that their problems will not be attributed erroneously to
+authors of previous versions.
+Some devices are designed to deny users access to install or run mo-
+diﬁed versions of the software inside them, although the manufacturer
+can do so. This is fundamentally incompatible with the aim of protec-
+ting users’ freedom to change the software. The systematic pattern of
+such abuse occurs in the area of products for individuals to use, which
+is precisely where it is most unacceptable. Therefore, we have designed
+this version of the GPL to prohibit the practice for those products. If
+such problems arise substantially in other domains, we stand ready to
+extend this provision to those domains in future versions of the GPL,
+as needed to protect the freedom of users.
+Finally, every program is threatened constantly by software patents.
+States should not allow patents to restrict development and use of soft-
+ware on general-purpose computers, but in those that do, we wish to
+avoid the special danger that patents applied to a free program could
+make it eﬀectively proprietary. To prevent this, the GPL assures that
+patents cannot be used to render the program non-free.
+The precise terms and conditions for copying, distribution and modi-
+ﬁcation follow. TERMS AND CONDITIONS 0. Deﬁnitions.
+“This License” refers to version 3 of the GNU General Public License.
+“Copyright” also means copyright-like laws that apply to other kinds
+of works, such as semiconductor masks.
+“The Program” refers to any copyrightable work licensed under this Li-
+cense. Each licensee is addressed as “you”. “Licensees” and “recipients”
+may be individuals or organizations.
+To “modify” a work means to copy from or adapt all or part of the work
+in a fashion requiring copyright permission, other than the making of
+an exact copy. The resulting work is called a “modiﬁed version” of the
+earlier work or a work “based on” the earlier work.
+A “covered work” means either the unmodiﬁed Program or a work ba-
+sed on the Program.
+To “propagate” a work means to do anything with it that, without per-
+mission, would make you directly or secondarily liable for infringement
+under applicable copyright law, except executing it on a computer or
+modifying a private copy. Propagation includes copying, distribution
+(with or without modiﬁcation), making available to the public, and in
+some countries other activities as well.
+To “convey” a work means any kind of propagation that enables other
+parties to make or receive copies. Mere interaction with a user through
+a computer network, with no transfer of a copy, is not conveying.
+An interactive user interface displays “Appropriate Legal Notices” to
+the extent that it includes a convenient and prominently visible feature
+that (1) displays an appropriate copyright notice, and (2) tells the user
+that there is no warranty for the work (except to the extent that war-
+ranties are provided), that licensees may convey the work under this
+License, and how to view a copy of this License. If the interface pres-
+ents a list of user commands or options, such as a menu, a prominent
+item in the list meets this criterion. 1. Source Code.
+The “source code” for a work means the preferred form of the work for
+making modiﬁcations to it. “Object code” means any non-source form
+of a work.
+A “Standard Interface” means an interface that either is an oﬃcial
+standard deﬁned by a recognized standards body, or, in the case of
+interfaces speciﬁed for a particular programming language, one that is
+widely used among developers working in that language.
+The “System Libraries” of an executable work include anything, other
+than the work as a whole, that (a) is included in the normal form of
+packaging a Major Component, but which is not part of that Major
+Component, and (b) serves only to enable use of the work with that
+Major Component, or to implement a Standard Interface for which an
+implementation is available to the public in source code form. A “Ma-
+jor Component”, in this context, means a major essential component
+(kernel, window system, and so on) of the speciﬁc operating system (if
+any) on which the executable work runs, or a compiler used to produce
+the work, or an object code interpreter used to run it.
+The “Corresponding Source” for a work in object code form means all
+the source code needed to generate, install, and (for an executable
+work) run the object code and to modify the work, including scripts to
+control those activities. However, it does not include the work’s System
+Libraries, or general-purpose tools or generally available free programs
+which are used unmodiﬁed in performing those activities but which are
+not part of the work. For example, Corresponding Source includes in-
+terface deﬁnition ﬁles associated with source ﬁles for the work, and the
+source code for shared libraries and dynamically linked subprograms
+that the work is speciﬁcally designed to require, such as by intimate
+data communication or control ﬂow between those subprograms and
+other parts of the work.
+The Corresponding Source need not include anything that users can
+regenerate automatically from other parts of the Corresponding Sour-
+ce.
+The Corresponding Source for a work in source code form is that same
+work. 2. Basic Permissions.
+All rights granted under this License are granted for the term of copy-
+right on the Program, and are irrevocable provided the stated conditi-
+ons are met. This License explicitly aﬃrms your unlimited permission
+to run the unmodiﬁed Program. The output from running a covered
+work is covered by this License only if the output, given its content,
+constitutes a covered work. This License acknowledges your rights of
+fair use or other equivalent, as provided by copyright law.
+You may make, run and propagate covered works that you do not con-
+vey, without conditions so long as your license otherwise remains in
+force. You may convey covered works to others for the sole purpose
+of having them make modiﬁcations exclusively for you, or provide you
+with facilities for running those works, provided that you comply with
+the terms of this License in conveying all material for which you do not
+control copyright. Those thus making or running the covered works for
+you must do so exclusively on your behalf, under your direction and
+control, on terms that prohibit them from making any copies of your
+copyrighted material outside their relationship with you.
+Conveying under any other circumstances is permitted solely under
+the conditions stated below. Sublicensing is not allowed; section 10
+makes it unnecessary. 3. Protecting Users’ Legal Rights From Anti-
+Circumvention Law.
+No covered work shall be deemed part of an eﬀective technological me-
+asure under any applicable law fulﬁlling obligations under article 11 of
+the WIPO copyright treaty adopted on 20 December 1996, or similar
+laws prohibiting or restricting circumvention of such measures.
+When you convey a covered work, you waive any legal power to forbid
+circumvention of technological measures to the extent such circum-
+vention is eﬀected by exercising rights under this License with respect
+to the covered work, and you disclaim any intention to limit opera-
+tion or modiﬁcation of the work as a means of enforcing, against the
+work’s users, your or third parties’ legal rights to forbid circumvention
+of technological measures. 4. Conveying Verbatim Copies.
+You may convey verbatim copies of the Program’s source code as you
+receive it, in any medium, provided that you conspicuously and appro-
+priately publish on each copy an appropriate copyright notice; keep in-
+tact all notices stating that this License and any non-permissive terms
+added in accord with section 7 apply to the code; keep intact all noti-
+ces of the absence of any warranty; and give all recipients a copy of
+this License along with the Program.
+You may charge any price or no price for each copy that you con-
+vey, and you may oﬀer support or warranty protection for a fee. 5.
+Conveying Modiﬁed Source Versions.
+You may convey a work based on the Program, or the modiﬁcations
+to produce it from the Program, in the form of source code under the
+terms of section 4, provided that you also meet all of these conditions:
+* a) The work must carry prominent notices stating that you modiﬁed
+it, and giving a relevant date. * b) The work must carry prominent
+notices stating that it is released under this License and any conditions
+added under section 7. This requirement modiﬁes the requirement in
+section 4 to “keep intact all notices”. * c) You must license the entire
+work, as a whole, under this License to anyone who comes into pos-
+session of a copy. This License will therefore apply, along with any
+applicable section 7 additional terms, to the whole of the work, and
+all its parts, regardless of how they are packaged. This License gives
+no permission to license the work in any other way, but it does not
+invalidate such permission if you have separately received it. * d) If
+the work has interactive user interfaces, each must display Appropriate
+Legal Notices; however, if the Program has interactive interfaces that
+do not display Appropriate Legal Notices, your work need not make
+them do so.
+A compilation of a covered work with other separate and independent
+works, which are not by their nature extensions of the covered work,
+and which are not combined with it such as to form a larger program,
+in or on a volume of a storage or distribution medium, is called an
+“aggregate” if the compilation and its resulting copyright are not used
+to limit the access or legal rights of the compilation’s users beyond
+what the individual works permit. Inclusion of a covered work in an
+aggregate does not cause this License to apply to the other parts of
+the aggregate. 6. Conveying Non-Source Forms.
+You may convey a covered work in object code form under the terms of
+sections 4 and 5, provided that you also convey the machine-readable
+Corresponding Source under the terms of this License, in one of these
+ways:
+* a) Convey the object code in, or embodied in, a physical product (in-
+cluding a physical distribution medium), accompanied by the Corre-
+sponding Source ﬁxed on a durable physical medium customarily used
+for software interchange. * b) Convey the object code in, or embodied
+in, a physical product (including a physical distribution medium), ac-
+companied by a written oﬀer, valid for at least three years and valid
+for as long as you oﬀer spare parts or customer support for that pro-
+duct model, to give anyone who possesses the object code either (1) a
+copy of the Corresponding Source for all the software in the product
+that is covered by this License, on a durable physical medium custo-
+marily used for software interchange, for a price no more than your
+reasonable cost of physically performing this conveying of source, or
+(2) access to copy the Corresponding Source from a network server
+at no charge. * c) Convey individual copies of the object code with a
+copy of the written oﬀer to provide the Corresponding Source. This
+alternative is allowed only occasionally and noncommercially, and on-
+ly if you received the object code with such an oﬀer, in accord with
+subsection 6b. * d) Convey the object code by oﬀering access from a
+designated place (gratis or for a charge), and oﬀer equivalent access to
+the Corresponding Source in the same way through the same place at
+no further charge. You need not require recipients to copy the Corre-
+sponding Source along with the object code. If the place to copy the
+object code is a network server, the Corresponding Source may be on a
+diﬀerent server (operated by you or a third party) that supports equi-
+valent copying facilities, provided you maintain clear directions next
+to the object code saying where to ﬁnd the Corresponding Source. Re-
+gardless of what server hosts the Corresponding Source, you remain
+obligated to ensure that it is available for as long as needed to satis-
+fy these requirements. * e) Convey the object code using peer-to-peer
+transmission, provided you inform other peers where the object code
+and Corresponding Source of the work are being oﬀered to the general
+public at no charge under subsection 6d.
+A separable portion of the object code, whose source code is exclu-
+ded from the Corresponding Source as a System Library, need not be
+included in conveying the object code work.
+A “User Product” is either (1) a “consumer product”, which means any
+tangible personal property which is normally used for personal, family,
+or household purposes, or (2) anything designed or sold for incorpora-
+tion into a dwelling. In determining whether a product is a consumer
+product, doubtful cases shall be resolved in favor of coverage. For a
+particular product received by a particular user, “normally used” re-
+fers to a typical or common use of that class of product, regardless of
+the status of the particular user or of the way in which the particular
+user actually uses, or expects or is expected to use, the product. A
+product is a consumer product regardless of whether the product has
+substantial commercial, industrial or non-consumer uses, unless such
+uses represent the only signiﬁcant mode of use of the product.
+“Installation Information” for a User Product means any methods, pro-
+cedures, authorization keys, or other information required to install
+and execute modiﬁed versions of a covered work in that User Product
+from a modiﬁed version of its Corresponding Source. The information
+must suﬃce to ensure that the continued functioning of the modiﬁed
+object code is in no case prevented or interfered with solely because
+modiﬁcation has been made.
+If you convey an object code work under this section in, or with, or
+speciﬁcally for use in, a User Product, and the conveying occurs as part
+of a transaction in which the right of possession and use of the User
+Product is transferred to the recipient in perpetuity or for a ﬁxed term
+(regardless of how the transaction is characterized), the Corresponding
+Source conveyed under this section must be accompanied by the In-
+stallation Information. But this requirement does not apply if neither
+you nor any third party retains the ability to install modiﬁed object
+code on the User Product (for example, the work has been installed in
+ROM).
+The requirement to provide Installation Information does not include
+a requirement to continue to provide support service, warranty, or up-
+dates for a work that has been modiﬁed or installed by the recipient, or
+for the User Product in which it has been modiﬁed or installed. Access
+to a network may be denied when the modiﬁcation itself materially
+and adversely aﬀects the operation of the network or violates the rules
+and protocols for communication across the network.
+Corresponding Source conveyed, and Installation Information provi-
+ded, in accord with this section must be in a format that is publicly
+documented (and with an implementation available to the public in
+source code form), and must require no special password or key for
+unpacking, reading or copying. 7. Additional Terms.
+“Additional permissions” are terms that supplement the terms of this
+License by making exceptions from one or more of its conditions. Ad-
+ditional permissions that are applicable to the entire Program shall
+be treated as though they were included in this License, to the extent
+that they are valid under applicable law. If additional permissions ap-
+ply only to part of the Program, that part may be used separately
+under those permissions, but the entire Program remains governed by
+this License without regard to the additional permissions.
+When you convey a copy of a covered work, you may at your option
+remove any additional permissions from that copy, or from any part
+of it. (Additional permissions may be written to require their own re-
+moval in certain cases when you modify the work.) You may place
+additional permissions on material, added by you to a covered work,
+for which you have or can give appropriate copyright permission.
+Notwithstanding any other provision of this License, for material you
+add to a covered work, you may (if authorized by the copyright holders
+of that material) supplement the terms of this License with terms:
+* a) Disclaiming warranty or limiting liability diﬀerently from the
+terms of sections 15 and 16 of this License; or * b) Requiring pre-
+servation of speciﬁed reasonable legal notices or author attributions in
+that material or in the Appropriate Legal Notices displayed by works
+containing it; or * c) Prohibiting misrepresentation of the origin of
+that material, or requiring that modiﬁed versions of such material be
+marked in reasonable ways as diﬀerent from the original version; or *
+d) Limiting the use for publicity purposes of names of licensors or aut-
+hors of the material; or * e) Declining to grant rights under trademark
+law for use of some trade names, trademarks, or service marks; or *
+f) Requiring indemniﬁcation of licensors and authors of that material
+by anyone who conveys the material (or modiﬁed versions of it) with
+contractual assumptions of liability to the recipient, for any liability
+that these contractual assumptions directly impose on those licensors
+and authors.
+All other non-permissive additional terms are considered “further re-
+strictions” within the meaning of section 10. If the Program as you
+received it, or any part of it, contains a notice stating that it is gover-
+ned by this License along with a term that is a further restriction, you
+may remove that term. If a license document contains a further restric-
+tion but permits relicensing or conveying under this License, you may
+add to a covered work material governed by the terms of that license
+document, provided that the further restriction does not survive such
+relicensing or conveying.
+If you add terms to a covered work in accord with this section, you
+must place, in the relevant source ﬁles, a statement of the additional
+terms that apply to those ﬁles, or a notice indicating where to ﬁnd the
+applicable terms.
+Additional terms, permissive or non-permissive, may be stated in the
+form of a separately written license, or stated as exceptions; the above
+requirements apply either way. 8. Termination.
+You may not propagate or modify a covered work except as expressly
+provided under this License. Any attempt otherwise to propagate or
+modify it is void, and will automatically terminate your rights under
+this License (including any patent licenses granted under the third
+paragraph of section 11).
+However, if you cease all violation of this License, then your license
+from a particular copyright holder is reinstated (a) provisionally, un-
+less and until the copyright holder explicitly and ﬁnally terminates
+your license, and (b) permanently, if the copyright holder fails to no-
+tify you of the violation by some reasonable means prior to 60 days
+after the cessation.
+Moreover, your license from a particular copyright holder is reinstated
+permanently if the copyright holder notiﬁes you of the violation by
+some reasonable means, this is the ﬁrst time you have received notice
+of violation of this License (for any work) from that copyright holder,
+and you cure the violation prior to 30 days after your receipt of the
+notice.
+Termination of your rights under this section does not terminate the
+licenses of parties who have received copies or rights from you under
+this License. If your rights have been terminated and not permanently
+reinstated, you do not qualify to receive new licenses for the same ma-
+terial under section 10. 9. Acceptance Not Required for Having Copies.
+You are not required to accept this License in order to receive or run
+a copy of the Program. Ancillary propagation of a covered work oc-
+curring solely as a consequence of using peer-to-peer transmission to
+receive a copy likewise does not require acceptance. However, nothing
+other than this License grants you permission to propagate or modify
+any covered work. These actions infringe copyright if you do not accept
+this License. Therefore, by modifying or propagating a covered work,
+you indicate your acceptance of this License to do so. 10. Automatic
+Licensing of Downstream Recipients.
+Each time you convey a covered work, the recipient automatically re-
+ceives a license from the original licensors, to run, modify and propa-
+gate that work, subject to this License. You are not responsible for
+enforcing compliance by third parties with this License.
+An “entity transaction” is a transaction transferring control of an or-
+ganization, or substantially all assets of one, or subdividing an orga-
+nization, or merging organizations. If propagation of a covered work
+results from an entity transaction, each party to that transaction who
+receives a copy of the work also receives whatever licenses to the work
+the party’s predecessor in interest had or could give under the previous
+paragraph, plus a right to possession of the Corresponding Source of
+the work from the predecessor in interest, if the predecessor has it or
+can get it with reasonable eﬀorts.
+You may not impose any further restrictions on the exercise of the
+rights granted or aﬃrmed under this License. For example, you may
+not impose a license fee, royalty, or other charge for exercise of rights
+granted under this License, and you may not initiate litigation (in-
+cluding a cross-claim or counterclaim in a lawsuit) alleging that any
+patent claim is infringed by making, using, selling, oﬀering for sale, or
+importing the Program or any portion of it. 11. Patents.
+A “contributor” is a copyright holder who authorizes use under this
+License of the Program or a work on which the Program is based. The
+work thus licensed is called the contributor’s “contributor version”.
+A contributor’s “essential patent claims” are all patent claims owned
+or controlled by the contributor, whether already acquired or hereaf-
+ter acquired, that would be infringed by some manner, permitted by
+this License, of making, using, or selling its contributor version, but
+do not include claims that would be infringed only as a consequence
+of further modiﬁcation of the contributor version. For purposes of this
+deﬁnition, “control” includes the right to grant patent sublicenses in a
+manner consistent with the requirements of this License.
+Each contributor grants you a non-exclusive, worldwide, royalty-free
+patent license under the contributor’s essential patent claims, to make,
+use, sell, oﬀer for sale, import and otherwise run, modify and propagate
+the contents of its contributor version.
+In the following three paragraphs, a “patent license” is any express
+agreement or commitment, however denominated, not to enforce a pa-
+tent (such as an express permission to practice a patent or covenant
+not to sue for patent infringement). To “grant” such a patent license
+to a party means to make such an agreement or commitment not to
+enforce a patent against the party.
+If you convey a covered work, knowingly relying on a patent license,
+and the Corresponding Source of the work is not available for anyone to
+copy, free of charge and under the terms of this License, through a pu-
+blicly available network server or other readily accessible means, then
+you must either (1) cause the Corresponding Source to be so available,
+or (2) arrange to deprive yourself of the beneﬁt of the patent license for
+this particular work, or (3) arrange, in a manner consistent with the re-
+quirements of this License, to extend the patent license to downstream
+recipients. “Knowingly relying” means you have actual knowledge that,
+but for the patent license, your conveying the covered work in a coun-
+try, or your recipient’s use of the covered work in a country, would
+infringe one or more identiﬁable patents in that country that you have
+reason to believe are valid.
+If, pursuant to or in connection with a single transaction or arrange-
+ment, you convey, or propagate by procuring conveyance of, a covered
+work, and grant a patent license to some of the parties receiving the
+covered work authorizing them to use, propagate, modify or convey a
+speciﬁc copy of the covered work, then the patent license you grant is
+automatically extended to all recipients of the covered work and works
+based on it.
+A patent license is “discriminatory” if it does not include within the
+scope of its coverage, prohibits the exercise of, or is conditioned on the
+non-exercise of one or more of the rights that are speciﬁcally granted
+under this License. You may not convey a covered work if you are a
+party to an arrangement with a third party that is in the business
+of distributing software, under which you make payment to the third
+party based on the extent of your activity of conveying the work, and
+under which the third party grants, to any of the parties who would
+receive the covered work from you, a discriminatory patent license (a)
+in connection with copies of the covered work conveyed by you (or
+copies made from those copies), or (b) primarily for and in connection
+with speciﬁc products or compilations that contain the covered work,
+unless you entered into that arrangement, or that patent license was
+granted, prior to 28 March 2007.
+Nothing in this License shall be construed as excluding or limiting any
+implied license or other defenses to infringement that may otherwise
+be available to you under applicable patent law. 12. No Surrender of
+Others’ Freedom.
+If conditions are imposed on you (whether by court order, agreement
+or otherwise) that contradict the conditions of this License, they do
+not excuse you from the conditions of this License. If you cannot con-
+vey a covered work so as to satisfy simultaneously your obligations
+under this License and any other pertinent obligations, then as a con-
+sequence you may not convey it at all. For example, if you agree to
+terms that obligate you to collect a royalty for further conveying from
+those to whom you convey the Program, the only way you could satis-
+fy both those terms and this License would be to refrain entirely from
+
+
+Source master page 304:
+conveying the Program. 13. Use with the GNU Aﬀero General Public
+License.
+Notwithstanding any other provision of this License, you have permis-
+sion to link or combine any covered work with a work licensed under
+version 3 of the GNU Aﬀero General Public License into a single com-
+bined work, and to convey the resulting work. The terms of this License
+will continue to apply to the part which is the covered work, but the
+special requirements of the GNU Aﬀero General Public License, sec-
+tion 13, concerning interaction through a network will apply to the
+combination as such. 14. Revised Versions of this License.
+The Free Software Foundation may publish revised and/or new versi-
+ons of the GNU General Public License from time to time. Such new
+versions will be similar in spirit to the present version, but may diﬀer
+in detail to address new problems or concerns.
+Each version is given a distinguishing version number. If the Program
+speciﬁes that a certain numbered version of the GNU General Public
+License “or any later version” applies to it, you have the option of fol-
+lowing the terms and conditions either of that numbered version or
+of any later version published by the Free Software Foundation. If the
+Program does not specify a version number of the GNU General Pu-
+blic License, you may choose any version ever published by the Free
+Software Foundation.
+If the Program speciﬁes that a proxy can decide which future versions
+of the GNU General Public License can be used, that proxy’s public
+statement of acceptance of a version permanently authorizes you to
+choose that version for the Program.
+Later license versions may give you additional or diﬀerent permissi-
+ons. However, no additional obligations are imposed on any author or
+copyright holder as a result of your choosing to follow a later version.
+15. Disclaimer of Warranty.
+THERE IS NO WARRANTY FOR THE PROGRAM, TO THE
+EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN
+OTHERWISE STATED IN WRITING THE COPYRIGHT HOL-
+DERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM
+“AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EX-
+PRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK
+AS TO THE QUALITY AND PERFORMANCE OF THE PRO-
+GRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DE-
+FECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SER-
+VICING, REPAIR OR CORRECTION. 16. Limitation of Liability.
+IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR
+AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER,
+OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
+THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU
+FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCI-
+DENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF
+THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING
+BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING REN-
+DERED INACCURATE OR LOSSES SUSTAINED BY YOU OR
+THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPE-
+RATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOL-
+DER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSI-
+BILITY OF SUCH DAMAGES. 17. Interpretation of Sections 15 and
+16.
+If the disclaimer of warranty and limitation of liability provided above
+cannot be given local legal eﬀect according to their terms, reviewing
+courts shall apply local law that most closely approximates an absolu-
+te waiver of all civil liability in connection with the Program, unless a
+warranty or assumption of liability accompanies a copy of the Program
+in return for a fee.
+END OF TERMS AND CONDITIONS How to Apply These Terms
+to Your New Programs
+If you develop a new program, and you want it to be of the greatest
+possible use to the public, the best way to achieve this is to make it
+free software which everyone can redistribute and change under these
+terms.
+To do so, attach the following notices to the program. It is safest to
+attach them to the start of each source ﬁle to most eﬀectively state the
+exclusion of warranty; and each ﬁle should have at least the “copyright”
+line and a pointer to where the full notice is found.
+<one line to give the program’s name and a brief idea of what it does.>
+Copyright (C) <year> <name of author>
+This program is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or (at
+your option) any later version.
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty
+of MERCHANTABILITY or FITNESS FOR A PARTICULAR PUR-
+POSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <http://www.gnu.org/licenses/>.
+Also add information on how to contact you by electronic and paper
+mail.
+If the program does terminal interaction, make it output a short notice
+like this when it starts in an interactive mode:
+<program> Copyright (C) <year> <name of author> This program
+comes with ABSOLUTELY NO WARRANTY; for details type ‘show
+w’. This is free software, and you are welcome to redistribute it under
+certain conditions; type ‘show c’ for details.
+The hypothetical commands ‘show w’ and ‘show c’ should show the
+appropriate parts of the General Public License. Of course, your pro-
+gram’s commands might be diﬀerent; for a GUI interface, you would
+use an “about box”.
+You should also get your employer (if you work as a programmer) or
+school, if any, to sign a “copyright disclaimer” for the program, if ne-
+cessary. For more information on this, and how to apply and follow
+the GNU GPL, see <http://www.gnu.org/licenses/>.
+The GNU General Public License does not permit incorporating your
+program into proprietary programs. If your program is a subroutine
+library, you may consider it more useful to permit linking proprietary
+applications with the library. If this is what you want to do, use the
+GNU Lesser General Public License instead of this License. But ﬁrst,
+please read <http://www.gnu.org/philosophy/why-not-lgpl.html>.
+38.2. GNU Free Documentation License
+Version 1.3, 3 November 2008
+Copyright © 2000, 2001, 2002, 2007, 2008 Free Software Foundation,
+Inc. <http://fsf.org/>
+Everyone is permitted to copy and distribute verbatim copies of this
+license document, but changing it is not allowed. 0. PREAMBLE
+The purpose of this License is to make a manual, textbook, or other
+functional and useful document ”freeïn the sense of freedom: to assu-
+re everyone the eﬀective freedom to copy and redistribute it, with or
+without modifying it, either commercially or noncommercially. Secon-
+darily, this License preserves for the author and publisher a way to
+get credit for their work, while not being considered responsible for
+modiﬁcations made by others.
+This License is a kind of ”copyleft”, which means that derivative works
+of the document must themselves be free in the same sense. It com-
+plements the GNU General Public License, which is a copyleft license
+designed for free software.
+We have designed this License in order to use it for manuals for free
+software, because free software needs free documentation: a free pro-
+gram should come with manuals providing the same freedoms that the
+software does. But this License is not limited to software manuals;
+it can be used for any textual work, regardless of subject matter or
+whether it is published as a printed book. We recommend this Licen-
+se principally for works whose purpose is instruction or reference. 1.
+APPLICABILITY AND DEFINITIONS
+This License applies to any manual or other work, in any medium,
+that contains a notice placed by the copyright holder saying it can
+be distributed under the terms of this License. Such a notice grants a
+world-wide, royalty-free license, unlimited in duration, to use that work
+under the conditions stated herein. The ”Document”, below, refers to
+any such manual or work. Any member of the public is a licensee, and
+is addressed as ”you”. You accept the license if you copy, modify or
+distribute the work in a way requiring permission under copyright law.
+A ”Modiﬁed Versionöf the Document means any work containing the
+Document or a portion of it, either copied verbatim, or with modiﬁca-
+tions and/or translated into another language.
+A SSecondary Sectionïs a named appendix or a front-matter section of
+the Document that deals exclusively with the relationship of the publis-
+hers or authors of the Document to the Document’s overall subject (or
+to related matters) and contains nothing that could fall directly within
+that overall subject. (Thus, if the Document is in part a textbook of
+mathematics, a Secondary Section may not explain any mathematics.)
+The relationship could be a matter of historical connection with the
+subject or with related matters, or of legal, commercial, philosophical,
+ethical or political position regarding them.
+The Ïnvariant Sectionsäre certain Secondary Sections whose titles are
+designated, as being those of Invariant Sections, in the notice that
+says that the Document is released under this License. If a section
+does not ﬁt the above deﬁnition of Secondary then it is not allowed to
+be designated as Invariant. The Document may contain zero Invari-
+ant Sections. If the Document does not identify any Invariant Sections
+then there are none.
+The ”Cover Textsäre certain short passages of text that are listed, as
+Front-Cover Texts or Back-Cover Texts, in the notice that says that
+the Document is released under this License. A Front-Cover Text may
+be at most 5 words, and a Back-Cover Text may be at most 25 words.
+A ”Transparent”copy of the Document means a machine-readable copy,
+represented in a format whose speciﬁcation is available to the general
+public, that is suitable for revising the document straightforwardly
+with generic text editors or (for images composed of pixels) generic
+paint programs or (for drawings) some widely available drawing edi-
+tor, and that is suitable for input to text formatters or for automatic
+translation to a variety of formats suitable for input to text formatters.
+A copy made in an otherwise Transparent ﬁle format whose markup,
+or absence of markup, has been arranged to thwart or discourage sub-
+sequent modiﬁcation by readers is not Transparent. An image format
+is not Transparent if used for any substantial amount of text. A copy
+that is not ”Transparentïs called Öpaque”.
+Examples of suitable formats for Transparent copies include plain
+ASCII without markup, Texinfo input format, LaTeX input for-
+mat, SGML or XML using a publicly available DTD, and standard-
+conforming simple HTML, PostScript or PDF designed for human mo-
+diﬁcation. Examples of transparent image formats include PNG, XCF
+and JPG. Opaque formats include proprietary formats that can be re-
+ad and edited only by proprietary word processors, SGML or XML for
+which the DTD and/or processing tools are not generally available,
+and the machine-generated HTML, PostScript or PDF produced by
+some word processors for output purposes only.
+The ”Title Page”means, for a printed book, the title page itself, plus
+such following pages as are needed to hold, legibly, the material this
+License requires to appear in the title page. For works in formats which
+do not have any title page as such, ”Title Page”means the text near the
+most prominent appearance of the work’s title, preceding the beginning
+of the body of the text.
+The ”publisher”means any person or entity that distributes copies of
+the Document to the public.
+A section Ëntitled XYZ”means a named subunit of the Document who-
+se title either is precisely XYZ or contains XYZ in parentheses follo-
+wing text that translates XYZ in another language. (Here XYZ stands
+for a speciﬁc section name mentioned below, such as Äcknowledge-
+ments”, ”Dedications”, Ëndorsements”, or ”History”.) To ”Preserve the
+Titleöf such a section when you modify the Document means that it
+remains a section Ëntitled XYZäccording to this deﬁnition.
+The Document may include Warranty Disclaimers next to the notice
+which states that this License applies to the Document. These War-
+ranty Disclaimers are considered to be included by reference in this
+License, but only as regards disclaiming warranties: any other impli-
+cation that these Warranty Disclaimers may have is void and has no
+eﬀect on the meaning of this License. 2. VERBATIM COPYING
+You may copy and distribute the Document in any medium, either
+commercially or noncommercially, provided that this License, the co-
+pyright notices, and the license notice saying this License applies to
+the Document are reproduced in all copies, and that you add no other
+conditions whatsoever to those of this License. You may not use tech-
+nical measures to obstruct or control the reading or further copying of
+the copies you make or distribute. However, you may accept compen-
+sation in exchange for copies. If you distribute a large enough number
+of copies you must also follow the conditions in section 3.
+You may also lend copies, under the same conditions stated above, and
+you may publicly display copies. 3. COPYING IN QUANTITY
+If you publish printed copies (or copies in media that commonly have
+printed covers) of the Document, numbering more than 100, and the
+Document’s license notice requires Cover Texts, you must enclose the
+copies in covers that carry, clearly and legibly, all these Cover Texts:
+Front-Cover Texts on the front cover, and Back-Cover Texts on the
+back cover. Both covers must also clearly and legibly identify you as
+the publisher of these copies. The front cover must present the full title
+with all words of the title equally prominent and visible. You may add
+other material on the covers in addition. Copying with changes limited
+to the covers, as long as they preserve the title of the Document and
+satisfy these conditions, can be treated as verbatim copying in other
+respects.
+If the required texts for either cover are too voluminous to ﬁt legibly,
+you should put the ﬁrst ones listed (as many as ﬁt reasonably) on the
+actual cover, and continue the rest onto adjacent pages.
+If you publish or distribute Opaque copies of the Document numbering
+more than 100, you must either include a machine-readable Transpa-
+rent copy along with each Opaque copy, or state in or with each Opaque
+copy a computer-network location from which the general network-
+using public has access to download using public-standard network
+protocols a complete Transparent copy of the Document, free of added
+material. If you use the latter option, you must take reasonably pru-
+dent steps, when you begin distribution of Opaque copies in quantity,
+to ensure that this Transparent copy will remain thus accessible at the
+stated location until at least one year after the last time you distribute
+an Opaque copy (directly or through your agents or retailers) of that
+edition to the public.
+It is requested, but not required, that you contact the authors of the
+Document well before redistributing any large number of copies, to
+give them a chance to provide you with an updated version of the
+Document. 4. MODIFICATIONS
+You may copy and distribute a Modiﬁed Version of the Document un-
+der the conditions of sections 2 and 3 above, provided that you release
+the Modiﬁed Version under precisely this License, with the Modiﬁed
+Version ﬁlling the role of the Document, thus licensing distribution and
+modiﬁcation of the Modiﬁed Version to whoever possesses a copy of it.
+In addition, you must do these things in the Modiﬁed Version:
+* A. Use in the Title Page (and on the covers, if any) a title dis-
+tinct from that of the Document, and from those of previous versions
+(which should, if there were any, be listed in the History section of
+the Document). You may use the same title as a previous version if
+the original publisher of that version gives permission. * B. List on
+the Title Page, as authors, one or more persons or entities responsible
+for authorship of the modiﬁcations in the Modiﬁed Version, together
+with at least ﬁve of the principal authors of the Document (all of its
+principal authors, if it has fewer than ﬁve), unless they release you
+from this requirement. * C. State on the Title page the name of the
+publisher of the Modiﬁed Version, as the publisher. * D. Preserve all
+the copyright notices of the Document. * E. Add an appropriate co-
+pyright notice for your modiﬁcations adjacent to the other copyright
+notices. * F. Include, immediately after the copyright notices, a license
+notice giving the public permission to use the Modiﬁed Version under
+the terms of this License, in the form shown in the Addendum below.
+* G. Preserve in that license notice the full lists of Invariant Sections
+and required Cover Texts given in the Document’s license notice. *
+H. Include an unaltered copy of this License. * I. Preserve the section
+Entitled ”History”, Preserve its Title, and add to it an item stating
+at least the title, year, new authors, and publisher of the Modiﬁed
+Version as given on the Title Page. If there is no section Entitled ”His-
+toryïn the Document, create one stating the title, year, authors, and
+publisher of the Document as given on its Title Page, then add an item
+describing the Modiﬁed Version as stated in the previous sentence. *
+J. Preserve the network location, if any, given in the Document for
+public access to a Transparent copy of the Document, and likewise the
+network locations given in the Document for previous versions it was
+based on. These may be placed in the ”Historyßection. You may omit
+a network location for a work that was published at least four years
+before the Document itself, or if the original publisher of the version it
+refers to gives permission. * K. For any section Entitled Äcknowledge-
+mentsör ”Dedications”, Preserve the Title of the section, and preserve
+in the section all the substance and tone of each of the contributor
+acknowledgements and/or dedications given therein. * L. Preserve all
+the Invariant Sections of the Document, unaltered in their text and in
+their titles. Section numbers or the equivalent are not considered part
+of the section titles. * M. Delete any section Entitled Ëndorsements”.
+Such a section may not be included in the Modiﬁed Version. * N. Do
+not retitle any existing section to be Entitled Ëndorsementsör to con-
+ﬂict in title with any Invariant Section. * O. Preserve any Warranty
+Disclaimers.
+If the Modiﬁed Version includes new front-matter sections or appendi-
+ces that qualify as Secondary Sections and contain no material copied
+from the Document, you may at your option designate some or all of
+these sections as invariant. To do this, add their titles to the list of
+Invariant Sections in the Modiﬁed Version’s license notice. These titles
+must be distinct from any other section titles.
+You may add a section Entitled Ëndorsements”, provided it conta-
+ins nothing but endorsements of your Modiﬁed Version by various
+parties—for example, statements of peer review or that the text has
+been approved by an organization as the authoritative deﬁnition of a
+standard.
+You may add a passage of up to ﬁve words as a Front-Cover Text,
+and a passage of up to 25 words as a Back-Cover Text, to the end
+of the list of Cover Texts in the Modiﬁed Version. Only one passage
+of Front-Cover Text and one of Back-Cover Text may be added by
+(or through arrangements made by) any one entity. If the Document
+already includes a cover text for the same cover, previously added by
+you or by arrangement made by the same entity you are acting on
+behalf of, you may not add another; but you may replace the old one,
+on explicit permission from the previous publisher that added the old
+one.
+The author(s) and publisher(s) of the Document do not by this License
+give permission to use their names for publicity for or to assert or imply
+endorsement of any Modiﬁed Version. 5. COMBINING DOCUMENTS
+You may combine the Document with other documents released under
+this License, under the terms deﬁned in section 4 above for modiﬁed
+versions, provided that you include in the combination all of the In-
+variant Sections of all of the original documents, unmodiﬁed, and list
+them all as Invariant Sections of your combined work in its license
+notice, and that you preserve all their Warranty Disclaimers.
+The combined work need only contain one copy of this License, and
+multiple identical Invariant Sections may be replaced with a single
+copy. If there are multiple Invariant Sections with the same name but
+diﬀerent contents, make the title of each such section unique by ad-
+ding at the end of it, in parentheses, the name of the original author or
+publisher of that section if known, or else a unique number. Make the
+same adjustment to the section titles in the list of Invariant Sections
+in the license notice of the combined work.
+In the combination, you must combine any sections Entitled ”Historyïn
+the various original documents, forming one section Entitled ”Histo-
+ry”; likewise combine any sections Entitled Äcknowledgements”, and
+any sections Entitled ”Dedications”. You must delete all sections Ent-
+itled Ëndorsements”. 6. COLLECTIONS OF DOCUMENTS
+You may make a collection consisting of the Document and other docu-
+ments released under this License, and replace the individual copies of
+this License in the various documents with a single copy that is inclu-
+ded in the collection, provided that you follow the rules of this License
+for verbatim copying of each of the documents in all other respects.
+You may extract a single document from such a collection, and dis-
+tribute it individually under this License, provided you insert a copy
+of this License into the extracted document, and follow this License
+in all other respects regarding verbatim copying of that document. 7.
+AGGREGATION WITH INDEPENDENT WORKS
+A compilation of the Document or its derivatives with other separate
+and independent documents or works, in or on a volume of a storage or
+distribution medium, is called an äggregateïf the copyright resulting
+from the compilation is not used to limit the legal rights of the com-
+pilation’s users beyond what the individual works permit. When the
+Document is included in an aggregate, this License does not apply to
+the other works in the aggregate which are not themselves derivative
+works of the Document.
+If the Cover Text requirement of section 3 is applicable to these copies
+of the Document, then if the Document is less than one half of the
+entire aggregate, the Document’s Cover Texts may be placed on co-
+vers that bracket the Document within the aggregate, or the electronic
+equivalent of covers if the Document is in electronic form. Otherwise
+they must appear on printed covers that bracket the whole aggregate.
+8. TRANSLATION
+Translation is considered a kind of modiﬁcation, so you may distribute
+translations of the Document under the terms of section 4. Replacing
+Invariant Sections with translations requires special permission from
+their copyright holders, but you may include translations of some or
+all Invariant Sections in addition to the original versions of these Inva-
+riant Sections. You may include a translation of this License, and all
+the license notices in the Document, and any Warranty Disclaimers,
+provided that you also include the original English version of this Li-
+cense and the original versions of those notices and disclaimers. In case
+of a disagreement between the translation and the original version of
+this License or a notice or disclaimer, the original version will prevail.
+If a section in the Document is Entitled Äcknowledgements”, ”Dedica-
+tions”, or ”History”, the requirement (section 4) to Preserve its Title
+(section 1) will typically require changing the actual title. 9. TERMI-
+NATION
+You may not copy, modify, sublicense, or distribute the Document ex-
+cept as expressly provided under this License. Any attempt otherwise
+to copy, modify, sublicense, or distribute it is void, and will automati-
+cally terminate your rights under this License.
+However, if you cease all violation of this License, then your license
+from a particular copyright holder is reinstated (a) provisionally, un-
+less and until the copyright holder explicitly and ﬁnally terminates
+your license, and (b) permanently, if the copyright holder fails to no-
+tify you of the violation by some reasonable means prior to 60 days
+after the cessation.
+Moreover, your license from a particular copyright holder is reinstated
+permanently if the copyright holder notiﬁes you of the violation by
+some reasonable means, this is the ﬁrst time you have received notice
+of violation of this License (for any work) from that copyright holder,
+and you cure the violation prior to 30 days after your receipt of the
+notice.
+Termination of your rights under this section does not terminate the
+licenses of parties who have received copies or rights from you under
+this License. If your rights have been terminated and not permanently
+reinstated, receipt of a copy of some or all of the same material does
+not give you any rights to use it. 10. FUTURE REVISIONS OF THIS
+LICENSE
+The Free Software Foundation may publish new, revised versions
+of the GNU Free Documentation License from time to time. Such
+new versions will be similar in spirit to the present version, but
+may diﬀer in detail to address new problems or concerns. See
+http://www.gnu.org/copyleft/.
+Each version of the License is given a distinguishing version number.
+If the Document speciﬁes that a particular numbered version of this
+License ör any later versionäpplies to it, you have the option of fol-
+lowing the terms and conditions either of that speciﬁed version or of
+any later version that has been published (not as a draft) by the Free
+Software Foundation. If the Document does not specify a version num-
+ber of this License, you may choose any version ever published (not
+as a draft) by the Free Software Foundation. If the Document speci-
+ﬁes that a proxy can decide which future versions of this License can
+be used, that proxy’s public statement of acceptance of a version per-
+manently authorizes you to choose that version for the Document. 11.
+RELICENSING
+”Massive Multiauthor Collaboration Site”(or ”MMC Site”) means any
+World Wide Web server that publishes copyrightable works and also
+provides prominent facilities for anybody to edit those works. A public
+wiki that anybody can edit is an example of such a server. A ”Massi-
+ve Multiauthor Collaboration”(or ”MMC”) contained in the site means
+any set of copyrightable works thus published on the MMC site.
+”CC-BY-SA”means the Creative Commons Attribution-Share Alike 3.0
+license published by Creative Commons Corporation, a not-for-proﬁt
+corporation with a principal place of business in San Francisco, Cali-
+fornia, as well as future copyleft versions of that license published by
+that same organization.
+Ïncorporate”means to publish or republish a Document, in whole or in
+part, as part of another Document.
+An MMC is ëligible for relicensingïf it is licensed under this License,
+and if all works that were ﬁrst published under this License somewhere
+other than this MMC, and subsequently incorporated in whole or in
+part into the MMC, (1) had no cover texts or invariant sections, and
+(2) were thus incorporated prior to November 1, 2008.
+The operator of an MMC Site may republish an MMC contained in
+the site under CC-BY-SA on the same site at any time before August
+1, 2009, provided the MMC is eligible for relicensing. ADDENDUM:
+How to use this License for your documents
+To use this License in a document you have written, include a copy
+of the License in the document and put the following copyright and
+license notices just after the title page:
+Copyright (C) YEAR YOUR NAME. Permission is granted to copy,
+distribute and/or modify this document under the terms of the GNU
+Free Documentation License, Version 1.3 or any later version publis-
+hed by the Free Software Foundation; with no Invariant Sections, no
+Front-Cover Texts, and no Back-Cover Texts. A copy of the license is
+included in the section entitled ”GNU Free Documentation License”.
+If you have Invariant Sections, Front-Cover Texts and Back-Cover
+Texts, replace the ”with … Texts.”line with this:
+with the Invariant Sections being LIST THEIR TITLES, with the
+Front-Cover Texts being LIST, and with the Back-Cover Texts being
+LIST.
+If you have Invariant Sections without Cover Texts, or some other
+combination of the three, merge those two alternatives to suit the si-
+tuation.
+If your document contains nontrivial examples of program code, we re-
+commend releasing these examples in parallel under your choice of free
+software license, such as the GNU General Public License, to permit
+their use in free software.
+
+
+Source master page 305:
+38.3. GNU Lesser General Public License
+GNU LESSER GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+Copyright © 2007 Free Software Foundation, Inc. <http://fsf.org/>
+Everyone is permitted to copy and distribute verbatim copies of this
+license document, but changing it is not allowed.
+This version of the GNU Lesser General Public License incorpora-
+tes the terms and conditions of version 3 of the GNU General Public
+License, supplemented by the additional permissions listed below. 0.
+Additional Deﬁnitions.
+As used herein, “this License” refers to version 3 of the GNU Lesser
+General Public License, and the “GNU GPL” refers to version 3 of the
+GNU General Public License.
+“The Library” refers to a covered work governed by this License, other
+than an Application or a Combined Work as deﬁned below.
+An “Application” is any work that makes use of an interface provided
+by the Library, but which is not otherwise based on the Library. Deﬁ-
+ning a subclass of a class deﬁned by the Library is deemed a mode of
+using an interface provided by the Library.
+A “Combined Work” is a work produced by combining or linking an
+Application with the Library. The particular version of the Library
+with which the Combined Work was made is also called the “Linked
+Version”.
+The “Minimal Corresponding Source” for a Combined Work means the
+Corresponding Source for the Combined Work, excluding any source
+code for portions of the Combined Work that, considered in isolation,
+are based on the Application, and not on the Linked Version.
+The “Corresponding Application Code” for a Combined Work means
+the object code and/or source code for the Application, including any
+data and utility programs needed for reproducing the Combined Work
+from the Application, but excluding the System Libraries of the Com-
+bined Work. 1. Exception to Section 3 of the GNU GPL.
+You may convey a covered work under sections 3 and 4 of this Licen-
+se without being bound by section 3 of the GNU GPL. 2. Conveying
+Modiﬁed Versions.
+If you modify a copy of the Library, and, in your modiﬁcations, a faci-
+lity refers to a function or data to be supplied by an Application that
+uses the facility (other than as an argument passed when the facility
+is invoked), then you may convey a copy of the modiﬁed version:
+* a) under this License, provided that you make a good faith eﬀort to
+ensure that, in the event an Application does not supply the function
+or data, the facility still operates, and performs whatever part of its
+purpose remains meaningful, or * b) under the GNU GPL, with none
+of the additional permissions of this License applicable to that copy.
+3. Object Code Incorporating Material from Library Header Files.
+The object code form of an Application may incorporate material from
+a header ﬁle that is part of the Library. You may convey such object
+code under terms of your choice, provided that, if the incorporated ma-
+terial is not limited to numerical parameters, data structure layouts
+and accessors, or small macros, inline functions and templates (ten or
+fewer lines in length), you do both of the following:
+* a) Give prominent notice with each copy of the object code that the
+Library is used in it and that the Library and its use are covered by
+this License. * b) Accompany the object code with a copy of the GNU
+GPL and this license document.
+4. Combined Works.
+You may convey a Combined Work under terms of your choice that, ta-
+ken together, eﬀectively do not restrict modiﬁcation of the portions of
+the Library contained in the Combined Work and reverse engineering
+for debugging such modiﬁcations, if you also do each of the following:
+* a) Give prominent notice with each copy of the Combined Work that
+the Library is used in it and that the Library and its use are covered
+by this License. * b) Accompany the Combined Work with a copy of
+the GNU GPL and this license document. * c) For a Combined Work
+that displays copyright notices during execution, include the copyright
+notice for the Library among these notices, as well as a reference direc-
+ting the user to the copies of the GNU GPL and this license document.
+* d) Do one of the following: o 0) Convey the Minimal Corresponding
+Source under the terms of this License, and the Corresponding Appli-
+cation Code in a form suitable for, and under terms that permit, the
+user to recombine or relink the Application with a modiﬁed version
+of the Linked Version to produce a modiﬁed Combined Work, in the
+manner speciﬁed by section 6 of the GNU GPL for conveying Cor-
+responding Source. o 1) Use a suitable shared library mechanism for
+linking with the Library. A suitable mechanism is one that (a) uses
+at run time a copy of the Library already present on the user’s com-
+puter system, and (b) will operate properly with a modiﬁed version
+of the Library that is interface-compatible with the Linked Version. *
+e) Provide Installation Information, but only if you would otherwise
+be required to provide such information under section 6 of the GNU
+GPL, and only to the extent that such information is necessary to in-
+stall and execute a modiﬁed version of the Combined Work produced
+by recombining or relinking the Application with a modiﬁed version of
+the Linked Version. (If you use option 4d0, the Installation Information
+must accompany the Minimal Corresponding Source and Correspon-
+ding Application Code. If you use option 4d1, you must provide the
+Installation Information in the manner speciﬁed by section 6 of the
+GNU GPL for conveying Corresponding Source.)
+5. Combined Libraries.
+You may place library facilities that are a work based on the Library
+side by side in a single library together with other library facilities that
+are not Applications and are not covered by this License, and convey
+such a combined library under terms of your choice, if you do both of
+the following:
+* a) Accompany the combined library with a copy of the same work
+based on the Library, uncombined with any other library facilities,
+conveyed under the terms of this License. * b) Give prominent notice
+with the combined library that part of it is a work based on the Libra-
+ry, and explaining where to ﬁnd the accompanying uncombined form
+of the same work.
+6. Revised Versions of the GNU Lesser General Public License.
+The Free Software Foundation may publish revised and/or new versi-
+ons of the GNU Lesser General Public License from time to time. Such
+new versions will be similar in spirit to the present version, but may
+diﬀer in detail to address new problems or concerns.
+Each version is given a distinguishing version number. If the Library as
+you received it speciﬁes that a certain numbered version of the GNU
+Lesser General Public License “or any later version” applies to it, you
+have the option of following the terms and conditions either of that pu-
+blished version or of any later version published by the Free Software
+Foundation. If the Library as you received it does not specify a version
+number of the GNU Lesser General Public License, you may choose
+any version of the GNU Lesser General Public License ever published
+by the Free Software Foundation.
+If the Library as you received it speciﬁes that a proxy can decide whe-
+ther future versions of the GNU Lesser General Public License shall
+apply, that proxy’s public statement of acceptance of any version is
+permanent authorization for you to choose that version for the Library.
+
+Supplemental image attribution (corrects incomplete PDF credit entries):
+File:4Geraden6Schnittpunkte.png — Mgausmann; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:4Geraden6Schnittpunkte.png; 
+File:ComplexSinInATimeAxe.gif — user:Nashev; Public domain; https://commons.wikimedia.org/wiki/File:ComplexSinInATimeAxe.gif; 
+File:Factorial plot.png — Mathacw; Public domain; https://commons.wikimedia.org/wiki/File:Factorial_plot.png; 
+File:Galileo.arp.300pix.jpg — Justus Sustermans; Public domain; https://commons.wikimedia.org/wiki/File:Galileo.arp.300pix.jpg; 
+File:Hexagon.svg — ; Public domain; https://commons.wikimedia.org/wiki/File:Hexagon.svg; 
+File:Hexahedron.svg — AquitaneHungerForce; CC BY-SA 3.0; https://commons.wikimedia.org/wiki/File:Hexahedron.svg; 
+File:Histogram example.svg — Jkv; Public domain; https://commons.wikimedia.org/wiki/File:Histogram_example.svg; PD-Own
+File:MDKQ anim ohne Ausreiser1.svg — Johannes Kalliauer; CC0; https://commons.wikimedia.org/wiki/File:MDKQ_anim_ohne_Ausreiser1.svg; 
+File:ModernChartresStyleLabyrinth.svg — Thurmanukyalur; CC BY-SA 3.0; https://commons.wikimedia.org/wiki/File:ModernChartresStyleLabyrinth.svg; CC BY-SA
+File:Ohwr.jpg — Hans-Jürgen Boyke; Attribution; https://commons.wikimedia.org/wiki/File:Ohwr.jpg; This work is free and may be used by anyone for any purpose. If you wish to use this content , you do not need to request permission as long as you follow any licensing requirements mentioned on this page. The Wikimedia Foundation has received an e-mail confirming that the copyright holder has approved publication under the terms mentioned on this page. This correspondence has been reviewed by a Volunteer Response Team (VRT) member and stored in our permission archive . The correspondence is available to trusted volunteers as ticket #2009012010024749 . If you have questions about the archived correspondence, please use the VRT noticeboard . Ticket link: https://ticket.wikimedia.org/otrs/index.pl?Action=AgentTicketZoom&TicketNumber=2009012010024749 Find other files from the same ticket:
+File:Saddle point.png — ; Public domain; https://commons.wikimedia.org/wiki/File:Saddle_point.png; 
+File:WilliamRowanHamilton.jpeg — Unknown author Unknown author; Public domain; https://commons.wikimedia.org/wiki/File:WilliamRowanHamilton.jpeg; Public domain Public domain false false This work is in the public domain in its country of origin and other countries and areas where the copyright term is the author's life plus 100 years or fewer . You must also include a United States public domain tag to indicate why this work is in the public domain in the United States. This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. https://creativecommons.org/publicdomain/mark/1.0/ PDM Creative Commons Public Domain Mark 1.0 false false
+File:Hausdorff space.svg — Fibonacci; Copyrighted free use; https://commons.wikimedia.org/wiki/File:Hausdorff_space.svg; No rights reserved.
+File:龜-bronze.svg — Digital file creation, see the contributor names shown in the “ User ” column of the “ File history ” section below.; Public domain; https://commons.wikimedia.org/wiki/File:%E9%BE%9C-bronze.svg; Courtesy, permission and copyright from Richard Sears website © 2003 (see Richard Sears Agreement ). Picture from Sinica Database is under CC0 1.0 Universal Public Domain Dedication (see License ). This file is made available under the Creative Commons CC0 1.0 Universal Public Domain Dedication . The person who associated a work with this deed has dedicated the work to the public domain by waiving all of their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. http://creativecommons.org/publicdomain/zero/1.0/deed.en CC0 Creative Commons Zero, Public Domain Dedication false false
+File:Dürer quadratur.jpg — Albrecht Dürer; Public domain; https://commons.wikimedia.org/wiki/File:D%C3%BCrer_quadratur.jpg; 
+File:Roman Statue of Apollo.jpg — Stuart Yeates; CC BY-SA 2.0; https://commons.wikimedia.org/wiki/File:Roman_Statue_of_Apollo.jpg; 
+File:Bundesarchiv Bild 183-10308-0006, Calbe, DS-Sportschule, Lehrgang für Sportler.jpg — Wilhelm Biscan; CC BY-SA 3.0 de; https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-10308-0006,_Calbe,_DS-Sportschule,_Lehrgang_f%C3%BCr_Sportler.jpg; 
+File:Bundesarchiv Bild 183-19650-0019, Leipzig, DHfK, Aufwärmübungen.jpg — Illner; CC BY-SA 3.0 de; https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-19650-0019,_Leipzig,_DHfK,_Aufw%C3%A4rm%C3%BCbungen.jpg; 
+File:Fotothek df pk 0000319 010 Sommer 1947 und Nov. 1948.jpg — Abraham Pisarek; CC BY-SA 3.0 de; https://commons.wikimedia.org/wiki/File:Fotothek_df_pk_0000319_010_Sommer_1947_und_Nov._1948.jpg; 
+File:Pentagon construct.gif — TokyoJunkie at the English Wikipedia; Public domain; https://commons.wikimedia.org/wiki/File:Pentagon_construct.gif; 
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 37 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

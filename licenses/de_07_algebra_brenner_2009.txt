@@ -1,0 +1,298 @@
+DE.07 — Einführung in die Algebra, Osnabrück 2009
+Author(s): Holger Brenner
+License: CC BY-SA 3.0; component licenses
+Source: https://de.wikiversity.org/wiki/Benutzer:Holger_Brenner
+
+Brenner’s original Osnabrück 2009 source. 27 lectures and their worksheets retained; the three original exam appendices and their actual solutions remain inside this book. Image-credit omissions in the old PDF are supplemented using exact Wikimedia Commons file records. No additional Probeklausuren book created. Original source mathematics is preserved, including source formatting. Component images retain their individual author credits and licenses. The compiled adaptation uses CC BY-SA 4.0 where an adaptation license is required; underlying text grants and component licenses remain as stated. Source/history links below identify Wikiversity/Wikibooks contributors.
+
+Source documents and contributor attribution:
+https://de.wikiversity.org/wiki/Benutzer:Holger_Brenner
+
+Original source copyright and image notices:
+Source master page 7:
+7
+Anhang F.
+Nachklausur
+230
+Anhang G.
+Nachklausur mit L¨osungen
+234
+Anhang H.
+Bildlizenzen
+246
+Abbildungsverzeichnis
+247
+
+
+Source master page 246:
+246
+Anhang H. Bildlizenzen
+Die
+Bilder
+dieses
+Textes
+stammen
+aus
+Commons
+(also
+http://commons.wikimedia.org),
+und
+stehen
+unter
+unterschiedlichen
+Lizenzen, die zwar alle die Verwendung hier erlauben, aber unterschiedliche
+Bedingungen an die Verwendung und Weitergabe stellen. Es folgt eine Auf-
+listung der verwendeten Bilder dieses Textes (nach der Seitenzahl geordnet,
+von links nach rechts, von oben nach unten) zusammen mit ihren Quellen,
+Urhebern (Autoren) und Lizenzen. Dabei ist Quelle so zu verstehen, dass
+sich, wenn man
+http://commons.wikimedia.org/wiki/File:
+unmittelbar davor setzt, die entsprechende Datei auf Commons ergibt. Autor
+benennt den Urheber des Werkes, falls dieser bekannt ist. Benutzer meint den
+Hochlader der Datei; wenn keine weitere Information ¨uber den Autor vorliegt,
+so gilt der Benutzer als Urheber. Die Angabe des Benutzernamen ist so zu
+verstehen, dass sich, wenn man
+http://commons.wikimedia.org/wiki/User:
+unmittelbar davor setzt, die Benutzerseite ergibt. Wenn das Bild urspr¨unglich
+in einem anderen Wikimedia-Projekt hochgeladen wurde, so wird die Dom¨ane
+(bspw. de.wikipedia.org) explizit angegeben.
+Die Lizenz ist die auf der Dateiseite auf Commons angegebene Lizenz. Dabei
+bedeuten
+• GFDL: Gnu Free Documentation License (siehe den angeh¨angten Text, falls
+diese Lizenz vorkommt)
+• CC-BY-SA-2.5 (3.0): Creative Commons Attribution ShareAlike 2.5 (oder
+3.0)
+• PD: gemeinfrei (public domain)
+
+
+Source master page 247:
+247
+Abbildungsverzeichnis
+Quelle = Snijden kruisen evenwijdig.png, Autor = Benutzer MADe auf
+nl.wikipedia, Lizenz = cc-by-sa 3.0
+9
+Quelle = Kreis3Teilung.svg, Autor = Benutzer Exxu auf Commons,
+Lizenz = CC-by-sa 3.0
+12
+Quelle = Kreis5Teilung.svg, Autor = Benutzer Exxu auf Commons,
+Lizenz = CC-by-sa 3.0
+12
+Quelle = Driezijdige piramide.png, Autor = Benutzer Svdmolen auf
+nl.wikipedia, Lizenz = PD
+14
+Quelle = Metano.png, Autor = Benutzer Kaprak auf Commons, Lizenz
+= PD
+14
+Quelle = 2007-07-09Aquilegia01.jpg, Autor = Benutzer Wildfeuer auf
+Commons, Lizenz = CC-BY-SA-3.0
+21
+Quelle = Euklid-von-Alexandria 1.jpg , Autor = Benutzer Luestling auf
+Commons, Lizenz = PD
+26
+Quelle = Group homomorphism.svg, Autor = Benutzer Cronholm 144
+auf Commons, Lizenz = CC-by-Sa 2.5
+34
+Quelle = Relaci´on binaria 11.svg, Autor = Benutzer HiTe auf Commons,
+Lizenz = PD
+35
+Quelle = Wildebeests in the Masaai Mara.jpg, Autor = Demosch (=
+Benutzer FlickreviewR auf Flickr), Lizenz = cc-by-2.0
+37
+Quelle = Ostfriesische-Inseln 2.jpg, Autor = Benutzer Godewind auf
+Commons, Lizenz = PD
+39
+Quelle = Joseph-Louis Lagrange.jpeg, Autor = Benutzer Katpatuka auf
+Commons, Lizenz = PD
+42
+Quelle = Coset multiplication.svg, Autor = Benutzer Cronholm 144 auf
+Commons, Lizenz = CC-by-sa 2.5
+44
+Quelle = Composicion de permutaciones.svg, Autor = Benutzer Drini
+auf Commons, Lizenz = CC-by-SA 3.0
+48
+Quelle = Arthur Cayley.jpg, Autor = Benutzer Zuirdj auf Commons,
+Lizenz = PD
+56
+Quelle = Tetrahedron.svg, Autor = Benutzer Cyp auf engl. Wikipedia,
+Lizenz = CC-by-sa 3.0
+57
+
+
+Source master page 248:
+248
+Quelle = Hexahedron.svg, Autor = Benutzer Cyp auf engl. Wikipedia,
+Lizenz = CC-by-sa 3.0
+57
+Quelle = Octahedron.svg, Autor = Benutzer Cyp auf engl. Wikipedia,
+Lizenz = CC-by-sa 3.0
+57
+Quelle = POV-Ray-Dodecahedron.svg, Autor = Benutzer Cyp auf engl.
+Wikipedia, Lizenz = CC-by-sa 3.0
+57
+Quelle = Icosahedron.svg, Autor = Benutzer Cyp auf engl. Wikipedia,
+Lizenz = CC-by-sa 3.0
+57
+Quelle = Duality Hexa-Okta.png, Autor = Benutzer Peter Steinberg auf
+Commons, Lizenz = CC-by-sa 3.0
+62
+Quelle = Duality Okto-Hekta.png, Autor = Benutzer Peter Steinberg
+auf Commons, Lizenz = CC-by-sa 3.0
+62
+Quelle = Platon altes Museum2.jpg, Autor = Benutzer GunnarBach auf
+Commons, Lizenz = PD
+65
+Quelle = A plus b au carre.svg, Autor = Benutzer Alkarex auf Commons,
+Lizenz = CC-by-sa 2.0
+71
+Quelle = Binomio al cubo.svg, Autor = Drini, Lizenz = PD
+72
+Quelle = Anillo ciclico.png , Autor = Romero Schmidtke (= Benutzer
+FrancoGG auf es.wikipedia.org), Lizenz = CC-BY-SA-3.0
+83
+Quelle = Pierre de Fermat.jpg, Autor = Benutzer Magnus Manske auf
+en.wikipedia.org, Lizenz = PD
+85
+Quelle = Leonhard Euler by Handmann .png, Autor = Emanuel
+Handmann (= Benutzer QWerk auf Commons), Lizenz = PD
+90
+Quelle = Polynomialdeg2.png, Autor = Enoch Lau, Lizenz = CC-by-sa
+2.5
+96
+Quelle = Polynomialdeg3.png, Autor = Enoch Lau, Lizenz = CC-by-sa
+2.5
+96
+Quelle = Polynomialdeg4.png, Autor = Enoch Lau, Lizenz = CC-by-sa
+2.5
+96
+Quelle = Polynomialdeg5.png, Autor = Enoch Lau, Lizenz = CC-by-sa
+2.5
+96
+Quelle = Function-1 x.svg, Autor = Benutzer Qualc1 auf Commons,
+Lizenz = CC-by-sa 2.5
+112
+Quelle = Carl Louis Ferdinand von Lindemann.jpg, Autor = Benutzer
+JdH auf Commons, Lizenz = PD
+123
+
+
+Source master page 249:
+249
+Quelle = Squaring the circle.svg, Autor = Benutzer Plynn9 auf
+Commons, Lizenz = PD
+130
+Quelle = D¨urer quadratur.jpg, Autor = Benutzer auf Commons, Lizenz
+=
+130
+Quelle = Mediatrice compas.gif, Autor = Benutzer Pdebart auf
+Commons, Lizenz = PD
+132
+Quelle = Two Lines.svg, Autor = Benutzer Jim.belk auf Commons,
+Lizenz = PD
+136
+Quelle = Inversie.PNG, Autor = Benutzer Lymantria auf Commons,
+Lizenz = CC-by-sa 3.0
+136
+Quelle = Roman Statue of Apollo.jpg, Autor = Benutzer Stuart Yeates
+auf ﬂickr, Lizenz =
+138
+Quelle = Pi-unrolled-720.gif, Autor = John Reid (= Benutzer MGTom
+auf Commons), Lizenz = CC-by-sa 3.0
+139
+Quelle = 3rd roots of unity.svg, Autor = Benutzer Marek Schmidt und
+Nandhp auf Commons, Lizenz = PD
+141
+Quelle = 8th-root-of-unity.jpg, Autor = Benutzer Marek Schmidt auf
+Commons, Lizenz = PD
+141
+Quelle = Kreis5Teilung.svg, Autor = Benutzer Exxu auf Commons,
+Lizenz = CC-by-sa 3.0
+142
+Quelle = Pentagon construct.gif, Autor = TokyoJunkie (= Benutzer
+Mosmas auf PD), Lizenz = en.wikipedia.org
+146
+Quelle = Pie 2.svg, Autor = Benutzer Cronholm 144 auf Commons,
+Lizenz = CC-by-sa 3.0
+149
+Quelle = Cake quarters.svg, Autor = Benutzer Acdx, R. S. Shaw auf
+Commons, Lizenz = PD
+149
+Quelle = Luxembourg Vianden Nut-fair 10.jpg, Autor = Benutzer
+PlayMistyForMe auf Commons, Lizenz = CC-by-sa 3.0
+149
+Quelle = Symmetries of the tetrahedron.svg, Autor = Benutzer
+Cronholm144 auf Commons, Lizenz = GFDL
+151
+Quelle = Bundesarchiv Bild 183-10308-0006, Calbe, DS-Sportschule,
+Lehrgang f¨ur Sportler.jpg, Autor = Benutzer auf Deutsches
+Bundesarchiv, Lizenz =
+151
+Quelle = Bundesarchiv Bild 183-19650-0019, Leipzig, DHfK,
+Aufw¨arm¨ubungen.jpg, Autor = Illner, Lizenz =
+153
+
+
+Source master page 250:
+250
+Quelle = 1800-jumprope-pinup-Sophia-Western.jpg, Autor = unbekannt
+(= Benutzer Churchh auf Commons), Lizenz = PD
+159
+Quelle = TwoTone.svg, Autor = Benutzer Stevo auf Commons, Lizenz
+= PD
+160
+Quelle = Trimm-dich-Pfad-Schild.jpg, Autor = Fischerhuder (=
+Benutzer Kungfuman auf Commons), Lizenz = CC-by-sa 2.0
+161
+Quelle = Casale Bikini.jpg, Autor = Benutzer Disdero auf Commons,
+Lizenz = CC by sa 2.5
+180
+Quelle = BattleCreekSanitorium.jpg, Autor = Benutzer Cbl62 auf en
+Wikipedia, Lizenz = PD
+184
+Quelle = 07-06 WtrAerob1a.jpg, Autor = Benutzer Tim Ross auf
+Commons, Lizenz = PD
+192
+Quelle = Pentagon construct.gif , Autor = TokyoJunkie (= Benutzer
+Mosmas auf en.wikiversity.org), Lizenz = PD
+200
+Quelle = Fotothek df pk 0000319 010 Sommer 1947 und Nov. 1948.jpg,
+Autor = Benutzer auf Commons, Lizenz =
+200
+Quelle = Snijden kruisen evenwijdig.png, Autor = Benutzer MADe auf
+nl.wikipedia, Lizenz = cc-by-sa 3.0
+217
+Quelle = Snijden kruisen evenwijdig.png, Autor = Benutzer MADe auf
+nl.wikipedia, Lizenz = cc-by-sa 3.0
+222
+Quelle = Snijden kruisen evenwijdig.png, Autor = Benutzer MADe auf
+nl.wikipedia, Lizenz = cc-by-sa 3.0
+231
+Quelle = Snijden kruisen evenwijdig.png, Autor = Benutzer MADe auf
+nl.wikipedia, Lizenz = cc-by-sa 3.0
+238
+
+Supplemental image attribution (corrects incomplete PDF credit entries):
+File:4Geraden6Schnittpunkte.png — Mgausmann; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:4Geraden6Schnittpunkte.png; 
+File:ComplexSinInATimeAxe.gif — user:Nashev; Public domain; https://commons.wikimedia.org/wiki/File:ComplexSinInATimeAxe.gif; 
+File:Factorial plot.png — Mathacw; Public domain; https://commons.wikimedia.org/wiki/File:Factorial_plot.png; 
+File:Galileo.arp.300pix.jpg — Justus Sustermans; Public domain; https://commons.wikimedia.org/wiki/File:Galileo.arp.300pix.jpg; 
+File:Hexagon.svg — ; Public domain; https://commons.wikimedia.org/wiki/File:Hexagon.svg; 
+File:Hexahedron.svg — AquitaneHungerForce; CC BY-SA 3.0; https://commons.wikimedia.org/wiki/File:Hexahedron.svg; 
+File:Histogram example.svg — Jkv; Public domain; https://commons.wikimedia.org/wiki/File:Histogram_example.svg; PD-Own
+File:MDKQ anim ohne Ausreiser1.svg — Johannes Kalliauer; CC0; https://commons.wikimedia.org/wiki/File:MDKQ_anim_ohne_Ausreiser1.svg; 
+File:ModernChartresStyleLabyrinth.svg — Thurmanukyalur; CC BY-SA 3.0; https://commons.wikimedia.org/wiki/File:ModernChartresStyleLabyrinth.svg; CC BY-SA
+File:Ohwr.jpg — Hans-Jürgen Boyke; Attribution; https://commons.wikimedia.org/wiki/File:Ohwr.jpg; This work is free and may be used by anyone for any purpose. If you wish to use this content , you do not need to request permission as long as you follow any licensing requirements mentioned on this page. The Wikimedia Foundation has received an e-mail confirming that the copyright holder has approved publication under the terms mentioned on this page. This correspondence has been reviewed by a Volunteer Response Team (VRT) member and stored in our permission archive . The correspondence is available to trusted volunteers as ticket #2009012010024749 . If you have questions about the archived correspondence, please use the VRT noticeboard . Ticket link: https://ticket.wikimedia.org/otrs/index.pl?Action=AgentTicketZoom&TicketNumber=2009012010024749 Find other files from the same ticket:
+File:Saddle point.png — ; Public domain; https://commons.wikimedia.org/wiki/File:Saddle_point.png; 
+File:WilliamRowanHamilton.jpeg — Unknown author Unknown author; Public domain; https://commons.wikimedia.org/wiki/File:WilliamRowanHamilton.jpeg; Public domain Public domain false false This work is in the public domain in its country of origin and other countries and areas where the copyright term is the author's life plus 100 years or fewer . You must also include a United States public domain tag to indicate why this work is in the public domain in the United States. This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights. https://creativecommons.org/publicdomain/mark/1.0/ PDM Creative Commons Public Domain Mark 1.0 false false
+File:Hausdorff space.svg — Fibonacci; Copyrighted free use; https://commons.wikimedia.org/wiki/File:Hausdorff_space.svg; No rights reserved.
+File:龜-bronze.svg — Digital file creation, see the contributor names shown in the “ User ” column of the “ File history ” section below.; Public domain; https://commons.wikimedia.org/wiki/File:%E9%BE%9C-bronze.svg; Courtesy, permission and copyright from Richard Sears website © 2003 (see Richard Sears Agreement ). Picture from Sinica Database is under CC0 1.0 Universal Public Domain Dedication (see License ). This file is made available under the Creative Commons CC0 1.0 Universal Public Domain Dedication . The person who associated a work with this deed has dedicated the work to the public domain by waiving all of their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. http://creativecommons.org/publicdomain/zero/1.0/deed.en CC0 Creative Commons Zero, Public Domain Dedication false false
+File:Dürer quadratur.jpg — Albrecht Dürer; Public domain; https://commons.wikimedia.org/wiki/File:D%C3%BCrer_quadratur.jpg; 
+File:Roman Statue of Apollo.jpg — Stuart Yeates; CC BY-SA 2.0; https://commons.wikimedia.org/wiki/File:Roman_Statue_of_Apollo.jpg; 
+File:Bundesarchiv Bild 183-10308-0006, Calbe, DS-Sportschule, Lehrgang für Sportler.jpg — Wilhelm Biscan; CC BY-SA 3.0 de; https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-10308-0006,_Calbe,_DS-Sportschule,_Lehrgang_f%C3%BCr_Sportler.jpg; 
+File:Bundesarchiv Bild 183-19650-0019, Leipzig, DHfK, Aufwärmübungen.jpg — Illner; CC BY-SA 3.0 de; https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-19650-0019,_Leipzig,_DHfK,_Aufw%C3%A4rm%C3%BCbungen.jpg; 
+File:Fotothek df pk 0000319 010 Sommer 1947 und Nov. 1948.jpg — Abraham Pisarek; CC BY-SA 3.0 de; https://commons.wikimedia.org/wiki/File:Fotothek_df_pk_0000319_010_Sommer_1947_und_Nov._1948.jpg; 
+File:Pentagon construct.gif — TokyoJunkie at the English Wikipedia; Public domain; https://commons.wikimedia.org/wiki/File:Pentagon_construct.gif; 
+
+Current review state (10 September 2026): all study slices are unverified for the user’s final review. Earlier restoration or preservation descriptions refer to the historical restoration operation; current slice boundaries may include the explicitly authorized corrections. No source mathematics was rewritten.
+
+
+User verification update (10 September 2026): all 134 real slices verified by explicit user command. None/unsliced entries remain unverified. The earlier unverified review state above is historical. Source mathematics, PDFs, coordinates, numbering and source issue notes are unchanged.

@@ -8209,6 +8209,337 @@ Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
 
 
+Hausdorff-permission.txt
+
+File:Hausdorff space.svg - Wikimedia Commons
+Jump to content
+Main menu
+Main menu
+move to sidebar
+hide
+Navigate
+Main page
+Welcome
+Community portal
+Village pump
+Help center
+Participate
+Upload file
+Recent changes
+Latest files
+Random file
+Contact us
+Special pages
+Search
+Search
+English
+Appearance
+Donate
+Create account
+Log in
+Personal tools
+Donate
+Create account
+Log in
+Contents
+move to sidebar
+hide
+Beginning
+1
+File
+2
+File history
+3
+File usage on Commons
+4
+File usage on other wikis
+Toggle the table of contents
+File
+:
+Hausdorff space.svg
+File
+Discussion
+English
+Read
+Edit
+View history
+Tools
+Tools
+move to sidebar
+hide
+Actions
+Read
+Edit
+View history
+General
+What links here
+Related changes
+Permanent link
+Page information
+Cite this page
+Get shortened URL
+Concept URI
+Print/export
+Download as PDF
+Printable version
+In other projects
+Appearance
+move to sidebar
+hide
+From Wikimedia Commons, the free media repository
+Size of the above preview of this SVG file:
+960 × 480 pixels
+.
+Other resolutions:
+330 × 165 pixels
+|
+1,280 × 640 pixels
+|
+3,840 × 1,920 pixels
+.
+Original file
+(SVG file, nominally 1,200 × 600 pixels, file size: 944 bytes)
+File information
+Structured data
+Captions
+Captions
+English
+Add a one-line explanation of what this file represents
+Description
+Hausdorff space.svg
+English:
+This diagram illustrates the
+Hausdorff
+separation axiom in topology.
+Date
+28 February 2007
+Source
+Based on an image by
+Toby Bartels
+. See
+https://tobybartels.name/copyright/
+.
+Author
+Fibonacci
+Permission
+(
+Reusing this file
+)
+No rights reserved.
+The
+copyright holder
+of this work allows anyone to use it
+for any purpose
+including unrestricted redistribution, commercial use, and modification.
+Please check the source to verify that this is correct. In particular, note that publication on the Internet, like publication by any other means, does not in itself imply permission to redistribute. Files without valid permission should be tagged with
+{{subst:
+npd
+}}
+.
+Usage notes:
+If the work requires attribution, use
+{{Attribution}}
+instead.
+If this is your own work, please use
+{{Cc-zero}}
+instead.
+Copyrighted free use
+Copyrighted free use
+false
+false
+File history
+Click on a date/time to view the file as it appeared at that time.
+Date/Time
+Thumbnail
+Dimensions
+User
+Comment
+current
+07:47, 17 September 2007
+1,200 × 600
+(944 bytes)
+Fibonacci
+(
+talk
+|
+contribs
+)
+Optimised code.
+03:18, 2 August 2007
+1,200 × 600
+(4 KB)
+Oleg Alexandrov
+(
+talk
+|
+contribs
+)
+Made line thicker, so that it is easier to see
+06:39, 28 February 2007
+1,200 × 600
+(944 bytes)
+Fibonacci
+(
+talk
+|
+contribs
+)
+thicker borders.
+06:28, 28 February 2007
+1,200 × 600
+(944 bytes)
+Fibonacci
+(
+talk
+|
+contribs
+)
+{{Information| |Description={{en|This diagram illustrates the
+Hausdorff
+separation axiom in topology.}} |Source=Based on an image by
+Toby Bartels
+. See <code>http://math.ucr.edu/~toby/copyright/</code>. |Date=F
+You cannot overwrite this file.
+File usage on Commons
+The following 2 pages use this file:
+Topology
+File:Hausdorff space.png
+File usage on other wikis
+The following other wikis use this file:
+Usage on ar.wikipedia.org
+فضاء هاوسدورف
+Usage on ca.wikipedia.org
+Axioma de separació
+Usage on cs.wikipedia.org
+Hausdorffův prostor
+Usage on cv.wikipedia.org
+Хаусдорф уçлăхĕ
+Usage on da.wikipedia.org
+Hausdorffrum
+Usage on de.wikipedia.org
+Hausdorff-Raum
+Usage on de.wikiversity.org
+Kurs:Mathematik (Osnabrück 2009-2011)/Teil III/Vorlesung 63
+Kurs:Mathematik (Osnabrück 2009-2011)/Teil III/Vorlesung 63/kontrolle
+Kurs:Analysis (Osnabrück 2013-2015)/Teil III/Vorlesung 62
+Kurs:Analysis (Osnabrück 2014-2016)/Teil III/Vorlesung 62
+Kurs:Analysis (Osnabrück 2014-2016)/Teil III/Vorlesung 62/kontrolle
+Topologischer Raum/Grundbegriffe/Einführung/Textabschnitt
+Riemannsche Fläche/Topologische Räume/Anhang/Textabschnitt
+Kurs:Maß- und Integrationstheorie (Osnabrück 2022-2023)/Vorlesung 2
+Kurs:Maß- und Integrationstheorie (Osnabrück 2022-2023)/Vorlesung 2/kontrolle
+Kurs:Analysis (Osnabrück 2013-2015)/Teil III/Vorlesung 62/kontrolle
+Usage on en.wikipedia.org
+Hausdorff space
+User:Fibonacci/Uploads
+Usage on en.wikibooks.org
+User:TakuyaMurata/Topological groups
+User:TakuyaMurata/Sequences of numbers
+Usage on es.wikipedia.org
+Axiomas de separación
+Usage on et.wikipedia.org
+Hausdorffi aksioom
+Usage on fa.wikipedia.org
+فضای هاسدورف
+Usage on fr.wikipedia.org
+Axiome de séparation (topologie)
+Espace séparé
+Usage on gl.wikipedia.org
+Espazo de Hausdorff
+Usage on hu.wikipedia.org
+Hausdorff-tér
+Usage on it.wikipedia.org
+Topologia
+Spazio di Hausdorff
+Utente:Dixy52/Sandbox/3
+Usage on ja.wikipedia.org
+位相空間
+ハウスドルフ空間
+Usage on ko.wikipedia.org
+하우스도르프 공간
+일반위상수학
+Usage on mn.wikipedia.org
+Хаусдорфын огторгуй
+Usage on nl.wikipedia.org
+Hausdorff-ruimte
+Usage on pl.wikipedia.org
+Przestrzeń Hausdorffa
+Usage on pt.wikipedia.org
+Espaço de Hausdorff
+Usage on ro.wikipedia.org
+Spațiu Hausdorff
+Usage on ru.wikipedia.org
+Хаусдорфово пространство
+Usage on sk.wikipedia.org
+Hausdorffov priestor
+Usage on sv.wikipedia.org
+Hausdorffrum
+Usage on uk.wikipedia.org
+Гаусдорфів простір
+Usage on vi.wikipedia.org
+Không gian Hausdorff
+Usage on www.wikidata.org
+Q326908
+Usage on zh.wikipedia.org
+豪斯多夫空间
+Structured data
+Items portrayed in this file
+depicts
+creator
+some value
+Wikimedia username
+:
+Fibonacci
+URL
+:
+https://commons.wikimedia.org/wiki/user:Fibonacci
+author name string
+:
+Fibonacci
+copyright status
+copyrighted
+copyright license
+copyrighted free use
+inception
+28 February 2007
+Retrieved from "
+https://commons.wikimedia.org/w/index.php?title=File:Hausdorff_space.svg&oldid=1019089943
+"
+Categories
+:
+Separation properties
+Things named after Felix Hausdorff
+Hidden category:
+Copyrighted free use
+This page was last edited on 8 April 2025, at 21:29.
+Files are available under licenses specified on their description page. All structured data from the file namespace is available under the
+Creative Commons CC0 License
+; all unstructured text is available under the
+Creative Commons Attribution-ShareAlike License
+;
+additional terms may apply.
+By using this site, you agree to the
+Terms of Use
+and the
+Privacy Policy
+.
+Privacy policy
+About Wikimedia Commons
+Disclaimers
+Legal & safety contacts
+Code of Conduct
+Developers
+Statistics
+Cookie statement
+Mobile view
+Search
+Search
+Toggle the table of contents
+File
+:
+Hausdorff space.svg
+Add topic
+
 Hefferon-license.txt
 
 Free Math Texts: license and source
@@ -8611,6 +8942,289 @@ Please be advised that external sites may have terms and conditions,
 Stay Here
 Continue
 
+Ohwr-permission.txt
+
+File:Ohwr.jpg - Wikimedia Commons
+Jump to content
+Main menu
+Main menu
+move to sidebar
+hide
+Navigate
+Main page
+Welcome
+Community portal
+Village pump
+Help center
+Participate
+Upload file
+Recent changes
+Latest files
+Random file
+Contact us
+Special pages
+Search
+Search
+English
+Appearance
+Donate
+Create account
+Log in
+Personal tools
+Donate
+Create account
+Log in
+Contents
+move to sidebar
+hide
+Beginning
+1
+File
+2
+Licensing
+3
+Original upload log
+4
+File history
+5
+File usage on Commons
+6
+File usage on other wikis
+7
+Metadata
+Toggle the table of contents
+File
+:
+Ohwr.jpg
+File
+Discussion
+English
+Read
+Edit
+View history
+Tools
+Tools
+move to sidebar
+hide
+Actions
+Read
+Edit
+View history
+General
+What links here
+Related changes
+Permanent link
+Page information
+Cite this page
+Get shortened URL
+Concept URI
+Print/export
+Download as PDF
+Printable version
+In other projects
+Appearance
+move to sidebar
+hide
+From Wikimedia Commons, the free media repository
+Size of this preview:
+960 × 680 pixels
+.
+Other resolutions:
+330 × 234 pixels
+|
+1,280 × 906 pixels
+|
+2,339 × 1,656 pixels
+.
+Original file
+(2,339 × 1,656 pixels, file size: 3.01 MB, MIME type:
+image/jpeg
+)
+File information
+Structured data
+Captions
+Captions
+English
+Add a one-line explanation of what this file represents
+Description
+Ohwr.jpg
+Deutsch:
+Beispiellandschaft Oberharzer Wasserregal mit Teichen, Gräben und Wasserläufen und der Nutzung des gesammelten bzw. gespeicherten Wassers in den Bergwerken.
+Date
+1993
+Source
+Own work
+(
+Original text:
+Self-made
+)
+Author
+Hans-Jürgen Boyke
+Permission
+(
+Reusing this file
+)
+This work is
+free
+and may be used by anyone for any purpose. If you wish to
+use this content
+, you do not need to request permission as long as you follow any licensing requirements mentioned on this page.
+The Wikimedia Foundation has received an e-mail confirming that the copyright holder has approved publication under the terms mentioned on this page. This correspondence has been
+reviewed
+by a
+Volunteer Response Team (VRT) member
+and stored in our
+permission archive
+. The correspondence is available to trusted volunteers as
+ticket #2009012010024749
+.
+If you have questions about the archived correspondence, please use the
+VRT noticeboard
+.
+Ticket link:
+https://ticket.wikimedia.org/otrs/index.pl?Action=AgentTicketZoom&TicketNumber=2009012010024749
+Find other files from the same ticket:
+Licensing
+[
+edit
+]
+The copyright holder of this file allows anyone to use it
+for any purpose, provided that
+the copyright holder is properly attributed. Redistribution, derivative work, commercial use, and all other use is permitted.
+Attribution
+Original upload log
+[
+edit
+]
+Transferred from
+de.wikipedia
+to Commons by
+Netnet
+using
+CommonsHelper
+.
+The original description page was
+here
+. All following user names refer to de.wikipedia.
+2009-01-20 19:38
+JuTe CLZ
+2339×1656× (3154224 bytes)
+{{Information |Beschreibung = {{Bild-by}} |Quelle = Urheber |Urheber = Hans-JÃ¼rgen Boyke |Datum = 1993 |Genehmigung = Urheber hat schriftliches EinverstÃ¤ndnis zur Verwendung in Wikipedia bei Nennung des Urhebers gegeben. |Andere Versionen = |Anmerkung
+File history
+Click on a date/time to view the file as it appeared at that time.
+Date/Time
+Thumbnail
+Dimensions
+User
+Comment
+current
+16:36, 10 March 2009
+2,339 × 1,656
+(3.01 MB)
+File Upload Bot (Magnus Manske)
+(
+talk
+|
+contribs
+)
+{{BotMoveToCommons|de.wikipedia|year={{subst:CURRENTYEAR}}|month={{subst:CURRENTMONTHNAME}}|day={{subst:CURRENTDAY}}}} {{Information |Description={{de|''no original description''}} |Source=Transferred from [http://de.wikipedia.org de.wikipedia]; transfer
+You cannot overwrite this file.
+File usage on Commons
+There are no pages that use this file.
+File usage on other wikis
+The following other wikis use this file:
+Usage on de.wikipedia.org
+Oberharzer Wasserregal
+Aufschlagwasser
+Benutzer:D.W.Germann/Liste der Bauwerke der Oberharzer Wasserwirtschaft
+Usage on de.wikiversity.org
+Kurs:Analysis (Osnabrück 2014-2016)/Teil II/Vorlesung 47
+Kurs:Analysis (Osnabrück 2014-2016)/Teil II/Vorlesung 47/kontrolle
+Kurs:Analysis (Osnabrück 2021-2023)/Teil II/Vorlesung 47
+Kurs:Analysis (Osnabrück 2021-2023)/Teil II/Vorlesung 47/kontrolle
+Usage on en.wikipedia.org
+Upper Harz Water Regale
+Usage on he.wikipedia.org
+מערכת ניהול המים בהרי ההארץ
+Usage on lt.wikipedia.org
+Aukštutinio Harco vandentvarkos sistema
+Usage on mk.wikipedia.org
+Водна регулација во Горен Харц
+Usage on sv.wikipedia.org
+Oberharz vattenregale
+Metadata
+This file contains additional information such as Exif metadata which may have been added by the digital camera, scanner, or software program used to create or digitize it. If the file has been modified from its original state, some details such as the timestamp may not fully reflect those of the original file. The timestamp is only as accurate as the clock in the camera, and it may be completely wrong.
+Camera manufacturer
+RICOH
+Width
+2,339 px
+Height
+1,656 px
+Bits per component
+1
+Compression scheme
+CCITT Group 3 fax encoding
+Pixel composition
+Black and white (White is 0)
+Orientation
+Normal
+Number of components
+1
+Number of rows per strip
+41
+Horizontal resolution
+200 dpi
+Vertical resolution
+200 dpi
+Structured data
+Items portrayed in this file
+depicts
+copyright status
+copyrighted
+copyright license
+attribution only license
+Wikimedia VRTS ticket number
+2009012010024749
+media type
+image/jpeg
+Retrieved from "
+https://commons.wikimedia.org/w/index.php?title=File:Ohwr.jpg&oldid=1012550606
+"
+Category
+:
+Oberharzer Wasserregal
+Hidden categories:
+Items with VRTS permission confirmed
+Attribution only license
+This page was last edited on 22 March 2025, at 12:35.
+Files are available under licenses specified on their description page. All structured data from the file namespace is available under the
+Creative Commons CC0 License
+; all unstructured text is available under the
+Creative Commons Attribution-ShareAlike License
+;
+additional terms may apply.
+By using this site, you agree to the
+Terms of Use
+and the
+Privacy Policy
+.
+Privacy policy
+About Wikimedia Commons
+Disclaimers
+Legal & safety contacts
+Code of Conduct
+Developers
+Statistics
+Cookie statement
+Mobile view
+Search
+Search
+Toggle the table of contents
+File
+:
+Ohwr.jpg
+Add topic
+
 OpenIntro-terms.txt
 
 License
@@ -8812,4 +9426,597 @@ Privacy Policy
 and
 Terms of Service
 apply.
-
+
+Wikiversity-license.txt
+
+Wikiversity:Lizenzbestimmungen – Wikiversity
+Zum Inhalt springen
+Hauptmenü
+Hauptmenü
+In die Seitenleiste verschieben
+Verbergen
+Navigation
+Hauptseite
+Hochschule
+Schule
+Erwachsenenbildung
+Selbststudium
+Cafeteria
+News
+Kontakt
+Mitarbeit
+Letzte Änderungen
+Tutorial
+Richtlinien
+AG Wikiversity
+Über Wikiversity
+Suche
+Suchen
+Erscheinungsbild
+Spenden
+Benutzerkonto erstellen
+Anmelden
+Meine Werkzeuge
+Spenden
+Benutzerkonto erstellen
+Anmelden
+Inhaltsverzeichnis
+In die Seitenleiste verschieben
+Verbergen
+Anfang
+1
+Texte
+2
+Filme, Bilder und andere Dateien
+3
+Unveränderte Kopien
+Inhaltsverzeichnis umschalten
+Wikiversity
+:
+Lizenzbestimmungen
+Sprachen hinzufügen
+Links hinzufügen
+Projektseite
+Diskussion
+Deutsch
+Lesen
+Bearbeiten
+Versionsgeschichte
+Werkzeuge
+Werkzeuge
+In die Seitenleiste verschieben
+Verbergen
+Aktionen
+Lesen
+Bearbeiten
+Versionsgeschichte
+Allgemein
+Links auf diese Seite
+Änderungen an verlinkten Seiten
+Datei hochladen
+Permanenter Link
+Seiten­­informationen
+Gekürzte URL abrufen
+Drucken/­exportieren
+Buch erstellen
+Als PDF herunterladen
+Druckversion
+In anderen Projekten
+Erscheinungsbild
+In die Seitenleiste verschieben
+Verbergen
+Aus Wikiversity
+Wikiversity
+Projekt
+Cafeteria
+AG Wikiversity
+Hochschule
+·
+Schule
+Erwachsenenbildung
+Selbststudium
+Wikiversity:News
+Treffen
+Kontakt
+Hilfe
+Tutorial
+·
+FAQ
+Richtlinien
+Über Wikiversity
+Bearbeiten
+W
+iki
+versity
+-Lizenzbestimmungen
+Der Text ist unter den Lizenzen „
+Creative Commons Attribution/Share-Alike
+“ und
+GNU-Lizenz für freie Dokumentation
+verfügbar; zusätzliche Bedingungen können anwendbar sein. Einzelheiten sind in den
+Nutzungsbedingungen
+beschrieben. Sie dürfen sich die Lizenz aussuchen, die ihnen besser gefällt.
+Nun folgt eine
+allgemeinverständliche Zusammenfassung
+dieser Bestimmungen, die
+rechtlich nicht bindet
+ist.
+Texte
+[
+Bearbeiten
+]
+Sie dürfen:
+den Inhalt vervielfältigen, verbreiten und öffentlich aufführen
+Bearbeitungen anfertigen
+den Inhalt kommerziell nutzen
+Zu den folgenden Bedingungen:
+Namensnennung.
+Sie müssen den Namen des Autors/Rechtsinhabers nennen.
+Weitergabe unter gleichen Bedingungen.
+Wenn Sie diesen Inhalt bearbeiten oder in anderer Weise umgestalten, verändern oder als Grundlage für einen anderen Inhalt verwenden, dann dürfen Sie den neu entstandenen Inhalt nur unter Verwendung identischer Lizenzbedingungen weitergeben.
+Im Falle einer Verbreitung müssen Sie anderen die Lizenzbedingungen, unter die dieser Inhalt fällt, mitteilen.
+Jede dieser Bedingungen kann nach schriftlicher Einwilligung des Rechtsinhabers aufgehoben werden.
+Die gesetzlichen Schranken des Urheberrechts bleiben hiervon unberührt.
+Filme, Bilder und andere Dateien
+[
+Bearbeiten
+]
+Bei Filmen, Bildern und bei anderen Dateien gilt die auf der Bildbeschreibungsseite angegebenen Bedingungen bzw. Lizenz. In der Wikiversity sind Bildzitate in engen Grenzen möglich, siehe dazu
+Wikiversity:Bildrechte
+.
+Sind keine Bedingungen und keine Lizenz angegeben, ist der urheberrechtliche Status unklar.
+Unveränderte Kopien
+[
+Bearbeiten
+]
+Einzelne Artikel oder der gesamte Inhalt der Wikiversity dürfen unverändert übernommen werden. Dabei müssen entweder alle Autoren oder Wikiversity genannt werden und ein Link zu der entsprechenden Wikiversity-Seite angegeben werden.
+Beispiel:
+Dieser Artikel ist eine Kopie des Artikels
+XYZ
+vom XX.YY.ZZZZ aus dem Wikimedia-Projekt
+Wikiversity
+und steht unter der
+Creative Commons Attribution ShareAlike
+. In der Wikiversity ist eine
+Liste der Autoren
+verfügbar.
+(Artikelname, Datum und Link zur Versionsgeschichte sind einzusetzen)
+Abgerufen von „
+https://de.wikiversity.org/w/index.php?title=Wikiversity:Lizenzbestimmungen&oldid=371854
+“
+Kategorien
+:
+Wikiversity
+Wikiversity Lizenzierung
+Diese Seite wurde zuletzt am 25. Juli 2013 um 12:43 Uhr bearbeitet.
+Der Text ist unter der Lizenz
+Creative Commons Namensnennung – Weitergabe unter gleichen Bedingungen
+verfügbar. Zusätzliche Bedingungen können gelten.
+Einzelheiten sind in den
+Nutzungsbedingungen
+beschrieben.
+Datenschutz
+Über Wikiversity
+Haftungsausschluss
+Impressum / Sicherheit
+Verhaltenskodex
+Entwickler
+Statistiken
+Stellungnahme zu Cookies
+Mobile Ansicht
+Suche
+Suchen
+Inhaltsverzeichnis umschalten
+Wikiversity
+:
+Lizenzbestimmungen
+Sprachen hinzufügen
+Abschnitt hinzufügen
+
+CC BY-NC-ND 4.0 — Book of Proof
+https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.txt
+
+Attribution-NonCommercial-NoDerivatives 4.0 International
+
+=======================================================================
+
+Creative Commons Corporation ("Creative Commons") is not a law firm and
+does not provide legal services or legal advice. Distribution of
+Creative Commons public licenses does not create a lawyer-client or
+other relationship. Creative Commons makes its licenses and related
+information available on an "as-is" basis. Creative Commons gives no
+warranties regarding its licenses, any material licensed under their
+terms and conditions, or any related information. Creative Commons
+disclaims all liability for damages resulting from their use to the
+fullest extent possible.
+
+Using Creative Commons Public Licenses
+
+Creative Commons public licenses provide a standard set of terms and
+conditions that creators and other rights holders may use to share
+original works of authorship and other material subject to copyright
+and certain other rights specified in the public license below. The
+following considerations are for informational purposes only, are not
+exhaustive, and do not form part of our licenses.
+
+     Considerations for licensors: Our public licenses are
+     intended for use by those authorized to give the public
+     permission to use material in ways otherwise restricted by
+     copyright and certain other rights. Our licenses are
+     irrevocable. Licensors should read and understand the terms
+     and conditions of the license they choose before applying it.
+     Licensors should also secure all rights necessary before
+     applying our licenses so that the public can reuse the
+     material as expected. Licensors should clearly mark any
+     material not subject to the license. This includes other CC-
+     licensed material, or material used under an exception or
+     limitation to copyright. More considerations for licensors:
+    wiki.creativecommons.org/Considerations_for_licensors
+
+     Considerations for the public: By using one of our public
+     licenses, a licensor grants the public permission to use the
+     licensed material under specified terms and conditions. If
+     the licensor's permission is not necessary for any reason--for
+     example, because of any applicable exception or limitation to
+     copyright--then that use is not regulated by the license. Our
+     licenses grant only permissions under copyright and certain
+     other rights that a licensor has authority to grant. Use of
+     the licensed material may still be restricted for other
+     reasons, including because others have copyright or other
+     rights in the material. A licensor may make special requests,
+     such as asking that all changes be marked or described.
+     Although not required by our licenses, you are encouraged to
+     respect those requests where reasonable. More considerations
+     for the public:
+    wiki.creativecommons.org/Considerations_for_licensees
+
+=======================================================================
+
+Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
+International Public License
+
+By exercising the Licensed Rights (defined below), You accept and agree
+to be bound by the terms and conditions of this Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International Public
+License ("Public License"). To the extent this Public License may be
+interpreted as a contract, You are granted the Licensed Rights in
+consideration of Your acceptance of these terms and conditions, and the
+Licensor grants You such rights in consideration of benefits the
+Licensor receives from making the Licensed Material available under
+these terms and conditions.
+
+
+Section 1 -- Definitions.
+
+  a. Adapted Material means material subject to Copyright and Similar
+     Rights that is derived from or based upon the Licensed Material
+     and in which the Licensed Material is translated, altered,
+     arranged, transformed, or otherwise modified in a manner requiring
+     permission under the Copyright and Similar Rights held by the
+     Licensor. For purposes of this Public License, where the Licensed
+     Material is a musical work, performance, or sound recording,
+     Adapted Material is always produced where the Licensed Material is
+     synched in timed relation with a moving image.
+
+  b. Copyright and Similar Rights means copyright and/or similar rights
+     closely related to copyright including, without limitation,
+     performance, broadcast, sound recording, and Sui Generis Database
+     Rights, without regard to how the rights are labeled or
+     categorized. For purposes of this Public License, the rights
+     specified in Section 2(b)(1)-(2) are not Copyright and Similar
+     Rights.
+
+  c. Effective Technological Measures means those measures that, in the
+     absence of proper authority, may not be circumvented under laws
+     fulfilling obligations under Article 11 of the WIPO Copyright
+     Treaty adopted on December 20, 1996, and/or similar international
+     agreements.
+
+  d. Exceptions and Limitations means fair use, fair dealing, and/or
+     any other exception or limitation to Copyright and Similar Rights
+     that applies to Your use of the Licensed Material.
+
+  e. Licensed Material means the artistic or literary work, database,
+     or other material to which the Licensor applied this Public
+     License.
+
+  f. Licensed Rights means the rights granted to You subject to the
+     terms and conditions of this Public License, which are limited to
+     all Copyright and Similar Rights that apply to Your use of the
+     Licensed Material and that the Licensor has authority to license.
+
+  g. Licensor means the individual(s) or entity(ies) granting rights
+     under this Public License.
+
+  h. NonCommercial means not primarily intended for or directed towards
+     commercial advantage or monetary compensation. For purposes of
+     this Public License, the exchange of the Licensed Material for
+     other material subject to Copyright and Similar Rights by digital
+     file-sharing or similar means is NonCommercial provided there is
+     no payment of monetary compensation in connection with the
+     exchange.
+
+  i. Share means to provide material to the public by any means or
+     process that requires permission under the Licensed Rights, such
+     as reproduction, public display, public performance, distribution,
+     dissemination, communication, or importation, and to make material
+     available to the public including in ways that members of the
+     public may access the material from a place and at a time
+     individually chosen by them.
+
+  j. Sui Generis Database Rights means rights other than copyright
+     resulting from Directive 96/9/EC of the European Parliament and of
+     the Council of 11 March 1996 on the legal protection of databases,
+     as amended and/or succeeded, as well as other essentially
+     equivalent rights anywhere in the world.
+
+  k. You means the individual or entity exercising the Licensed Rights
+     under this Public License. Your has a corresponding meaning.
+
+
+Section 2 -- Scope.
+
+  a. License grant.
+
+       1. Subject to the terms and conditions of this Public License,
+          the Licensor hereby grants You a worldwide, royalty-free,
+          non-sublicensable, non-exclusive, irrevocable license to
+          exercise the Licensed Rights in the Licensed Material to:
+
+            a. reproduce and Share the Licensed Material, in whole or
+               in part, for NonCommercial purposes only; and
+
+            b. produce and reproduce, but not Share, Adapted Material
+               for NonCommercial purposes only.
+
+       2. Exceptions and Limitations. For the avoidance of doubt, where
+          Exceptions and Limitations apply to Your use, this Public
+          License does not apply, and You do not need to comply with
+          its terms and conditions.
+
+       3. Term. The term of this Public License is specified in Section
+          6(a).
+
+       4. Media and formats; technical modifications allowed. The
+          Licensor authorizes You to exercise the Licensed Rights in
+          all media and formats whether now known or hereafter created,
+          and to make technical modifications necessary to do so. The
+          Licensor waives and/or agrees not to assert any right or
+          authority to forbid You from making technical modifications
+          necessary to exercise the Licensed Rights, including
+          technical modifications necessary to circumvent Effective
+          Technological Measures. For purposes of this Public License,
+          simply making modifications authorized by this Section 2(a)
+          (4) never produces Adapted Material.
+
+       5. Downstream recipients.
+
+            a. Offer from the Licensor -- Licensed Material. Every
+               recipient of the Licensed Material automatically
+               receives an offer from the Licensor to exercise the
+               Licensed Rights under the terms and conditions of this
+               Public License.
+
+            b. No downstream restrictions. You may not offer or impose
+               any additional or different terms or conditions on, or
+               apply any Effective Technological Measures to, the
+               Licensed Material if doing so restricts exercise of the
+               Licensed Rights by any recipient of the Licensed
+               Material.
+
+       6. No endorsement. Nothing in this Public License constitutes or
+          may be construed as permission to assert or imply that You
+          are, or that Your use of the Licensed Material is, connected
+          with, or sponsored, endorsed, or granted official status by,
+          the Licensor or others designated to receive attribution as
+          provided in Section 3(a)(1)(A)(i).
+
+  b. Other rights.
+
+       1. Moral rights, such as the right of integrity, are not
+          licensed under this Public License, nor are publicity,
+          privacy, and/or other similar personality rights; however, to
+          the extent possible, the Licensor waives and/or agrees not to
+          assert any such rights held by the Licensor to the limited
+          extent necessary to allow You to exercise the Licensed
+          Rights, but not otherwise.
+
+       2. Patent and trademark rights are not licensed under this
+          Public License.
+
+       3. To the extent possible, the Licensor waives any right to
+          collect royalties from You for the exercise of the Licensed
+          Rights, whether directly or through a collecting society
+          under any voluntary or waivable statutory or compulsory
+          licensing scheme. In all other cases the Licensor expressly
+          reserves any right to collect such royalties, including when
+          the Licensed Material is used other than for NonCommercial
+          purposes.
+
+
+Section 3 -- License Conditions.
+
+Your exercise of the Licensed Rights is expressly made subject to the
+following conditions.
+
+  a. Attribution.
+
+       1. If You Share the Licensed Material, You must:
+
+            a. retain the following if it is supplied by the Licensor
+               with the Licensed Material:
+
+                 i. identification of the creator(s) of the Licensed
+                    Material and any others designated to receive
+                    attribution, in any reasonable manner requested by
+                    the Licensor (including by pseudonym if
+                    designated);
+
+                ii. a copyright notice;
+
+               iii. a notice that refers to this Public License;
+
+                iv. a notice that refers to the disclaimer of
+                    warranties;
+
+                 v. a URI or hyperlink to the Licensed Material to the
+                    extent reasonably practicable;
+
+            b. indicate if You modified the Licensed Material and
+               retain an indication of any previous modifications; and
+
+            c. indicate the Licensed Material is licensed under this
+               Public License, and include the text of, or the URI or
+               hyperlink to, this Public License.
+
+          For the avoidance of doubt, You do not have permission under
+          this Public License to Share Adapted Material.
+
+       2. You may satisfy the conditions in Section 3(a)(1) in any
+          reasonable manner based on the medium, means, and context in
+          which You Share the Licensed Material. For example, it may be
+          reasonable to satisfy the conditions by providing a URI or
+          hyperlink to a resource that includes the required
+          information.
+
+       3. If requested by the Licensor, You must remove any of the
+          information required by Section 3(a)(1)(A) to the extent
+          reasonably practicable.
+
+
+Section 4 -- Sui Generis Database Rights.
+
+Where the Licensed Rights include Sui Generis Database Rights that
+apply to Your use of the Licensed Material:
+
+  a. for the avoidance of doubt, Section 2(a)(1) grants You the right
+     to extract, reuse, reproduce, and Share all or a substantial
+     portion of the contents of the database for NonCommercial purposes
+     only and provided You do not Share Adapted Material;
+
+  b. if You include all or a substantial portion of the database
+     contents in a database in which You have Sui Generis Database
+     Rights, then the database in which You have Sui Generis Database
+     Rights (but not its individual contents) is Adapted Material; and
+
+  c. You must comply with the conditions in Section 3(a) if You Share
+     all or a substantial portion of the contents of the database.
+
+For the avoidance of doubt, this Section 4 supplements and does not
+replace Your obligations under this Public License where the Licensed
+Rights include other Copyright and Similar Rights.
+
+
+Section 5 -- Disclaimer of Warranties and Limitation of Liability.
+
+  a. UNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE
+     EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS
+     AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF
+     ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS,
+     IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION,
+     WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR
+     PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS,
+     ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT
+     KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT
+     ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.
+
+  b. TO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE
+     TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION,
+     NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT,
+     INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES,
+     COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR
+     USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN
+     ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR
+     DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR
+     IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.
+
+  c. The disclaimer of warranties and limitation of liability provided
+     above shall be interpreted in a manner that, to the extent
+     possible, most closely approximates an absolute disclaimer and
+     waiver of all liability.
+
+
+Section 6 -- Term and Termination.
+
+  a. This Public License applies for the term of the Copyright and
+     Similar Rights licensed here. However, if You fail to comply with
+     this Public License, then Your rights under this Public License
+     terminate automatically.
+
+  b. Where Your right to use the Licensed Material has terminated under
+     Section 6(a), it reinstates:
+
+       1. automatically as of the date the violation is cured, provided
+          it is cured within 30 days of Your discovery of the
+          violation; or
+
+       2. upon express reinstatement by the Licensor.
+
+     For the avoidance of doubt, this Section 6(b) does not affect any
+     right the Licensor may have to seek remedies for Your violations
+     of this Public License.
+
+  c. For the avoidance of doubt, the Licensor may also offer the
+     Licensed Material under separate terms or conditions or stop
+     distributing the Licensed Material at any time; however, doing so
+     will not terminate this Public License.
+
+  d. Sections 1, 5, 6, 7, and 8 survive termination of this Public
+     License.
+
+
+Section 7 -- Other Terms and Conditions.
+
+  a. The Licensor shall not be bound by any additional or different
+     terms or conditions communicated by You unless expressly agreed.
+
+  b. Any arrangements, understandings, or agreements regarding the
+     Licensed Material not stated herein are separate from and
+     independent of the terms and conditions of this Public License.
+
+
+Section 8 -- Interpretation.
+
+  a. For the avoidance of doubt, this Public License does not, and
+     shall not be interpreted to, reduce, limit, restrict, or impose
+     conditions on any use of the Licensed Material that could lawfully
+     be made without permission under this Public License.
+
+  b. To the extent possible, if any provision of this Public License is
+     deemed unenforceable, it shall be automatically reformed to the
+     minimum extent necessary to make it enforceable. If the provision
+     cannot be reformed, it shall be severed from this Public License
+     without affecting the enforceability of the remaining terms and
+     conditions.
+
+  c. No term or condition of this Public License will be waived and no
+     failure to comply consented to unless expressly agreed to by the
+     Licensor.
+
+  d. Nothing in this Public License constitutes or may be interpreted
+     as a limitation upon, or waiver of, any privileges and immunities
+     that apply to the Licensor or You, including from the legal
+     processes of any jurisdiction or authority.
+
+=======================================================================
+
+Creative Commons is not a party to its public
+licenses. Notwithstanding, Creative Commons may elect to apply one of
+its public licenses to material it publishes and in those instances
+will be considered the “Licensor.” The text of the Creative Commons
+public licenses is dedicated to the public domain under the CC0 Public
+Domain Dedication. Except for the limited purpose of indicating that
+material is shared under a Creative Commons public license or as
+otherwise permitted by the Creative Commons policies published at
+creativecommons.org/policies, Creative Commons does not authorize the
+use of the trademark "Creative Commons" or any other trademark or logo
+of Creative Commons without its prior written consent including,
+without limitation, in connection with any unauthorized modifications
+to any of its public licenses or any other arrangements,
+understandings, or agreements concerning use of licensed material. For
+the avoidance of doubt, this paragraph does not form part of the
+public licenses.
+
+Creative Commons may be contacted at creativecommons.org.
+
+

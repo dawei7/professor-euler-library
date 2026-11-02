@@ -86,14 +86,3 @@ Use the four companions when they support the primary book you are studying: C.0
 **Books you prepare yourself**
 
 The personal-download books named on Applied Mathematics and on AI Research are optional further reading. They are not among these books, they do not count toward this path, and their files are not in the app.
-
-## Optional companions
-
-These enrich the main paths; they are not extra compulsory stages.
-
-- **C.01 — Dive into Deep Learning** — Aston Zhang, Zachary C. Lipton, Mu Li and Alexander J. Smola. Read alongside **28**.
-- **C.02 — Probabilistic Machine Learning: Advanced Topics** — Kevin P. Murphy. Read alongside **26, 28, 29, 30**.
-- **C.03 — Classical Numerical Methods in Scientific Computing** — Jos van Kan, Guus Segal, Fred Vermolen and Hans Kraaijevanger. Read alongside **23**.
-- **C.04 — Mathematics of Machine Learning** — Philippe Rigollet. Read alongside **29**.
-
-Path order comes from [catalog.json](catalog.json). This file is the path guide and is kept in step with the study-direction text in the app. The chapter-by-chapter essays for all 50 books are in the app under Curriculum Info, Choose a book.
