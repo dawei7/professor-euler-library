@@ -114,3 +114,8 @@ device; the app downloads it when Calculate is turned on, and it sends nothing a
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), as the MathWriting data (Google LLC) it
 was trained on; its code and its results are in
 [professor-euler-math-recognition](https://github.com/dawei7/professor-euler-math-recognition).
+
+## Professor Euler Curriculum
+
+The app's own workbooks (132 courses from Grade 6 to MSc, 4 workbooks published
+so far) are in the release "curriculum"; they are not open-licensed. See [curriculum/README.md](curriculum/README.md).
