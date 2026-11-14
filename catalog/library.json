@@ -1,7 +1,7 @@
 {
   "format": "professor-euler-library",
   "version": 1,
-  "revision": 5,
+  "revision": 6,
   "repository": "dawei7/professor-euler-library",
   "levels": [
     {
@@ -79,7 +79,7 @@
       "pages": 960,
       "exercises": 2386,
       "sections": 97,
-      "included": true,
+      "included": false,
       "asset": "ck12_geometry_drills_practice-4b840e50.mcbundle",
       "url": "https://github.com/dawei7/professor-euler-library/releases/download/books/ck12_geometry_drills_practice-4b840e50.mcbundle",
       "doc": "docs/books/ck12_geometry_drills_practice.md"
@@ -102,7 +102,7 @@
       "pages": 184,
       "exercises": 501,
       "sections": 31,
-      "included": true,
+      "included": false,
       "asset": "michael_corral_trigonometry_mechanics-8581e9a0.mcbundle",
       "url": "https://github.com/dawei7/professor-euler-library/releases/download/books/michael_corral_trigonometry_mechanics-8581e9a0.mcbundle",
       "doc": "docs/books/michael_corral_trigonometry_mechanics.md"
@@ -125,7 +125,7 @@
       "pages": 1230,
       "exercises": 3400,
       "sections": 82,
-      "included": true,
+      "included": false,
       "asset": "precalculus_stitz_zeager-efcf7708.mcbundle",
       "url": "https://github.com/dawei7/professor-euler-library/releases/download/books/precalculus_stitz_zeager-efcf7708.mcbundle",
       "doc": "docs/books/precalculus_stitz_zeager.md"
@@ -148,7 +148,7 @@
       "pages": 380,
       "exercises": 847,
       "sections": 98,
-      "included": true,
+      "included": false,
       "asset": "book_of_proof_hammack-ccadcf9e.mcbundle",
       "url": "https://github.com/dawei7/professor-euler-library/releases/download/books/book_of_proof_hammack-ccadcf9e.mcbundle",
       "doc": "docs/books/book_of_proof_hammack.md"
@@ -171,7 +171,7 @@
       "pages": 769,
       "exercises": 2434,
       "sections": 51,
-      "included": true,
+      "included": false,
       "asset": "calculus_volume_1_strang_herman-44803a0d.mcbundle",
       "url": "https://github.com/dawei7/professor-euler-library/releases/download/books/calculus_volume_1_strang_herman-44803a0d.mcbundle",
       "doc": "docs/books/calculus_volume_1_strang_herman.md"
@@ -194,7 +194,7 @@
       "pages": 929,
       "exercises": 1026,
       "sections": 71,
-      "included": true,
+      "included": false,
       "asset": "linear_algebra_hefferon-ca28ec74.mcbundle",
       "url": "https://github.com/dawei7/professor-euler-library/releases/download/books/linear_algebra_hefferon-ca28ec74.mcbundle",
       "doc": "docs/books/linear_algebra_hefferon.md"
