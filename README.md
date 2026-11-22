@@ -117,5 +117,5 @@ was trained on; its code and its results are in
 
 ## Professor Euler Curriculum
 
-The app's own workbooks (132 courses from Grade 6 to MSc, 248 workbooks published
+The app's own workbooks (132 courses from Grade 6 to MSc, 252 workbooks published
 so far) are in the release "curriculum"; they are not open-licensed. See [curriculum/README.md](curriculum/README.md).
